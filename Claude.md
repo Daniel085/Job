@@ -8,6 +8,18 @@ This document provides guidance on working with Claude Code for job search and r
 
 ## Repository Contents
 
+### Core Documents
+
+1. **Profile.md** - Daniel O'Rorke's professional profile and background ⭐
+   - Comprehensive overview of experience, skills, and achievements
+   - GitHub portfolio analysis and AI/ML capabilities
+   - Job search priorities and compensation expectations
+   - Used as reference for calculating job fit scores
+
+2. **resume-designed.html** - Current resume (HTML format)
+   - Updated with AI/ML Technologies section
+   - Professional formatting optimized for readability
+
 ### Job Descriptions Saved
 
 1. **job-description.md** - Principal Product Manager - API & Developer Platforms
@@ -20,7 +32,9 @@ This document provides guidance on working with Claude Code for job search and r
    - Requirements: 5+ years technical PM experience
 
 3. **Similar-Job-Postings.md** - Curated list of verified active job postings
-   - 5 verified active positions (as of Jan 7, 2026)
+   - 7 verified active positions (as of Jan 7, 2026)
+   - Includes fit scores (0-100) based on Profile.md
+   - Detailed fit analysis for each position
    - Salary ranges: $150,000 - $400,000 USD
    - All links verified working
 
@@ -56,6 +70,38 @@ This document provides guidance on working with Claude Code for job search and r
 
 ---
 
+## Using the Profile Document
+
+**Profile.md** is the master reference for evaluating job fit. It contains:
+
+### What's in Profile.md
+- **Professional Summary** - 10+ years experience overview
+- **Core Expertise** - API strategy, developer experience, telecom/CPaaS
+- **Key Achievements** - Metrics: 10x growth, $3M revenue, 40% support reduction
+- **GitHub Portfolio** - AI/ML projects, technical depth
+- **Strengths & Differentiators** - CAMARA, WebRTC, Twilio alumni
+- **Areas for Development** - Monetization, PLG, generative AI at scale
+- **Compensation Expectations** - $226K-$400K range
+- **Job Search Priorities** - Must-haves and nice-to-haves
+
+### How Claude Uses Profile.md
+When you share a job posting, Claude will:
+1. Extract job requirements and details
+2. Reference Profile.md for your background
+3. Compare requirements to your experience
+4. Calculate fit score (0-100)
+5. Provide detailed fit analysis with ✅ strengths and ⚠️ gaps
+
+### Keeping Profile.md Updated
+Update Profile.md when:
+- You complete new projects (GitHub work)
+- You earn new certifications or awards
+- You learn new technologies
+- Your compensation expectations change
+- You discover new preferences in job search
+
+---
+
 ## Common Tasks & Commands
 
 ### Search for Similar Jobs
@@ -63,6 +109,14 @@ This document provides guidance on working with Claude Code for job search and r
 ```
 "Find jobs similar to [job title] with [specific requirements]"
 "Search for API Product Manager roles posted in the last 90 days"
+```
+
+### Evaluate Job Fit
+
+```
+"Here's a job link: [URL] - please evaluate fit"
+"Add this job to Similar-Job-Postings.md with fit analysis"
+"Compare my profile to this job description"
 ```
 
 ### Verify Job Postings
@@ -77,6 +131,14 @@ This document provides guidance on working with Claude Code for job search and r
 ```
 "Create a markdown file with [job details]"
 "Extract compensation and requirements from [URL]"
+```
+
+### Update Profile
+
+```
+"I completed [project/achievement] - please update Profile.md"
+"Add [skill/technology] to my profile"
+"Review my GitHub for updates"
 ```
 
 ### Git Operations
@@ -193,20 +255,63 @@ All job-related files are tracked in this branch. Use this branch for future job
 
 ---
 
+## Workflow for Evaluating New Jobs
+
+### Step 1: Share the Job
+```
+"Here's a job posting: [URL]"
+```
+
+### Step 2: Claude Will Automatically:
+1. Fetch job details (title, company, compensation, requirements)
+2. Reference **Profile.md** for your background
+3. Calculate fit score (0-100)
+4. Provide detailed analysis comparing requirements to your experience
+5. Add to Similar-Job-Postings.md with verified link
+
+### Step 3: Review Fit Analysis
+- **95-100:** Excellent match - prioritize application
+- **85-94:** Strong fit - good opportunity
+- **75-84:** Moderate fit - consider gaps
+- **<75:** Weaker match - may require skill development
+
+### Step 4: Apply or Pass
+Based on fit score, compensation, and your priorities
+
+---
+
 ## Next Steps
 
 ### To Continue Job Search:
-1. Review Similar-Job-Postings.md for active opportunities
+1. Review **Similar-Job-Postings.md** for active opportunities sorted by fit score
 2. Ask Claude to search for new postings in specific areas
 3. Request verification of links before applying
 4. Add new interesting roles to the repository
 
 ### To Apply:
-1. Review each job description carefully
+1. Review each job description and fit analysis carefully
 2. Verify the link is still active
-3. Visit the company career page directly
-4. Apply through their official application system
-5. Track applications in a separate file (e.g., Applications-Tracker.md)
+3. Tailor your application based on fit analysis (highlight ✅ strengths, address ⚠️ gaps)
+4. Visit the company career page directly
+5. Apply through their official application system
+6. Track applications in a separate file (e.g., Applications-Tracker.md)
+
+### To Update Your Profile:
+```
+"I completed [new project/achievement] - update Profile.md"
+"Review my GitHub for recent updates"
+```
+
+---
+
+## Important Files Reference
+
+| File | Purpose | When to Use |
+|------|---------|-------------|
+| **Profile.md** | Your master professional profile | Reference for all job evaluations |
+| **resume-designed.html** | Current resume | For applications |
+| **Similar-Job-Postings.md** | Active job opportunities with fit scores | Daily job search review |
+| **Claude.md** | This guide | When you need help using Claude for job search |
 
 ---
 
@@ -214,9 +319,11 @@ All job-related files are tracked in this branch. Use this branch for future job
 
 If you need help with:
 - Finding more similar jobs → "Search for [specific criteria]"
+- Evaluating a job → "Here's a job link: [URL]"
 - Verifying a link → "Check if this URL still works: [URL]"
 - Extracting info → "Get compensation details from [URL]"
 - Organizing data → "Create a table comparing these 5 roles"
+- Updating profile → "Add [new skill/achievement] to Profile.md"
 - Git operations → "Commit and push these changes"
 
 ---
