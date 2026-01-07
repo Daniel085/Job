@@ -26,7 +26,7 @@ This document contains active job postings for API Product Manager and Developer
 ✅ **Exceeds experience requirement** - 10+ years vs. 4+ required
 ✅ **Enterprise API expertise** - Perfect match for their platform serving Honeywell, Alo Yoga, Louis Vuitton
 ⚠️ **Compensation consideration** - Salary range ($150K-$180K) may be below market value for your Principal-level experience
-✅ **Developer tools proficiency** - Your Figma/design experience and developer portal work aligns with UI/UX design requirement
+✅ **Developer portal expertise** - Extensive experience creating developer portal content and self-service tools aligns with product needs
 
 ---
 
@@ -67,12 +67,12 @@ This document contains active job postings for API Product Manager and Developer
 ✅ **Twilio alumni** - Previous experience at Twilio (SendGrid Labs) 2017-2020 provides cultural fit and company knowledge
 ✅ **Platform experience** - Led video platform serving millions aligns with enterprise AI platform scale
 ✅ **Developer experience** - Strong track record building developer-facing products
-⚠️ **AI focus** - Limited direct AI/ML product experience on resume (though you worked with AI-powered Speech-to-Text at VoiceBase)
+✅ **AI/ML experience** - GitHub shows active work with Claude/OpenAI APIs (GrocerySelector automation), Core ML (Hearth), and LLM prompt engineering experiments; VoiceBase Speech-to-Text platform experience
 ✅ **Communications platform expertise** - Deep CPaaS and cloud communications background
 
 ---
 
-### 4. **Principal AI Product Manager - PLG** **FIT SCORE: 75/100**
+### 4. **Principal AI Product Manager - PLG** **FIT SCORE: 82/100**
 **Company:** Zoom
 **Location:** Seattle, WA (Hybrid)
 **Compensation:** $171,800 - $375,900 USD + bonus and equity
@@ -92,17 +92,17 @@ This document contains active job postings for API Product Manager and Developer
 ✅ **Developer relations experience** - Your cross-functional work with Developer Relations teams at Vonage aligns with this role
 ✅ **Enterprise software background** - Strong track record with enterprise SaaS platforms
 ✅ **Cross-functional leadership** - Experience coordinating across engineering, marketing, and GTM teams
-⚠️ **Limited AI/ML focus** - Your AI exposure is primarily VoiceBase Speech-to-Text; role requires deep generative AI expertise
+✅ **AI/LLM experience** - GitHub demonstrates active work with Claude API, OpenAI APIs (GrocerySelector), Core ML (Hearth), prompt engineering, and VoiceBase Speech-to-Text platform
+✅ **Communications platform fit** - Zoom's video platform aligns perfectly with your WebRTC and video SDK expertise
+⚠️ **Generative AI products** - While you have LLM integration experience, less evidence of shipping generative AI products at scale
 ⚠️ **Monetization/pricing strategy** - Limited explicit SaaS monetization or pricing model experience shown on resume
-⚠️ **PLG specialization** - While you've built developer-focused products, explicit PLG experience not highlighted
-✅ **Communications platform fit** - Zoom's video platform aligns with your WebRTC and video SDK experience
-⚠️ **Upper compensation range** - $375K top end competitive, but role requires specialized AI/monetization skills you may need to develop
+⚠️ **PLG specialization** - While you've built developer-focused products, explicit PLG experience not highlighted on resume
 
 ---
 
 ## Recently Posted & Still Active
 
-### 5. **Product Manager, API** 🔥 **FIT SCORE: 90/100**
+### 5. **Product Manager, API** 🔥 **FIT SCORE: 95/100**
 **Company:** Anthropic
 **Location:** San Francisco, CA | New York City, NY
 **Compensation:** $305,000 - $385,000 USD + equity and benefits
@@ -122,7 +122,7 @@ This document contains active job postings for API Product Manager and Developer
 ✅ **Developer adoption success** - Drove $3M revenue capture through developer migration strategies
 ✅ **End-to-end ownership** - Owned video SDK product strategy across multiple platforms
 ✅ **Premium compensation** - $305K-$385K range appropriate for your experience level
-⚠️ **AI domain** - Role at AI company; your AI exposure limited to VoiceBase Speech-to-Text project
+✅ **AI/LLM expertise** - GitHub shows active Claude API experimentation and integration work; built automation using Claude/OpenAI APIs (GrocerySelector); VoiceBase Speech-to-Text platform experience; hands-on with Anthropic's own API
 
 ---
 
