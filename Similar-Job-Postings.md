@@ -72,9 +72,37 @@ This document contains active job postings for API Product Manager and Developer
 
 ---
 
+### 4. **Principal AI Product Manager - PLG** **FIT SCORE: 75/100**
+**Company:** Zoom
+**Location:** Seattle, WA (Hybrid)
+**Compensation:** $171,800 - $375,900 USD + bonus and equity
+**Application Deadline:** January 13, 2026
+**Link:** [Apply Here](https://careers.zoom.us/jobs/principal-ai-product-manager-plg-seattle-washington-united-states)
+
+**Key Requirements:**
+- 8+ years product management experience
+- Deep expertise in enterprise software, AI technologies, and SaaS monetization
+- Proven track record with generative AI applications and PLG scaling
+- Product analytics and A/B testing experience with developer-focused products
+- Understanding of AI/ML pricing models
+
+**Fit Analysis:**
+✅ **Exceeds experience requirement** - 10+ years vs. 8+ required at Principal level
+✅ **Developer API alignment** - Job focuses on developer APIs and PLG, matching your API platform expertise
+✅ **Developer relations experience** - Your cross-functional work with Developer Relations teams at Vonage aligns with this role
+✅ **Enterprise software background** - Strong track record with enterprise SaaS platforms
+✅ **Cross-functional leadership** - Experience coordinating across engineering, marketing, and GTM teams
+⚠️ **Limited AI/ML focus** - Your AI exposure is primarily VoiceBase Speech-to-Text; role requires deep generative AI expertise
+⚠️ **Monetization/pricing strategy** - Limited explicit SaaS monetization or pricing model experience shown on resume
+⚠️ **PLG specialization** - While you've built developer-focused products, explicit PLG experience not highlighted
+✅ **Communications platform fit** - Zoom's video platform aligns with your WebRTC and video SDK experience
+⚠️ **Upper compensation range** - $375K top end competitive, but role requires specialized AI/monetization skills you may need to develop
+
+---
+
 ## Recently Posted & Still Active
 
-### 4. **Product Manager, API** 🔥 **FIT SCORE: 90/100**
+### 5. **Product Manager, API** 🔥 **FIT SCORE: 90/100**
 **Company:** Anthropic
 **Location:** San Francisco, CA | New York City, NY
 **Compensation:** $305,000 - $385,000 USD + equity and benefits
@@ -98,7 +126,7 @@ This document contains active job postings for API Product Manager and Developer
 
 ---
 
-### 5. **Senior Product Manager, API Collaboration** 🔥 **FIT SCORE: 95/100**
+### 6. **Senior Product Manager, API Collaboration** 🔥 **FIT SCORE: 95/100**
 **Company:** Postman
 **Location:** San Francisco, CA (hybrid - west coast options available)
 **Compensation:** $160,000 - $230,000 USD + competitive equity package
@@ -119,7 +147,7 @@ This document contains active job postings for API Product Manager and Developer
 
 ---
 
-### 6. **Senior Staff Product Manager - API & Developer Experience** 🔥 **FIT SCORE: 98/100**
+### 7. **Senior Staff Product Manager - API & Developer Experience** 🔥 **FIT SCORE: 98/100**
 **Company:** Plaid
 **Location:** San Francisco | New York
 **Compensation:** $226,800 - $400,000 USD (Zone 1) + equity
