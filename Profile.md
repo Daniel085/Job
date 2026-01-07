@@ -125,23 +125,106 @@ Principal Product Manager with **10+ years** defining and executing API strategy
 
 ---
 
-## GitHub Portfolio Highlights
+## GitHub Portfolio Analysis
 
-**28 repositories** demonstrating hands-on technical work:
+**28 repositories** demonstrating hands-on technical work with recent activity surge in 2025 (8 repositories updated Nov-Dec 2025)
 
-### AI/ML Projects
-- **GrocerySelector** - End-to-end automation from AI meal plans to populated shopping cart using Claude/OpenAI APIs
-- **Claude 4.5 Sonnet Experiments** - Active TypeScript experimentation with Anthropic's Claude API
-- **Hearth** - Privacy-first relationship assistant using on-device Core ML for AI processing
+### AI & Machine Learning Projects
 
-### Communications & Real-Time
-- **iOS-WebRTC-Demo** - Native iOS dialer with CallKit, WebRTC peer-to-peer calls, VoIP push notifications
-- **MixedReality-WebRTC** - HoloLens WebRTC integration (forked from Microsoft)
+#### Production & Experimentation
+- **GrocerySelector** (TypeScript, Nov 2025) - End-to-end automation from AI meal plans to populated Walmart shopping cart using Claude/OpenAI APIs; demonstrates practical LLM integration and API orchestration
+- **new-project** (TypeScript, Oct 2025) - "First Attempt w Claude 4.5 Sonnet" - early exploration of Anthropic's latest model capabilities
+- **Hearth** (Nov 2025) - Privacy-focused relationship-building assistant using on-device Core ML; demonstrates understanding of AI privacy concerns and edge computing
+- **AlianzaDocs** (Shell, Jan 2026) - Experimental documentation generation using Claude AI; shows active AI integration work
 
-### Developer Tools & APIs
-- V3API (change tracking)
-- Auth0.js (authentication SDK)
-- Twilio Video integration projects
+#### AI-Adjacent Work
+- **pokerbench** (forked) - Poker LLM benchmarking framework; interest in AI evaluation methodologies
+
+### Communications & WebRTC Platforms
+
+#### WebRTC Implementation
+- **iOS-WebRTC-Demo** (JavaScript, Nov 2025) - Native iOS CallKit integration with WebRTC peer-to-peer calls and VoIP push notifications; demonstrates deep understanding of iOS communications stack
+- **MixedReality-WebRTC** (C#, forked from Microsoft) - Real-time communication for HoloLens and mixed reality applications; shows cross-platform thinking
+- **twilio-video-app-react** (TypeScript, Apache 2.0) - Collaboration app built on Twilio Video SDK; relevant to past Twilio experience
+- **opentok-layout-js** (JavaScript, MIT) - Automatic publisher/subscriber layout management for video conferencing
+- **AdapterJS** (JavaScript) - WebRTC polyfill and compatibility layer; shows understanding of cross-browser challenges
+- **opentok-ios-sdk-samples** (Objective-C, MIT) - OpenTok SDK example applications; demonstrates SDK integration expertise
+
+### Developer Tools & User Experience
+
+#### Developer Experience
+- **WorkdayResumeParser** (HTML, Dec 2025) - Privacy-first resume parsing enhancement for Workday; addresses genuine UX pain point, demonstrates product thinking
+- **V3API** (Feb 2022) - Change tracking for console systems; API versioning and evolution
+- **PermissionsPossibilities** (HTML, Dec 2024) - Permissions management exploration
+- **dadJokeGenerator** (HTML, Nov 2025) - Dad joke collection and generation; shows personality and fun project exploration
+
+#### Authentication & Security
+- **auth0.js** (JavaScript, MIT) - Auth0 headless browser SDK; authentication expertise
+- **auth0-custom-signup-apiv2-sample** (JavaScript, MIT) - Custom signup implementation examples
+
+### Infrastructure & Platform Work
+
+#### IoT & Connectivity
+- **Wireless_Broadband_IoT_Dev_Kit** (Shell, Apache 2.0) - IoT connectivity kit; telecommunications infrastructure knowledge
+- **pi-hole** (Shell, forked) - Ad-blocking DNS/DHCP server; network infrastructure understanding
+
+#### Legacy & Educational
+- **HiveClass** (JavaScript, GPL v3.0) - Educational platform from Aerohive tenure
+- **ChippyRuxpin** (Python, Mar 2016) - Text-to-speech Teddy Ruxpin adaptation; early hardware/software integration
+
+---
+
+## Skills Demonstrated Through GitHub
+
+### Product Management Competencies
+- **Pragmatic Problem-Solving** - WorkdayResumeParser addresses real UX pain point; GrocerySelector solves end-to-end workflow
+- **Cross-Platform Thinking** - iOS native, web, mixed reality, multiple SDK integrations
+- **Developer Empathy** - Focus on developer experience tools, documentation, and ease of integration
+- **Strategic Technology Adoption** - Recent pivot toward AI/LLM integration (2025 activity) shows awareness of industry trends
+- **End-to-End Systems Thinking** - GrocerySelector demonstrates orchestration from AI planning → API integration → cart population
+
+### Technical Depth Indicators
+- **Multi-Language Proficiency** - JavaScript, TypeScript, Swift, Python, C#, Objective-C, Shell, HTML/CSS
+- **Real-Time Communications Expertise** - Multiple WebRTC implementations across platforms (iOS, Web, Mixed Reality)
+- **Full-Stack Capabilities** - Frontend (React, iOS), Backend (APIs, Authentication), Infrastructure (DNS, IoT)
+- **SDK Integration Mastery** - Auth0, Twilio, OpenTok, WebRTC, Core ML integration experience
+- **API Design & Evolution** - V3API change tracking; understanding of versioning and backward compatibility
+
+### Professional Maturity
+- **Open Source Ethics** - Proper attribution on forks; respects licensing (MIT, Apache 2.0, GPL v3.0)
+- **Selective Technology Engagement** - Curated forks and targeted experimentation (Claude 4.5) vs. random exploration
+- **Continuous Learning** - Recent 2025 activity surge shows ongoing technical engagement
+- **Privacy Consciousness** - Hearth (on-device ML), WorkdayResumeParser (privacy-first) demonstrate security awareness
+
+### Activity Timeline Evolution
+- **2015-2020:** Focus on communication infrastructure, WebRTC, authentication, IoT
+- **2021-2024:** Platform work, video conferencing, developer tools
+- **2025-2026:** Sharp increase in AI/LLM integration, automation, developer experience
+  - 8 repositories updated/created Nov 2025 - Jan 2026
+  - Clear strategic shift toward AI-enhanced products
+
+---
+
+## GitHub as Professional Credential
+
+### Validates Resume Claims
+- ✅ **WebRTC Platform Expertise** - Multiple production implementations
+- ✅ **SDK Development** - Auth0, Twilio, OpenTok work
+- ✅ **Developer Tools Proficiency** - Postman, API documentation platforms
+- ✅ **AI/ML Technologies** - Active Claude API, OpenAI API, Core ML work
+
+### Demonstrates Beyond Resume
+- **Hands-On Technical Engagement** - Not just managing, actively coding
+- **Product Innovation** - Creating tools that solve real problems (WorkdayResumeParser, GrocerySelector)
+- **Current with Emerging Tech** - Claude 4.5 Sonnet experimentation shows staying ahead of curve
+- **iOS Native Development** - CallKit, VoIP, WebRTC on iOS demonstrates platform-specific expertise
+- **Cross-Reality Platforms** - MixedReality-WebRTC shows forward-thinking about immersive communications
+
+### Competitive Differentiators
+- **Active in 2025-2026** - Many PMs' GitHub profiles are stale; yours shows current engagement
+- **Anthropic API Expertise** - For Anthropic role specifically, demonstrates hands-on experience with their product
+- **Real Production Use Cases** - Not just tutorials; building complete solutions (grocery shopping automation, resume parsing)
+- **Privacy & Security Focus** - On-device ML, privacy-first design aligns with enterprise requirements
 
 ---
 
