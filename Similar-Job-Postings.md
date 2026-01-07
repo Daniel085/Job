@@ -2,13 +2,35 @@
 
 *Last Updated: January 7, 2026*
 
-This document contains active job postings for API Product Manager and Developer Platform Product Manager roles with similar requirements to the positions saved in this repository.
+This document contains active job postings for API Product Manager and Developer Platform Product Manager roles with similar requirements to the positions saved in this repository. Each position includes a fit score (0-100) based on alignment with Daniel O'Rorke's resume.
 
 ---
 
 ## Posted Within Last 90 Days (October 2025 - January 2026)
 
-### 1. **Principal Product Manager - Developer Platform**
+### 1. **Senior Product Manager** 🔥 **FIT SCORE: 90/100**
+**Company:** Lightyear
+**Location:** Remote (Fully Remote)
+**Compensation:** $150,000 - $180,000 USD + competitive equity
+**Posted:** November 19, 2025
+**Link:** [Apply Here](https://lightyear.applytojob.com/apply/2ppez0KTrd/Senior-Product-Manager)
+
+**Key Requirements:**
+- 4+ years in enterprise/consumer software as PM or engineer
+- Deep customer problem-space understanding
+- Software development deployment familiarity
+- **Bonus:** Telecom industry knowledge
+
+**Fit Analysis:**
+✅ **Exceptional telecom match** - Your Charter (ISP/network APIs) and Vonage/Ericsson (CPaaS) experience directly align with their telecom management software
+✅ **Exceeds experience requirement** - 10+ years vs. 4+ required
+✅ **Enterprise API expertise** - Perfect match for their platform serving Honeywell, Alo Yoga, Louis Vuitton
+⚠️ **Compensation consideration** - Salary range ($150K-$180K) may be below market value for your Principal-level experience
+✅ **Developer tools proficiency** - Your Figma/design experience and developer portal work aligns with UI/UX design requirement
+
+---
+
+### 2. **Principal Product Manager - Developer Platform** 🔥 **FIT SCORE: 95/100**
 **Company:** PagerDuty
 **Location:** Remote (USA) - Preference for San Francisco, Atlanta, or Toronto
 **Compensation:** $180,000 - $304,000 USD (base salary) + equity, bonus, and benefits
@@ -21,9 +43,16 @@ This document contains active job postings for API Product Manager and Developer
 - Hands-on experience designing RESTful APIs
 - Strong customer communication and cross-functional leadership
 
+**Fit Analysis:**
+✅ **Perfect API platform experience** - Your REST API, SDK, and WebRTC platform work at Vonage/Ericsson directly matches
+✅ **Strong leadership track record** - Managed team of 5 PMs, led cross-functional collaboration
+✅ **Developer-first mindset** - Reduced support tickets 40% through improved documentation and self-service tooling at VoiceBase
+✅ **Integration expertise** - Your work on video SDK integration across iOS, Android, Web, Windows, Mac, Linux demonstrates deep integration knowledge
+✅ **Compensation alignment** - Upper range ($304K) appropriate for your Principal-level experience
+
 ---
 
-### 2. **Staff Product Manager - Enterprise AI**
+### 3. **Staff Product Manager - Enterprise AI** **FIT SCORE: 85/100**
 **Company:** Twilio
 **Location:** Remote - US (excluding SF Bay Area)
 **Compensation:**
@@ -34,11 +63,18 @@ This document contains active job postings for API Product Manager and Developer
 **Application Deadline:** January 15, 2026
 **Link:** [Apply Here](https://job-boards.greenhouse.io/twilio/jobs/7296104)
 
+**Fit Analysis:**
+✅ **Twilio alumni** - Previous experience at Twilio (SendGrid Labs) 2017-2020 provides cultural fit and company knowledge
+✅ **Platform experience** - Led video platform serving millions aligns with enterprise AI platform scale
+✅ **Developer experience** - Strong track record building developer-facing products
+⚠️ **AI focus** - Limited direct AI/ML product experience on resume (though you worked with AI-powered Speech-to-Text at VoiceBase)
+✅ **Communications platform expertise** - Deep CPaaS and cloud communications background
+
 ---
 
 ## Recently Posted & Still Active
 
-### 3. **Product Manager, API**
+### 4. **Product Manager, API** 🔥 **FIT SCORE: 90/100**
 **Company:** Anthropic
 **Location:** San Francisco, CA | New York City, NY
 **Compensation:** $305,000 - $385,000 USD + equity and benefits
@@ -52,9 +88,17 @@ This document contains active job postings for API Product Manager and Developer
 - 5+ years of product management experience with significant API background
 - Visa sponsorship available
 
+**Fit Analysis:**
+✅ **Enterprise API expertise** - Led API products used by millions across Vonage/Ericsson platform
+✅ **Scalability proven** - Led product through 10x growth while maintaining platform reliability
+✅ **Developer adoption success** - Drove $3M revenue capture through developer migration strategies
+✅ **End-to-end ownership** - Owned video SDK product strategy across multiple platforms
+✅ **Premium compensation** - $305K-$385K range appropriate for your experience level
+⚠️ **AI domain** - Role at AI company; your AI exposure limited to VoiceBase Speech-to-Text project
+
 ---
 
-### 4. **Senior Product Manager, API Collaboration**
+### 5. **Senior Product Manager, API Collaboration** 🔥 **FIT SCORE: 95/100**
 **Company:** Postman
 **Location:** San Francisco, CA (hybrid - west coast options available)
 **Compensation:** $160,000 - $230,000 USD + competitive equity package
@@ -66,9 +110,16 @@ This document contains active job postings for API Product Manager and Developer
 - Own strategy, roadmap, and evolution of APIs
 - Strong technical background with API design/integration experience
 
+**Fit Analysis:**
+✅ **Perfect API documentation match** - Extensive experience developing REST API documentation, SDKs, and interactive demos
+✅ **Developer tools expertise** - Proficient with Postman and API documentation platforms (listed on resume)
+✅ **API evolution leadership** - Advocated for API evolution to improve developer experience at Vonage
+✅ **Developer community focus** - Created developer portal content and self-service analytics
+✅ **Scale experience** - Worked with platforms serving 40M+ users (matches Postman's developer base)
+
 ---
 
-### 5. **Senior Staff Product Manager - API & Developer Experience**
+### 6. **Senior Staff Product Manager - API & Developer Experience** 🔥 **FIT SCORE: 98/100**
 **Company:** Plaid
 **Location:** San Francisco | New York
 **Compensation:** $226,800 - $400,000 USD (Zone 1) + equity
@@ -80,6 +131,14 @@ This document contains active job postings for API Product Manager and Developer
 - 8+ years of product management experience
 - Deep empathy for developers and understanding of their challenges
 - Familiarity with modern API design practices
+
+**Fit Analysis:**
+✅ **Nearly perfect match** - 10+ years experience exceeds 8+ requirement at Senior Staff level
+✅ **Developer empathy demonstrated** - Reduced support tickets 40% through improved documentation and self-service tooling
+✅ **API design mastery** - Hands-on experience with REST APIs, WebRTC, modern API design across multiple companies
+✅ **Developer experience focus** - Advocated for API evolution specifically to improve developer experience and ease of integration
+✅ **Premium compensation alignment** - $226K-$400K range matches your Principal/Senior Staff level
+✅ **Financial services relevance** - Your work on enterprise platforms for major clients translates well to fintech
 
 ---
 
