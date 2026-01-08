@@ -17,7 +17,7 @@ This document maintains key information about Daniel O'Rorke's professional back
 
 ## Professional Summary
 
-Principal Product Manager with **10+ years** defining and executing API strategy for communications platforms. Expertise in telecom, CPaaS, and cloud communications—including WebRTC and network APIs. Proven track record building APIs that power end-to-end systems, creating developer documentation and self-service tools, and leading products through periods of explosive growth. Led teams of PMs and collaborated across engineering, architecture, and go-to-market to deliver API-driven products used by millions.
+Principal Product Manager with **10+ years** defining and executing API strategy for communications platforms. Expertise in telecom, CPaaS, and cloud communications—including WebRTC and network APIs. Proven track record building APIs that power end-to-end systems, creating developer documentation and self-service tools, and leading products through periods of explosive growth. Mentored PM teams, built team frameworks and processes, and collaborated across engineering, architecture, and go-to-market to deliver API-driven products used by millions.
 
 ---
 
@@ -56,7 +56,7 @@ Principal Product Manager with **10+ years** defining and executing API strategy
 
 ### Leadership & Strategy
 - Cross-Functional Leadership (Engineering, Architecture, DevRel, GTM)
-- Team Management (Managed team of 5 PMs)
+- Team Building & Mentorship (Mentored and onboarded team of 5 PMs, built frameworks and processes)
 - Go-to-Market Strategy
 - Product Analytics & Data-Driven Decision Making
 
@@ -275,7 +275,7 @@ Principal Product Manager with **10+ years** defining and executing API strategy
 4. **Developer Empathy** - Demonstrated through 40% support ticket reduction and self-service tools
 5. **Hands-On Technical Background** - Active GitHub portfolio shows current technical engagement
 6. **Scale Experience** - Led products serving millions through 10x growth
-7. **Cross-Functional Leadership** - Managed teams and coordinated across Engineering, Architecture, DevRel, GTM
+7. **Cross-Functional Leadership** - Mentored PM team, built team processes, and coordinated across Engineering, Architecture, DevRel, GTM
 
 ### Competitive Advantages
 - **Twilio Alumni** - Cultural fit and company knowledge for Twilio roles
@@ -377,7 +377,7 @@ Based on current role and job search:
 2. **Developer Experience Impact** - Reduced support tickets 40% through documentation and tooling
 3. **$3M Revenue Capture** - Strategic developer migration in 6 months
 4. **CAMARA Leadership** - Leading network API initiatives at Charter; Number Verification at Ericsson
-5. **Cross-Functional Leadership** - Managed team of 5 PMs, coordinated across Engineering/Architecture/DevRel/GTM
+5. **Cross-Functional Leadership** - Mentored and onboarded team of 5 PMs, established team frameworks and ways of working, coordinated across Engineering/Architecture/DevRel/GTM
 6. **Technical Depth** - Active GitHub portfolio, patents, hands-on with LLMs
 
 ### Addressing Gaps

@@ -10,7 +10,7 @@ Dear PagerDuty Hiring Team,
 
 I'm reaching out about the Principal Product Manager - Developer Platform role because building integration platforms that developers actually want to use has been the focus of my career for the past decade.
 
-At Charter Communications, I'm currently building developer platform and network APIs for North America's largest ISP. Before that, I spent five years at Vonage/Ericsson leading their video API platform—owning SDK strategy across iOS, Android, Web, Windows, Mac, and Linux while managing a team of 5 PMs. The work required deep integration architecture expertise and constant collaboration across Engineering, Architecture, and Developer Relations teams.
+At Charter Communications, I'm currently building developer platform and network APIs for North America's largest ISP. Before that, I spent five years at Vonage/Ericsson leading their video API platform—owning SDK strategy across iOS, Android, Web, Windows, Mac, and Linux while mentoring a team of 5 PMs and building team frameworks. The work required deep integration architecture expertise and constant collaboration across Engineering, Architecture, and Developer Relations teams.
 
 A few things I'd bring to PagerDuty:
 
@@ -18,7 +18,7 @@ A few things I'd bring to PagerDuty:
 
 **Developer-first approach:** At VoiceBase, I reduced support tickets 40% by building self-service analytics tools and better documentation. At Vonage, I drove $3M in revenue by creating migration materials that removed friction from platform adoption. I've learned that good developer experience is about eliminating obstacles at every touchpoint.
 
-**Cross-functional leadership:** I've managed teams of 5 PMs while coordinating across engineering, architecture, and GTM organizations. At Ericsson, I presented API strategy to European mobile network operators. This role's emphasis on customer communication and cross-functional leadership aligns with how I've worked throughout my career.
+**Cross-functional leadership:** I've mentored team of 5 PMs and established team processes while coordinating across engineering, architecture, and GTM organizations. At Ericsson, I presented API strategy to European mobile network operators. This role's emphasis on customer communication and cross-functional leadership aligns with how I've worked throughout my career.
 
 PagerDuty's focus on making integration simple and reliable resonates with me. I'd welcome the chance to discuss how my experience building developer platforms could support what you're building.
 

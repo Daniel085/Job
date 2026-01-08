@@ -10,7 +10,7 @@ Dear Twilio Hiring Team,
 
 I'm reaching out about the Staff Product Manager - Enterprise AI role because it combines two areas where I have deep experience: enterprise communications platforms and AI-powered developer products. And returning to Twilio would bring my work full circle.
 
-I spent three years at SendGrid Labs (2017-2020) helping evolve the platform from single-channel email to multi-channel communications. Before joining Twilio, I led product for VoiceBase's AI-powered Speech-to-Text API—building developer tools for transcription and NLP features. After Twilio, I spent five years at Vonage/Ericsson leading their video platform through 10x growth and managing a team of 5 PMs.
+I spent three years at SendGrid Labs (2017-2020) helping evolve the platform from single-channel email to multi-channel communications. Before joining Twilio, I led product for VoiceBase's AI-powered Speech-to-Text API—building developer tools for transcription and NLP features. After Twilio, I spent five years at Vonage/Ericsson leading their video platform through 10x growth while mentoring a team of 5 PMs and establishing team processes.
 
 My AI/ML experience spans both product leadership and hands-on work. At VoiceBase, I launched developer consoles for testing AI model outputs and created demos for enterprise customers. More recently, I've built LLM integrations using Claude and OpenAI APIs, Core ML implementations, and prompt engineering experiments—all visible on my GitHub.
 

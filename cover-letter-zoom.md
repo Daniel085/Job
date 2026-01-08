@@ -20,7 +20,7 @@ A few things I'd bring to Zoom:
 
 **Product-led growth:** At Vonage, I drove $3M in revenue through developer migration programs and self-service tools. At VoiceBase, I reduced support tickets 40% by building better self-service analytics. I understand how to remove friction and accelerate developer adoption.
 
-**Cross-functional leadership:** I've managed teams of 5 PMs while coordinating across Engineering, Architecture, Developer Relations, and GTM. At Ericsson, I presented API strategy to European mobile operators. This role's emphasis on collaboration aligns with how I've worked throughout my career.
+**Cross-functional leadership:** I've mentored team of 5 PMs and built team frameworks while coordinating across Engineering, Architecture, Developer Relations, and GTM. At Ericsson, I presented API strategy to European mobile operators. This role's emphasis on collaboration aligns with how I've worked throughout my career.
 
 I'd welcome the chance to discuss how my video platform and AI experience could support Zoom's developer API initiatives.
 

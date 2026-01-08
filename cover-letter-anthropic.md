@@ -10,7 +10,7 @@ Dear Anthropic Hiring Team,
 
 I'm reaching out about the Product Manager, API role because building enterprise API platforms that developers trust has been my focus for the past decade—and I've been a hands-on user of Claude's API throughout my recent work.
 
-At Charter Communications, I'm currently building developer platform and network APIs for North America's largest ISP. Before that, I spent five years at Vonage/Ericsson leading their video API platform, which served millions of users globally. I owned the end-to-end enterprise API experience—from strategy and documentation to SDKs and developer adoption—while managing a team of 5 PMs.
+At Charter Communications, I'm currently building developer platform and network APIs for North America's largest ISP. Before that, I spent five years at Vonage/Ericsson leading their video API platform, which served millions of users globally. I owned the end-to-end enterprise API experience—from strategy and documentation to SDKs and developer adoption—while mentoring a team of 5 PMs and building team processes.
 
 I've used Claude's API extensively for personal projects, building LLM automation tools and experimenting with prompt engineering. I've also integrated OpenAI APIs and built Core ML implementations. My GitHub shows this hands-on work, but my professional experience includes leading VoiceBase's AI-powered Speech-to-Text platform, where I built developer tools for enterprise customers working with AI features.
 

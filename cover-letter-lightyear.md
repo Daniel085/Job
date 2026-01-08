@@ -18,7 +18,7 @@ A few things I'd bring:
 
 **Developer experience:** At VoiceBase, I reduced support tickets 40% through better documentation and self-service tools. At Vonage, I drove $3M in revenue by creating migration materials that made platform adoption easier.
 
-**Cross-functional work:** I've collaborated with design teams on UX prototyping, built GTM demos, and managed teams of 5 PMs while coordinating across Engineering, Architecture, and Developer Relations.
+**Cross-functional work:** I've collaborated with design teams on UX prototyping, built GTM demos, and mentored team of 5 PMs (building frameworks and processes) while coordinating across Engineering, Architecture, and Developer Relations.
 
 I see Lightyear as a natural next step—applying my telecom and API platform experience to help businesses manage connectivity more simply. I'd welcome the chance to discuss how my background could support what you're building.
 

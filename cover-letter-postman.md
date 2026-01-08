@@ -10,7 +10,7 @@ Dear Postman Hiring Team,
 
 I'm reaching out about the Senior Product Manager, API Collaboration role because creating API documentation and developer tools that make integration easier has been the core of my work for the past decade—and I've been a Postman user throughout that time.
 
-At Charter Communications, I'm currently building developer platform and network APIs. Before that, I spent five years at Vonage/Ericsson leading their video API platform, where I owned API evolution and SDK strategy across six platforms while managing a team of 5 PMs. Earlier at VoiceBase, I built comprehensive REST API documentation and developer consoles that reduced support tickets by 40%.
+At Charter Communications, I'm currently building developer platform and network APIs. Before that, I spent five years at Vonage/Ericsson leading their video API platform, where I owned API evolution and SDK strategy across six platforms while mentoring a team of 5 PMs and establishing team frameworks. Earlier at VoiceBase, I built comprehensive REST API documentation and developer consoles that reduced support tickets by 40%.
 
 A few things I'd bring to Postman:
 
