@@ -10,151 +10,182 @@
       padding: 0;
       box-sizing: border-box;
     }
+    @page {
+      size: letter;
+      margin: 0.5in 0.6in;
+    }
+    @media print {
+      body {
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+      }
+      section {
+        page-break-inside: avoid;
+      }
+      .job {
+        page-break-inside: avoid;
+      }
+      .two-col {
+        page-break-inside: avoid;
+      }
+      .page-break-before {
+        page-break-before: always;
+      }
+      h2 {
+        page-break-after: avoid;
+      }
+    }
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      font-size: 11px;
-      line-height: 1.4;
+      font-size: 10.5px;
+      line-height: 1.35;
       color: #2d3748;
       background: #fff;
-      padding: 40px;
-      max-width: 850px;
+      padding: 0.5in 0.6in;
+      max-width: 8.5in;
       margin: 0 auto;
     }
     header {
       text-align: center;
-      padding-bottom: 20px;
+      padding-bottom: 14px;
       border-bottom: 2px solid #3182ce;
-      margin-bottom: 20px;
+      margin-bottom: 14px;
     }
     h1 {
-      font-size: 28px;
+      font-size: 26px;
       font-weight: 600;
       color: #1a365d;
-      letter-spacing: 1px;
-      margin-bottom: 10px;
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
     }
     .contact-info {
       color: #4a5568;
-      font-size: 11px;
+      font-size: 10.5px;
     }
     .contact-info a {
       color: #3182ce;
       text-decoration: none;
     }
     .contact-info span {
-      margin: 0 8px;
+      margin: 0 6px;
       color: #a0aec0;
     }
     section {
-      margin-bottom: 18px;
+      margin-bottom: 14px;
     }
     h2 {
-      font-size: 12px;
+      font-size: 11px;
       font-weight: 600;
       color: #3182ce;
       text-transform: uppercase;
-      letter-spacing: 1.5px;
+      letter-spacing: 1px;
       border-bottom: 1px solid #e2e8f0;
-      padding-bottom: 5px;
-      margin-bottom: 12px;
+      padding-bottom: 4px;
+      margin-bottom: 10px;
     }
     .summary {
       color: #4a5568;
-      line-height: 1.5;
+      line-height: 1.4;
     }
     .expertise-tags {
       display: flex;
       flex-wrap: wrap;
-      gap: 8px;
+      gap: 6px;
     }
     .tag {
       background: #ebf8ff;
       color: #2b6cb0;
-      padding: 4px 10px;
+      padding: 3px 8px;
       border-radius: 3px;
-      font-size: 10px;
+      font-size: 9.5px;
       font-weight: 500;
     }
     .job {
-      margin-bottom: 16px;
+      margin-bottom: 12px;
     }
     .job-header {
       display: flex;
       justify-content: space-between;
       align-items: baseline;
-      margin-bottom: 4px;
+      margin-bottom: 3px;
     }
     .job-title {
       font-weight: 600;
       color: #1a365d;
-      font-size: 12px;
+      font-size: 11px;
     }
     .job-date {
       color: #718096;
-      font-size: 10px;
+      font-size: 9.5px;
     }
     .job-company {
       color: #4a5568;
-      font-size: 11px;
-      margin-bottom: 4px;
+      font-size: 10.5px;
+      margin-bottom: 3px;
     }
     .job-location {
       color: #a0aec0;
-      font-size: 10px;
+      font-size: 9.5px;
     }
     .job-desc {
       color: #4a5568;
       font-style: italic;
-      margin: 6px 0;
-      font-size: 10.5px;
+      margin: 4px 0;
+      font-size: 10px;
     }
     .job-subtitle {
       font-weight: 600;
       color: #2d3748;
-      font-size: 10.5px;
-      margin: 8px 0 4px 0;
+      font-size: 10px;
+      margin: 6px 0 3px 0;
     }
     ul {
-      margin-left: 16px;
+      margin-left: 15px;
       color: #4a5568;
     }
     li {
-      margin-bottom: 3px;
+      margin-bottom: 2px;
     }
     .skills-grid {
       display: grid;
-      grid-template-columns: 140px 1fr;
-      gap: 6px 16px;
+      grid-template-columns: 130px 1fr;
+      gap: 4px 12px;
     }
     .skill-category {
       font-weight: 600;
       color: #2d3748;
+      font-size: 10px;
     }
     .skill-items {
       color: #4a5568;
+      font-size: 10px;
     }
     .education-item {
-      margin-bottom: 10px;
+      margin-bottom: 8px;
     }
     .edu-school {
       font-weight: 600;
       color: #1a365d;
+      font-size: 10.5px;
     }
     .edu-degree {
       color: #4a5568;
+      font-size: 10px;
     }
     .edu-details {
       color: #718096;
-      font-size: 10px;
+      font-size: 9.5px;
     }
     .cert-item {
       color: #4a5568;
-      margin-bottom: 3px;
+      margin-bottom: 2px;
+      font-size: 10px;
     }
     .two-col {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 20px;
+      gap: 16px;
     }
   </style>
 </head>
