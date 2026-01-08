@@ -366,7 +366,7 @@ Based on current role and job search:
 - Telecom/Communications domain
 - AI/LLM product focus
 - Remote or flexible work
-- Team management opportunity
+- Team mentorship and leadership opportunities
 
 ---
 
