@@ -264,11 +264,18 @@ Principal Product Manager with **10+ years** defining and executing API strategy
 
 ### Core Strengths
 1. **Deep Telecom/CPaaS Expertise** - Rare combination of API PM + telecom domain knowledge
+   - Currently building telecom billing system at Charter (early-stage experience)
+   - Enterprise video API implementations at Vonage
+   - Led CPaaS platform evolution and scaling
 2. **CAMARA Network API Experience** - Currently leading early-stage initiatives at Charter; spearheaded Number Verification API at Ericsson
-3. **Developer Empathy** - Demonstrated through 40% support ticket reduction and self-service tools
-4. **Hands-On Technical Background** - Active GitHub portfolio shows current technical engagement
-5. **Scale Experience** - Led products serving millions through 10x growth
-6. **Cross-Functional Leadership** - Managed teams and coordinated across Engineering, Architecture, DevRel, GTM
+3. **Product Vision & Platform Evolution** - Track record transforming products:
+   - Evolved SendGrid from Communications API to multichannel platform
+   - Pivoted Vonage Video to simpler APIs during 10x growth
+   - Transformed Number Verification from PoC to commercial product
+4. **Developer Empathy** - Demonstrated through 40% support ticket reduction and self-service tools
+5. **Hands-On Technical Background** - Active GitHub portfolio shows current technical engagement
+6. **Scale Experience** - Led products serving millions through 10x growth
+7. **Cross-Functional Leadership** - Managed teams and coordinated across Engineering, Architecture, DevRel, GTM
 
 ### Competitive Advantages
 - **Twilio Alumni** - Cultural fit and company knowledge for Twilio roles
@@ -276,6 +283,12 @@ Principal Product Manager with **10+ years** defining and executing API strategy
 - **AI/LLM Hands-On Experience** - GitHub demonstrates practical LLM integration work
 - **Patent Holder** - Demonstrates innovation and technical depth
 - **Award Recognition** - Multiple awards across different companies shows consistent high performance
+- **GTM & Sales Enablement** - Built product demos (VoiceBase), sales tools, and marketing materials
+  - $3M revenue capture through GTM materials responding to news events
+  - Collaborated with GTM teams on demo development and sales enablement
+- **UX Prototyping Skills** - Worked with design teams at Yahoo, Aerohive, Vonage
+  - Uses Balsamiq, paper wireframes, and Claude AI for rapid prototyping
+  - Creates clickable mocks for UX testing before development
 
 ---
 
@@ -293,9 +306,12 @@ Principal Product Manager with **10+ years** defining and executing API strategy
 - Hands-on LLM integration experience, but haven't shipped generative AI products at enterprise scale
 - GitHub work demonstrates capability; could be positioned as growth area
 
-### Design Tools
-- **NOT proficient in Figma** (previously incorrectly stated)
-- Developer portal and documentation focus, not UI/UX design tools
+### Design Tools & UX Collaboration
+- **UX collaboration experience** - Worked with design teams at Yahoo, Aerohive, and Vonage
+- **Wireframing & prototyping tools** - Paper wireframes, Balsamiq
+- **Modern prototyping** - Uses Claude AI to generate wireframes and clickable mocks for UX testing
+- **NOT proficient in Figma/Sketch** - but has alternative rapid prototyping methods
+- Developer portal and documentation focus, not traditional UI/UX design specialist
 
 ---
 
