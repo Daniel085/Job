@@ -6,6 +6,55 @@ This document provides guidance on working with Claude Code for job search and r
 
 ---
 
+## First-Time Setup
+
+If you're setting up this repository for the first time (new user, not Daniel):
+
+### Prerequisites
+1. Your resume (PDF or HTML format)
+2. Your LinkedIn profile text (copy/paste entire profile)
+3. 2-3 example job postings you're interested in
+
+### Setup Process
+
+**Step 1:** Place files in `/setup/inputs/`:
+- `resume.pdf` or `resume.html`
+- `linkedin-profile.txt`
+- `additional-info.txt` (optional)
+
+**Step 2:** Tell Claude:
+```
+"Help me set up this job search repository. I've placed my resume and
+LinkedIn profile in /setup/inputs/"
+```
+
+**Step 3:** Follow Claude's prompts:
+- Answer clarifying questions (compensation, location, priorities, etc.)
+- Review generated Profile.md
+- Request any needed edits
+
+**Step 4:** Provide 2-3 seed jobs:
+```
+"Here are 3 jobs I'm interested in:
+1. [URL]
+2. [URL]
+3. [URL]"
+```
+
+**Step 5:** Confirm automated search:
+- Claude analyzes patterns
+- Shows you common characteristics
+- Asks permission to search for similar jobs
+
+**Result:** After 35-50 minutes, you'll have:
+- Complete Profile.md (single source of truth)
+- 10-20 curated job opportunities with fit scores
+- Ready to create tailored application materials
+
+For complete step-by-step instructions, see [`/setup/GETTING-STARTED.md`](/setup/GETTING-STARTED.md).
+
+---
+
 ## Repository Contents
 
 ### Core Documents
@@ -98,6 +147,153 @@ Update Profile.md when:
 - You earn new certifications or awards
 - You learn new technologies
 - Your compensation expectations change
+- You remember forgotten achievements with metrics
+
+**Manual updates:**
+```
+"Update Profile.md: add [new information]"
+```
+
+**Dynamic updates during job search:**
+Claude may ask clarifying questions while creating application materials. When you provide new information, Claude will offer to update Profile.md so future applications automatically include it.
+
+Example:
+```
+Claude: "This role requires GraphQL experience. Have you worked with GraphQL?"
+You: "Yes - used it extensively at Company X for 2 years"
+Claude: "I'll add GraphQL to your Technical Skills. Future resumes will include this."
+```
+
+---
+
+## Automated Job Discovery
+
+### How It Works
+
+Instead of adding jobs one-by-one, you can provide 2-3 "seed jobs" (examples of what you want), and Claude will automatically find similar opportunities.
+
+**Step 1: Provide Seed Jobs**
+```
+"Here are 3 jobs I'm interested in:
+1. https://company1.com/job/api-pm
+2. https://company2.com/job/developer-platform
+3. https://company3.com/job/staff-pm"
+```
+
+**Step 2: Claude Analyzes Patterns**
+Claude extracts common characteristics across your seed jobs:
+- Role titles and seniority levels
+- Required technologies (REST APIs, GraphQL, SDKs, etc.)
+- Company types (size, stage, industry)
+- Compensation ranges
+- Work arrangements (remote, hybrid, on-site)
+
+**Step 3: Confirm Search**
+Claude presents the patterns and asks:
+```
+"I've identified these patterns in your seed jobs:
+- Titles: Principal PM, Staff PM
+- Tech: REST APIs (100%), GraphQL (67%)
+- Companies: B2B SaaS, 500-5000 employees
+- Comp: $200K-$350K
+
+Should I search for similar jobs? (Yes/No)"
+```
+
+**Step 4: Automated Search**
+If you confirm, Claude:
+- Generates 5-10 targeted search queries
+- Uses WebSearch to find jobs posted in last 60 days
+- Fetches each job description
+- Calculates fit scores using your Profile.md
+- Only includes jobs scoring ≥75
+- Saves all to `/jobs/Similar-Job-Postings.md`
+
+**Step 5: Results**
+```
+"Found 14 jobs matching your criteria:
+- 4 excellent matches (90-100 fit)
+- 7 strong matches (80-89 fit)
+- 3 good matches (75-79 fit)
+
+Top 3:
+1. Company X - Principal PM API (95/100) - $225K-$375K
+2. Company Y - Staff PM DevTools (92/100) - $200K-$320K
+3. Company Z - Senior Staff PM (88/100) - $240K-$400K"
+```
+
+### Benefits
+- **Time savings:** Find 10-20 curated opportunities in 10-15 minutes
+- **Quality filtering:** Only jobs scoring ≥75 are included
+- **Consistent evaluation:** All jobs evaluated using same algorithm
+- **Pattern-based:** Finds jobs similar to what you've indicated you want
+
+### When to Use
+- Initial repository setup (after Profile.md is created)
+- When pivoting to different role types
+- Periodically to refresh your job list (monthly)
+- When seed jobs produced good results previously
+
+---
+
+## Dynamic Profile Updates
+
+### What It Does
+
+While creating tailored application materials, Claude may discover gaps between job requirements and your Profile.md. Instead of just noting the gap, Claude asks clarifying questions and updates your Profile so future applications benefit.
+
+### How It Works
+
+**Scenario:** Creating resume for fintech API role
+
+**Trigger:**
+```
+Job requires: "Payment API experience and PCI-DSS compliance"
+Profile.md: No payment APIs or compliance mentioned
+```
+
+**Claude asks:**
+```
+"I'm tailoring your resume for Company X's API Platform role.
+They require payment API and compliance experience.
+
+Questions:
+1. Have you worked with payment APIs (Stripe, Plaid, etc.)? (Yes/No/Details)
+2. Any PCI-DSS, SOC2, or compliance experience? (Yes/No/Details)
+3. Relevant fintech experience to highlight? (Yes/No/Details)"
+```
+
+**You respond:**
+```
+"Yes - integrated Stripe at Company Y. Led SOC2 compliance for our API platform."
+```
+
+**Claude updates Profile.md:**
+```
+"I'll update your Profile.md:
+- Technical Skills: Add 'Payment APIs (Stripe)'
+- Domain Expertise: Add 'Financial APIs'
+- Key Achievements: Add 'Led SOC2 compliance for API platform'
+
+Your updated Profile will be used for this resume and all future applications."
+```
+
+### Benefits
+- **Continuous improvement:** Profile gets richer over time
+- **No repetition:** Answer once, benefit forever
+- **Consistent messaging:** All future materials include new information
+- **Better fit scores:** More complete Profile leads to more accurate scoring
+
+### When It Happens
+- Creating tailored resumes → job requirement not in Profile.md
+- Writing cover letters → need specific metric/example
+- User explicitly requests: "Update Profile.md: [info]"
+
+### Important
+- Claude always asks permission before updating
+- You'll see exact changes before they're applied
+- You can reject or modify suggested updates
+- Only factual information you confirm gets added
 - You discover new preferences in job search
 
 ---
