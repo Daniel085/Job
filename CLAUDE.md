@@ -24,18 +24,27 @@ cover-letters/cover-letter-{company}.md (written from resume + job description)
 
 ### Fit Scoring Algorithm
 
-Located in `docs/AI-Assistant-Job-Search.md` (lines 44-68). Key scoring rules:
+Located in `docs/AI-Assistant-Job-Search.md` (lines 44-68). **Critical:** Start at 0 and add/subtract points.
 
-- **Start at 0, add/subtract points based on alignment**
+**High fit indicators (add points):**
 - Direct technology experience: +10-20 points
 - Exceeds YoE requirement: +5-10 points
 - Domain expertise match: +10-15 points
-- Missing required skills: -10-20 points
-- Industry mismatch: -5-10 points
-- **Minimum inclusion threshold: 75/100**
-- Jobs older than 60 days: exclude
+- Previous experience at similar companies: +5-10 points
+- Relevant leadership experience: +10-15 points
 
-When adding jobs to `jobs/Similar-Job-Postings.md`, calculate fit score using Profile.md:1-435 for background reference.
+**Gaps or concerns (subtract points):**
+- Missing required skills: -10-20 points
+- Below experience requirement: -10-15 points
+- Industry mismatch: -5-10 points
+- Geographic constraints (non-remote): -5-10 points
+
+**Inclusion criteria:**
+- **Minimum threshold: 75/100**
+- Must be posted within 60 days
+- Must have active application link
+
+When adding jobs to `jobs/Similar-Job-Postings.md`, always read complete `Profile.md` for scoring context.
 
 ### Resume Generation Pattern
 
@@ -67,20 +76,30 @@ Tailored cover letters live in `cover-letters/cover-letter-{company}.md`. Standa
 
 Target length: 60% of original draft (see commit e59f0ba for example compression).
 
+## Quick Start
+
+When beginning any task in this repository:
+
+1. **Read Profile.md first** - It's the single source of truth for all job evaluations and application materials
+2. **Check current context** - Use `git status` and `git branch` to understand current state
+3. **Review recent changes** - Use `git log --oneline -5` to see recent work
+4. **Understand the task** - Job evaluation? Resume creation? Cover letter? Follow the appropriate workflow below
+
 ## Common Development Tasks
 
 ### Adding a New Job Posting
 
-```bash
-# 1. Fetch and analyze job description
-# 2. Read Profile.md for fit scoring
-# 3. Add to jobs/Similar-Job-Postings.md with fit score ≥75
-# 4. Maintain sort order (highest fit scores first)
-# 5. Update "Last Updated" date
-# 6. Optionally save full job description to jobs/descriptions/{company}.md
-```
+When user provides a job URL or description:
 
-See `docs/AI-Assistant-Job-Search.md` for detailed instructions on fit analysis format.
+1. Fetch and analyze job description (use WebFetch for URLs)
+2. Read `Profile.md` for fit scoring context
+3. Calculate fit score using algorithm in `docs/AI-Assistant-Job-Search.md:44-68`
+4. Only add if score ≥75
+5. Add to `jobs/Similar-Job-Postings.md` maintaining score-sorted order (highest first)
+6. Update "Last Updated" date at top of file
+7. Optionally save full description to `jobs/descriptions/{company}.md`
+
+See `docs/AI-Assistant-Job-Search.md` for detailed scoring methodology and fit analysis format.
 
 ### Creating Tailored Application Materials
 
@@ -115,13 +134,13 @@ Before applications, verify links in `jobs/Similar-Job-Postings.md` are still ac
 Standard branch naming: `claude/{task-description}-{id}`
 
 ```bash
-# Current branch: claude/init-project-setup-ILHXq
+# Example workflow
 git add .
 git commit -m "Descriptive message"
-git push -u origin claude/init-project-setup-ILHXq
+git push -u origin <current-branch-name>
 ```
 
-GitHub Pages deployment runs on push (see `.github/workflows/static.yml`).
+**Important:** Check `.github/workflows/static.yml` for current deployment configuration. The workflow may be configured to deploy from a specific branch.
 
 ## File Organization
 
@@ -215,14 +234,17 @@ API strategy, developer experience, telecom/CPaaS, WebRTC, CAMARA network APIs
 
 ## Workflow: Evaluating New Job Posting
 
+When the user provides a job posting URL or description:
+
 1. **Fetch job details** - Company, title, requirements, compensation, location, post date
-2. **Read Profile.md** - Lines 1-435 for complete background
+2. **Read Profile.md** - Complete file for background context
 3. **Calculate fit score** - Use docs/AI-Assistant-Job-Search.md algorithm (lines 44-68)
-4. **Only proceed if ≥75 score** - Otherwise inform user why not included
-5. **Write fit analysis** - ✅ strengths with specific evidence + ⚠️ honest gaps
-6. **Add to jobs/Similar-Job-Postings.md** - Maintain score-sorted order
-7. **Update "Last Updated" date**
-8. **Optionally save full description** - To jobs/descriptions/{company}.md
+   - Start at 0, add/subtract points based on alignment
+   - **Only proceed if score ≥75** - Otherwise inform user why not included
+4. **Write fit analysis** - Use ✅ for strengths (with specific evidence from Profile.md + metrics) and ⚠️ for honest gaps
+5. **Add to jobs/Similar-Job-Postings.md** - Insert in score-sorted order (highest first)
+6. **Update "Last Updated" date** at top of file
+7. **Optionally save full description** - To jobs/descriptions/{company}.md if user requests it
 
 ## Notes
 
