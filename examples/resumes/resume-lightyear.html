@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniel O'Rorke - Resume</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    @page {
+      size: letter;
+      margin: 0.5in 0.6in;
+    }
+    @media print {
+      body {
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+      }
+      section {
+        page-break-inside: avoid;
+      }
+      .job {
+        page-break-inside: avoid;
+      }
+      .two-col {
+        page-break-inside: avoid;
+      }
+      .page-break-before {
+        page-break-before: always;
+      }
+      h2 {
+        page-break-after: avoid;
+      }
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 10.5px;
+      line-height: 1.35;
+      color: #2d3748;
+      background: #fff;
+      padding: 0.5in 0.6in;
+      max-width: 8.5in;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      padding-bottom: 14px;
+      border-bottom: 2px solid #3182ce;
+      margin-bottom: 14px;
+    }
+    h1 {
+      font-size: 26px;
+      font-weight: 600;
+      color: #1a365d;
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
+    }
+    .contact-info {
+      color: #4a5568;
+      font-size: 10.5px;
+    }
+    .contact-info a {
+      color: #3182ce;
+      text-decoration: none;
+    }
+    .contact-info span {
+      margin: 0 6px;
+      color: #a0aec0;
+    }
+    section {
+      margin-bottom: 14px;
+    }
+    h2 {
+      font-size: 11px;
+      font-weight: 600;
+      color: #3182ce;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 4px;
+      margin-bottom: 10px;
+    }
+    .summary {
+      color: #4a5568;
+      line-height: 1.4;
+    }
+    .expertise-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .tag {
+      background: #ebf8ff;
+      color: #2b6cb0;
+      padding: 3px 8px;
+      border-radius: 3px;
+      font-size: 9.5px;
+      font-weight: 500;
+    }
+    .job {
+      margin-bottom: 12px;
+    }
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 3px;
+    }
+    .job-title {
+      font-weight: 600;
+      color: #1a365d;
+      font-size: 11px;
+    }
+    .job-date {
+      color: #718096;
+      font-size: 9.5px;
+    }
+    .job-company {
+      color: #4a5568;
+      font-size: 10.5px;
+      margin-bottom: 3px;
+    }
+    .job-location {
+      color: #a0aec0;
+      font-size: 9.5px;
+    }
+    .job-desc {
+      color: #4a5568;
+      font-style: italic;
+      margin: 4px 0;
+      font-size: 10px;
+    }
+    .job-subtitle {
+      font-weight: 600;
+      color: #2d3748;
+      font-size: 10px;
+      margin: 6px 0 3px 0;
+    }
+    ul {
+      margin-left: 15px;
+      color: #4a5568;
+    }
+    li {
+      margin-bottom: 2px;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 130px 1fr;
+      gap: 4px 12px;
+    }
+    .skill-category {
+      font-weight: 600;
+      color: #2d3748;
+      font-size: 10px;
+    }
+    .skill-items {
+      color: #4a5568;
+      font-size: 10px;
+    }
+    .education-item {
+      margin-bottom: 8px;
+    }
+    .edu-school {
+      font-weight: 600;
+      color: #1a365d;
+      font-size: 10.5px;
+    }
+    .edu-degree {
+      color: #4a5568;
+      font-size: 10px;
+    }
+    .edu-details {
+      color: #718096;
+      font-size: 9.5px;
+    }
+    .cert-item {
+      color: #4a5568;
+      margin-bottom: 2px;
+      font-size: 10px;
+    }
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DANIEL O'RORKE</h1>
+    <div class="contact-info">
+      408-768-4570 <span>|</span>
+      <a href="mailto:daniel@ororke.com">daniel@ororke.com</a> <span>|</span>
+      <a href="https://linkedin.com/in/danielororke">linkedin.com/in/danielororke</a> <span>|</span>
+      <a href="https://github.com/Daniel085">github.com/Daniel085</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Professional Summary</h2>
+    <p class="summary">Principal Product Manager with 10+ years defining and executing API strategy for communications platforms, with deep expertise in telecom and CPaaS. Currently building developer platform and programmable network APIs at Charter Communications (North America's largest ISP). Track record transforming products through explosive growth—including leading platforms serving millions of users and evolving products from proof-of-concept to commercial offerings. Expert in developer experience, API documentation, and self-service tools that reduce friction and accelerate adoption.</p>
+  </section>
+
+  <section>
+    <h2>Areas of Expertise</h2>
+    <div class="expertise-tags">
+      <span class="tag">Telecom / CPaaS / Cloud Communications</span>
+      <span class="tag">API Product Strategy</span>
+      <span class="tag">REST APIs & SDKs</span>
+      <span class="tag">Developer Experience & Documentation</span>
+      <span class="tag">Product Vision & Platform Evolution</span>
+      <span class="tag">Developer Enablement & Adoption</span>
+      <span class="tag">Cross-Functional Leadership</span>
+      <span class="tag">Enterprise SaaS</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Professional Experience</h2>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Lead Product Manager</span>
+        <span class="job-date">Apr 2025 – Present</span>
+      </div>
+      <div class="job-company">Charter Communications <span class="job-location">• Denver, CO (Hybrid)</span></div>
+      <p class="job-desc">Building developer platform and programmable network APIs for North America's largest ISP (by subscribers).</p>
+      <ul>
+        <li>Defining API product strategy and roadmap for network APIs enabling third-party developers</li>
+        <li>Leading early-stage CAMARA network API initiatives</li>
+        <li>Partnering with engineering and architecture to deliver scalable APIs for telecom infrastructure</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Expert Product Manager</span>
+        <span class="job-date">2020 – 2025</span>
+      </div>
+      <div class="job-company">Vonage / Ericsson <span class="job-location">• Remote</span></div>
+      <p class="job-desc">Led API-driven video platform serving millions of users. Led cross-functional portfolio, mentored team of 5 PMs, and established team frameworks and processes.</p>
+
+      <div class="job-subtitle">Video API Platform (2020 – 2024)</div>
+      <ul>
+        <li>Transformed product vision to simplify APIs and improve developer experience during 10x growth period</li>
+        <li>Owned video SDK product strategy across WebRTC platform for iOS, Android, Web, Windows, Mac, and Linux</li>
+        <li>Launched new product in 2021 that grew to 1.5M+ minutes per month by year two</li>
+        <li>Built enterprise video API implementations serving major global customers</li>
+        <li>Drove $3M revenue capture through targeted developer migration strategies and GTM collaboration</li>
+        <li>Reduced support burden through developer documentation and self-service analytics tools</li>
+        <li>Led cross-functional collaboration across Engineering, Architecture, Developer Relations, and GTM teams</li>
+        <li>Recipient: Key Talent Award & Key Contributor Award</li>
+      </ul>
+
+      <div class="job-subtitle">Global Network Platform (2024 – 2025)</div>
+      <ul>
+        <li>Evolved CAMARA Number Verification API from proof-of-concept to commercial telecom product</li>
+        <li>Presented API strategy at Ericsson Innovation Days to European mobile network operators</li>
+        <li>Evaluated API offerings for product/market fit and partner/developer adoption potential</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Senior Product Manager</span>
+        <span class="job-date">2017 – 2020</span>
+      </div>
+      <div class="job-company">Twilio (SendGrid Labs) <span class="job-location">• San Francisco, CA</span></div>
+      <p class="job-desc">Led product strategy and innovation for email communications platform serving developers worldwide.</p>
+      <ul>
+        <li>Drove SendGrid's product evolution from single-channel email API to multi-channel communications platform</li>
+        <li>Introduced Outcome-Driven Innovation methodology to identify highest-impact product capabilities</li>
+        <li>Collaborated with design teams on UX prototyping and customer problem validation</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Senior Product Manager</span>
+        <span class="job-date">2017 – 2018</span>
+      </div>
+      <div class="job-company">VoiceBase <span class="job-location">• San Francisco, CA</span></div>
+      <p class="job-desc">Built developer-facing products for AI-powered Speech-to-Text API platform.</p>
+      <ul>
+        <li>Developed v3 REST API documentation, SDKs, and interactive demos</li>
+        <li>Launched Developer Console with self-service analytics, enabling developers to test and debug integrations</li>
+        <li>Reduced support tickets 40% through improved documentation and self-service tooling</li>
+        <li>Created product demos and GTM materials to showcase platform capabilities</li>
+        <li>Company acquired by LivePerson</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Product Manager</span>
+        <span class="job-date">2015 – 2017</span>
+      </div>
+      <div class="job-company">Aerohive Networks <span class="job-location">• Sunnyvale, CA</span></div>
+      <ul>
+        <li>Developed API documentation, demos, and reference applications for enterprise WiFi platform</li>
+        <li>Created developer portal content showcasing Identity, Location, and Configuration APIs</li>
+        <li>Collaborated with design teams on UX prototyping using Balsamiq and paper wireframes</li>
+        <li>Led HiveSchool WebRTC product—won ISTE "Best in Show" award</li>
+        <li>Co-invented 2 patents for WiFi credential automation (15/073,593 & 62/350,158)</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Product Manager</span>
+        <span class="job-date">2013 – 2015</span>
+      </div>
+      <div class="job-company">Yahoo <span class="job-location">• Sunnyvale, CA</span></div>
+      <ul>
+        <li>Managed Mail Monetization products reaching Yahoo's massive consumer user base</li>
+        <li>Worked with design teams on UX exploration and rapid prototyping</li>
+        <li>Recipient: Superstar Team Award</li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="two-col">
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <span class="skill-category">APIs & Protocols:</span>
+        <span class="skill-items">REST, WebRTC, CAMARA</span>
+        <span class="skill-category">Developer Tools:</span>
+        <span class="skill-items">Postman, API documentation platforms, SDK development</span>
+        <span class="skill-category">UX & Prototyping:</span>
+        <span class="skill-items">Balsamiq, wireframing, rapid prototyping</span>
+        <span class="skill-category">AI/ML Technologies:</span>
+        <span class="skill-items">LLM API integration (Claude, OpenAI), Core ML, prompt engineering</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Certifications & Patents</h2>
+      <div class="cert-item">• Certified Scrum Product Owner (CSPO) – Scrum Alliance</div>
+      <div class="cert-item">• Patent 15/073,593: Chromebook Credential Management</div>
+      <div class="cert-item">• Patent 62/350,158: Seamless Wireless Device Onboarding</div>
+    </section>
+  </div>
+
+  <section>
+    <h2>Education</h2>
+    <div class="education-item">
+      <div class="edu-school">University of California, San Diego</div>
+      <div class="edu-degree">B.S. in Management Science, Department of Economics</div>
+      <div class="edu-details">Econometric Regression Modeling Honor Program • Coursework: Java, C++, x86 Assembly</div>
+    </div>
+    <div class="education-item">
+      <div class="edu-school">University of California, Berkeley Extension</div>
+      <div class="edu-degree">High Tech Product Marketing & Management</div>
+    </div>
+  </section>
+</body>
+</html>
