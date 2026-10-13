@@ -1,8 +1,130 @@
 # Similar API & Developer Platform Product Manager Roles
 
-*Last Updated: January 7, 2026*
+*Last Updated: October 13, 2026*
 
 This document contains active job postings for API Product Manager and Developer Platform Product Manager roles with similar requirements to the positions saved in this repository. Each position includes a fit score (0-100) based on alignment with Daniel O'Rorke's resume.
+
+---
+
+## Anthropic — Current Openings (Evaluated October 13, 2026)
+
+Full sweep of anthropic.com/jobs on October 13, 2026. All Anthropic roles are hybrid (minimum 25% in-office; no fully remote option stated) and offer visa sponsorship. Greenhouse does not show posting dates; all links below were verified open on the evaluation date. The previously tracked **Product Manager, API** (job 4936029008) and the Claude Code, Developer Services, Cloud Inference, API Growth, and Developer Education Lead roles are **closed**.
+
+### A1. **Product Manager, Multi-Cloud Growth - Google** 🔥 **FIT SCORE: 85/100**
+**Company:** Anthropic (Platform Org)
+**Location:** San Francisco, CA (hybrid)
+**Compensation:** $305,000 - $460,000 USD base + equity and benefits
+**Posted:** Not shown (open as of October 13, 2026)
+**Link:** [Apply Here](https://job-boards.greenhouse.io/anthropic/jobs/5153924008)
+**Full Description:** [jobs/descriptions/Anthropic-Multi-Cloud-Growth-Google.md](descriptions/Anthropic-Multi-Cloud-Growth-Google.md)
+
+**Key Requirements:**
+- Platform Org owns APIs, self-serve developer experience, multi-cloud integrations, agentic infrastructure
+- Define enterprise API strategy; roadmap spanning authentication, rate limiting, compliance, SDKs
+- Have built or shipped products with a hyperscaler as a partner (AWS/GCP/Azure)
+- Have owned a revenue number, margin target, or channel P&L
+- Preferred: 10+ years in high-scale developer-facing software, 5+ years PM, founder/GM experience
+
+**Fit Analysis:**
+✅ **Enterprise API strategy is the core of the role** - 10+ years defining API strategy at Vonage/Ericsson, Twilio (SendGrid), VoiceBase, and Charter; owned auth, rate limiting, and SDK roadmaps across iOS/Android/Web/desktop
+✅ **Exceeds experience bar** - 10+ years developer-facing software and 10+ years PM vs. 10+/5+ preferred
+✅ **Partner-channel platform experience** - Spearheaded CAMARA Number Verification from PoC to commercial product distributed through Ericsson to European mobile network operators; closest analog to shipping through a hyperscaler channel
+✅ **Scale and reliability** - Led Vonage Video API through 10x growth while maintaining platform reliability; 1.5M+ minutes/month platform
+✅ **Hands-on with Anthropic's product** - GitHub portfolio shows active Claude API integration work (GrocerySelector, AlianzaDocs)
+⚠️ **No direct hyperscaler partnership** - Minimum qualification asks for products shipped with AWS/GCP/Azure as partner; MNO and carrier partnerships are the nearest substitute and must be framed explicitly
+⚠️ **Owned P&L is partial** - $3M revenue capture and Yahoo Mail Monetization show revenue impact, but no explicit channel P&L ownership
+⚠️ **San Francisco only, hybrid** - Requires 25%+ in-office from Denver
+
+---
+
+### A2. **Product Manager, Safe Access** 🔥 **FIT SCORE: 85/100**
+**Company:** Anthropic
+**Location:** San Francisco, CA | New York City, NY (hybrid)
+**Compensation:** $305,000 - $385,000 USD base + equity and benefits
+**Posted:** Not shown (open as of October 13, 2026)
+**Link:** [Apply Here](https://job-boards.greenhouse.io/anthropic/jobs/5428898008)
+**Full Description:** [jobs/descriptions/Anthropic-Safe-Access.md](descriptions/Anthropic-Safe-Access.md)
+
+**Key Requirements:**
+- Own strategy and roadmap for Anthropic's centralized identity, verification, and access system (0-to-1 product on the critical path of every model launch)
+- Support API design and UX of access APIs used by platforms, resellers, and internal services
+- Have owned a developer platform, identity, authorization, or access-management product end to end
+- Preferred: 8+ years PM; multi-tenant platforms serving first-party apps, direct API customers, and third parties; zero-to-one
+
+**Fit Analysis:**
+✅ **Identity verification API experience** - Led CAMARA Number Verification API at Vonage/Ericsson from proof of concept to commercial product; this is an identity/verification platform product end to end
+✅ **Credential and access patents** - 2 patents for WiFi credential automation and seamless device onboarding (Aerohive); demonstrates deep access-management product thinking
+✅ **Multi-tenant developer platform** - Vonage Video API served first-party apps, direct API customers, and third-party developers at scale
+✅ **Zero-to-one track record** - Number Verification PoC to commercial; HiveSchool WebRTC product (ISTE Best in Show); early-stage CAMARA initiatives at Charter
+✅ **Cross-org execution** - Coordinated Engineering, Architecture, DevRel, Legal/compliance, and GTM across telecom partners
+⚠️ **No first-party account/auth system ownership at scale** - Auth0 SDK work on GitHub and credential patents are adjacent, but never owned a company-wide login/account system
+⚠️ **Hybrid in SF or NYC** - Requires 25%+ in-office from Denver
+
+---
+
+### A3. **Product Manager, New Markets and Monetization** 🔥 **FIT SCORE: 82/100**
+**Company:** Anthropic (Claude Platform)
+**Location:** San Francisco, CA (hybrid)
+**Compensation:** $305,000 - $385,000 USD base + equity and benefits
+**Posted:** Not shown (open as of October 13, 2026)
+**Link:** [Apply Here](https://job-boards.greenhouse.io/anthropic/jobs/5386182008)
+**Full Description:** [jobs/descriptions/Anthropic-New-Markets-Monetization.md](descriptions/Anthropic-New-Markets-Monetization.md)
+
+**Key Requirements:**
+- Founding PM owning one of: partner/platform billing (metering, attribution for reseller usage), spend observability and controls, one account across API and subscriptions, or a vertical (platform strategy for a specific industry)
+- Have owned a developer platform, API, billing, or self-serve growth product end to end
+- Technically fluent (read API docs, design billing/identity/attribution with engineers); pull your own data with SQL
+- Preferred: 8+ years PM; metering or cloud-marketplace channels; regulated industries; zero-to-one
+
+**Fit Analysis:**
+✅ **Developer platform/API owned end to end** - Vonage Video API, SendGrid Email API, VoiceBase Speech API, Charter network APIs
+✅ **Telecom as a target vertical** - The role's "Verticals" pillar is about finding the next API markets; deep telecom/CPaaS domain expertise plus CAMARA leadership is a ready-made vertical thesis
+✅ **Partner-channel usage and billing** - Currently building telecom billing system at Charter; Number Verification distributed through MNO partners (usage flowing through partners is the role's core billing problem)
+✅ **Technical fluency and SQL** - SQL, Python, TypeScript in skill set; active GitHub; product analytics background
+✅ **Regulated industry and zero-to-one** - Telecom is regulated; multiple PoC-to-commercial launches
+⚠️ **Monetization is a stated development area** - Profile.md flags limited explicit SaaS monetization strategy; Yahoo Mail Monetization and $3M revenue capture need to carry the story
+⚠️ **No cloud-marketplace or usage-metering product shipped** - Preferred qualification, not minimum
+⚠️ **San Francisco only, hybrid**
+
+---
+
+### A4. **Developer Relations** ⭐ **FIT SCORE: 78/100**
+**Company:** Anthropic (Claude Code / Claude Tag)
+**Location:** San Francisco, CA | New York City, NY (hybrid)
+**Compensation:** $290,000 - $435,000 USD base + equity and benefits
+**Posted:** Not shown (open as of October 13, 2026)
+**Link:** [Apply Here](https://job-boards.greenhouse.io/anthropic/jobs/5383596008)
+**Full Description:** [jobs/descriptions/Anthropic-Developer-Relations.md](descriptions/Anthropic-Developer-Relations.md)
+
+**Key Requirements:**
+- Shape how developers discover, onboard, and succeed with Claude Code and Claude Tag; measure developer success; feed roadmap
+- 5+ years in developer relations, developer experience, or technical product/engineering roles
+- Write production-quality code demos; explain AI/ML and API concepts to varied audiences
+- Nice to have: LLM experience, conference speaking, technical writing or video content
+
+**Fit Analysis:**
+✅ **Developer experience track record** - Reduced support tickets 40% through documentation and self-service tooling; built developer portals and consoles at VoiceBase, SendGrid, Vonage
+✅ **Production-quality code and demos** - 28-repo GitHub portfolio including Claude API integrations, iOS WebRTC/CallKit, Auth0 and Twilio SDK work; built product demos and sales enablement at VoiceBase
+✅ **Technical API communication** - Presented API strategy at Ericsson Innovation Days to European MNOs; created developer documentation across four API platforms
+✅ **Active Claude Code user** - Daily use of Claude Code in this and other repositories; credible first-hand perspective on the product
+⚠️ **Role is DevRel, not product management** - A lateral move out of the PM track; conference speaking and public content portfolio are thin
+⚠️ **Hybrid in SF or NYC**
+
+---
+
+### Evaluated and Below Threshold (October 13, 2026)
+
+| Role | Comp | Score | Why it falls short |
+|------|------|-------|--------------------|
+| [Technical Program Manager, API Platform](https://job-boards.greenhouse.io/anthropic/jobs/5256303008) | $290K-$435K | 70 | Requires 7+ years TPM experience; scaling programs for API stack is a strong thematic match (10x growth) but it is a TPM, not PM, track |
+| [Product Manager, Claude](https://job-boards.greenhouse.io/anthropic/jobs/5448167008) | $385K-$460K | 70 | Consumer product taste and experimentation for millions of consumer users; API/B2B background is an industry mismatch |
+| [Product Manager, Research (Code)](https://job-boards.greenhouse.io/anthropic/jobs/5324349008) | $305K-$385K | 68 | Wants AI/ML technical depth, Python/SQL, founder-style launches of new model-driven products; hands-on LLM work helps but no shipped AI product at scale |
+| [Product Manager, Enterprise Privacy](https://job-boards.greenhouse.io/anthropic/jobs/5434369008) | $305K-$385K | 65 | Preferred 8+ years with deep privacy/security/compliance product exposure (audit logging, key management, SOC 2, FedRAMP); not in Profile.md |
+| [Product Manager, Public Sector](https://job-boards.greenhouse.io/anthropic/jobs/5393452008) | $305K-$385K | 65 | Only remote-friendly role; no government or FedRAMP experience; product judgment weighted over domain, so a stretch application is possible |
+| [Product Manager, Billing](https://job-boards.greenhouse.io/anthropic/jobs/5434361008) | $385K-$460K | 60 | Minimum requires 7+ years including self-serve purchase/subscription/billing with owned conversion metrics; Charter billing work is early-stage |
+| [Product Manager, Multi-Cloud Trust & Safety](https://job-boards.greenhouse.io/anthropic/jobs/5409934008) | $305K-$385K | 55 | Trust & safety, fraud, and abuse domain; no overlap in Profile.md |
+
+Also open but not evaluated (no API/platform component): Product Manager roles in Safeguards (Rare Harms, Cyber, Generalist, Account Integrity & Abuse), Cybersecurity, Claude Science, Human Data Platform, Research; Manager, Product Program Management; Product Marketing Manager, Platform.
 
 ---
 
@@ -102,11 +224,12 @@ This document contains active job postings for API Product Manager and Developer
 
 ## Recently Posted & Still Active
 
-### 5. **Product Manager, API** 🔥 **FIT SCORE: 95/100**
+### 5. **Product Manager, API** ❌ **CLOSED** (was FIT SCORE: 95/100)
 **Company:** Anthropic
 **Location:** San Francisco, CA | New York City, NY
 **Compensation:** $305,000 - $385,000 USD + equity and benefits
 **Posted:** September 29, 2025
+**Status:** ❌ Closed as of October 13, 2026 (link redirects to job board). See "Anthropic — Current Openings" above for replacements.
 **Link:** [Apply Here](https://job-boards.greenhouse.io/anthropic/jobs/4936029008)
 
 **Key Highlights:**
