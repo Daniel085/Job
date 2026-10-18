@@ -119,7 +119,7 @@ Technical background in software development since childhood, applied through ha
 - Scope: public APIs, events and webhooks, and the developer portal for Crux (Alianza's communications platform)
 - **Crux API 1.0.0 public release, September 2026** (per developer.alianza.com changelog): OAuth 2.0 with private_key_jwt and zero-downtime key rotation, cursor pagination, RFC 9457 problem details with trace IDs, webhooks with at-least-once delivery, two integration journeys (Post-Call via SIPREC, Virtual Agent via SIP), 10-minute quickstarts to a live INVITE
 - Portal includes operational runbooks most API docs omit: recovering from desynchronization, seed-then-stream user counting, known issues with real failure modes
-- *(Add metrics when available: number of APIs documented, time-to-first-call, support deflection, engineering hours saved)*
+- **developer.alianza.com launched September 9, 2026.** Every paragraph of documentation and every code sample was written by a team of AI agents and reviewed by humans. Saved about **$50K** by using AI to build the software and the content, shipped **6 months faster** than the last developer portal Daniel stood up, and avoided about **$100K** in salary for the tech-writer and QA roles the agents replaced (Daniel's own figures, email to recruiter, September 9, 2026)
 
 ### Revenue Impact
 - Drove **$3M revenue capture** through targeted developer migration strategies in 6 months
@@ -396,6 +396,7 @@ Based on current market analysis and similar roles:
 - **Lower Range ($150K-$180K):** May be below market value (e.g., Lightyear)
 - **Optimal Range ($226K-$385K):** Aligns with experience level (e.g., Plaid, Anthropic, PagerDuty)
 - **Premium Roles:** AI-focused or fintech roles trending higher
+- **Relocation to San Francisco:** Requires roughly $455K+ base to justify (prior SF compensation adjusted for ~30% inflation since 2021 plus 2x housing; Daniel's stated floor, September 2026). Remote roles need a compelling reason to leave the current role, not just parity.
 
 ---
 

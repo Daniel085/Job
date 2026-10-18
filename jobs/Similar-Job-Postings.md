@@ -128,6 +128,60 @@ Also open but not evaluated (no API/platform component): Product Manager roles i
 
 ---
 
+## Clera Recruiter Referrals (Evaluated October 18, 2026)
+
+Source: email thread with Alexander Farr (Clera, alexander.farr@clera-connect.org), September 4-16, 2026. The original pitch, a Senior Agent PM role at Gradient Labs, was ruled out (on-site, forward-deployed scope, no published range). On September 9 he added "6 principal and head-of PM roles" to a Clera dashboard: https://www.getclera.com/match/9h642lnr8byu. His September 16 follow-up ("Any of those roles catching your eye?") is still unanswered. The dashboard now shows three roles and Clera's October 18 weekly email added five more. All eight were read in full. Clera handles applications by intro request rather than a form.
+
+### C1. **Product Manager** ⭐ **FIT SCORE: 80/100**
+**Company:** Opal Security (Series B, Greylock and Battery Ventures, $56.8M raised; AI-native identity and access management)
+**Location:** San Francisco, CA or Remote (US)
+**Compensation:** $180,000 - $250,000 USD + equity
+**Posted:** July 14, 2026 on Clera (96 days old; still served as an active match on October 18, verify with Alexander before applying)
+**Link:** [Clera listing](https://www.getclera.com/jobs/opal-security/product-manager--uzoqzedf8ew1)
+**Full Description:** [jobs/descriptions/Opal-Security-Product-Manager.md](descriptions/Opal-Security-Product-Manager.md)
+
+**Key Requirements:**
+- Own one of two swim lanes: agentic security strategy (how enterprises govern AI agents' access) or building AI-powered agents for customer outcomes
+- Half the time with enterprise customers and GTM, half on requirements, KPIs, and 2-week to 6-month roadmaps
+- 5+ years building and scaling technical B2B products, including 0-to-1 launches and turnarounds
+- Nice to have: identity security, IAM, or adjacent infrastructure and security
+- Explicit path to succeed the CPO
+
+**Fit Analysis:**
+✅ **Identity and access is the product** - Crux access model (OAuth 2.0 scopes, Connection gate, Assignment scope, key rotation), CAMARA Number Verification from PoC to commercial, two credential-management patents; the Safe Access resume already tells this story
+✅ **Agentic access governance maps to current work** - Daily Claude Code use, an LLM-built documentation system in production, MCP server for the Crux API, and published writing on where AI systems should and should not be trusted
+✅ **0-to-1 and turnaround record** - Video Express prototype to GA in under 9 months; Number Verification; developer.alianza.com; SendGrid platform transition
+✅ **Enterprise customer time** - Half the role is customer-facing, which matches the ODI/JTBD discovery practice and partner-integrator interviews at Alianza
+✅ **Remote and succession path** - Remote US is explicit, and "potential successor to the CPO" offsets the title
+⚠️ **Title and compensation are a step down** - "Product Manager" at $180K-$250K tops out at current pay; the CPO succession path is the only reason to engage, so lead with that in the intro
+⚠️ **Posting age** - 96 days exceeds the 60-day inclusion rule; included because the recruiter channel is warm and Clera still matches it
+
+---
+
+### C2. **Technical Product Manager, Atlas** ⚠️ **FIT SCORE: 72/100** (conditional on remote)
+**Company:** Basis (Series B, Accel and Avid Ventures, $100M raised; AI agents for accounting)
+**Location:** New York, NY. Clera lists Remote (US); a mirror listing says 5 days a week in Flatiron. Unresolved.
+**Compensation:** $175,000 - $275,000 USD + equity
+**Posted:** August 5, 2026 on Clera (74 days old)
+**Link:** [Clera listing](https://www.getclera.com/jobs/basis/technical-product-manager-atlas--p1hf1koxn0yb)
+
+**Why it is close:** Atlas is an internal team shipping agent teammates, context architecture, MCPs for internal tools, and evaluation suites. That is the AlianzaDocs and MCP-server work at larger scale, and the "unlimited token budget" culture fits. **Why it falls short:** it is an internal-tooling TPM role rather than an external platform, accounting is an industry mismatch, and if the role is five days in Flatiron it fails the relocation bar. Ask Alexander which it is before spending time.
+
+---
+
+### Evaluated and Below Threshold (Clera, October 18, 2026)
+
+| Role | Comp | Score | Why it falls short |
+|------|------|-------|--------------------|
+| [Chief Product Officer, TitanX](https://www.getclera.com/jobs/titanx/chief-product-officer--ueot72ohgcef) | $260K-$320K + 0.5-0.75% equity, remote US (ET preferred) | 65 | Phone Intent platform is telephony-adjacent and the pay fits, but it requires deep sales-tech/revenue-intelligence domain, $10M-$100M ARR scaling, and building a product org from scratch; no CPO/VP history. Stretch only. |
+| [Product Manager, Traba](https://www.getclera.com/jobs/traba/product-manager--yk0o9en7ssay) | $150K-$250K + equity, remote | 55 | AI Agents track is 0-to-1 and interesting, but it is a labor-marketplace company, a PM-level title reporting to a VP, and the band floor is $150K |
+| [Senior Technical PM, Loancrate](https://www.getclera.com/jobs/loancrate/senior-technical-product-manager--9as6el0ovw54) | $170K-$250K + equity, remote US | 55 | Mortgage loan-origination system, IC role, monthly customer-site travel, no API/platform component; posted April 2026 |
+| [Founding Principal, Solvea](https://www.getclera.com/jobs/solvea/founding-principal--i8p59y7yqh19) | $200K-$250K + equity | 30 | Despite the title it is a deployment-strategist role requiring Bain/McKinsey/BCG due-diligence experience and PE associate background |
+| Transformation Strategist, Duvo AI | £150K-£250K | n/a | UK-based |
+| Head of Growth, Cello | not listed | n/a | Growth role, not product |
+
+---
+
 ## Posted Within Last 90 Days (October 2025 - January 2026)
 
 ### 1. **Senior Product Manager** 🔥 **FIT SCORE: 90/100**
