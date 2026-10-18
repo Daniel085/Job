@@ -9,6 +9,7 @@ Daniel is running a job search from the `Daniel085/Job` repository. The portal a
 ## Where Daniel stands (as of October 18, 2026)
 
 - Principal Product Manager, APIs & Developer Platforms at Alianza, full-time, remote, since January 2026. Owns the developer-facing surface of Crux: public APIs, events and webhooks, developer.alianza.com.
+- Crux, per Alianza's September 9, 2026 press release: the orchestration and intelligence control plane for "Cognitive Communications." It sits in the call path of operators' telephone networks and is the connector through which AI experiences interact with live phone conversations and voice data on existing numbers. It coordinates network infrastructure, AI, applications, identity, consent, and policy around each call. Launch experience providers: SoundHound, Revmo, MiaRec, Dubber. Controlled availability from September 9, 2026; commercial availability planned 1H 2027. Earlier drafts in the job-search session described Crux as "a cloud communications platform carriers resell," which was wrong and has been corrected everywhere.
 - Previously Lead PM at Charter (Apr 2025 to Jan 2026, CAMARA network APIs), Expert PM at Vonage/Ericsson (2020 to 2025, Video API and CAMARA Number Verification), Senior PM at Twilio SendGrid Labs and VoiceBase, PM at Aerohive and Yahoo.
 - Location: Boise metropolitan area. Open to remote and on-site.
 - Target roles: Principal / Senior Staff API and developer-platform PM, $226K to $400K.

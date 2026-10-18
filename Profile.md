@@ -32,7 +32,9 @@ Technical background in software development since childhood, applied through ha
 ## Current Role
 
 **Principal Product Manager** at **Alianza** (January 2026 - Present, Full-time, Remote)
-- Own the developer-facing surface of **Crux**, Alianza's communications platform: public APIs, events and webhooks, and developer.alianza.com
+- Own the developer-facing surface of **Crux**: public APIs, events and webhooks, and developer.alianza.com
+
+**What Crux is (per Alianza's September 9, 2026 press release and product pages):** Crux is Alianza's orchestration and intelligence control plane for "Cognitive Communications." It sits in the call path of operators' telephone networks and is the connector through which AI experiences interact with live phone conversations and voice data on existing phone numbers, without call forwarding or number porting. Around each call it coordinates network infrastructure, AI, applications, identity, consent, and policy: it tags a line as AI-ready, checks whether an experience is attached, applies identity, entitlements, and policy before any AI is invoked, plays and logs a consent announcement in the network, then hands the call to a virtual agent (AI-handled), lets an agent assist a human in real time (AI-assisted), or streams the media to a post-call intelligence partner. Operators keep control of governance, data sovereignty, and the customer relationship; "experience providers" (AI developers such as SoundHound, Revmo, MiaRec, Dubber) integrate once and reach every operator on the platform. Components: Orchestrator (cloud call routing, media aggregation, policy engine), Gateway (signaling and media between operator infrastructure and the Orchestrator), Connector (which directory numbers may subscribe to AI experiences), and Citadel (air-gapped on-premises deployment). Launched in controlled availability on September 9, 2026; broad commercial availability planned for 1H 2027. Alianza serves 1,000+ service providers in 80+ countries.
 - Designed **developer.alianza.com** and operate the AI-built documentation system behind it
 - Documentation system generates reference docs directly from the API's technical definition (docs-as-code); flags gaps in the definition rather than guessing
 - Design and review API proposals across engineering teams; set the API standards they build against
@@ -116,7 +118,7 @@ Technical background in software development since childhood, applied through ha
 - Designed and launched **developer.alianza.com** and the AI-built documentation system behind it
 - Reference documentation generated directly from the API's technical definition; the system states plainly where the definition leaves something unexplained rather than guessing
 - Own API design review and standards across engineering teams
-- Scope: public APIs, events and webhooks, and the developer portal for Crux (Alianza's communications platform)
+- Scope: public APIs, events and webhooks, and the developer portal for Crux, the control plane through which AI experiences get governed access to live phone calls and voice data on operator networks (see Current Role for the full description)
 - **Crux API 1.0.0 public release, September 2026** (per developer.alianza.com changelog): OAuth 2.0 with private_key_jwt and zero-downtime key rotation, cursor pagination, RFC 9457 problem details with trace IDs, webhooks with at-least-once delivery, two integration journeys (Post-Call via SIPREC, Virtual Agent via SIP), 10-minute quickstarts to a live INVITE
 - Portal includes operational runbooks most API docs omit: recovering from desynchronization, seed-then-stream user counting, known issues with real failure modes
 - **developer.alianza.com launched September 9, 2026.** Every paragraph of documentation and every code sample was written by a team of AI agents and reviewed by humans. Saved about **$50K** by using AI to build the software and the content, shipped **6 months faster** than the last developer portal Daniel stood up, and avoided about **$100K** in salary for the tech-writer and QA roles the agents replaced (Daniel's own figures, email to recruiter, September 9, 2026)
@@ -289,7 +291,7 @@ Technical background in software development since childhood, applied through ha
 
 | Years | Company | Title | Focus |
 |-------|---------|-------|-------|
-| Jan 2026-Present | Alianza (Remote, Full-time) | Principal Product Manager | Crux developer surface: public APIs, events/webhooks, developer.alianza.com, AI-built docs, API standards |
+| Jan 2026-Present | Alianza (Remote, Full-time) | Principal Product Manager | Crux (AI-to-telephone-network control plane) developer surface: public APIs, events/webhooks, developer.alianza.com, AI-built docs, API standards |
 | Apr 2025-Jan 2026 | Charter Communications (Denver, Hybrid) | Lead Product Manager | Network APIs, CAMARA, Developer Platform |
 | Mar 2025-Aug 2025 | Ross Stores (Contract, Remote) | Lead Business Analyst | Agile coaching, requirements for custom merchandising/inventory software |
 | May 2024-Jan 2025 | Vonage/Ericsson (Remote) | Expert Product Manager - Ericsson Global Network API Platform | Unified network API platform across hundreds of MNOs; CAMARA Number Verification |
@@ -329,7 +331,7 @@ Technical background in software development since childhood, applied through ha
 
 ### Core Strengths
 1. **Deep Telecom/CPaaS Expertise** - Rare combination of API PM + telecom domain knowledge
-   - Alianza (cloud communications platform for service providers), Charter (ISP network APIs), Vonage (CPaaS), VoiceBase (telephony integrations)
+   - Alianza (Crux, the control plane that gives AI experiences governed access to phone calls on 1,000+ operators' networks), Charter (ISP network APIs), Vonage (CPaaS), VoiceBase (telephony integrations)
    - Early-stage telecom billing system work at Charter
    - Enterprise video API implementations at Vonage
    - Led CPaaS platform evolution and scaling

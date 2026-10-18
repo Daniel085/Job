@@ -79,7 +79,7 @@ Full sweep of anthropic.com/jobs on October 13, 2026. All Anthropic roles are hy
 **Fit Analysis:**
 ✅ **Developer platform/API owned end to end** - Alianza developer platform (developer.alianza.com), Vonage Video API, SendGrid Email API, VoiceBase Speech API, Charter network APIs
 ✅ **Telecom as a target vertical** - The role's "Verticals" pillar is about finding the next API markets; deep telecom/CPaaS domain expertise plus CAMARA leadership is a ready-made vertical thesis
-✅ **Partner-channel usage and billing** - Early-stage telecom billing system work at Charter; Number Verification distributed through MNO partners; Alianza serves communication service providers who resell to their own customers (usage flowing through partners is the role's core billing problem)
+✅ **Partner-channel usage and billing** - Early-stage telecom billing system work at Charter; Number Verification distributed through MNO partners; Crux usage flows from AI experience providers through operators who monetize it by revenue share, referral, or white label (usage flowing through partners is the role's core billing problem)
 ✅ **Technical fluency and SQL** - SQL, Python, TypeScript in skill set; active GitHub; product analytics background
 ✅ **Regulated industry and zero-to-one** - Telecom is regulated; multiple PoC-to-commercial launches
 ⚠️ **Monetization is a stated development area** - Profile.md flags limited explicit SaaS monetization strategy; Yahoo Mail Monetization and $3M revenue capture need to carry the story
