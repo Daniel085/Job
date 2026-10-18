@@ -132,10 +132,11 @@ Also open but not evaluated (no API/platform component): Product Manager roles i
 
 Source: email thread with Alexander Farr (Clera, alexander.farr@clera-connect.org), September 4-16, 2026. The original pitch, a Senior Agent PM role at Gradient Labs, was ruled out (on-site, forward-deployed scope, no published range). On September 9 he added "6 principal and head-of PM roles" to a Clera dashboard: https://www.getclera.com/match/9h642lnr8byu. His September 16 follow-up ("Any of those roles catching your eye?") is still unanswered. The dashboard now shows three roles and Clera's October 18 weekly email added five more. All eight were read in full. Clera handles applications by intro request rather than a form.
 
-### C1. **Product Manager** ⭐ **FIT SCORE: 80/100**
-**Company:** Opal Security (Series B, Greylock and Battery Ventures, $56.8M raised; AI-native identity and access management)
-**Location:** San Francisco, CA or Remote (US)
-**Compensation:** $180,000 - $250,000 USD + equity
+### C1. **Product Manager** ⚠️ **FIT SCORE: 65/100** (revised October 18, 2026, from 80)
+**Company:** Opal Security (Series B, Greylock and Battery Ventures, $59M raised; AI-native identity and access management; new CEO Howard Ting Dec 2025, new CPO Sameer Mehta from Veza Jun 2026)
+**Location:** Clera says San Francisco or Remote (US). **Opal's own posting says hybrid San Francisco, 3 days a week required, hiring manager strongly prefers 5 days initially.** The role is "the CPO's number two." Opal's careers page lists every non-sales role in San Francisco.
+**Compensation:** $180,000 - $250,000 USD + equity (ceiling is at current pay; SF relocation floor in Profile.md is ~$455K)
+**Revision note:** Score lowered 15 points for the in-office requirement from Boise and for the "successor to the CPO" pitch resting on a CPO who arrived four months ago. Company diligence is in [jobs/descriptions/Opal-Security-Product-Manager.md](descriptions/Opal-Security-Product-Manager.md).
 **Posted:** July 14, 2026 on Clera (96 days old; still served as an active match on October 18, verify with Alexander before applying)
 **Link:** [Clera listing](https://www.getclera.com/jobs/opal-security/product-manager--uzoqzedf8ew1)
 **Full Description:** [jobs/descriptions/Opal-Security-Product-Manager.md](descriptions/Opal-Security-Product-Manager.md)
