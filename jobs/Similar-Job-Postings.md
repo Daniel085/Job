@@ -26,7 +26,7 @@ Full sweep of anthropic.com/jobs on October 13, 2026. All Anthropic roles are hy
 - Preferred: 10+ years in high-scale developer-facing software, 5+ years PM, founder/GM experience
 
 **Fit Analysis:**
-✅ **Enterprise API strategy is the core of the role** - 10+ years defining API strategy at Vonage/Ericsson, Twilio (SendGrid), VoiceBase, and Charter; owned auth, rate limiting, and SDK roadmaps across iOS/Android/Web/desktop
+✅ **Enterprise API strategy is the core of the role** - 11 years on API products at Alianza, Charter, Vonage/Ericsson, Twilio (SendGrid), and VoiceBase; currently set API standards and review API proposals across engineering teams at Alianza; owned auth, rate limiting, and SDK roadmaps across iOS/Android/Web/desktop
 ✅ **Exceeds experience bar** - 10+ years developer-facing software and 10+ years PM vs. 10+/5+ preferred
 ✅ **Partner-channel platform experience** - Spearheaded CAMARA Number Verification from PoC to commercial product distributed through Ericsson to European mobile network operators; closest analog to shipping through a hyperscaler channel
 ✅ **Scale and reliability** - Led Vonage Video API through 10x growth while maintaining platform reliability; 1.5M+ minutes/month platform
@@ -55,7 +55,7 @@ Full sweep of anthropic.com/jobs on October 13, 2026. All Anthropic roles are hy
 ✅ **Identity verification API experience** - Led CAMARA Number Verification API at Vonage/Ericsson from proof of concept to commercial product; this is an identity/verification platform product end to end
 ✅ **Credential and access patents** - 2 patents for WiFi credential automation and seamless device onboarding (Aerohive); demonstrates deep access-management product thinking
 ✅ **Multi-tenant developer platform** - Vonage Video API served first-party apps, direct API customers, and third-party developers at scale
-✅ **Zero-to-one track record** - Number Verification PoC to commercial; HiveSchool WebRTC product (ISTE Best in Show); early-stage CAMARA initiatives at Charter
+✅ **Zero-to-one track record** - Number Verification PoC to commercial (united a multi-company team, per Vonage Sr. Director recommendation); Video Express beta in under 3 months, GA in under 9; developer.alianza.com designed and launched; early-stage CAMARA initiatives at Charter
 ✅ **Cross-org execution** - Coordinated Engineering, Architecture, DevRel, Legal/compliance, and GTM across telecom partners
 ⚠️ **No first-party account/auth system ownership at scale** - Auth0 SDK work on GitHub and credential patents are adjacent, but never owned a company-wide login/account system
 ⚠️ **Hybrid in SF or NYC** - Requires 25%+ in-office from Denver
@@ -77,9 +77,9 @@ Full sweep of anthropic.com/jobs on October 13, 2026. All Anthropic roles are hy
 - Preferred: 8+ years PM; metering or cloud-marketplace channels; regulated industries; zero-to-one
 
 **Fit Analysis:**
-✅ **Developer platform/API owned end to end** - Vonage Video API, SendGrid Email API, VoiceBase Speech API, Charter network APIs
+✅ **Developer platform/API owned end to end** - Alianza developer platform (developer.alianza.com), Vonage Video API, SendGrid Email API, VoiceBase Speech API, Charter network APIs
 ✅ **Telecom as a target vertical** - The role's "Verticals" pillar is about finding the next API markets; deep telecom/CPaaS domain expertise plus CAMARA leadership is a ready-made vertical thesis
-✅ **Partner-channel usage and billing** - Currently building telecom billing system at Charter; Number Verification distributed through MNO partners (usage flowing through partners is the role's core billing problem)
+✅ **Partner-channel usage and billing** - Early-stage telecom billing system work at Charter; Number Verification distributed through MNO partners; Alianza serves communication service providers who resell to their own customers (usage flowing through partners is the role's core billing problem)
 ✅ **Technical fluency and SQL** - SQL, Python, TypeScript in skill set; active GitHub; product analytics background
 ✅ **Regulated industry and zero-to-one** - Telecom is regulated; multiple PoC-to-commercial launches
 ⚠️ **Monetization is a stated development area** - Profile.md flags limited explicit SaaS monetization strategy; Yahoo Mail Monetization and $3M revenue capture need to carry the story

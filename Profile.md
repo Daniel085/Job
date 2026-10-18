@@ -1,6 +1,6 @@
 # Daniel O'Rorke - Professional Profile
 
-*Last Updated: January 7, 2026*
+*Last Updated: October 18, 2026 (from LinkedIn data export dated October 18, 2026)*
 
 This document maintains key information about Daniel O'Rorke's professional background, used for evaluating job fit scores and tailoring applications.
 
@@ -12,21 +12,36 @@ This document maintains key information about Daniel O'Rorke's professional back
 - **Phone:** 408-768-4570
 - **LinkedIn:** [linkedin.com/in/danielororke](https://linkedin.com/in/danielororke)
 - **GitHub:** [github.com/Daniel085](https://github.com/Daniel085)
+- **X / Twitter:** [@DanielORorke](https://x.com/DanielORorke)
+- **Portfolio site (designed and operated):** [developer.alianza.com](https://developer.alianza.com)
+
+**LinkedIn Headline:** Principal Product Manager, APIs & Developer Platforms | Designed and operate developer.alianza.com | Formerly Vonage Video API, Twilio/SendGrid, VoiceBase
 
 ---
 
 ## Professional Summary
 
-Principal Product Manager with **10+ years** defining and executing API strategy for communications platforms. Expertise in telecom, CPaaS, and cloud communications—including WebRTC and network APIs. Proven track record building APIs that power end-to-end systems, creating developer documentation and self-service tools, and leading products through periods of explosive growth. Mentored PM teams, built team frameworks and processes, and collaborated across engineering, architecture, and go-to-market to deliver API-driven products used by millions.
+Product leader focused on developer platforms and APIs. **Thirteen years in product management, eleven on API products, most of it 0-to-1:** new channels at Twilio's SendGrid Labs, Vonage's Video API from no product process through 10x growth, CAMARA network APIs at Charter, and now Alianza's developer platform. At VoiceBase, shipped the v3 API, SDKs, and developer console that reduced support tickets 40%, for a product whose entire business depended on integrating with other companies' telephone networks, so knows the partner side of that problem from the inside.
+
+Current work: designed developer.alianza.com and operates the AI-built documentation system behind it. It generates reference documentation directly from the API's technical definition and, where that definition leaves something unexplained, states so plainly rather than guessing. Designs and reviews API proposals across engineering teams and sets the standards they build against.
+
+Technical background in software development since childhood, applied through hands-on prototyping and AI-assisted development rather than professional engineering. Writes on applying AI to product discovery, Outcome-Driven Innovation (ODI), and Jobs-to-be-Done (JTBD).
 
 ---
 
 ## Current Role
 
-**Lead Product Manager** at **Charter Communications** (April 2025 - Present)
-- Building developer platform and programmable network APIs for North America's largest ISP
-- Leading early-stage **CAMARA network API** initiatives
-- Defining API product strategy for network APIs enabling third-party developers
+**Principal Product Manager, APIs & Developer Platforms** at **Alianza** (dates: TBD — confirm start month; LinkedIn industry listed as "IT Services and IT Consulting", confirm whether this is an employee or consulting engagement)
+- Designed **developer.alianza.com** and operate the AI-built documentation system behind it
+- Documentation system generates reference docs directly from the API's technical definition (docs-as-code); flags gaps in the definition rather than guessing
+- Design and review API proposals across engineering teams; set the API standards they build against
+- Related GitHub work: AlianzaDocs (experimental documentation generation using Claude), MCP server for the existing API
+
+**Previous:** **Lead Product Manager** at **Charter Communications** (April 2025 - TBD, confirm end month)
+- Built developer platform and programmable network APIs for North America's largest ISP
+- Led early-stage **CAMARA network API** initiatives
+- Defined API product strategy for network APIs enabling third-party developers
+- Early-stage telecom billing system work
 
 ---
 
@@ -41,11 +56,18 @@ Principal Product Manager with **10+ years** defining and executing API strategy
 - WebRTC Platform Development
 
 ### Developer Experience
-- Developer Documentation & Portals
+- Developer Documentation & Portals (designed and operate developer.alianza.com)
+- Docs-as-Code & AI-Generated API Reference Documentation (generated from the API's technical definition)
+- API Governance: design review of API proposals across engineering teams, API standards
 - Self-Service Tools & Analytics
 - Developer Enablement & Adoption
 - SDK Development (iOS, Android, Web, Windows, Mac, Linux)
 - API-First Design & Evolution
+
+### Product Discovery & Methodology
+- Outcome-Driven Innovation (ODI) and Jobs-to-be-Done (JTBD) — learned at SendGrid Labs with Strategyn; survey design, K-means outcome clustering
+- AI-assisted product discovery (AI agents for interview prep and synthesis; published experiments, 2026)
+- Lean prototyping and clickable mocks for customer validation (Video Express prototype-to-GA in under 9 months)
 
 ### Domain Expertise
 - **Telecom / CPaaS / Cloud Communications** ⭐ (Key Differentiator)
@@ -61,21 +83,35 @@ Principal Product Manager with **10+ years** defining and executing API strategy
 - Product Analytics & Data-Driven Decision Making
 
 ### AI/ML & Emerging Technologies
-- LLM Integration (Claude API, OpenAI API)
-- Prompt Engineering
+- **AI-built documentation system in production** (developer.alianza.com): LLM-generated API reference from technical definitions, with explicit gap reporting
+- LLM Integration (Claude API, Claude Code, OpenAI API)
+- Prompt Engineering (including multi-shot generation and evaluation tactics)
 - On-Device ML (Core ML, Vision Framework)
 - AI-Powered Speech-to-Text (VoiceBase platform)
-- Generative AI Experimentation
+- AI agents for product discovery (interview prep and synthesis)
 
 ---
 
 ## Key Achievements & Metrics
 
 ### Scale & Growth
-- Led product through **10x growth** while maintaining platform reliability
+- Led Vonage Video API through **10x growth in a few months** (2020) while maintaining platform reliability; some customers grew **3,000% in weeks**
 - Platform serving **millions of users**
 - Launched product that grew to **1.5M+ minutes/month** by year two
-- Reduced support tickets **40%** through improved documentation and self-service tooling
+- Reduced support tickets **40%** through the VoiceBase v3 API, SDKs, and developer console
+
+### Video Express (Vonage, 0-to-1)
+- Conceived and led **Video Express**, a simplified multi-party video SDK built on the Vonage Video API when lockdown-era customers moved from 2-4 party calls to 25-100 party meetings
+- Validated with a lean prototype and customer interviews before build; **beta in under 3 months, GA in under 9**
+- Within a year, Video Express ran **10% of the session minutes the entire platform ran in 2019**
+- Delivered automatic layout, automatic bandwidth adaptation, and **sub-300 ms** capture-to-display latency
+- Written up in a two-part "How We Built It" series on LinkedIn (Feb-Mar 2025)
+
+### Developer Platform (Alianza, current)
+- Designed and launched **developer.alianza.com** and the AI-built documentation system behind it
+- Reference documentation generated directly from the API's technical definition; the system states plainly where the definition leaves something unexplained rather than guessing
+- Own API design review and standards across engineering teams
+- *(Add metrics when available: number of APIs documented, time-to-first-call, support deflection, engineering hours saved)*
 
 ### Revenue Impact
 - Drove **$3M revenue capture** through targeted developer migration strategies in 6 months
@@ -88,8 +124,19 @@ Principal Product Manager with **10+ years** defining and executing API strategy
 - **ISTE "Best in Show" Award** (HiveSchool WebRTC product at Aerohive)
 
 ### Innovation
-- **2 Patents** for WiFi credential automation (15/073,593 & 62/350,158)
+- **2 Patents** for WiFi credential automation (15/073,593 & 62/350,158), developed while running Aerohive's API ecosystem and developer platform
 - Presented API strategy at **Ericsson Innovation Days** to European mobile network operators
+- Led Vonage's **advanced authentication offerings** (CAMARA Number Verification) end to end, uniting a multi-company team from concept to market (per recommendation from Vonage's Senior Director of Network Powered APIs)
+
+### Thought Leadership (LinkedIn Articles)
+| Date | Title | Topic |
+|------|-------|-------|
+| May 29, 2026 | Improving Product Discovery - Experiment 1 | AI agents for interview prep and synthesis on an API developer-experience study |
+| May 29, 2026 | Applying AI to Improve Product Discovery (draft) | Using AI for specialized product work, not just code and chores |
+| Dec 8, 2025 | Hazards of Trusting AI Systems (designed to make sh*t up) | Hallucination risk, Claude Code build of dadJokeGenerator |
+| Oct 21, 2025 | Measurement & Action: How ODI and JTBD Allow Data-Driven Innovation Before You Even Prototype | ODI/JTBD methodology from SendGrid Labs |
+| Mar 19, 2025 | How We Built It: Video Express (part 2) | Prototype-driven 0-to-1 build, metrics |
+| Feb 11, 2025 | How I Built It: Video Express | Market shift and the 9-month challenge |
 
 ---
 
@@ -232,14 +279,17 @@ Principal Product Manager with **10+ years** defining and executing API strategy
 
 | Years | Company | Title | Focus |
 |-------|---------|-------|-------|
-| 2025-Present | Charter Communications | Lead Product Manager | Network APIs, CAMARA, Developer Platform |
-| 2020-2025 | Vonage/Ericsson | Expert Product Manager | Video API Platform, CAMARA Number Verification |
-| 2017-2020 | Twilio (SendGrid Labs) | Senior Product Manager | Email API, Multi-Channel Communications |
-| 2017-2018 | VoiceBase | Senior Product Manager | AI Speech-to-Text API, Developer Console |
-| 2015-2017 | Aerohive Networks | Product Manager | Enterprise WiFi APIs, WebRTC Products |
-| 2013-2015 | Yahoo | Product Manager | Mail Monetization |
+| TBD-Present | Alianza | Principal Product Manager, APIs & Developer Platforms | developer.alianza.com, AI-built docs system, API standards |
+| 2025-TBD | Charter Communications | Lead Product Manager | Network APIs, CAMARA, Developer Platform |
+| 2020-2025 | Vonage/Ericsson | Expert Product Manager | Video API Platform, Video Express, CAMARA Number Verification |
+| 2017-2020 | Twilio (SendGrid Labs) | Senior Product Manager | Email API, Multi-Channel Communications, ODI/JTBD discovery |
+| 2017-2018 | VoiceBase | Senior Product Manager | AI Speech-to-Text v3 API, SDKs, Developer Console |
+| 2015-2017 | Aerohive Networks | Product Manager | API Platform & Developer Ecosystem, WebRTC Products, Patents |
+| 2013-2015 | Yahoo | Product Manager | Mail Monetization (ad targeting), Agile adoption |
 
-**Total PM Experience:** 10+ years (2013 - Present)
+**Total PM Experience:** 13 years (2013 - Present), 11 on API products (per LinkedIn summary)
+
+**Pre-PM background (from LinkedIn recommendations):** Yahoo Ads team (prior to Mail Monetization); Marketing Data Analyst at Petco supporting the P&G partnership (~2009-2011), analytics and reporting; technical support roles.
 
 ---
 
@@ -264,18 +314,21 @@ Principal Product Manager with **10+ years** defining and executing API strategy
 
 ### Core Strengths
 1. **Deep Telecom/CPaaS Expertise** - Rare combination of API PM + telecom domain knowledge
-   - Currently building telecom billing system at Charter (early-stage experience)
+   - Alianza (cloud communications platform for service providers), Charter (ISP network APIs), Vonage (CPaaS), VoiceBase (telephony integrations)
+   - Early-stage telecom billing system work at Charter
    - Enterprise video API implementations at Vonage
    - Led CPaaS platform evolution and scaling
-2. **CAMARA Network API Experience** - Currently leading early-stage initiatives at Charter; spearheaded Number Verification API at Ericsson
-3. **Product Vision & Platform Evolution** - Track record transforming products:
-   - Evolved SendGrid from Communications API to multichannel platform
-   - Pivoted Vonage Video to simpler APIs during 10x growth
+2. **CAMARA Network API Experience** - Led early-stage initiatives at Charter; spearheaded Number Verification API at Ericsson
+3. **0-to-1 Track Record** - Most of 11 years of API product work has been 0-to-1:
+   - Video Express at Vonage: prototype to GA in under 9 months, 10% of 2019 platform minutes within a year
+   - developer.alianza.com and its AI-built documentation system
    - Transformed Number Verification from PoC to commercial product
-4. **Developer Empathy** - Demonstrated through 40% support ticket reduction and self-service tools
-5. **Hands-On Technical Background** - Active GitHub portfolio shows current technical engagement
-6. **Scale Experience** - Led products serving millions through 10x growth
-7. **Cross-Functional Leadership** - Mentored PM team, built team processes, and coordinated across Engineering, Architecture, DevRel, GTM
+   - Evolved SendGrid from Communications API to multichannel platform
+4. **Developer Empathy** - 40% support ticket reduction (VoiceBase v3 API, SDKs, console); self-service tools; docs-as-code at Alianza
+5. **Rigorous Product Discovery** - ODI/JTBD practitioner since SendGrid Labs; now applying AI agents to discovery prep and synthesis; publishes on the method
+6. **Hands-On Technical Background** - Active GitHub portfolio; operates a production AI documentation system; software development since childhood
+7. **Scale Experience** - Led products serving millions through 10x growth
+8. **Cross-Functional Leadership** - Mentored PM team, built team processes, united multi-company teams (Vonage authentication offerings), coordinated across Engineering, Architecture, DevRel, GTM
 
 ### Competitive Advantages
 - **Twilio Alumni** - Cultural fit and company knowledge for Twilio roles
@@ -300,11 +353,11 @@ Principal Product Manager with **10+ years** defining and executing API strategy
 
 ### Product-Led Growth (PLG)
 - Developer-focused products built, but explicit PLG methodology not highlighted
-- Self-service tools and developer console work could be reframed as PLG
+- Self-service tools, developer console, and developer.alianza.com can be framed as PLG; 2026 articles already discuss PLG adoption
 
 ### Generative AI at Scale
-- Hands-on LLM integration experience, but haven't shipped generative AI products at enterprise scale
-- GitHub work demonstrates capability; could be positioned as growth area
+- Now operates an AI-built documentation system in production at Alianza (closes the earlier "nothing shipped" gap)
+- Still no consumer-scale generative AI product shipped; position Alianza docs system plus GitHub work as the proof point
 
 ### Design Tools & UX Collaboration
 - **UX collaboration experience** - Worked with design teams at Yahoo, Aerohive, and Vonage
@@ -373,12 +426,20 @@ Based on current role and job search:
 ## Interview Talking Points
 
 ### Top Stories to Highlight
-1. **10x Growth Story** - Led video platform through explosive growth while maintaining reliability
-2. **Developer Experience Impact** - Reduced support tickets 40% through documentation and tooling
-3. **$3M Revenue Capture** - Strategic developer migration in 6 months
-4. **CAMARA Leadership** - Leading network API initiatives at Charter; Number Verification at Ericsson
-5. **Cross-Functional Leadership** - Mentored and onboarded team of 5 PMs, established team frameworks and ways of working, coordinated across Engineering/Architecture/DevRel/GTM
-6. **Technical Depth** - Active GitHub portfolio, patents, hands-on with LLMs
+1. **Video Express (0-to-1)** - Spotted the shift from 2-4 party calls to 25-100 party meetings, validated with a prototype, shipped beta in under 3 months and GA in under 9; 10% of 2019 platform minutes within a year
+2. **10x Growth Story** - Led video platform through explosive growth while maintaining reliability
+3. **AI-Built Developer Portal** - Designed developer.alianza.com; docs generated from the API definition with honest gap reporting; owns API standards and design review
+4. **Developer Experience Impact** - Reduced support tickets 40% through the VoiceBase v3 API, SDKs, and console
+5. **$3M Revenue Capture** - Strategic developer migration in 6 months
+6. **CAMARA Leadership** - Network API initiatives at Charter; Number Verification at Ericsson, uniting a multi-company team from concept to market
+7. **Cross-Functional Leadership** - Mentored and onboarded team of 5 PMs, established team frameworks and ways of working, coordinated across Engineering/Architecture/DevRel/GTM
+8. **Technical Depth** - Active GitHub portfolio, patents, production AI system, hands-on with LLMs
+9. **Discovery Rigor** - ODI/JTBD practitioner; published experiments applying AI agents to discovery
+
+### Recommendations on LinkedIn (useful quotes)
+- **Christopher Chrcek, Senior Director of Network Powered APIs and Solutions, Vonage (Feb 2025):** "As the end-to-end Expert Product Manager for our advanced authentication offerings, Daniel united a diverse, multi-company team, guiding them from initial concepts to impactful market realities."
+- **John Hanay, Director PLM Cloud Services, Aerohive/Ruckus (Nov 2017):** "Daniel became the PM for the Aerohive API platform and Developer ecosystem... a unique ability to paint a clear vision of the long-term results without getting distracted by day to day noise."
+- **Lin Ma, Senior Staff Software Engineer, Google (formerly Yahoo, 2015):** "result driven and know[s] engineering details and it is why engineering team like him."
 
 ### Addressing Gaps
 - **AI Products at Scale:** Emphasize VoiceBase platform + active GitHub experimentation; position as growth opportunity
@@ -405,7 +466,8 @@ When evaluating new roles, consider:
 - API/Developer Platform focus
 - Telecom/Communications domain
 - WebRTC or video platform
-- Developer experience/documentation emphasis
+- Developer experience/documentation emphasis (docs-as-code, developer portals, AI-generated docs)
+- 0-to-1 platform products
 - Network APIs or CAMARA mentioned
 - Compensation $226K+
 
