@@ -1,6 +1,6 @@
 # Daniel O'Rorke - Professional Profile
 
-*Last Updated: October 18, 2026 (from LinkedIn data export dated October 18, 2026)*
+*Last Updated: October 18, 2026 (from LinkedIn data export and profile PDF dated October 18, 2026)*
 
 This document maintains key information about Daniel O'Rorke's professional background, used for evaluating job fit scores and tailoring applications.
 
@@ -31,17 +31,21 @@ Technical background in software development since childhood, applied through ha
 
 ## Current Role
 
-**Principal Product Manager, APIs & Developer Platforms** at **Alianza** (dates: TBD — confirm start month; LinkedIn industry listed as "IT Services and IT Consulting", confirm whether this is an employee or consulting engagement)
+**Principal Product Manager** at **Alianza** (January 2026 - Present, Full-time, Remote)
+- Own the developer-facing surface of **Crux**, Alianza's communications platform: public APIs, events and webhooks, and developer.alianza.com
 - Designed **developer.alianza.com** and operate the AI-built documentation system behind it
 - Documentation system generates reference docs directly from the API's technical definition (docs-as-code); flags gaps in the definition rather than guessing
 - Design and review API proposals across engineering teams; set the API standards they build against
 - Related GitHub work: AlianzaDocs (experimental documentation generation using Claude), MCP server for the existing API
 
-**Previous:** **Lead Product Manager** at **Charter Communications** (April 2025 - TBD, confirm end month)
-- Built developer platform and programmable network APIs for North America's largest ISP
-- Led early-stage **CAMARA network API** initiatives
+**Previous:** **Lead Product Manager** at **Charter Communications** (April 2025 - January 2026, Full-time, Denver CO, Hybrid)
+- Built the developer platform and programmable network APIs for North America's largest ISP by subscribers
+- Led early-stage **CAMARA network API** initiatives ("CAMARA & more, for everything else")
 - Defined API product strategy for network APIs enabling third-party developers
 - Early-stage telecom billing system work
+
+**Concurrent contract:** **Lead Business Analyst** at **Ross Stores, Inc.** (March 2025 - August 2025, Contract, Remote)
+- Coached Agile practices and defined requirements for fully-custom merchandising and inventory management software
 
 ---
 
@@ -95,7 +99,8 @@ Technical background in software development since childhood, applied through ha
 ## Key Achievements & Metrics
 
 ### Scale & Growth
-- Led Vonage Video API through **10x growth in a few months** (2020) while maintaining platform reliability; some customers grew **3,000% in weeks**
+- Lead PM hired to oversee Vonage's WebRTC video offering through **650% telehealth growth in the first 6 weeks of the pandemic** and **850% overall growth for 2020**; platform saw **10x growth in a few months** while maintaining reliability; some customers grew **3,000% in weeks**
+- Responsible for realtime video client software across **8 platforms** (Vonage, 2022-2024)
 - Platform serving **millions of users**
 - Launched product that grew to **1.5M+ minutes/month** by year two
 - Reduced support tickets **40%** through the VoiceBase v3 API, SDKs, and developer console
@@ -111,6 +116,7 @@ Technical background in software development since childhood, applied through ha
 - Designed and launched **developer.alianza.com** and the AI-built documentation system behind it
 - Reference documentation generated directly from the API's technical definition; the system states plainly where the definition leaves something unexplained rather than guessing
 - Own API design review and standards across engineering teams
+- Scope: public APIs, events and webhooks, and the developer portal for Crux (Alianza's communications platform)
 - *(Add metrics when available: number of APIs documented, time-to-first-call, support deflection, engineering hours saved)*
 
 ### Revenue Impact
@@ -127,6 +133,8 @@ Technical background in software development since childhood, applied through ha
 - **2 Patents** for WiFi credential automation (15/073,593 & 62/350,158), developed while running Aerohive's API ecosystem and developer platform
 - Presented API strategy at **Ericsson Innovation Days** to European mobile network operators
 - Led Vonage's **advanced authentication offerings** (CAMARA Number Verification) end to end, uniting a multi-company team from concept to market (per recommendation from Vonage's Senior Director of Network Powered APIs)
+- On the team building Ericsson's **single unified Global Network API Platform** to interact with hundreds of mobile network operators globally (2024-2025)
+- Directed SendGrid's transition from email API to a multi-channel communications platform, including **M&A proposals** (Twilio, 2018-2020)
 
 ### Thought Leadership (LinkedIn Articles)
 | Date | Title | Topic |
@@ -279,15 +287,20 @@ Technical background in software development since childhood, applied through ha
 
 | Years | Company | Title | Focus |
 |-------|---------|-------|-------|
-| TBD-Present | Alianza | Principal Product Manager, APIs & Developer Platforms | developer.alianza.com, AI-built docs system, API standards |
-| 2025-TBD | Charter Communications | Lead Product Manager | Network APIs, CAMARA, Developer Platform |
-| 2020-2025 | Vonage/Ericsson | Expert Product Manager | Video API Platform, Video Express, CAMARA Number Verification |
-| 2017-2020 | Twilio (SendGrid Labs) | Senior Product Manager | Email API, Multi-Channel Communications, ODI/JTBD discovery |
+| Jan 2026-Present | Alianza (Remote, Full-time) | Principal Product Manager | Crux developer surface: public APIs, events/webhooks, developer.alianza.com, AI-built docs, API standards |
+| Apr 2025-Jan 2026 | Charter Communications (Denver, Hybrid) | Lead Product Manager | Network APIs, CAMARA, Developer Platform |
+| Mar 2025-Aug 2025 | Ross Stores (Contract, Remote) | Lead Business Analyst | Agile coaching, requirements for custom merchandising/inventory software |
+| May 2024-Jan 2025 | Vonage/Ericsson (Remote) | Expert Product Manager - Ericsson Global Network API Platform | Unified network API platform across hundreds of MNOs; CAMARA Number Verification |
+| Aug 2022-May 2024 | Vonage (Remote) | Expert Product Manager - TokBox Video API Platform | Realtime video clients across 8 platforms, AI features; Key Talent award |
+| Apr 2020-Aug 2022 | Vonage (San Francisco, Hybrid) | Senior Product Manager - TokBox Video API Platform | Lead PM through 650%/850% pandemic growth; Video Express |
+| Aug 2018-Jan 2020 | Twilio (SendGrid Labs, SF Bay Area, On-site) | Senior Product Manager | Email API to multi-channel platform, M&A proposals, ODI/JTBD discovery |
 | 2017-2018 | VoiceBase | Senior Product Manager | AI Speech-to-Text v3 API, SDKs, Developer Console |
 | 2015-2017 | Aerohive Networks | Product Manager | API Platform & Developer Ecosystem, WebRTC Products, Patents |
 | 2013-2015 | Yahoo | Product Manager | Mail Monetization (ad targeting), Agile adoption |
 
 **Total PM Experience:** 13 years (2013 - Present), 11 on API products (per LinkedIn summary)
+
+*Dates from Aug 2018 onward are from the LinkedIn profile PDF (October 18, 2026). VoiceBase, Aerohive, and Yahoo dates are from the earlier resume and were not visible in that PDF.*
 
 **Pre-PM background (from LinkedIn recommendations):** Yahoo Ads team (prior to Mail Monetization); Marketing Data Analyst at Petco supporting the P&G partnership (~2009-2011), analytics and reporting; technical support roles.
 
@@ -389,7 +402,7 @@ Based on current market analysis and similar roles:
 Based on LinkedIn "Open to work" settings (October 2026, visible to recruiters only):
 - **Current Location:** Boise Metropolitan Area, Idaho (previously Denver, CO during the Charter role)
 - **Open to:** Remote, On-site (Boise area); hybrid roles in San Francisco, New York, Seattle require relocation or heavy travel
-- **Experience with Remote:** Vonage/Ericsson (fully remote 2020-2025)
+- **Experience with Remote:** Alianza (fully remote, 2026-present), Vonage/Ericsson (fully remote 2022-2025)
 
 ---
 
