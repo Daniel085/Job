@@ -39,8 +39,16 @@ Crux is Alianza's orchestration and intelligence control plane that sits in the 
 
 - Framing: Connected Communications (connect calls) to Cloud Communications (deliver services) to Cognitive Communications (understand and act on conversations). Closes the "Telecom Intelligence Gap."
 - Controlled availability: September 9, 2026. Commercial availability: planned first half of 2027.
+- The press release lists two resources: the Alianza Crux Overview and the Alianza Developer Portal (developer.alianza.com). The portal is part of the launch announcement.
+- Press-release language on the developer side: "a single, secure API to access trillions of conversations around the world"; MiaRec: "we integrate once and reach the customers of every service provider on the platform."
 - Alianza: 1,000+ service providers in 80+ countries. CEO Brian Beutler; Chief Product and Technology Officer Dag Peak.
 - Study cited: HyperFRAME Research with Alianza found nearly 44% of operators losing subscribers to AI-enabled rivals.
+
+## Skribby acquisition (September 10, 2026)
+
+Alianza acquired Skribby, a Belgian API-first meeting-infrastructure startup founded May 2025, to extend Crux into meeting platforms. Skribby deploys meeting bots to Zoom, Microsoft Teams, and Google Meet through one integration, captures audio and video, and provides real-time and post-call transcription across 13 providers, 30+ models, and 130+ languages. Alianza cited 327% monthly revenue growth since January 2026 and 200+ experience providers, 120 of them onboarded in the prior three months. Founder Pieter Jan Pollie joins Alianza. Integration expected Q1 2027, ahead of Crux commercial availability in H1 2027. The stated outcome is one API that gives developers access to both operator-network and meeting-platform conversations, with model selection by jurisdiction for data sovereignty. Alianza's second 2026 acquisition after BroadSource (March). Source: https://www.alianza.com/whats-new/alianza-aquires-skribby/
+
+Daniel's September 2026 artifacts ("Unified Developer Portal: Crux + Skribby", "Portal Platform Evaluation: Kong, Redocly, Mintlify vs Docs-as-Code") are the portal-side work on this integration.
 
 ## How this maps to the developer portal
 
