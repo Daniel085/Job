@@ -386,9 +386,9 @@ Based on current market analysis and similar roles:
 
 ## Location Preferences
 
-Based on current role and job search:
-- **Current Location:** Denver, CO (Charter - Hybrid)
-- **Open to:** Remote, San Francisco, New York, Seattle
+Based on LinkedIn "Open to work" settings (October 2026, visible to recruiters only):
+- **Current Location:** Boise Metropolitan Area, Idaho (previously Denver, CO during the Charter role)
+- **Open to:** Remote, On-site (Boise area); hybrid roles in San Francisco, New York, Seattle require relocation or heavy travel
 - **Experience with Remote:** Vonage/Ericsson (fully remote 2020-2025)
 
 ---

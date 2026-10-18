@@ -33,7 +33,7 @@ Full sweep of anthropic.com/jobs on October 13, 2026. All Anthropic roles are hy
 ✅ **Hands-on with Anthropic's product** - GitHub portfolio shows active Claude API integration work (GrocerySelector, AlianzaDocs)
 ⚠️ **No direct hyperscaler partnership** - Minimum qualification asks for products shipped with AWS/GCP/Azure as partner; MNO and carrier partnerships are the nearest substitute and must be framed explicitly
 ⚠️ **Owned P&L is partial** - $3M revenue capture and Yahoo Mail Monetization show revenue impact, but no explicit channel P&L ownership
-⚠️ **San Francisco only, hybrid** - Requires 25%+ in-office from Denver
+⚠️ **San Francisco only, hybrid** - Requires 25%+ in-office; relocation or regular travel from Boise
 
 ---
 
@@ -58,7 +58,7 @@ Full sweep of anthropic.com/jobs on October 13, 2026. All Anthropic roles are hy
 ✅ **Zero-to-one track record** - Number Verification PoC to commercial (united a multi-company team, per Vonage Sr. Director recommendation); Video Express beta in under 3 months, GA in under 9; developer.alianza.com designed and launched; early-stage CAMARA initiatives at Charter
 ✅ **Cross-org execution** - Coordinated Engineering, Architecture, DevRel, Legal/compliance, and GTM across telecom partners
 ⚠️ **No first-party account/auth system ownership at scale** - Auth0 SDK work on GitHub and credential patents are adjacent, but never owned a company-wide login/account system
-⚠️ **Hybrid in SF or NYC** - Requires 25%+ in-office from Denver
+⚠️ **Hybrid in SF or NYC** - Requires 25%+ in-office; relocation or regular travel from Boise
 
 ---
 
