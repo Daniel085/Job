@@ -183,6 +183,60 @@ Source: email thread with Alexander Farr (Clera, alexander.farr@clera-connect.or
 
 ---
 
+## Inbound Recruiter Pitches, August-October 2026 (Evaluated October 18, 2026)
+
+Source: Gmail. Four agencies pitched roles in the last two months: Sidebar Talent (Mercury), BreakLine (Code Metal), American IT Systems (FullEnrich), and Twill (Chromatic, declined August 10 on compensation). The roles pitched were checked against the companies' own job boards; where the pitched role had closed, the nearest open role was evaluated instead.
+
+### R1. **Head of Product, Interfaces** ⭐ **FIT SCORE: 76/100**
+**Company:** Mercury (Series D, $5.2B valuation May 2026 led by TCV; ~$650M annualized revenue; profitable 3+ years; 300K+ customers; national bank charter application pending)
+**Location:** San Francisco, New York, Portland, or Remote within US or Canada
+**Compensation:** $289,700 - $362,100 USD base + equity (US, any location)
+**Posted:** Marked "New" on October 18, 2026
+**Link:** [Apply Here](https://job-boards.greenhouse.io/mercury/jobs/6213000004)
+**Full Description:** [jobs/descriptions/Mercury-Head-of-Product-Interfaces.md](descriptions/Mercury-Head-of-Product-Interfaces.md)
+**How it surfaced:** Lexy Franklin (Sidebar Talent) pitched the Staff PM, API & Agentic Banking role on August 25-31 at $239K-$298.8K. That role, and a Senior-level repost of it, are now closed. Interfaces is the open role that owns the same surface.
+
+**Key Requirements:**
+- Set product direction across Dashboard, Mobile, Command (Mercury's AI surface), the API, and MCP; own shared foundations for navigation, tasks, notifications, and agent interactions
+- Lead and develop the PM team; reports to the VP of Product
+- 10+ years of product management including 5+ years leading PMs
+- Hands-on AI product experience, including how it was evaluated, where it failed, and what changed
+- Design for customer control over consequential actions, permissions, and visibility
+
+**Fit Analysis:**
+✅ **API and MCP are in scope** - Shipped the Crux API 1.0.0 and built an MCP server for it; Mercury's own API has an MCP server in beta and a 20-plus-resource reference, so this is a platform to grow, not start
+✅ **Hands-on AI with evaluation** - Operates an LLM-built documentation system in production that reports its own gaps; published on where AI systems fail and how to evaluate them; AI-agent discovery experiments
+✅ **Agent interactions and consequential actions** - Crux applies identity, consent, and policy before an AI acts on a phone call; the posting's "customer control over consequential actions" is the same problem in banking
+✅ **13 years PM, multi-surface SDK ownership** - Client SDKs across 8 platforms at Vonage; Video Express shipped across web and native
+✅ **Remote at Principal-plus compensation** - $290K-$362K base, remote US, clears every bar in Profile.md
+⚠️ **5+ years leading PMs is a formal gap** - Profile.md records mentoring and onboarding a team of 5 PMs and building team process at Vonage, not line management; this must be addressed honestly in the cover letter
+⚠️ **Dashboard and Mobile are consumer-grade surfaces** - Most of the record is developer-facing; the strongest consumer-adjacent work is Video Express and Yahoo Mail
+⚠️ **Fintech is new** - No banking or payments domain experience beyond Charter's early billing work
+
+---
+
+### R2. **Senior Product Manager, Users** ⚠️ **FIT SCORE: 70/100**
+**Company:** Mercury
+**Location:** Remote within US or Canada
+**Compensation:** $200,700 - $250,900 USD base + equity
+**Link:** [Apply Here](https://job-boards.greenhouse.io/mercury/jobs/6148371004)
+
+**Why it is close:** The Users team owns roles, permissions, invitations, and the authorization layer every other Mercury team builds on, with an explicit "what gets harder when the actor isn't a person" question about agents. That is the Safe Access story. **Why it falls short:** Senior title, band tops out at current pay, and 7+ years asked where 13 are offered. Worth mentioning in a Mercury conversation as the adjacent team, not as the application.
+
+**Also at Mercury:** an [Open Call for Founders / Founding Teams in Product Management](https://job-boards.greenhouse.io/mercury/jobs/6107075004) covering Command, CLI, and MCP, with no fixed level. A plausible side door if Interfaces turns on the people-management requirement.
+
+---
+
+### Evaluated and Below Threshold (Inbound, October 18, 2026)
+
+| Role | Comp | Score | Why it falls short |
+|------|------|-------|--------------------|
+| [Senior PM, Code Translation & Developer Tooling, Code Metal](https://jobs.ashbyhq.com/code-metal/6d0b5b63-9fd0-4656-8b27-5b018913bf33) | $180K-$220K + equity, remote | 60 | Strong company ($125M Series B Feb 2026 led by Salesforce Ventures, ~$1.25B valuation, USAF/L3Harris/RTX/Toshiba customers, ex-Tableau CEO as President) and a real developer-tools PM role, but Senior level with a ceiling below current pay, compilers/embedded/defense domain, US citizenship for some assignments. Posted Sept 28, 2026. |
+| PM, Waterfall-as-a-Service, FullEnrich (via American IT Systems) | $155K-$193K base, hybrid SF 3-4 days | 45 | Fails location and compensation outright. Recruiter claims $16M ARR; public record shows a $2M seed in Feb 2025 and seven-figure ARR. |
+| Chromatic (via Twill) | not retained | n/a | Declined August 10, 2026 on compensation bands. |
+
+---
+
 ## Posted Within Last 90 Days (October 2025 - January 2026)
 
 ### 1. **Senior Product Manager** 🔥 **FIT SCORE: 90/100**
