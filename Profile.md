@@ -117,6 +117,8 @@ Technical background in software development since childhood, applied through ha
 - Reference documentation generated directly from the API's technical definition; the system states plainly where the definition leaves something unexplained rather than guessing
 - Own API design review and standards across engineering teams
 - Scope: public APIs, events and webhooks, and the developer portal for Crux (Alianza's communications platform)
+- **Crux API 1.0.0 public release, September 2026** (per developer.alianza.com changelog): OAuth 2.0 with private_key_jwt and zero-downtime key rotation, cursor pagination, RFC 9457 problem details with trace IDs, webhooks with at-least-once delivery, two integration journeys (Post-Call via SIPREC, Virtual Agent via SIP), 10-minute quickstarts to a live INVITE
+- Portal includes operational runbooks most API docs omit: recovering from desynchronization, seed-then-stream user counting, known issues with real failure modes
 - *(Add metrics when available: number of APIs documented, time-to-first-call, support deflection, engineering hours saved)*
 
 ### Revenue Impact
