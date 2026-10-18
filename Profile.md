@@ -1,6 +1,6 @@
 # Daniel O'Rorke - Professional Profile
 
-*Last Updated: January 7, 2026*
+*Last Updated: June 8, 2026*
 
 This document maintains key information about Daniel O'Rorke's professional background, used for evaluating job fit scores and tailoring applications.
 
@@ -23,10 +23,11 @@ Principal Product Manager with **10+ years** defining and executing API strategy
 
 ## Current Role
 
-**Lead Product Manager** at **Charter Communications** (April 2025 - Present)
-- Building developer platform and programmable network APIs for North America's largest ISP
-- Leading early-stage **CAMARA network API** initiatives
-- Defining API product strategy for network APIs enabling third-party developers
+**Principal Product Manager** at **Alianza** (February 2026 - Present)
+- Defining strategy for API & developer platform connecting **AI to voice networks**
+- Building developer portal, REST APIs, SDKs, and developer program from the ground up
+- Focused on CPaaS / VOIP / cloud communications APIs for service provider customers
+- Driving API lifecycle (versioning, deprecation, EOL), gateway architecture, and developer ecosystem growth
 
 ---
 
@@ -132,7 +133,10 @@ Principal Product Manager with **10+ years** defining and executing API strategy
 ### AI & Machine Learning Projects
 
 #### Production & Experimentation
-- **GrocerySelector** (TypeScript, Nov 2025) - End-to-end automation from AI meal plans to populated Walmart shopping cart using Claude/OpenAI APIs; demonstrates practical LLM integration and API orchestration
+- **Docs-as-Code** (2026) - Multi-agent OpenAPI-to-developer-portal pipeline leveraging Claude; **12 agents across 5 event-triggered loops** optimized for incremental spec changes (~$0.65 cold run, ~$1.50 per change). Production-grade multi-agent orchestration directly applicable to API/developer-platform PM work
+- **SocialMediaManager** (2026) - Human-in-the-loop content review CLI with Flask UI using **Claude Sonnet 4.6** for drafting; demonstrates HITL workflow design
+- **Family Meal Planner** (2026) - Next.js 15 app with **pluggable LLM abstraction** (Claude/OpenAI) and Puppeteer-driven Walmart automation; demonstrates provider-agnostic LLM architecture
+- **GrocerySelector** (TypeScript, updated 2026) - In-browser AI app using **Phi-3 and SDXL-Turbo via WebGPU** (no server required); demonstrates edge AI and on-device inference
 - **new-project** (TypeScript, Oct 2025) - "First Attempt w Claude 4.5 Sonnet" - early exploration of Anthropic's latest model capabilities
 - **Hearth** (Nov 2025) - Privacy-focused relationship-building assistant using on-device Core ML; demonstrates understanding of AI privacy concerns and edge computing
 - **AlianzaDocs** (Shell, Jan 2026) - Experimental documentation generation using Claude AI; shows active AI integration work
@@ -143,7 +147,7 @@ Principal Product Manager with **10+ years** defining and executing API strategy
 ### Communications & WebRTC Platforms
 
 #### WebRTC Implementation
-- **iOS-WebRTC-Demo** (JavaScript, Nov 2025) - Native iOS CallKit integration with WebRTC peer-to-peer calls and VoIP push notifications; demonstrates deep understanding of iOS communications stack
+- **iOS-WebRTC-Demo** (JavaScript, updated 2026) - **Production-grade native iOS dialer** with CallKit, VoIP push notifications, and **full backend (signaling server, TURN/STUN, PostgreSQL)**; demonstrates end-to-end voice-platform engineering from iOS client through backend infrastructure
 - **MixedReality-WebRTC** (C#, forked from Microsoft) - Real-time communication for HoloLens and mixed reality applications; shows cross-platform thinking
 - **twilio-video-app-react** (TypeScript, Apache 2.0) - Collaboration app built on Twilio Video SDK; relevant to past Twilio experience
 - **opentok-layout-js** (JavaScript, MIT) - Automatic publisher/subscriber layout management for video conferencing
@@ -199,9 +203,8 @@ Principal Product Manager with **10+ years** defining and executing API strategy
 ### Activity Timeline Evolution
 - **2015-2020:** Focus on communication infrastructure, WebRTC, authentication, IoT
 - **2021-2024:** Platform work, video conferencing, developer tools
-- **2025-2026:** Sharp increase in AI/LLM integration, automation, developer experience
-  - 8 repositories updated/created Nov 2025 - Jan 2026
-  - Clear strategic shift toward AI-enhanced products
+- **2025-2026:** Sharp increase in AI/LLM integration, multi-agent systems (Docs-as-Code), edge AI (Phi-3/SDXL via WebGPU), full-stack voice infrastructure (iOS-WebRTC-Demo backend)
+  - Clear strategic shift toward AI-native and agentic product development
 
 ---
 
@@ -232,7 +235,8 @@ Principal Product Manager with **10+ years** defining and executing API strategy
 
 | Years | Company | Title | Focus |
 |-------|---------|-------|-------|
-| 2025-Present | Charter Communications | Lead Product Manager | Network APIs, CAMARA, Developer Platform |
+| 2026-Present | Alianza | Principal Product Manager | API & Developer Platform, AI ↔ Voice Networks |
+| 2025-2026 | Charter Communications | Lead Product Manager | Network APIs, CAMARA, Developer Platform |
 | 2020-2025 | Vonage/Ericsson | Expert Product Manager | Video API Platform, CAMARA Number Verification |
 | 2017-2020 | Twilio (SendGrid Labs) | Senior Product Manager | Email API, Multi-Channel Communications |
 | 2017-2018 | VoiceBase | Senior Product Manager | AI Speech-to-Text API, Developer Console |
@@ -264,10 +268,11 @@ Principal Product Manager with **10+ years** defining and executing API strategy
 
 ### Core Strengths
 1. **Deep Telecom/CPaaS Expertise** - Rare combination of API PM + telecom domain knowledge
-   - Currently building telecom billing system at Charter (early-stage experience)
+   - Currently building API & developer platform for AI-to-voice integration at Alianza
+   - Built telecom billing system at Charter (early-stage experience)
    - Enterprise video API implementations at Vonage
    - Led CPaaS platform evolution and scaling
-2. **CAMARA Network API Experience** - Currently leading early-stage initiatives at Charter; spearheaded Number Verification API at Ericsson
+2. **Network APIs & AI-to-Voice Integration** - Currently building developer platform connecting AI to voice networks at Alianza; led early-stage CAMARA initiatives at Charter; spearheaded Number Verification API at Ericsson
 3. **Product Vision & Platform Evolution** - Track record transforming products:
    - Evolved SendGrid from Communications API to multichannel platform
    - Pivoted Vonage Video to simpler APIs during 10x growth
@@ -276,6 +281,7 @@ Principal Product Manager with **10+ years** defining and executing API strategy
 5. **Hands-On Technical Background** - Active GitHub portfolio shows current technical engagement
 6. **Scale Experience** - Led products serving millions through 10x growth
 7. **Cross-Functional Leadership** - Mentored PM team, built team processes, and coordinated across Engineering, Architecture, DevRel, GTM
+8. **Multi-Agent System Design** - Built Docs-as-Code, a production-grade multi-agent pipeline orchestrating 12 Claude agents across 5 event-triggered loops to transform OpenAPI specs into developer portals; demonstrates agentic-workflow design and cost-optimized AI architecture (~$0.65 cold run, ~$1.50 per incremental change)
 
 ### Competitive Advantages
 - **Twilio Alumni** - Cultural fit and company knowledge for Twilio roles
@@ -334,7 +340,7 @@ Based on current market analysis and similar roles:
 ## Location Preferences
 
 Based on current role and job search:
-- **Current Location:** Denver, CO (Charter - Hybrid)
+- **Current Location:** Boise, ID (Alianza)
 - **Open to:** Remote, San Francisco, New York, Seattle
 - **Experience with Remote:** Vonage/Ericsson (fully remote 2020-2025)
 
@@ -376,7 +382,7 @@ Based on current role and job search:
 1. **10x Growth Story** - Led video platform through explosive growth while maintaining reliability
 2. **Developer Experience Impact** - Reduced support tickets 40% through documentation and tooling
 3. **$3M Revenue Capture** - Strategic developer migration in 6 months
-4. **CAMARA Leadership** - Leading network API initiatives at Charter; Number Verification at Ericsson
+4. **Network API & AI-to-Voice Leadership** - Building AI-to-voice API platform at Alianza; led CAMARA network API initiatives at Charter; spearheaded Number Verification at Ericsson
 5. **Cross-Functional Leadership** - Mentored and onboarded team of 5 PMs, established team frameworks and ways of working, coordinated across Engineering/Architecture/DevRel/GTM
 6. **Technical Depth** - Active GitHub portfolio, patents, hands-on with LLMs
 

@@ -1,6 +1,6 @@
 # Similar API & Developer Platform Product Manager Roles
 
-*Last Updated: January 7, 2026*
+*Last Updated: June 8, 2026*
 
 This document contains active job postings for API Product Manager and Developer Platform Product Manager roles with similar requirements to the positions saved in this repository. Each position includes a fit score (0-100) based on alignment with Daniel O'Rorke's resume.
 
@@ -167,6 +167,35 @@ This document contains active job postings for API Product Manager and Developer
 ✅ **Developer experience focus** - Advocated for API evolution specifically to improve developer experience and ease of integration
 ✅ **Premium compensation alignment** - $226K-$400K range matches your Principal/Senior Staff level
 ✅ **Financial services relevance** - Your work on enterprise platforms for major clients translates well to fintech
+
+---
+
+### 8. **Principal Product Manager** **FIT SCORE: 77/100**
+**Company:** ClickUp
+**Location:** Remote (US)
+**Compensation:** $250,000 - $300,000 USD + commission
+**Posted:** May 12, 2026
+**Link:** [Apply Here](https://jobs.ashbyhq.com/clickup/312d217b-dc4a-43b4-8bd3-6d24e342fd90)
+
+**Key Requirements:**
+- 8-10+ years PM in high-growth B2B SaaS
+- Company-shaping scope on the hardest, most ambiguous product decisions
+- Hands-on AI tooling fluency (Cursor, Claude Code, Figma AI, MCP integrations)
+- Prototype to prove the point — "build to show your thinking, not just describe it"
+- Raise the craft of PMs around you
+- Define and evangelize a multi-year product vision (converged AI workspace)
+
+**Fit Analysis:**
+✅ **Exceeds experience requirement** - 10+ years vs. 8-10+ required; current Lead PM at Charter, prior Expert PM at Vonage
+✅ **Hands-on AI tooling is a standout** - GitHub demonstrates active Claude Code, Claude API, and Cursor work (GrocerySelector end-to-end automation, Hearth on-device ML, AlianzaDocs Claude-AI doc generation, "First Attempt w Claude 4.5 Sonnet"); 8 repositories updated Nov 2025–Jan 2026
+✅ **"Build to prove the point" matches your pattern** - WorkdayResumeParser, GrocerySelector, and iOS-WebRTC-Demo show prototyping ethos most PM candidates only describe
+✅ **PM craft and mentorship** - Mentored and onboarded team of 5 PMs at Vonage/Ericsson; built team frameworks and processes — directly maps to "raise the craft of the PMs around you"
+✅ **Platform-evolution storytelling** - SendGrid Communications→multichannel platform pivot, Vonage Video API simplification during 10x growth demonstrate the kind of multi-year vision the role demands
+✅ **Compensation alignment** - $250K-$300K base + commission lands in your Principal target band ($226K-$400K)
+✅ **Remote** - Matches preference; Vonage/Ericsson was fully remote 2020-2025
+⚠️ **No API/developer-platform focus** - Your strongest differentiators (CAMARA, WebRTC, CPaaS) don't apply; must reframe around platform evolution and converged systems
+⚠️ **Productivity/workspace domain is new** - No Asana/Notion/Monday adjacency on resume; ClickUp competes in a space where you have no direct experience
+⚠️ **GenAI at enterprise scale** - Hands-on with LLMs but haven't shipped generative AI products at enterprise scale (acknowledged gap on Profile)
 
 ---
 
