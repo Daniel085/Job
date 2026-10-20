@@ -62,7 +62,8 @@ Full sweep of anthropic.com/jobs on October 13, 2026. All Anthropic roles are hy
 
 ---
 
-### A3. **Product Manager, New Markets and Monetization** 🔥 **FIT SCORE: 82/100**
+### A3. **Product Manager, New Markets and Monetization** ⚠️ **FIT SCORE: 66/100** (revised October 20, 2026, from 82)
+**Revision note:** Daniel confirmed on October 20 that he has not worked on pricing, program terms, revenue share, or partner billing at any employer, and that the Charter billing work does not cover metering or settlement. The minimum qualification "have negotiated pricing or program terms" and the billing pillar are therefore unmet. Only the Verticals pillar (telecom as a target API market) remains a fit. Not pursuing unless a verticals-only opening appears.
 **Company:** Anthropic (Claude Platform)
 **Location:** San Francisco, CA (hybrid)
 **Compensation:** $305,000 - $385,000 USD base + equity and benefits
