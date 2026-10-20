@@ -236,6 +236,13 @@ Source: Gmail. Four agencies pitched roles in the last two months: Sidebar Talen
 | PM, Waterfall-as-a-Service, FullEnrich (via American IT Systems) | $155K-$193K base, hybrid SF 3-4 days | 45 | Fails location and compensation outright. Recruiter claims $16M ARR; public record shows a $2M seed in Feb 2025 and seven-figure ARR. |
 | Chromatic (via Twill) | not retained | n/a | Declined August 10, 2026 on compensation bands. |
 
+### Shared by Christina via Messages (Evaluated October 20, 2026)
+
+| Role | Comp | Score | Why it falls short |
+|------|------|-------|--------------------|
+| Lead Product Manager, Hims & Hers (Indeed jk=a8b0afd75c28a862) | $200K-$235K, remote US | 55 | 0-to-1 "relationship-first" consumer health experience built on AI-native workflows; requires 3+ years owning consumer mobile products at scale, which the record does not have; consumer healthcare is an industry mismatch; band tops out below current pay; Indeed employer rating 2.6 |
+| Sr. Product Manager, Provider Experience, Rula (Indeed jk=d5236b0dc4f43f18) | $180K-$221K, remote US | 45 | Expired on Indeed as of October 19; SMB SaaS tooling for therapists (AI note-writing, scheduling); Senior level, band below current pay, no API or platform component |
+
 ---
 
 ## Posted Within Last 90 Days (October 2025 - January 2026)
