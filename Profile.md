@@ -398,7 +398,9 @@ Based on current market analysis and similar roles:
 - **Lower Range ($150K-$180K):** May be below market value (e.g., Lightyear)
 - **Optimal Range ($226K-$385K):** Aligns with experience level (e.g., Plaid, Anthropic, PagerDuty)
 - **Premium Roles:** AI-focused or fintech roles trending higher
-- **Relocation to San Francisco:** Requires roughly $455K+ base to justify (prior SF compensation adjusted for ~30% inflation since 2021 plus 2x housing; Daniel's stated floor, September 2026). Remote roles need a compelling reason to leave the current role, not just parity.
+- **Relocation to San Francisco:** Requires roughly $455K+ base to justify (prior SF compensation adjusted for ~30% inflation since 2021 plus 2x housing; Daniel's stated floor, September 2026).
+- **Lateral moves:** As of October 20, 2026, a lateral move at roughly current base is acceptable for the right remote role (Principal-plus scope, API, identity, or AI platform). Do not mark a role down for pay alone when its base band reaches current base; mark down for title, location, or domain.
+- **All bands in the tracker are base salary** as stated in the postings, with equity separate and bonus excluded unless noted (FullEnrich was the one OTE listing).
 
 ---
 
