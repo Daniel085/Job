@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniel O'Rorke - Resume - Anthropic Developer Relations</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    @page {
+      size: letter;
+      margin: 0.5in 0.6in;
+    }
+    @media print {
+      body {
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+      }
+      section {
+        page-break-inside: avoid;
+      }
+      section.experience {
+        page-break-inside: auto;
+      }
+      .job {
+        page-break-inside: avoid;
+      }
+      .two-col {
+        page-break-inside: avoid;
+      }
+      .page-break-before {
+        page-break-before: always;
+      }
+      h2 {
+        page-break-after: avoid;
+      }
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 10px;
+      line-height: 1.3;
+      color: #2d3748;
+      background: #fff;
+      padding: 0.5in 0.6in;
+      max-width: 8.5in;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #3182ce;
+      margin-bottom: 10px;
+    }
+    h1 {
+      font-size: 26px;
+      font-weight: 600;
+      color: #1a365d;
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
+    }
+    .contact-info {
+      color: #4a5568;
+      font-size: 10.5px;
+    }
+    .contact-info a {
+      color: #3182ce;
+      text-decoration: none;
+    }
+    .contact-info span {
+      margin: 0 6px;
+      color: #a0aec0;
+    }
+    section {
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 11px;
+      font-weight: 600;
+      color: #3182ce;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 4px;
+      margin-bottom: 10px;
+    }
+    .summary {
+      color: #4a5568;
+      line-height: 1.4;
+    }
+    .expertise-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .tag {
+      background: #ebf8ff;
+      color: #2b6cb0;
+      padding: 3px 8px;
+      border-radius: 3px;
+      font-size: 9.5px;
+      font-weight: 500;
+    }
+    .job {
+      margin-bottom: 9px;
+    }
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 3px;
+    }
+    .job-title {
+      font-weight: 600;
+      color: #1a365d;
+      font-size: 11px;
+    }
+    .job-date {
+      color: #718096;
+      font-size: 9.5px;
+    }
+    .job-company {
+      color: #4a5568;
+      font-size: 10.5px;
+      margin-bottom: 3px;
+    }
+    .job-location {
+      color: #a0aec0;
+      font-size: 9.5px;
+    }
+    .job-desc {
+      color: #4a5568;
+      font-style: italic;
+      margin: 4px 0;
+      font-size: 10px;
+    }
+    .job-subtitle {
+      font-weight: 600;
+      color: #2d3748;
+      font-size: 10px;
+      margin: 6px 0 3px 0;
+    }
+    ul {
+      margin-left: 15px;
+      color: #4a5568;
+    }
+    li {
+      margin-bottom: 2px;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 130px 1fr;
+      gap: 4px 12px;
+    }
+    .skill-category {
+      font-weight: 600;
+      color: #2d3748;
+      font-size: 10px;
+    }
+    .skill-items {
+      color: #4a5568;
+      font-size: 10px;
+    }
+    .education-item {
+      margin-bottom: 8px;
+    }
+    .edu-school {
+      font-weight: 600;
+      color: #1a365d;
+      font-size: 10.5px;
+    }
+    .edu-degree {
+      color: #4a5568;
+      font-size: 10px;
+    }
+    .edu-details {
+      color: #718096;
+      font-size: 9.5px;
+    }
+    .cert-item {
+      color: #4a5568;
+      margin-bottom: 2px;
+      font-size: 10px;
+    }
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DANIEL O'RORKE</h1>
+    <div class="contact-info">
+      408-768-4570 <span>|</span>
+      <a href="mailto:daniel@ororke.com">daniel@ororke.com</a> <span>|</span>
+      <a href="https://linkedin.com/in/danielororke">linkedin.com/in/danielororke</a> <span>|</span>
+      <a href="https://github.com/Daniel085">github.com/Daniel085</a> <span>|</span>
+      <a href="https://developer.alianza.com/docs">developer.alianza.com</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Professional Summary</h2>
+    <p class="summary">Developer-platform product leader with 13 years building for developers, 11 on APIs and SDKs, who writes production code, ships sample apps, and publishes on how AI tools succeed and fail. Designed and operates developer.alianza.com, where every paragraph and code sample was written by AI agents under human review, with quickstarts that take a developer from credentials to a live call in about ten minutes. Daily Claude Code user who has shipped working software with it and written publicly about where it should not be trusted. Reduced support tickets 40% at VoiceBase with a v3 API, SDKs, and developer console; presented API strategy to European operators at Ericsson Innovation Days; 28-repository GitHub portfolio spanning Claude and OpenAI integrations, WebRTC on iOS, and Auth0 and Twilio SDKs.</p>
+  </section>
+
+  <section>
+    <h2>Areas of Expertise</h2>
+    <div class="expertise-tags">
+      <span class="tag">Developer Experience & Onboarding</span>
+      <span class="tag">Technical Writing & Documentation</span>
+      <span class="tag">Code Samples, Demos & Sample Apps</span>
+      <span class="tag">Claude Code & LLM APIs (daily)</span>
+      <span class="tag">Developer Feedback to Roadmap</span>
+      <span class="tag">Technical Speaking & Enablement</span>
+      <span class="tag">Responsible AI in Practice</span>
+      <span class="tag">Influence Without Authority</span>
+    </div>
+  </section>
+
+  <section class="experience">
+    <h2>Professional Experience</h2>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Principal Product Manager, APIs &amp; Developer Platforms</span>
+        <span class="job-date">Jan 2026 – Present</span>
+      </div>
+      <div class="job-company">Alianza <span class="job-location">• Remote</span></div>
+      <p class="job-desc">Own how developers discover, onboard, and succeed with Crux, the control plane through which AI agents get governed access to live phone calls on 1,000+ operators' networks: public API, MCP server, events and webhooks, and developer.alianza.com. Shipped the Crux API 1.0.0 in September 2026; the developer portal is one of two resources named in Alianza's launch press release.</p>
+      <ul>
+        <li>Designed and operate the AI-built documentation system behind developer.alianza.com: agents generate every reference page and code sample from the API definition, humans review, and the system states plainly where the definition leaves a gap rather than guessing; shipped six months faster and roughly $150K cheaper than the last portal built by hand</li>
+        <li>Wrote the developer journey end to end: a three-resource mental model (Experience, Connection, Assignment), a pre-flight checklist of what a developer needs before the first call, two ten-minute quickstarts that end with a real SIP or SIPREC INVITE, and integration guides for post-call and virtual-agent experiences</li>
+        <li>Wrote the operational runbooks developers rely on in production: recovering from webhook desynchronization, seed-then-stream user counting with idempotent sets, and a known-issues page that names real failure modes</li>
+        <li>Shipped the MCP server for the Crux API so coding agents can provision and query the platform directly; built the Node.js private_key_jwt sample that partners copy into production</li>
+        <li>Ran an API developer-experience study with partner integrators, using AI agents for interview prep and synthesis, and turned the findings into eligibility rules, error guidance, and roadmap changes; published the method and its failure modes</li>
+        <li>Supported SoundHound, Revmo, and MiaRec through early-access integration in sandbox ahead of the 1.0 launch; advocate for developer needs across engineering, operations, and go-to-market</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Lead Product Manager</span>
+        <span class="job-date">Apr 2025 – Jan 2026</span>
+      </div>
+      <div class="job-company">Charter Communications <span class="job-location">• Denver, CO (Hybrid)</span></div>
+      <ul>
+        <li>Built the developer platform and programmable network APIs for North America's largest ISP by subscribers; defined how third-party developers would discover and adopt CAMARA network APIs under customer-consent and privacy constraints</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Expert Product Manager, Ericsson Global Network API Platform</span>
+        <span class="job-date">May 2024 – Jan 2025</span>
+      </div>
+      <div class="job-company">Vonage / Ericsson <span class="job-location">• Remote</span></div>
+      <ul>
+        <li>Presented API strategy at Ericsson Innovation Days to European mobile network operators, generating operator interest in the unified network API platform; led CAMARA Number Verification from proof of concept to commercial product across a multi-company team</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Senior, then Expert Product Manager, Video API Platform</span>
+        <span class="job-date">Apr 2020 – May 2024</span>
+      </div>
+      <div class="job-company">Vonage <span class="job-location">• San Francisco, CA, then Remote</span></div>
+      <ul>
+        <li>Owned client SDKs across 8 platforms for a WebRTC platform used by first-party apps, direct API customers, and third-party developers; worked daily with Developer Relations on samples, guides, and the developer feedback loop into the roadmap</li>
+        <li>Conceived Video Express by reading developer support tickets and watching what customers were trying to build with the SDK; validated with a prototype, shipped beta in under 3 months and GA in under 9, reaching 10% of the platform's 2019 minutes within a year</li>
+        <li>Drove $3M revenue capture in 6 months through developer migration content and GTM materials; steered the platform through 650% telehealth growth in six weeks and 10x scale in 2020</li>
+        <li>Mentored and onboarded a team of 5 PMs; recipient of Key Talent and Key Contributor Awards</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Senior Product Manager, SendGrid Labs</span>
+        <span class="job-date">Aug 2018 – Jan 2020</span>
+      </div>
+      <div class="job-company">Twilio <span class="job-location">• San Francisco Bay Area</span></div>
+      <ul>
+        <li>Directed SendGrid's transition from email API to multi-channel communications platform; ran Outcome-Driven Innovation discovery with developers and enterprise senders</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Senior Product Manager</span>
+        <span class="job-date">2017 – 2018</span>
+      </div>
+      <div class="job-company">VoiceBase <span class="job-location">• San Francisco, CA</span></div>
+      <ul>
+        <li>Shipped the v3 REST API documentation, SDKs, interactive demos, and a self-service Developer Console with analytics so developers could test and debug integrations themselves; reduced support tickets 40%</li>
+        <li>Built product demos and sales-enablement material for an AI speech-to-text API; company acquired by LivePerson</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Product Manager, API Platform &amp; Developer Ecosystem</span>
+        <span class="job-date">2015 – 2017</span>
+      </div>
+      <div class="job-company">Aerohive Networks <span class="job-location">• Sunnyvale, CA</span></div>
+      <ul>
+        <li>Built the developer portal, API documentation, demos, and reference applications for the enterprise WiFi platform's Identity, Location, and Configuration APIs; co-invented 2 patents; led HiveSchool WebRTC product, ISTE "Best in Show"</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Product Manager</span>
+        <span class="job-date">2013 – 2015</span>
+      </div>
+      <div class="job-company">Yahoo <span class="job-location">• Sunnyvale, CA</span></div>
+      <ul>
+        <li>Managed Mail Monetization and ad-targeting products; recipient of Superstar Team Award</li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="two-col">
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <span class="skill-category">AI Tooling:</span>
+        <span class="skill-items">Claude Code and Claude API (daily), MCP servers, OpenAI API, multi-shot prompt and evaluation patterns, Core ML, LLM-generated docs in production</span>
+        <span class="skill-category">APIs &amp; Protocols:</span>
+        <span class="skill-items">REST, OpenAPI, OAuth 2.0 and PKCE, webhooks, WebRTC, SIP/SIPREC, CallKit and VoIP push</span>
+        <span class="skill-category">Languages:</span>
+        <span class="skill-items">JavaScript/TypeScript, Python, Swift, Objective-C, C#, Shell, SQL</span>
+        <span class="skill-category">Dev Tools:</span>
+        <span class="skill-items">Git/GitHub, GitHub Pages, Postman, docs-as-code, SDK packaging across iOS, Android, Web, Windows, Mac, Linux</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Code, Writing &amp; Speaking</h2>
+      <div class="cert-item">• <strong>GitHub (28 repos):</strong> GrocerySelector (Claude/OpenAI meal-plan-to-cart automation), iOS-WebRTC-Demo (CallKit + VoIP push), AlianzaDocs (Claude-generated docs), Hearth (on-device Core ML), dadJokeGenerator (Claude Code build, multi-shot eval), WorkdayResumeParser, Auth0 and Twilio Video samples</div>
+      <div class="cert-item">• <strong>Writing:</strong> "Hazards of Trusting AI Systems (designed to make sh*t up)" (Dec 2025); "Improving Product Discovery, Experiment 1" (May 2026); "Measurement &amp; Action: ODI and JTBD" (Oct 2025); "How We Built It: Video Express" parts 1–2 (2025)</div>
+      <div class="cert-item">• <strong>Speaking:</strong> Ericsson Innovation Days, API strategy to European operators; ISTE "Best in Show" for HiveSchool</div>
+      <div class="cert-item">• Patents 15/073,593 and 62/350,158; Certified Scrum Product Owner</div>
+    </section>
+  </div>
+
+  <section>
+    <h2>Education</h2>
+    <div class="cert-item"><span class="edu-school">University of California, San Diego</span> — B.S. in Management Science, Department of Economics <span class="edu-details">(Econometric Regression Modeling Honor Program; coursework in Java, C++, x86 Assembly)</span></div>
+    <div class="cert-item"><span class="edu-school">University of California, Berkeley Extension</span> — High Tech Product Marketing &amp; Management</div>
+  </section>
+</body>
+</html>
