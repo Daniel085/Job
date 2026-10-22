@@ -37,7 +37,8 @@ Full sweep of anthropic.com/jobs on October 13, 2026. All Anthropic roles are hy
 
 ---
 
-### A2. **Product Manager, Safe Access** 🔥 **FIT SCORE: 85/100**
+### A2. **Product Manager, Safe Access** ⭐ **FIT SCORE: 78/100** (revised October 22, 2026, from 85)
+**Revision note:** Earlier scoring credited Daniel with designing the Crux access model and authentication. He documents and exposes the access model; the platform and its auth design predate his hire. The identity evidence is now Enhanced Number Verification, the credential-management patents, and the developer-facing access journey he built. Still a credible fit, seven points lower.
 **Company:** Anthropic
 **Location:** San Francisco, CA | New York City, NY (hybrid)
 **Compensation:** $305,000 - $385,000 USD base + equity and benefits

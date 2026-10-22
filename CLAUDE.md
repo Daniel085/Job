@@ -477,11 +477,14 @@ Let me know which of these you have experience with, and I'll update your Profil
 - `Claude-User-Guide.md` - User guide for working with Claude Code
 
 ### Resumes (`resumes/`)
-- `resume-designed.html` - Base resume template
-- `resume-{company}.html` - Company-specific tailored resumes (anthropic, lightyear, pagerduty, plaid, postman, twilio, zoom)
+- `resume-designed.html` - Base resume template (note: still lists Charter as current; prefer `resume-anthropic-safe-access.html` as the layout base for new resumes, it has the current roles and the `section.experience` print fix)
+- `resume-{company}.html` - Active tailored resumes (anthropic-safe-access, anthropic-multi-cloud-growth, anthropic-devrel, mercury)
 
 ### Cover Letters (`cover-letters/`)
-- `cover-letter-{company}.md` - Company-specific cover letters (anthropic, lightyear, pagerduty, plaid, postman, twilio, zoom)
+- `cover-letter-{company}.md` - Active cover letters (anthropic-safe-access, anthropic-multi-cloud-growth, anthropic-devrel, mercury)
+
+### Archive (`archive/2025/`)
+- Resumes and cover letters from the 2025 search (anthropic API PM, lightyear, pagerduty, plaid, postman, twilio, zoom). All those roles are closed. These files predate the October 2026 attribution corrections and must not be reused as-is.
 
 ### Job Tracking (`jobs/`)
 - `Similar-Job-Postings.md` - Active opportunities with fit scores (sorted by score)
