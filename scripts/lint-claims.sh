@@ -23,12 +23,19 @@ BANNED=(
   'Technical Skills</h2>'
   'while the rest of the company waited'
   'designed .{0,40}Crux platform'
+  'Wrote the developer'
+  'wrote the (developer |access )?journey'
+  'Wrote the operational runbooks'
+  'wrote the authentication guide'
+  'three-resource mental model'
+  'SoundHound|Revmo|MiaRec|Dubber'
 )
 
 if [ "$#" -gt 0 ]; then
   FILES=("$@")
 else
-  mapfile -t FILES < <(ls resumes/resume-*.html cover-letters/cover-letter-*.md jobs/Similar-Job-Postings.md docs/handoff-*.md 2>/dev/null | grep -v '^examples/')
+  # External-facing materials only. The tracker and handoff are internal and may name partners; lint them separately if needed.
+  mapfile -t FILES < <(ls resumes/resume-*.html cover-letters/cover-letter-*.md 2>/dev/null | grep -v '^examples/')
 fi
 
 status=0
