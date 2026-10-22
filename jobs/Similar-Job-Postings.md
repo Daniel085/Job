@@ -237,6 +237,21 @@ Source: Gmail. Four agencies pitched roles in the last two months: Sidebar Talen
 | PM, Waterfall-as-a-Service, FullEnrich (via American IT Systems) | $155K-$193K base, hybrid SF 3-4 days | 45 | Fails location and compensation outright. Recruiter claims $16M ARR; public record shows a $2M seed in Feb 2025 and seven-figure ARR. |
 | Chromatic (via Twill) | not retained | n/a | Declined August 10, 2026 on compensation bands. |
 
+### Targeted Company Checks (October 19-22, 2026)
+
+Companies Daniel asked about by name. Boards read in full via their Ashby APIs.
+
+| Company | Board on date checked | Nearest roles | Score | Verdict |
+|---------|----------------------|---------------|-------|---------|
+| Clerk (Oct 19) | 2 open: Brand Designer, GRC Engineer | Product Manager, Billing closed 6+ months ago | n/a | No product openings. Friend referral note drafted; general "join our team" link exists. |
+| ElevenLabs (Oct 22) | 160 open; no PM for ElevenAgents or ElevenAPI | [Enterprise PM, ElevenCreative](https://jobs.ashbyhq.com/elevenlabs/934dbe9d-1c1f-4939-944a-6671469009db) (remote, Oct 7): owns enterprise revenue, pricing, packaging, admin/governance for creative tooling | 60 | Pricing and packaging ownership is a stated lever (Daniel has none); creative/marketing industry mismatch; the governance layer (permissions, spend controls) is the only overlap. No comp listed; ElevenLabs has no titles. |
+| | | [PM, ElevenCreative Self-Serve](https://jobs.ashbyhq.com/elevenlabs/7389c057-3e25-4e7a-8a03-5e80f40a15a0) (remote, Oct 15) | 50 | Consumer and prosumer PLG: onboarding, activation, upgrade moments. |
+| | | [Developer Advocate](https://jobs.ashbyhq.com/elevenlabs/969bbf7d-037c-4965-812e-442105ce58c1) (remote global, Oct 15): docs, example projects, conferences | 55 | Requires "a strong full-stack engineering skillset." Fails the no-solo-coding constraint. |
+| | | [Product & Technical Communications](https://jobs.ashbyhq.com/elevenlabs/db7abc8d-67b1-4d64-a623-59be88d65fba) (US remote, Oct 13) | 55 | Comms role: launch narratives, security and safety incident comms, journalist relationships. Writing fits; media relationships and incident comms do not. |
+| | | [Product Marketing, ElevenAPI](https://jobs.ashbyhq.com/elevenlabs/e062d169-7294-4125-bc7b-e3a821dcd620) (remote, Oct 12) | 60 | PMM, not PM. Closest to the API surface; GTM-materials record is the only direct evidence. |
+
+ElevenLabs note: the roles that would fit (PM for ElevenAgents telephony and integrations, PM for ElevenAPI) are not posted. ElevenAgents deploys voice agents over SIP, which is the Crux side of the same call. Also note that ElevenLabs is a plausible Crux experience provider; check for any partner relationship before approaching.
+
 ### Shared by Christina via Messages (Evaluated October 20, 2026)
 
 | Role | Comp | Score | Why it falls short |
