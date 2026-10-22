@@ -28,7 +28,7 @@ These were read off the public site on October 18, 2026. Please confirm or corre
 | Eligibility check before access; Connection with ACTIVE/INACTIVE gate; Assignment scoped to ACCOUNT, USER, or PHONE_NUMBER | /docs/concepts/overview, /docs/reference/data-model | Stated |
 | A phone number cannot be on two AGENT experiences | /docs/reference/errors | Stated |
 | APIs used by third-party Experience Providers, reseller service providers, and Alianza's own provisioning | /docs landing, webhooks event names | Confirmed by Daniel, October 18, 2026 |
-| Daniel designed the access model and set API standards, reviews API proposals across teams | LinkedIn summary | Daniel's own statement |
+| Daniel built developer.alianza.com; helped guide the structure of the Crux API; sets API standards and reviews proposals jointly with Architecture. The Crux platform and its access model were designed before he joined; he documents the access model, he did not design it. | Daniel, October 22, 2026 | Corrected. Earlier materials credited him with designing the OAuth access model; that was wrong and has been removed. |
 | AI-built documentation system generates reference docs from the API definition and states gaps plainly | LinkedIn summary; endpoint pages carry "gaps" notes | Daniel's own statement, consistent with the site |
 | Launch coordinated across engineering, operations, and go-to-market; Experience Providers integrated in sandbox during early access | /docs/webhooks/delivery-and-troubleshooting mentions "Experience Provider early access" | Confirmed by Daniel, October 18, 2026 |
 | Runbooks: recovering from desynchronization, seed-then-stream user counts | /docs/webhooks/* | Stated |

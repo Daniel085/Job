@@ -501,6 +501,22 @@ Let me know which of these you have experience with, and I'll update your Profil
 - Use "mentored" not "managed" when referring to PM team (mentored 5 PMs, not managed)
 - Accurate representation of IC vs management roles
 - "Led cross-functional teams" is acceptable for project leadership
+- "Enhanced Number Verification," never "Number Verification from PoC to commercial." NV was already commercial; Daniel led the enhancement with operators and handset manufacturers.
+- Alianza, three separate things: Daniel **built** developer.alianza.com; he **helped guide the structure of** the Crux API **with Architecture**; the Crux **platform** was designed before he joined. API standards and design review are "with Architecture," never solo.
+- Daniel did not design Crux authentication. He **documents** the access model; say "wrote the authentication guide," not "designed the access model."
+- No Technical Skills section on resumes. Daniel builds with AI assistance; a skills grid invites a solo coding test.
+
+### Attribution Rules (added October 22, 2026, after a correction round)
+
+The inaccuracies that round fixed all came from one mistake: attributing what a **product** does to what **Daniel** did. Public sources (docs, press releases, product pages) describe the product. Only `Profile.md` describes Daniel's role in it. Follow these rules on every resume, cover letter, fit analysis, and recruiter message:
+
+1. **A claim about Daniel's role must trace to Profile.md.** If it is not there, it does not go in a deliverable as fact. Draft it, mark it, and list it under "Claims to confirm" in the reply.
+2. **Use the weakest verb the evidence supports.** Built / designed (sole, confirmed) > helped guide / co-designed / with Architecture (shared) > documented / wrote the guide for / owns the surface of (exposed). When unsure, go one tier down.
+3. **Never upgrade a verb while tailoring.** "Spearheaded" in Profile.md does not become "from PoC to commercial" in a cover letter. Reuse the Profile.md phrasing or quote it.
+4. **Public product facts stay product facts.** "Crux applies consent in the network" is fine. "Daniel designed consent in the network" is not, unless Profile.md says so.
+5. **Every new material ends with a numbered "Claims to confirm" list** of anything inferred, combined, or newly worded, and Profile.md is updated only after Daniel confirms.
+6. **Run `scripts/lint-claims.sh` before sending or committing** application materials. It greps for the phrases that have already been corrected once. Add a phrase to it every time a new correction lands.
+7. **Inherited text is not verified text.** Lines that came from an old resume or an earlier session carry the same risk as new inferences. When a line is challenged, fix it everywhere it appears (resumes, letters, tracker, handoff, drafts), not only in the file the user pointed at.
 
 ### Compensation Expectations
 Target range from Profile.md:318-331: **$226K-$400K** for Principal/Senior Staff level.

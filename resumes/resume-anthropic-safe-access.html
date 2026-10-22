@@ -206,14 +206,14 @@
 
   <section>
     <h2>Professional Summary</h2>
-    <p class="summary">Principal Product Manager with 13 years in product management, 11 on API products, most of it 0-to-1. Owns developer-facing identity, access, and connection primitives end to end: designed the OAuth 2.0 access model, scoped permissions, and partner-facing access APIs for Alianza's Crux platform (1.0.0, September 2026); led Vonage's CAMARA Number Verification identity API from proof of concept to commercial product across a multi-company team; co-invented two credential-management patents. Repeatedly ships through ambiguity and cross-organization dependencies, from a video SDK that reached GA in under nine months to network APIs that span hundreds of carriers.</p>
+    <p class="summary">Principal Product Manager with 13 years in product management, 11 on API products, most of it 0-to-1. Owns the developer-facing surface of Crux, the control plane through which AI agents get governed access to live phone calls: built developer.alianza.com, helped guide the structure of the Crux API with Architecture, and shipped the 1.0 developer experience in September 2026. Led Enhanced Number Verification at Vonage/Ericsson, extending a commercial identity-verification API past its limits by working with mobile operators and handset manufacturers across a multi-company team. Co-invented two credential-management patents. Repeatedly ships through ambiguity and cross-organization dependencies, from a video SDK that reached GA in under nine months to network APIs that span hundreds of carriers.</p>
   </section>
 
   <section>
     <h2>Areas of Expertise</h2>
     <div class="expertise-tags">
-      <span class="tag">Identity, Verification & Access APIs</span>
-      <span class="tag">OAuth 2.0 & Authorization Design</span>
+      <span class="tag">Identity & Verification APIs</span>
+      <span class="tag">Developer Access Journeys</span>
       <span class="tag">0-to-1 Platform Products</span>
       <span class="tag">Multi-Tenant Developer Platforms</span>
       <span class="tag">Partner & Reseller Access Models</span>
@@ -232,14 +232,13 @@
         <span class="job-date">Jan 2026 – Present</span>
       </div>
       <div class="job-company">Alianza <span class="job-location">• Remote</span></div>
-      <p class="job-desc">Own the developer-facing surface of Crux, the control plane through which AI experiences get governed access to live phone calls and voice data on 1,000+ operators' networks: public APIs, events and webhooks, and developer.alianza.com. Crux decides which AI may reach which phone number, applies identity and policy before any AI is invoked, plays and logs consent in the network, then hands the call to a virtual agent or streams media to a post-call partner. Shipped the Crux API 1.0.0 in September 2026.</p>
+      <p class="job-desc">Own the developer-facing surface of Crux, the control plane through which AI experiences get governed access to live phone calls and voice data on 1,000+ operators' networks: public API, events and webhooks, and developer.alianza.com. Crux applies identity, policy, and consent in the network before any AI is invoked, then hands the call to a virtual agent or streams media to a post-call partner. Joined after the platform was designed; shipped the 1.0 developer experience in September 2026.</p>
       <ul>
-        <li>Designed the platform's access model: OAuth 2.0 with client-credentials and authorization-code + PKCE grants, five least-privilege scopes split by read and manage, and private_key_jwt client authentication with two active keys for zero-downtime credential rotation</li>
-        <li>Defined the core access primitives: an eligibility check before any access is granted, a per-account Connection with an explicit ACTIVE/INACTIVE switch that gates all traffic, and an Assignment that scopes access to an account, user, or phone number</li>
-        <li>Built access APIs consumed by three audiences at once: third-party AI experience providers (SoundHound, Revmo, MiaRec among the launch partners), the operators whose networks carry the calls, and Alianza's own provisioning systems; every operation scoped to the caller's tenant and provisioned targets</li>
-        <li>Set the API standards every engineering team builds against (RFC 9457 errors with trace IDs, cursor pagination, E.164 and UUID identifiers, rate-limit guidance, deprecation paths) and review all API proposals across teams</li>
-        <li>Designed and operate the AI-built documentation system behind developer.alianza.com, which generates reference docs from the API definition and states plainly where the definition leaves a gap; wrote the operational runbooks for webhook desynchronization recovery and seed-then-stream user counting</li>
-        <li>Coordinated the 1.0 launch across engineering, operations, and go-to-market, with Experience Providers integrating in sandbox during early access</li>
+        <li>Built developer.alianza.com and operate the AI-built documentation system behind it: agents generate reference docs and code samples from the API definition, humans review, and the system states plainly where the definition leaves a gap rather than guessing</li>
+        <li>Wrote the developer's access journey end to end: a three-resource mental model, an eligibility check before any access is granted, a per-account connection with an explicit on/off gate, assignments scoped to an account, user, or phone number, and the authentication guide (OAuth 2.0 grants, scoped permissions, key rotation) partners integrate against</li>
+        <li>Helped guide the structure of the Crux API with Architecture; jointly set the API standards engineering teams build against (RFC 9457 errors with trace IDs, cursor pagination, E.164 and UUID identifiers, deprecation paths) and review API proposals across teams</li>
+        <li>The developer surface serves three audiences at once: third-party AI experience providers (SoundHound, Revmo, MiaRec among the launch partners), the operators whose networks carry the calls, and Alianza's own provisioning systems</li>
+        <li>Wrote the operational runbooks partners rely on in production: webhook desynchronization recovery and seed-then-stream user counting; coordinated the 1.0 launch across engineering, operations, and go-to-market with experience providers integrating in sandbox during early access</li>
       </ul>
     </div>
 
@@ -262,7 +261,7 @@
       </div>
       <div class="job-company">Vonage / Ericsson <span class="job-location">• Remote</span></div>
       <ul>
-        <li>Led CAMARA Number Verification, a cellular identity-verification API, end to end from proof of concept to commercial product; united a multi-company team across Vonage, Ericsson, and mobile network operators</li>
+        <li>Led Enhanced Number Verification: the CAMARA identity-verification API was already commercial but limited, and overcame those limits by working with mobile operators and handset manufacturers; united a multi-company team across Vonage, Ericsson, and operators</li>
         <li>On the team delivering a single unified API platform for third parties to interact with hundreds of mobile network operators globally; presented the API strategy at Ericsson Innovation Days to European operators</li>
       </ul>
     </div>
@@ -329,30 +328,12 @@
     </div>
   </section>
 
-  <div class="two-col">
-    <section>
-      <h2>Technical Skills</h2>
-      <div class="skills-grid">
-        <span class="skill-category">Identity &amp; Access:</span>
-        <span class="skill-items">OAuth 2.0 (client credentials, PKCE, refresh), private_key_jwt, scope design, key rotation, CAMARA Number Verification, mTLS provisioning</span>
-        <span class="skill-category">APIs &amp; Protocols:</span>
-        <span class="skill-items">REST, OpenAPI, idempotent webhooks, RFC 9457, cursor pagination, WebRTC, SIP/SIPREC</span>
-        <span class="skill-category">Developer Tools:</span>
-        <span class="skill-items">Postman, docs-as-code, SDK development, Git/GitHub</span>
-        <span class="skill-category">AI/ML:</span>
-        <span class="skill-items">Claude API and Claude Code (daily), OpenAI API, LLM-generated documentation in production, Core ML</span>
-        <span class="skill-category">Languages:</span>
-        <span class="skill-items">JavaScript/TypeScript, Python, Swift, SQL</span>
-      </div>
-    </section>
-
-    <section>
-      <h2>Certifications, Patents &amp; Writing</h2>
-      <div class="cert-item">• Certified Scrum Product Owner (CSPO) – Scrum Alliance</div>
-      <div class="cert-item">• Patents 15/073,593 (Credential Management) and 62/350,158 (Seamless Device Onboarding)</div>
-      <div class="cert-item">• LinkedIn articles on AI-assisted product discovery, ODI/JTBD, and the Video Express build (2025–2026)</div>
-    </section>
-  </div>
+  <section>
+    <h2>Certifications, Patents &amp; Writing</h2>
+    <div class="cert-item">• Certified Scrum Product Owner (CSPO) – Scrum Alliance</div>
+    <div class="cert-item">• Patents 15/073,593 (Credential Management) and 62/350,158 (Seamless Device Onboarding)</div>
+    <div class="cert-item">• LinkedIn articles on AI-assisted product discovery, ODI/JTBD, and the Video Express build (2025–2026); daily Claude Code user who builds with AI assistance</div>
+  </section>
 
   <section>
     <h2>Education</h2>

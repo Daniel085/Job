@@ -34,10 +34,25 @@ Technical background in software development since childhood, applied through ha
 **Principal Product Manager** at **Alianza** (January 2026 - Present, Full-time, Remote)
 - Own the developer-facing surface of **Crux**: public APIs, events and webhooks, and developer.alianza.com
 
+**Scope boundaries (Daniel, October 22, 2026). Keep these three separate in every application:**
+1. **developer.alianza.com:** Daniel built it. Designed the portal and operates the AI-built documentation system behind it. Full credit.
+2. **The Crux API:** Daniel helped guide its structure, working with Architecture. API standards and design review are a joint effort with Architecture, not a solo operation. Daniel had less to do with the authentication design (OAuth grants, scopes, key rotation) than earlier drafts implied; he documents and exposes the access model, he did not design it.
+3. **The Crux platform:** designed before Daniel was hired. Do not credit him with platform or access-model design.
+Also: do not list a Technical Skills section on resumes. Daniel builds with AI assistance and would not pass a solo coding test; avoid inviting that confusion.
+
+**Claim verbs for Alianza work (use the weakest the evidence supports):**
+
+| Verb tier | Use for | Example |
+|-----------|---------|---------|
+| Built / designed | developer.alianza.com, the AI documentation system, the runbooks, the quickstarts, the MCP server for the API | "Built developer.alianza.com" |
+| Helped guide / with Architecture | Crux API structure, API standards, design review | "Helped guide the structure of the Crux API with Architecture" |
+| Documented / wrote the guide for / owns the surface of | The access model, OAuth grants, scopes, key rotation, consent flow | "Wrote the authentication guide partners integrate against" |
+| Not Daniel's | The Crux platform, its access-model design, authentication design | Describe as product facts only |
+
 **What Crux is (per Alianza's September 9, 2026 press release and product pages):** Crux is Alianza's orchestration and intelligence control plane for "Cognitive Communications." It sits in the call path of operators' telephone networks and is the connector through which AI experiences interact with live phone conversations and voice data on existing phone numbers, without call forwarding or number porting. Around each call it coordinates network infrastructure, AI, applications, identity, consent, and policy: it tags a line as AI-ready, checks whether an experience is attached, applies identity, entitlements, and policy before any AI is invoked, plays and logs a consent announcement in the network, then hands the call to a virtual agent (AI-handled), lets an agent assist a human in real time (AI-assisted), or streams the media to a post-call intelligence partner. Operators keep control of governance, data sovereignty, and the customer relationship; "experience providers" (AI developers such as SoundHound, Revmo, MiaRec, Dubber) integrate once and reach every operator on the platform. Components: Orchestrator (cloud call routing, media aggregation, policy engine), Gateway (signaling and media between operator infrastructure and the Orchestrator), Connector (which directory numbers may subscribe to AI experiences), and Citadel (air-gapped on-premises deployment). Launched in controlled availability on September 9, 2026; broad commercial availability planned for 1H 2027. Alianza serves 1,000+ service providers in 80+ countries. The launch press release lists the Alianza Developer Portal as one of its two resources. On September 10, 2026 Alianza acquired Skribby (API-first meeting bots and multi-model transcription for Zoom, Teams, and Meet; 200+ experience providers) to extend Crux into meeting platforms, with one API planned for both operator-network and meeting-platform conversations; Daniel's portal work covers the unified Crux + Skribby developer experience. Full reference: jobs/descriptions/Alianza-Crux-Reference.md.
 - Designed **developer.alianza.com** and operate the AI-built documentation system behind it
 - Documentation system generates reference docs directly from the API's technical definition (docs-as-code); flags gaps in the definition rather than guessing
-- Design and review API proposals across engineering teams; set the API standards they build against
+- Helped guide the structure of the Crux API; with Architecture, set the API standards engineering teams build against and review API proposals across teams
 - Related GitHub work: AlianzaDocs (experimental documentation generation using Claude), MCP server for the existing API
 
 **Previous:** **Lead Product Manager** at **Charter Communications** (April 2025 - January 2026, Full-time, Denver CO, Hybrid)
@@ -117,7 +132,7 @@ Technical background in software development since childhood, applied through ha
 ### Developer Platform (Alianza, current)
 - Designed and launched **developer.alianza.com** and the AI-built documentation system behind it
 - Reference documentation generated directly from the API's technical definition; the system states plainly where the definition leaves something unexplained rather than guessing
-- Own API design review and standards across engineering teams
+- With Architecture, own API design review and standards across engineering teams
 - Scope: public APIs, events and webhooks, and the developer portal for Crux, the control plane through which AI experiences get governed access to live phone calls and voice data on operator networks (see Current Role for the full description)
 - **Crux API 1.0.0 public release, September 2026** (per developer.alianza.com changelog): OAuth 2.0 with private_key_jwt and zero-downtime key rotation, cursor pagination, RFC 9457 problem details with trace IDs, webhooks with at-least-once delivery, two integration journeys (Post-Call via SIPREC, Virtual Agent via SIP), 10-minute quickstarts to a live INVITE
 - Portal includes operational runbooks most API docs omit: recovering from desynchronization, seed-then-stream user counting, known issues with real failure modes
@@ -136,7 +151,7 @@ Technical background in software development since childhood, applied through ha
 ### Innovation
 - **2 Patents** for WiFi credential automation (15/073,593 & 62/350,158), developed while running Aerohive's API ecosystem and developer platform
 - Presented API strategy at **Ericsson Innovation Days** to European mobile network operators
-- Led Vonage's **advanced authentication offerings** (CAMARA Number Verification) end to end, uniting a multi-company team from concept to market (per recommendation from Vonage's Senior Director of Network Powered APIs)
+- Led **Enhanced Number Verification** at Vonage/Ericsson. Number Verification was already a commercial product with significant limitations; Daniel led the work with mobile operators and handset manufacturers that overcame them, uniting a multi-company team (per recommendation from Vonage's Senior Director of Network Powered APIs: "end-to-end Expert Product Manager for our advanced authentication offerings"). Do not describe this as "PoC to commercial product."
 - On the team building Ericsson's **single unified Global Network API Platform** to interact with hundreds of mobile network operators globally (2024-2025)
 - Directed SendGrid's transition from email API to a multi-channel communications platform, including **M&A proposals** (Twilio, 2018-2020)
 
@@ -294,7 +309,7 @@ Technical background in software development since childhood, applied through ha
 | Jan 2026-Present | Alianza (Remote, Full-time) | Principal Product Manager | Crux (AI-to-telephone-network control plane) developer surface: public APIs, events/webhooks, developer.alianza.com, AI-built docs, API standards |
 | Apr 2025-Jan 2026 | Charter Communications (Denver, Hybrid) | Lead Product Manager | Network APIs, CAMARA, Developer Platform |
 | Mar 2025-Aug 2025 | Ross Stores (Contract, Remote) | Lead Business Analyst | Agile coaching, requirements for custom merchandising/inventory software |
-| May 2024-Jan 2025 | Vonage/Ericsson (Remote) | Expert Product Manager - Ericsson Global Network API Platform | Unified network API platform across hundreds of MNOs; CAMARA Number Verification |
+| May 2024-Jan 2025 | Vonage/Ericsson (Remote) | Expert Product Manager - Ericsson Global Network API Platform | Unified network API platform across hundreds of MNOs; led Enhanced Number Verification |
 | Aug 2022-May 2024 | Vonage (Remote) | Expert Product Manager - TokBox Video API Platform | Realtime video clients across 8 platforms, AI features; Key Talent award |
 | Apr 2020-Aug 2022 | Vonage (San Francisco, Hybrid) | Senior Product Manager - TokBox Video API Platform | Lead PM through 650%/850% pandemic growth; Video Express |
 | Aug 2018-Jan 2020 | Twilio (SendGrid Labs, SF Bay Area, On-site) | Senior Product Manager | Email API to multi-channel platform, M&A proposals, ODI/JTBD discovery |
@@ -335,11 +350,11 @@ Technical background in software development since childhood, applied through ha
    - Early-stage telecom billing system work at Charter
    - Enterprise video API implementations at Vonage
    - Led CPaaS platform evolution and scaling
-2. **CAMARA Network API Experience** - Led early-stage initiatives at Charter; spearheaded Number Verification API at Ericsson
+2. **CAMARA Network API Experience** - Led early-stage initiatives at Charter; led Enhanced Number Verification at Ericsson, extending an existing commercial API past its limitations with operators and handset manufacturers
 3. **0-to-1 Track Record** - Most of 11 years of API product work has been 0-to-1:
    - Video Express at Vonage: prototype to GA in under 9 months, 10% of 2019 platform minutes within a year
    - developer.alianza.com and its AI-built documentation system
-   - Transformed Number Verification from PoC to commercial product
+   - Enhanced Number Verification: new capability on an existing commercial product
    - Evolved SendGrid from Communications API to multichannel platform
 4. **Developer Empathy** - 40% support ticket reduction (VoiceBase v3 API, SDKs, console); self-service tools; docs-as-code at Alianza
 5. **Rigorous Product Discovery** - ODI/JTBD practitioner since SendGrid Labs; now applying AI agents to discovery prep and synthesis; publishes on the method
@@ -448,10 +463,10 @@ Based on LinkedIn "Open to work" settings (October 2026, visible to recruiters o
 ### Top Stories to Highlight
 1. **Video Express (0-to-1)** - Spotted the shift from 2-4 party calls to 25-100 party meetings, validated with a prototype, shipped beta in under 3 months and GA in under 9; 10% of 2019 platform minutes within a year
 2. **10x Growth Story** - Led video platform through explosive growth while maintaining reliability
-3. **AI-Built Developer Portal** - Designed developer.alianza.com; docs generated from the API definition with honest gap reporting; owns API standards and design review
+3. **AI-Built Developer Portal** - Designed developer.alianza.com; docs generated from the API definition with honest gap reporting; helped guide the Crux API structure and, with Architecture, sets API standards and reviews designs
 4. **Developer Experience Impact** - Reduced support tickets 40% through the VoiceBase v3 API, SDKs, and console
 5. **$3M Revenue Capture** - Strategic developer migration in 6 months
-6. **CAMARA Leadership** - Network API initiatives at Charter; Number Verification at Ericsson, uniting a multi-company team from concept to market
+6. **CAMARA Leadership** - Network API initiatives at Charter; Enhanced Number Verification at Ericsson, working with operators and handset manufacturers to overcome the limits of the existing commercial product
 7. **Cross-Functional Leadership** - Mentored and onboarded team of 5 PMs, established team frameworks and ways of working, coordinated across Engineering/Architecture/DevRel/GTM
 8. **Technical Depth** - Active GitHub portfolio, patents, production AI system, hands-on with LLMs
 9. **Discovery Rigor** - ODI/JTBD practitioner; published experiments applying AI agents to discovery

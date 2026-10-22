@@ -50,6 +50,12 @@ Alianza acquired Skribby, a Belgian API-first meeting-infrastructure startup fou
 
 Daniel's September 2026 artifacts ("Unified Developer Portal: Crux + Skribby", "Portal Platform Evaluation: Kong, Redocly, Mintlify vs Docs-as-Code") are the portal-side work on this integration.
 
+## Daniel's scope (keep separate)
+
+- **developer.alianza.com:** Daniel built it and operates the AI documentation system behind it.
+- **Crux API:** Daniel helped guide its structure with Architecture; standards and design review are joint with Architecture. He documents the access model; he did not design the authentication.
+- **Crux platform:** designed before Daniel joined in January 2026.
+
 ## How this maps to the developer portal
 
 developer.alianza.com documents the experience-provider side: Experience (your integration), Experience Connection (per-account link with ACTIVE/INACTIVE gate), Experience Assignment (scope to account, user, or phone number), eligibility check, OAuth 2.0 scopes, SIPREC for post-call, SIP for virtual agent, webhooks for provisioning events.

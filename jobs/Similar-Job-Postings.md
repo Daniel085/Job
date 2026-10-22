@@ -28,7 +28,7 @@ Full sweep of anthropic.com/jobs on October 13, 2026. All Anthropic roles are hy
 **Fit Analysis:**
 ✅ **Enterprise API strategy is the core of the role** - 11 years on API products at Alianza, Charter, Vonage/Ericsson, Twilio (SendGrid), and VoiceBase; currently set API standards and review API proposals across engineering teams at Alianza; owned auth, rate limiting, and SDK roadmaps across iOS/Android/Web/desktop
 ✅ **Exceeds experience bar** - 10+ years developer-facing software and 10+ years PM vs. 10+/5+ preferred
-✅ **Partner-channel platform experience** - Spearheaded CAMARA Number Verification from PoC to commercial product distributed through Ericsson to European mobile network operators; closest analog to shipping through a hyperscaler channel
+✅ **Partner-channel platform experience** - Led Enhanced Number Verification, distributed through Ericsson to mobile network operators, overcoming the existing product's limits with operators and handset manufacturers; closest analog to shipping through a hyperscaler channel
 ✅ **Scale and reliability** - Led Vonage Video API through 10x growth while maintaining platform reliability; 1.5M+ minutes/month platform
 ✅ **Hands-on with Anthropic's product** - GitHub portfolio shows active Claude API integration work (GrocerySelector, AlianzaDocs)
 ⚠️ **No direct hyperscaler partnership** - Minimum qualification asks for products shipped with AWS/GCP/Azure as partner; MNO and carrier partnerships are the nearest substitute and must be framed explicitly
@@ -52,10 +52,10 @@ Full sweep of anthropic.com/jobs on October 13, 2026. All Anthropic roles are hy
 - Preferred: 8+ years PM; multi-tenant platforms serving first-party apps, direct API customers, and third parties; zero-to-one
 
 **Fit Analysis:**
-✅ **Identity verification API experience** - Led CAMARA Number Verification API at Vonage/Ericsson from proof of concept to commercial product; this is an identity/verification platform product end to end
+✅ **Identity verification API experience** - Led Enhanced Number Verification at Vonage/Ericsson, extending a commercial CAMARA identity API past its limits with operators and handset manufacturers; owns the developer-facing access journey for Crux (the platform itself predates his hire; auth design was not his)
 ✅ **Credential and access patents** - 2 patents for WiFi credential automation and seamless device onboarding (Aerohive); demonstrates deep access-management product thinking
 ✅ **Multi-tenant developer platform** - Vonage Video API served first-party apps, direct API customers, and third-party developers at scale
-✅ **Zero-to-one track record** - Number Verification PoC to commercial (united a multi-company team, per Vonage Sr. Director recommendation); Video Express beta in under 3 months, GA in under 9; developer.alianza.com designed and launched; early-stage CAMARA initiatives at Charter
+✅ **Zero-to-one track record** - Enhanced Number Verification (united a multi-company team, per Vonage Sr. Director recommendation); Video Express beta in under 3 months, GA in under 9; developer.alianza.com designed and launched; early-stage CAMARA initiatives at Charter
 ✅ **Cross-org execution** - Coordinated Engineering, Architecture, DevRel, Legal/compliance, and GTM across telecom partners
 ⚠️ **No first-party account/auth system ownership at scale** - Auth0 SDK work on GitHub and credential patents are adjacent, but never owned a company-wide login/account system
 ⚠️ **Hybrid in SF or NYC** - Requires 25%+ in-office; relocation or regular travel from Boise
@@ -82,7 +82,7 @@ Full sweep of anthropic.com/jobs on October 13, 2026. All Anthropic roles are hy
 ✅ **Telecom as a target vertical** - The role's "Verticals" pillar is about finding the next API markets; deep telecom/CPaaS domain expertise plus CAMARA leadership is a ready-made vertical thesis
 ✅ **Partner-channel usage and billing** - Early-stage telecom billing system work at Charter; Number Verification distributed through MNO partners; Crux usage flows from AI experience providers through operators who monetize it by revenue share, referral, or white label (usage flowing through partners is the role's core billing problem)
 ✅ **Technical fluency and SQL** - SQL, Python, TypeScript in skill set; active GitHub; product analytics background
-✅ **Regulated industry and zero-to-one** - Telecom is regulated; multiple PoC-to-commercial launches
+✅ **Regulated industry and zero-to-one** - Telecom is regulated; multiple 0-to-1 launches
 ⚠️ **Monetization is a stated development area** - Profile.md flags limited explicit SaaS monetization strategy; Yahoo Mail Monetization and $3M revenue capture need to carry the story
 ⚠️ **No cloud-marketplace or usage-metering product shipped** - Preferred qualification, not minimum
 ⚠️ **San Francisco only, hybrid**
@@ -150,7 +150,7 @@ Source: email thread with Alexander Farr (Clera, alexander.farr@clera-connect.or
 - Explicit path to succeed the CPO
 
 **Fit Analysis:**
-✅ **Identity and access is the product** - Crux access model (OAuth 2.0 scopes, Connection gate, Assignment scope, key rotation), CAMARA Number Verification from PoC to commercial, two credential-management patents; the Safe Access resume already tells this story
+✅ **Identity and access is the product** - Owns the developer-facing access journey for Crux (eligibility, connection gate, assignment scope, auth guide); Enhanced Number Verification; two credential-management patents; the Safe Access resume already tells this story
 ✅ **Agentic access governance maps to current work** - Daily Claude Code use, an LLM-built documentation system in production, MCP server for the Crux API, and published writing on where AI systems should and should not be trusted
 ✅ **0-to-1 and turnaround record** - Video Express prototype to GA in under 9 months; Number Verification; developer.alianza.com; SendGrid platform transition
 ✅ **Enterprise customer time** - Half the role is customer-facing, which matches the ODI/JTBD discovery practice and partner-integrator interviews at Alianza
@@ -284,7 +284,7 @@ Source: Gmail. Four agencies pitched roles in the last two months: Sidebar Talen
 
 **Fit Analysis:**
 ✅ **Perfect API platform experience** - Your REST API, SDK, and WebRTC platform work at Vonage/Ericsson directly matches
-✅ **Strong leadership track record** - Managed team of 5 PMs, led cross-functional collaboration
+✅ **Strong leadership track record** - Mentored and onboarded team of 5 PMs, led cross-functional collaboration
 ✅ **Developer-first mindset** - Reduced support tickets 40% through improved documentation and self-service tooling at VoiceBase
 ✅ **Integration expertise** - Your work on video SDK integration across iOS, Android, Web, Windows, Mac, Linux demonstrates deep integration knowledge
 ✅ **Compensation alignment** - Upper range ($304K) appropriate for your Principal-level experience
