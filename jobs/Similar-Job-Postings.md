@@ -11,6 +11,7 @@ This document contains active job postings for API Product Manager and Developer
 Full sweep of anthropic.com/jobs on October 13, 2026. All Anthropic roles are hybrid (minimum 25% in-office; no fully remote option stated) and offer visa sponsorship. Greenhouse does not show posting dates; all links below were verified open on the evaluation date. The previously tracked **Product Manager, API** (job 4936029008) and the Claude Code, Developer Services, Cloud Inference, API Growth, and Developer Education Lead roles are **closed**.
 
 ### A1. **Product Manager, Multi-Cloud Growth - Google** 🔥 **FIT SCORE: 85/100**
+**Application status:** Submitted by Daniel, October 23, 2026 (package in `applications/anthropic-multi-cloud-growth/`).
 **Company:** Anthropic (Platform Org)
 **Location:** San Francisco, CA (hybrid)
 **Compensation:** $305,000 - $460,000 USD base + equity and benefits
@@ -38,6 +39,7 @@ Full sweep of anthropic.com/jobs on October 13, 2026. All Anthropic roles are hy
 ---
 
 ### A2. **Product Manager, Safe Access** ⭐ **FIT SCORE: 78/100** (revised October 22, 2026, from 85)
+**Application status:** Daniel began the application October 23, 2026 (package in `applications/anthropic-safe-access/`); confirm submitted.
 **Revision note:** Earlier scoring credited Daniel with designing the Crux access model and authentication. He documents and exposes the access model; the platform and its auth design predate his hire. The identity evidence is now Enhanced Number Verification, the credential-management patents, and the developer-facing access journey he built. Still a credible fit, seven points lower.
 **Company:** Anthropic
 **Location:** San Francisco, CA | New York City, NY (hybrid)
@@ -189,7 +191,8 @@ Source: email thread with Alexander Farr (Clera, alexander.farr@clera-connect.or
 
 Source: Gmail. Four agencies pitched roles in the last two months: Sidebar Talent (Mercury), BreakLine (Code Metal), American IT Systems (FullEnrich), and Twill (Chromatic, declined August 10 on compensation). The roles pitched were checked against the companies' own job boards; where the pitched role had closed, the nearest open role was evaluated instead.
 
-### R1. **Head of Product, Interfaces** ⭐ **FIT SCORE: 76/100**
+### R1. **Head of Product, Interfaces** ❌ **CLOSED October 23, 2026** (was FIT SCORE: 76/100)
+**Status:** Removed from Mercury's Greenhouse feed between October 18 and October 23, 2026; the posting URL returns 404. Materials (`resumes/resume-mercury.html`, `cover-letters/cover-letter-mercury.md`) were finished but not submitted. Head of Product, Business Lending closed in the same window. Remaining Mercury options: Senior Product Manager, Users (R2 below, still open as of October 23) and the Open Call for Founders / Founding Teams.
 **Company:** Mercury (Series D, $5.2B valuation May 2026 led by TCV; ~$650M annualized revenue; profitable 3+ years; 300K+ customers; national bank charter application pending)
 **Location:** San Francisco, New York, Portland, or Remote within US or Canada
 **Compensation:** $289,700 - $362,100 USD base + equity (US, any location)
