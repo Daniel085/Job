@@ -253,6 +253,14 @@ Companies Daniel asked about by name. Boards read in full via their Ashby APIs.
 | | | [Product & Technical Communications](https://jobs.ashbyhq.com/elevenlabs/db7abc8d-67b1-4d64-a623-59be88d65fba) (US remote, Oct 13) | 55 | Comms role: launch narratives, security and safety incident comms, journalist relationships. Writing fits; media relationships and incident comms do not. |
 | | | [Product Marketing, ElevenAPI](https://jobs.ashbyhq.com/elevenlabs/e062d169-7294-4125-bc7b-e3a821dcd620) (remote, Oct 12) | 60 | PMM, not PM. Closest to the API surface; GTM-materials record is the only direct evidence. |
 
+| Micron (Oct 24) | 3,123 open worldwide; roughly 15 product-management roles, all semiconductor product-line management | [Principal Technical Product Manager, Data Center SSD](https://micron.wd1.myworkdayjobs.com/External/job/Folsom-CA/Principal-Technical-Product-Manager_JR114459) (Folsom/San Jose, Oct 20, $171K-$337K) | 40 | Requires SSD, NAND, ASIC, firmware depth and standards-body work (PCIe-SIG, OCP, JEDEC); on-site California. |
+| | | [Staff DRAM Product Line Manager](https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Staff-DRAM-Product-Line-Manager_JR112173) (Boise, Oct 19, $129K-$251K) | 35 | P&L, pricing, and supply strategy for embedded DRAM; "extensive semiconductor experience" required. |
+| | | [Director, CMBU Product Management](https://micron.wd1.myworkdayjobs.com/External/job/San-Jose-CA/Director--CMBU-Product-Management_JR108248-1) (San Jose or Boise, Aug 19, $170K-$353K) | 40 | Leads a DRAM product-management team; 10+ years semiconductor required. |
+| | | [Principal Product Marketing Manager, Cloud Memory](https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Principal-Product-Marketing-Manager---Cloud-Memory_JR109594) (Boise, Aug 25, $141K-$319K) | 40 | PMM; requires HBM/DDR/LPDDR understanding. Asks for AI-agent fluency, the only overlap. |
+| | | [Sr/Staff Product Owner, Smart Manufacturing & AI](https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Senior-Product-Owner_JR98988-1) (Boise, Apr 29) | 30 | Requires 5+ years in process integration or process equipment engineering. |
+
+Micron note: no software, API, or developer-platform product roles exist at Micron. Every PM role is hardware product-line management with semiconductor domain as a minimum qualification. Boise headquarters does not change the fit.
+
 ElevenLabs note: the roles that would fit (PM for ElevenAgents telephony and integrations, PM for ElevenAPI) are not posted. ElevenAgents deploys voice agents over SIP, which is the Crux side of the same call. Also note that ElevenLabs is a plausible Crux experience provider; check for any partner relationship before approaching.
 
 ### Shared by Christina via Messages (Evaluated October 20, 2026)
