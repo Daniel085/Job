@@ -477,7 +477,7 @@ Let me know which of these you have experience with, and I'll update your Profil
 - `Claude-User-Guide.md` - User guide for working with Claude Code
 
 ### Resumes (`resumes/`)
-- `resume-designed.html` - Base resume template (note: still lists Charter as current; prefer `resume-anthropic-safe-access.html` as the layout base for new resumes, it has the current roles and the `section.experience` print fix)
+- `resume-designed.html` - Base resume template and the generic (untailored) resume. Rebuilt October 27, 2026 from the approved Safe Access layout: current roles, corrected attribution, no Technical Skills section, canonical expertise tags, and the `section.experience` print fix. Start every new tailored resume from this file. The 2025 version is in `archive/2025/resumes/resume-designed-2025.html`.
 - `resume-{company}.html` - Active tailored resumes (anthropic-safe-access, anthropic-multi-cloud-growth, anthropic-devrel, mercury)
 
 ### Cover Letters (`cover-letters/`)

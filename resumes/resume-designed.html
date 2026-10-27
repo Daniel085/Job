@@ -23,6 +23,9 @@
       section {
         page-break-inside: avoid;
       }
+      section.experience {
+        page-break-inside: auto;
+      }
       .job {
         page-break-inside: avoid;
       }
@@ -38,8 +41,8 @@
     }
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      font-size: 10.5px;
-      line-height: 1.35;
+      font-size: 10px;
+      line-height: 1.3;
       color: #2d3748;
       background: #fff;
       padding: 0.5in 0.6in;
@@ -48,9 +51,9 @@
     }
     header {
       text-align: center;
-      padding-bottom: 14px;
+      padding-bottom: 10px;
       border-bottom: 2px solid #3182ce;
-      margin-bottom: 14px;
+      margin-bottom: 10px;
     }
     h1 {
       font-size: 26px;
@@ -72,7 +75,7 @@
       color: #a0aec0;
     }
     section {
-      margin-bottom: 14px;
+      margin-bottom: 10px;
     }
     h2 {
       font-size: 11px;
@@ -102,7 +105,7 @@
       font-weight: 500;
     }
     .job {
-      margin-bottom: 12px;
+      margin-bottom: 9px;
     }
     .job-header {
       display: flex;
@@ -196,83 +199,96 @@
       408-768-4570 <span>|</span>
       <a href="mailto:daniel@ororke.com">daniel@ororke.com</a> <span>|</span>
       <a href="https://linkedin.com/in/danielororke">linkedin.com/in/danielororke</a> <span>|</span>
-      <a href="https://github.com/Daniel085">github.com/Daniel085</a>
+      <a href="https://github.com/Daniel085">github.com/Daniel085</a> <span>|</span>
+      <a href="https://developer.alianza.com/docs">developer.alianza.com</a>
     </div>
   </header>
 
   <section>
     <h2>Professional Summary</h2>
-    <p class="summary">Principal Product Manager with 10+ years defining and executing API strategy for communications platforms. Expertise in telecom, CPaaS, and cloud communications—including WebRTC and network APIs. Proven track record building APIs that power end-to-end systems, creating developer documentation and self-service tools, and leading products through periods of explosive growth. Led teams of PMs and collaborated across engineering, architecture, and go-to-market to deliver API-driven products used by millions.</p>
+    <p class="summary">Principal Product Manager with 13 years in product management, 11 on API and developer-platform products, most of it 0-to-1. Owns the developer-facing surface of Crux, the control plane through which AI agents get governed access to live phone calls on 1,000+ operators' networks: built developer.alianza.com and the AI-built documentation system behind it, helped guide the structure of the Crux API with Architecture, and shipped the 1.0 developer experience in September 2026. Led Vonage's video API platform through 10x growth, shipped Video Express from prototype to GA in under nine months, and led Enhanced Number Verification with mobile operators and handset manufacturers. Mentored and onboarded a team of five PMs. Daily Claude Code user who builds with AI assistance and publishes on where it works and where it fails.</p>
   </section>
 
   <section>
     <h2>Areas of Expertise</h2>
     <div class="expertise-tags">
       <span class="tag">API Product Strategy</span>
-      <span class="tag">REST APIs & SDKs</span>
       <span class="tag">Developer Experience & Documentation</span>
-      <span class="tag">Telecom / CPaaS / Cloud Communications</span>
-      <span class="tag">API Lifecycle Management</span>
-      <span class="tag">Developer Enablement & Adoption</span>
-      <span class="tag">Cross-Functional Leadership</span>
-      <span class="tag">Go-to-Market Strategy</span>
+      <span class="tag">Developer Platforms & Portals</span>
+      <span class="tag">Telecom, CPaaS & Network APIs (CAMARA)</span>
+      <span class="tag">AI-Assisted Product Development</span>
+      <span class="tag">Customer Discovery (ODI / JTBD)</span>
+      <span class="tag">0-to-1 Product Launches</span>
+      <span class="tag">Cross-Functional & Partner Leadership</span>
     </div>
   </section>
 
-  <section>
+  <section class="experience">
     <h2>Professional Experience</h2>
-    
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Principal Product Manager, APIs &amp; Developer Platforms</span>
+        <span class="job-date">Jan 2026 – Present</span>
+      </div>
+      <div class="job-company">Alianza <span class="job-location">• Remote</span></div>
+      <p class="job-desc">Own the developer-facing surface of Crux, the control plane through which AI experiences get governed access to live phone calls and voice data on 1,000+ operators' networks: public API, events and webhooks, and developer.alianza.com. Crux applies identity, policy, and consent in the network before any AI is invoked, then hands the call to a virtual agent or streams media to a post-call partner. Joined after the platform was designed; shipped the 1.0 developer experience in September 2026.</p>
+      <ul>
+        <li>Designed and operate the AI-built documentation system behind the portal: agents generate reference docs and code samples from the API definition, humans review, and the system states plainly where the definition leaves a gap rather than guessing</li>
+        <li>Built developer.alianza.com, where developers learn the platform's access model (Experience, Connection, Assignment), run eligibility, connection, assignment, and activation to a live call in about ten minutes, and find the authentication guide (OAuth 2.0 grants, scoped permissions, key rotation) they integrate against; content generated by AI agents and reviewed by humans</li>
+        <li>Helped guide the structure of the Crux API with Architecture; jointly set the API standards engineering teams build against (RFC 9457 errors with trace IDs, cursor pagination, E.164 and UUID identifiers, deprecation paths) and review API proposals across teams</li>
+        <li>The developer surface serves three audiences at once: third-party AI experience providers, the operators whose networks carry the calls, and Alianza's own provisioning systems</li>
+        <li>Published the operational runbooks partners rely on in production (webhook desynchronization recovery, seed-then-stream user counting) and a known-issues page that names real failure modes; coordinated the 1.0 launch across engineering, operations, and go-to-market with experience providers integrating in sandbox during early access</li>
+      </ul>
+    </div>
+
     <div class="job">
       <div class="job-header">
         <span class="job-title">Lead Product Manager</span>
-        <span class="job-date">Apr 2025 – Present</span>
+        <span class="job-date">Apr 2025 – Jan 2026</span>
       </div>
       <div class="job-company">Charter Communications <span class="job-location">• Denver, CO (Hybrid)</span></div>
-      <p class="job-desc">Building developer platform and programmable network APIs for North America's largest ISP (by subscribers).</p>
       <ul>
-        <li>Defining API product strategy and roadmap for network APIs enabling third-party developers</li>
-        <li>Partnering with engineering and architecture to deliver scalable APIs</li>
-        <li>Leading early-stage CAMARA network API initiatives</li>
+        <li>Built the developer platform and programmable network APIs for North America's largest ISP by subscribers; defined product strategy for CAMARA network APIs exposing network identity to third-party developers under customer-consent and privacy constraints</li>
+        <li>Partnered with engineering and architecture through an ambiguous, early-stage program with dependencies across network, billing, and legal organizations</li>
       </ul>
     </div>
 
     <div class="job">
       <div class="job-header">
-        <span class="job-title">Expert Product Manager</span>
-        <span class="job-date">2020 – 2025</span>
+        <span class="job-title">Expert Product Manager, Ericsson Global Network API Platform</span>
+        <span class="job-date">May 2024 – Jan 2025</span>
       </div>
       <div class="job-company">Vonage / Ericsson <span class="job-location">• Remote</span></div>
-      <p class="job-desc">Led API-driven video platform serving millions of users. Led cross-functional portfolio, mentored team of 5 PMs, and established team frameworks and processes.</p>
-      
-      <div class="job-subtitle">Video API Platform (2020 – 2024)</div>
       <ul>
-        <li>Owned video SDK product strategy across WebRTC platform for iOS, Android, Web, Windows, Mac, and Linux</li>
-        <li>Advocated for API evolution to improve developer experience and ease of integration</li>
-        <li>Led product through 10x growth while maintaining platform reliability</li>
-        <li>Launched new product in 2021 that grew to 1.5M+ minutes per month by year two</li>
-        <li>Led cross-functional collaboration across Engineering, Architecture, Developer Relations, and GTM teams</li>
-        <li>Drove $3M revenue capture through targeted developer migration strategies in 6 months</li>
-        <li>Recipient: Key Talent Award & Key Contributor Award</li>
-      </ul>
-      
-      <div class="job-subtitle">Global Network Platform (2024 – 2025)</div>
-      <ul>
-        <li>Led Enhanced Number Verification, overcoming the limits of the existing CAMARA identity API by working with mobile operators and handset manufacturers</li>
-        <li>Presented API strategy at Ericsson Innovation Days, generating interest among European mobile network operators</li>
-        <li>Evaluated API offerings for product/market fit and partner/developer adoption potential</li>
+        <li>Led Enhanced Number Verification: the CAMARA identity-verification API was already commercial but limited, and overcame those limits by working with mobile operators and handset manufacturers; united a multi-company team across Vonage, Ericsson, and operators</li>
+        <li>On the team delivering a single unified API platform for third parties to interact with hundreds of mobile network operators globally; presented the API strategy at Ericsson Innovation Days to European operators</li>
       </ul>
     </div>
 
     <div class="job">
       <div class="job-header">
-        <span class="job-title">Senior Product Manager</span>
-        <span class="job-date">2017 – 2020</span>
+        <span class="job-title">Senior, then Expert Product Manager, Video API Platform</span>
+        <span class="job-date">Apr 2020 – May 2024</span>
       </div>
-      <div class="job-company">Twilio (SendGrid Labs) <span class="job-location">• San Francisco, CA</span></div>
-      <p class="job-desc">Led product strategy and innovation for email communications platform serving developers worldwide.</p>
+      <div class="job-company">Vonage <span class="job-location">• San Francisco, CA, then Remote</span></div>
       <ul>
-        <li>Drove SendGrid's expansion from email API to multi-channel communications platform</li>
-        <li>Introduced Outcome-Driven Innovation methodology to identify highest-impact product capabilities</li>
+        <li>Lead PM for a multi-tenant WebRTC platform used by Vonage's first-party apps, direct API customers, and third-party developers; owned client SDKs across 8 platforms</li>
+        <li>Hired to steer the platform through 650% telehealth growth in the first six weeks of the pandemic and 850% growth for 2020, maintaining reliability through 10x scale</li>
+        <li>Conceived and shipped Video Express, a 0-to-1 simplified video SDK: prototype-validated with customers, beta in under 3 months, GA in under 9, running 10% of the platform's 2019 minutes within a year</li>
+        <li>Drove $3M revenue capture in 6 months through targeted developer migration; mentored and onboarded a team of 5 PMs and established the team's product process</li>
+        <li>Recipient: Key Talent Award and Key Contributor Award</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Senior Product Manager, SendGrid Labs</span>
+        <span class="job-date">Aug 2018 – Jan 2020</span>
+      </div>
+      <div class="job-company">Twilio <span class="job-location">• San Francisco Bay Area</span></div>
+      <ul>
+        <li>Directed SendGrid's transition from email API to multi-channel communications platform through strategic roadmap development, including M&amp;A proposals; practiced Outcome-Driven Innovation discovery</li>
       </ul>
     </div>
 
@@ -282,26 +298,21 @@
         <span class="job-date">2017 – 2018</span>
       </div>
       <div class="job-company">VoiceBase <span class="job-location">• San Francisco, CA</span></div>
-      <p class="job-desc">Built developer-facing products for AI-powered Speech-to-Text API platform.</p>
       <ul>
-        <li>Developed v3 REST API documentation, SDKs, and interactive demos</li>
-        <li>Launched Developer Console with self-service analytics, enabling developers to test and debug integrations</li>
-        <li>Reduced support tickets 40% through improved documentation and self-service tooling</li>
-        <li>Company acquired by LivePerson</li>
+        <li>Shipped the v3 REST API, SDKs, and self-service Developer Console for an AI speech-to-text platform; reduced support tickets 40%</li>
+        <li>Product depended on integrating with other companies' telephone networks, so owned the partner side of access and provisioning; company acquired by LivePerson</li>
       </ul>
     </div>
 
     <div class="job">
       <div class="job-header">
-        <span class="job-title">Product Manager</span>
+        <span class="job-title">Product Manager, API Platform &amp; Developer Ecosystem</span>
         <span class="job-date">2015 – 2017</span>
       </div>
       <div class="job-company">Aerohive Networks <span class="job-location">• Sunnyvale, CA</span></div>
       <ul>
-        <li>Developed API documentation, demos, and reference applications for enterprise WiFi platform</li>
-        <li>Created developer portal content showcasing Identity, Location, and Configuration APIs</li>
-        <li>Led HiveSchool WebRTC product—won ISTE "Best in Show" award</li>
-        <li>Co-invented 2 patents for WiFi credential automation (15/073,593 & 62/350,158)</li>
+        <li>Owned the developer portal for the enterprise WiFi platform's Identity, Location, and Configuration APIs</li>
+        <li>Co-invented 2 patents for credential management and seamless device onboarding; led HiveSchool WebRTC product, ISTE "Best in Show"</li>
       </ul>
     </div>
 
@@ -312,30 +323,22 @@
       </div>
       <div class="job-company">Yahoo <span class="job-location">• Sunnyvale, CA</span></div>
       <ul>
-        <li>Managed Mail Monetization products reaching Yahoo's massive consumer user base</li>
-        <li>Recipient: Superstar Team Award</li>
+        <li>Managed Mail Monetization and ad-targeting products for Yahoo's consumer user base; recipient of Superstar Team Award</li>
       </ul>
     </div>
   </section>
 
   <section>
-    <h2>Certifications & Patents</h2>
+    <h2>Certifications, Patents &amp; Writing</h2>
     <div class="cert-item">• Certified Scrum Product Owner (CSPO) – Scrum Alliance</div>
-    <div class="cert-item">• Patent 15/073,593: Chromebook Credential Management</div>
-    <div class="cert-item">• Patent 62/350,158: Seamless Wireless Device Onboarding</div>
+    <div class="cert-item">• Patents 15/073,593 (Credential Management) and 62/350,158 (Seamless Device Onboarding)</div>
+    <div class="cert-item">• LinkedIn articles on AI-assisted product discovery, ODI/JTBD, and the Video Express build (2025–2026); daily Claude Code user who builds with AI assistance</div>
   </section>
 
   <section>
     <h2>Education</h2>
-    <div class="education-item">
-      <div class="edu-school">University of California, San Diego</div>
-      <div class="edu-degree">B.S. in Management Science, Department of Economics</div>
-      <div class="edu-details">Econometric Regression Modeling Honor Program • Coursework: Java, C++, x86 Assembly</div>
-    </div>
-    <div class="education-item">
-      <div class="edu-school">University of California, Berkeley Extension</div>
-      <div class="edu-degree">High Tech Product Marketing & Management</div>
-    </div>
+    <div class="cert-item"><span class="edu-school">University of California, San Diego</span> — B.S. in Management Science, Department of Economics <span class="edu-details">(Econometric Regression Modeling Honor Program; coursework in Java, C++, x86 Assembly)</span></div>
+    <div class="cert-item"><span class="edu-school">University of California, Berkeley Extension</span> — High Tech Product Marketing &amp; Management</div>
   </section>
 </body>
 </html>
