@@ -1,8 +1,154 @@
 # Similar API & Developer Platform Product Manager Roles
 
-*Last Updated: October 13, 2026*
+*Last Updated: October 27, 2026*
 
 This document contains active job postings for API Product Manager and Developer Platform Product Manager roles with similar requirements to the positions saved in this repository. Each position includes a fit score (0-100) based on alignment with Daniel O'Rorke's resume.
+
+---
+
+## Discovery Search, October 27, 2026
+
+Pattern-based search built from three seeds (Anthropic Multi-Cloud Growth, Anthropic Safe Access, Mercury Interfaces; see `Seed-Jobs.md`). Filter: remote US, Principal/Staff/Head-of level, base band top at or above $280K ($250K for telecom), posted or updated since August 28, 2026, on an API, developer-platform, identity/access, agent-platform, or network-API surface. Four slices, roughly 130 company boards read directly through their Greenhouse, Ashby, Lever, and Workday APIs. Indeed and LinkedIn were not used (they block fetches).
+
+**Result: 4 roles at or above 75, all remote US.** Below the five-job minimum CLAUDE.md sets for a healthy run; see the note after the table on what would widen it.
+
+### D1. **Senior Director, Product Management, Developer & AI** 🔥 **FIT SCORE: 82/100**
+**Company:** 1Password
+**Location:** Remote (United States | Canada); remote-first company, travel for offsites and customer or industry events
+**Compensation:** $267,000 - $401,000 USD base + equity, benefits, incentive programs where applicable
+**Posted:** October 6, 2026 ("existing vacancy")
+**Link:** [Apply Here](https://jobs.ashbyhq.com/1password/618d6f38-988d-4e1f-af12-f5fdeebf05ed)
+**Full Description:** [jobs/descriptions/1Password-Senior-Director-Developer-AI.md](descriptions/1Password-Senior-Director-Developer-AI.md)
+
+**Key Requirements:**
+- Lead product strategy for Developer Experience (DevX), Security for AI, and AI for Security; define identity, delegation, secrets delivery, and access control for developers and AI agents
+- 10+ years PM including 5+ years leading senior PMs or product portfolios
+- Owned platform, developer-facing, or infrastructure products; shipped developer tools or security products at scale
+- Familiarity with LLMs, orchestration frameworks, agentic workflows; understanding of identity, secrets management, access control
+- Product input into standards participation and developer advocacy; recruit and lead senior PMs
+
+**Fit Analysis:**
+✅ **Developer platform ownership is the core of the role** - 11 years on API products; built developer.alianza.com and the AI documentation system behind it; built an MCP server for the Crux API; helped guide the structure of the Crux API with Architecture
+✅ **Agent access is the same problem from the other side** - Daniel owns the developer-facing surface of Crux, the control plane through which AI experiences get governed access to live calls on operator networks (identity, consent, and policy applied in-network before any AI is invoked). 1Password's "identity, delegation, secrets delivery, and access control for AI agents" is the credential-side counterpart
+✅ **AI fluency with production evidence** - Operates an AI-built documentation system in production; daily Claude Code user; published on hallucination risk (Dec 2025) and AI for product discovery (May 2026)
+✅ **Standards and developer engagement** - CAMARA network API work at Charter and Ericsson; presented API strategy at Ericsson Innovation Days
+✅ **Exceeds the experience bar** - 13 years PM vs. 10+
+⚠️ **People leadership is the real gap** - The posting asks for 5+ years "leading senior PMs or product portfolios." The record is mentoring and onboarding a team of 5 PMs (not managing them) plus portfolio ownership (video clients across 8 platforms; the full Crux developer surface). Lead with the portfolio half of that "or" and say the mentoring part plainly
+⚠️ **Security depth is product-level, not practitioner-level** - Enhanced Number Verification, two credential-management patents, and documenting the Crux access model cover "solid understanding"; no secrets-management or security-engineering background
+⚠️ **Company signals** - Glassdoor 3.2; recent reviews report product-leadership turnover and a reporting-line change (Product under the CISO). Ask the recruiter directly
+
+---
+
+### D2. **Principal Product Manager, Platform** 🔥 **FIT SCORE: 80/100**
+**Company:** GitHub (Microsoft)
+**Location:** Remote, United States
+**Compensation:** $160,200 - $425,000 USD base (one range "across the United States") + annual bonus and stock eligibility
+**Posted:** September 8, 2026 (ongoing until filled)
+**Link:** [Apply Here](https://www.github.careers/careers-home/jobs/5764) | Staff-level sibling: [jobs/5763](https://www.github.careers/careers-home/jobs/5763) ($140,400 - $372,300)
+**Full Description:** [jobs/descriptions/GitHub-Principal-PM-Platform.md](descriptions/GitHub-Principal-PM-Platform.md)
+
+**Key Requirements:**
+- Build the platforms, APIs, and enterprise capabilities that power GitHub's developer and AI experiences; enable partners, integrators, and developers to extend GitHub
+- Experience building enterprise-grade platform capabilities (governance, security, platform guarantees) for AI-powered and/or developer-facing products
+- Deep understanding of developer ecosystems, APIs, SDKs, and partner integration models; platform adoption and ecosystem growth
+- Significant experience on AI-powered products; preferred background in applied AI/ML
+- 10+ years; pooled posting across Copilot, Core Productivity, and Platform & Enterprise teams
+
+**Fit Analysis:**
+✅ **Platform, APIs, and ecosystem are the stated job** - Ran Aerohive's API platform and developer ecosystem; Vonage Video API served first-party apps, direct API customers, and third-party developers at scale; now owns the public APIs, webhooks, and portal for a platform where AI experience providers integrate once and reach 1,000+ operators
+✅ **Governance and platform guarantees, at the product level** - With Architecture, sets the API standards engineering teams build against and reviews API proposals across teams; publishes the operational runbooks and known-issues documentation most API docs omit; Crux 1.0.0 shipped webhooks with at-least-once delivery and zero-downtime key rotation (API facts Daniel exposes and documents, not designs)
+✅ **Developer ecosystem and SDK depth** - SDKs across iOS, Android, Web, Windows, Mac, Linux at Vonage; 40% support-ticket reduction from the VoiceBase v3 API, SDKs, and console
+✅ **Exceeds the experience bar, remote, band top of $425K** - 13 years PM vs. 10+
+⚠️ **"Significant experience on AI-powered products" is the thin spot** - The evidence is the AI-built documentation system in production and VoiceBase's AI speech-to-text API; no consumer-scale generative AI product shipped (Profile.md, Areas for Development). The preferred applied-AI/ML background is not met
+⚠️ **Pooled requisition** - Candidates are considered across three teams; only Platform & Enterprise is the fit. Posted seven weeks ago; the wide band means level and pay are decided in interviews. Ask which team is hiring before investing in tailoring
+
+---
+
+### D3. **Staff Product Manager, AI Builder Experience (Partner Platform)** ⭐ **FIT SCORE: 78/100**
+**Company:** MongoDB
+**Location:** United States; Greenhouse working model "2-Flexible" (sibling postings: office or remote within the US). Confirm remote eligibility
+**Compensation:** $151,000 - $297,000 USD base + equity, ESPP, benefits
+**Posted:** September 4, 2026; updated October 27, 2026
+**Link:** [Apply Here](https://www.mongodb.com/careers/job/?gh_jid=8129885)
+**Full Description:** [jobs/descriptions/MongoDB-Staff-PM-AI-Builder-Experience.md](descriptions/MongoDB-Staff-PM-AI-Builder-Experience.md)
+
+**Key Requirements:**
+- Own the Partner Platform: the Partner API, self-serve onboarding, enterprise and admin controls, partner-managed account creation and billing, partner discovery, integration quality bar
+- Make APIs and tools "understandable to people, usable by agents, observable, secure, and resilient under automation"
+- 8+ years owning complex technical products, platforms, APIs, developer tools, ecosystems, or partner integrations
+- Technical fluency on APIs, authentication and authorization, platform boundaries, integrations, security trade-offs; MCP and agent experience strongly preferred
+- A clear point of view on building for human developers versus AI agents; hands-on AI tool use
+
+**Fit Analysis:**
+✅ **Partner API and partner onboarding is Daniel's current job** - Built developer.alianza.com with 10-minute quickstarts to a live INVITE for AI experience providers integrating with Crux; helped guide the Crux API structure with Architecture; owns public APIs, events, and webhooks
+✅ **Built for humans and agents** - Built an MCP server for the Crux API; reference docs generated from the API's technical definition with explicit gap reporting; published on where to trust AI systems. The "point of view on humans versus agents" requirement maps to his 2025-2026 writing
+✅ **Authn/z and governance fluency** - Publishes the Crux OAuth 2.0 (private_key_jwt, key rotation) authentication guide; API standards and design review with Architecture; two credential-management patents. Nice-to-haves on OAuth, delegated access, and API governance are partly covered
+✅ **Partner ecosystems at scale** - Ericsson's Global Network API Platform across hundreds of MNOs; Enhanced Number Verification with operators and handset manufacturers
+✅ **Exceeds the experience bar** - 13 years PM vs. 8+
+⚠️ **Staff title and band** - One level below the current Principal title; the band's top ($297K) reaches the floor but a remote Idaho offer will land lower. Acceptable only if base reaches current (Profile.md lateral rule)
+⚠️ **Remote not stated in the posting body** - "2-Flexible" and "United States" only; confirm before applying
+⚠️ **Data infrastructure is a new domain** - No database or data-platform background; the nice-to-have MongoDB familiarity is not met
+
+---
+
+### D4. **Director of Product, AI Growth** ⭐ **FIT SCORE: 78/100**
+**Company:** 1Password
+**Location:** Remote (United States | Canada); travel 10-20% to design customers, partners, events
+**Compensation:** $238,000 - $357,000 USD base + equity, benefits, incentive programs where applicable
+**Posted:** October 22, 2026 (same day 1Password for Agents launched; "existing vacancy")
+**Level:** Director-level individual contributor, no direct reports
+**Link:** [Apply Here](https://jobs.ashbyhq.com/1password/8151254c-b7d1-4653-87b1-7afeba176898)
+**Full Description:** [jobs/descriptions/1Password-Director-AI-Growth.md](descriptions/1Password-Director-AI-Growth.md)
+
+**Key Requirements:**
+- Own the growth thesis for 1Password's AI business; run the design-customer program as the single person accountable for each agentic-access deployment, with a forward-deployed engineering team
+- Decide where 1Password sits in the customer's AI stack; build the partnerships and integrations that complete an end-to-end outcome; work with BD on commercial terms
+- 8+ years PM including carrying a revenue or adoption target; took a new product area from hypothesis to customers in production
+- Technical depth on how AI agents are built, deployed, and given access to systems; AI-first daily work
+- Preferred: familiarity with agentic access products
+
+**Fit Analysis:**
+✅ **Hypothesis to production is the strongest story on the record** - Video Express: validated with a prototype, beta in under 3 months, GA in under 9, 10% of 2019 platform minutes within a year; developer.alianza.com launched September 9, 2026
+✅ **Technology partnerships and integrations** - Enhanced Number Verification with mobile operators and handset manufacturers; Ericsson's Global Network API Platform; CAMARA at Charter; Crux launched with AI experience providers through operators
+✅ **Agent access depth** - Owns the developer surface of the control plane that gives AI experiences governed access to phone calls; built an MCP server; daily Claude Code user, which meets "works AI-first" literally
+✅ **Revenue and adoption evidence** - $3M revenue capture through developer migration in 6 months; platform grown to 1.5M+ minutes/month; 40% support-ticket reduction
+⚠️ **The design-customer "general contractor" motion is field-heavier than the record** - Daniel has built demos and sales enablement (VoiceBase, Vonage) and worked with GTM, but has not been the person accountable for enterprise deployments with forward-deployed engineers
+⚠️ **Commercial terms with BD** - SendGrid M&A proposals are the nearest evidence; no documented partner revenue-term negotiation (Profile.md lists monetization as an area for development)
+⚠️ **Growth role, not platform ownership** - Title is Director IC, band tops $44K below D1; the platform roadmap belongs to other PMs
+
+---
+
+### Evaluated and Below Threshold (Discovery Search, October 27, 2026)
+
+Sorted by score. Every link was opened; bands are base salary as posted.
+
+| Role | Comp / location / posted | Score | Why it falls short |
+|------|--------------------------|-------|--------------------|
+| [Product Manager, Enterprise Identity, OpenAI](https://jobs.ashbyhq.com/openai/83f6d415-9462-4afc-a539-ca8d996e011a) | $347K-$490K; San Francisco, relocation assistance; Sept 21 | 70 | SSO, SCIM, federation, and admin controls across ChatGPT and the API for IT buyers; 10+ years on large-scale enterprise products. Daniel's identity evidence is network-side verification and the Crux access surface, not enterprise IT identity. The only SF role in this run whose band top clears the ~$455K relocation floor; worth a conversation if relocation is on the table |
+| [Product Manager, Ecosystem, Stripe](https://stripe.com/jobs/listing/product-manager-ecosystem/8234705) | $214K-$322K; remote US; Oct 6 | 68 | Owns the Stripe Apps Marketplace: merchant funnel, discovery and ranking, app quality standards, partner incentives and revenue share. Two-sided platform evidence from Aerohive and Crux fits; marketplace growth mechanics and monetization design do not |
+| [Staff PM, Agent Connectivity / Core Primitives / Nexus, Temporal](https://jobs.ashbyhq.com/temporal/7592248c-719a-485c-a1a9-9285f99ed56b) | $160K-$262.5K; remote US; Oct 16 | 68 | Best surface in the developer-tools slice (SDKs, agent tool calling, cross-service APIs) at a band that tops $18K under the floor. Revisit if the floor drops to $250K |
+| [Senior Group PM (Apono), 1Password](https://jobs.ashbyhq.com/1password/0759fd1f-945b-40a6-95e1-e498bcab2044) | $202K-$293K, commission-eligible; remote US "with a focus on the East Coast"; Oct 9 | 68 | Leads the Apono PM team (just-in-time access for humans, machines, agents). People-manager role; IAM/PAM depth asked; East Coast focus from Mountain time; band below D1-D4 |
+| [Staff PM, Telephony, LiveKit](https://jobs.ashbyhq.com/livekit/d0dbf189-af6d-400e-ac1f-4da798be85bb) | $225K-$265K; remote or SF; Aug 13 | 65 | SIP trunking and phone numbers for voice agents, squarely adjacent to Crux. Fails band and the 60-day window |
+| [Staff PM, Identity, Twilio](https://job-boards.greenhouse.io/twilio/jobs/8319160) | $155K-$229K (top tier); remote US excluding CA, CT, NJ, NY, PA, WA; Oct 26 | 65 | Authentication, authorization, agentic and non-human identity for developers; Twilio alumni. Staff level and a band that tops roughly $50K under the floor |
+| [Sr. Principal PM, Developer Platform, Twilio](https://job-boards.greenhouse.io/twilio/jobs/8108776) | $233K-$305K by tier (Idaho not listed); remote US excluding Bay Area and Seattle; Aug 7 | 62 | Internal platform-as-a-product (golden paths, DORA metrics) requiring 12+ years on "cloud native commerce systems for usage-based and metered products." Stated application deadline (Oct 5) has passed; posting still open |
+| [Product Manager, Auth, Supabase](https://jobs.ashbyhq.com/supabase) | no band; remote global; Oct 7 | 62 | OAuth for MCP clients and agent auth are the strong signals. Flat PM title and no band; level unknown |
+| [Technical PM, Developer Experience & PLG, Telnyx](https://job-boards.greenhouse.io/telnyx54/jobs/8042159003) | no band; remote US; Oct 22 | 60 | Head-of scope (reports to the COO, leads a 6-person DevRel and PLG engineering team) but requires "a strong software engineering background... comfortable building and debugging real applications." Conflicts with the no-solo-coding constraint |
+| [Staff PM, AI & Data Foundations, Plaid](https://jobs.ashbyhq.com/plaid/f1e8a2ca-d4cc-4b00-9548-c73bce9cf069) | $208K-$340K; SF or NYC; Sept 29 | 60 | Internal platform ("platforms that Plaid teams choose to use"), not the public API; no remote sentence |
+| [Staff PM, Trust Hub / KYC, Twilio](https://job-boards.greenhouse.io/twilio/jobs/8131091) | $188K-$277K; remote US excluding CA, CT, NJ, NY, PA, WA; Aug 26 | 60 | Onboarding and compliance gateway to Twilio's APIs; regulated-telecom experience wanted. Band and date both marginal |
+| [Staff PM, AI Applications, Deepgram](https://jobs.ashbyhq.com/deepgram/9762d2a1-3d07-4e65-a0bb-6ed8162ca7d5) | $200K-$250K outside SF/NYC/Seattle; remote US; Oct 9 | 60 | Voice AI applications; band tops at the telecom floor |
+| [Director of PM, Agentic Software Delivery, GitLab](https://job-boards.greenhouse.io/gitlab/jobs/8806017002) | $203K-$346K; remote US; Sept 14 | 58 | Requires managing senior and principal PMs with hiring and performance authority, CI/CD, artifact, and observability depth, and pricing and packaging ownership. Three gaps |
+| [Principal PM, Security, 1Password](https://jobs.ashbyhq.com/1password/ff516ff4-2726-4c18-ae6e-681640d9c81d) | $238K-$357K + 15% bonus; remote US/CA; Oct 5 | 58 | Owns agentic credential access and MCP trust models (fits) but requires demonstrable cryptography, zero-knowledge architecture, WebAuthn/FIDO, and threat-modeling depth (does not) |
+| [Senior PM, Agent Marketplace, Snowflake](https://jobs.ashbyhq.com/snowflake/3c565761-4ce8-40f4-a346-1997b117afbc) | $200K-$287.5K; Menlo Park (Ashby remote flag, no remote sentence); Oct 13 | 55 | Agent and MCP marketplace with "commercial architecture mastery": metered consumption, outcome pricing, committed-spend drawdowns, revenue share. Pricing is the stated gap |
+| [Staff PM, Agentic Test Intelligence, GitLab](https://job-boards.greenhouse.io/gitlab/jobs/8871820002) | $168K-$286K; remote US/CA; Oct 13 | 55 | Test automation and code-coverage domain |
+| [PM, Enterprise Agent Platform, Decagon](https://jobs.ashbyhq.com/decagon/e27fcbdf-891c-4b2f-9c47-d2bdc26eb2d4) | $232K-$290K; in-office; Aug 8 | 55 | Integrations, SDK, external APIs for an agent platform; "we're an in-office company" |
+| [Principal PM, AI-Native Merchant Experiences, Adyen](https://careers.adyen.com) | $330K-$462K; SF office-first, 3 days a week | 50 | Merchant-facing payments product; office-first in SF |
+| [Senior PM, Agent Identity Management, Pindrop](https://job-boards.greenhouse.io/pindropsecurity/jobs/8301450) | $150K-$190K; remote US; Oct 20 | 50 | Right surface, Senior level, band far below floor |
+| [PM, Agent Development, Financial Services, Sierra](https://jobs.ashbyhq.com/sierra/bc98b50a-d6ea-42b8-b1c6-f55099d1bb1c) | $180K-$390K; SF or NYC on-site; Aug 30 | 45 | "Primarily an in-person company"; financial-services agent builds |
+| [Product Manager, Storage, Vercel](https://job-boards.greenhouse.io/vercel/jobs/6228301004) | $208K-$312K (SF); remote US beyond commuting distance; Oct 20 | 40 | Requires shipped storage or database products |
+
+**Companies read with no qualifying opening (so the check is not repeated):** Okta/Auth0 (all PM roles hybrid in office cities or Toronto), WorkOS, Stytch (now on Twilio's board), Descope, Ping Identity, Veza (board unreachable, worth a manual look), ConductorOne (SF hybrid), Oso, Permit.io, Cerbos, Aembit, Astrix (Cisco), Teleport, SGNL (CrowdStrike), Silverfort (Tel Aviv), Persona, Prove, Telesign, Aduna (PM in Łódź only), Vonage (PM roles Wrocław only; a BSS Senior Director role is billing, not APIs), Bandwidth, Dialpad, RingCentral, Zoom, 8x8, Nokia, Ericsson, Verizon, AT&T, Comcast, Charter, T-Mobile, Lumen, Intrado, Sinch, Infobip, Plivo, Boku, Hiya (Senior PM Voice AI, Seattle, $188K-$218K, July), OpenAI (every PM role SF-based), Google DeepMind and Vertex AI (on-site), Cohere (June posting), Mistral, Together AI (four days in SF), Fireworks (hybrid San Mateo), Baseten (April/June postings), Modal, Replicate (via Cloudflare), LangChain (NYC on-site), Composio, Arcade, Browserbase, Retell, Vapi ($240K-$270K, Aug 13), Cartesia, Bland, PolyAI, Cresta, Observe.ai, Hume, Speechmatics, Gladia, LiveKit (above), Daily (not hiring), Agora, Smallest, Rime, Stripe office-only roles (Sandboxes, Developer Experience Bridge, Agentic Commerce), Postman ($240K-$275K, stale), Kong (SF), Cloudflare (hybrid Austin/London), PagerDuty (hybrid), Datadog (NYC hybrid), Confluent, HashiCorp, Netlify, Speakeasy, Stainless, Mintlify, ReadMe, Apollo, Zuplo, Sendbird, Stream, Ably, PubNub, LaunchDarkly (Staff PM Data Products, Aug 13, Boise zone tops $251K; VP Product needs 20+ PM org), Workato (Palo Alto), Zapier, Slack, Shopify, Square, Atlassian, Checkout.com, Lithic, Unit, Modern Treasury, Databricks (SF/Seattle), Snowflake (above).
+
+**What would widen the pipeline.** The telecom and voice-AI slices have the right surfaces but pay $225K-$275K at Staff and Principal; dropping the floor to $250K admits Temporal, LiveKit, and Twilio Identity. Accepting SF with a band above the relocation floor admits only OpenAI Enterprise Identity. Otherwise the fix is time: the boards refresh weekly, and this run can be repeated against the same seed pattern.
 
 ---
 
