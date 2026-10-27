@@ -13,6 +13,7 @@ Pattern-based search built from three seeds (Anthropic Multi-Cloud Growth, Anthr
 **Result: 4 roles at or above 75, all remote US.** Below the five-job minimum CLAUDE.md sets for a healthy run; see the note after the table on what would widen it.
 
 ### D1. **Senior Director, Product Management, Developer & AI** 🔥 **FIT SCORE: 82/100**
+**Application status:** Package prepared October 27, 2026 (`applications/1password-developer-ai/`); six claims to confirm in the checklist before submitting.
 **Company:** 1Password
 **Location:** Remote (United States | Canada); remote-first company, travel for offsites and customer or industry events
 **Compensation:** $267,000 - $401,000 USD base + equity, benefits, incentive programs where applicable

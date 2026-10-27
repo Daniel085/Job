@@ -478,10 +478,10 @@ Let me know which of these you have experience with, and I'll update your Profil
 
 ### Resumes (`resumes/`)
 - `resume-designed.html` - Base resume template and the generic (untailored) resume. Rebuilt October 27, 2026 from the approved Safe Access layout: current roles, corrected attribution, no Technical Skills section, canonical expertise tags, and the `section.experience` print fix. Start every new tailored resume from this file. The 2025 version is in `archive/2025/resumes/resume-designed-2025.html`.
-- `resume-{company}.html` - Active tailored resumes (anthropic-safe-access, anthropic-multi-cloud-growth, anthropic-devrel, mercury)
+- `resume-{company}.html` - Active tailored resumes (anthropic-safe-access, anthropic-multi-cloud-growth, anthropic-devrel, mercury, 1password-developer-ai)
 
 ### Cover Letters (`cover-letters/`)
-- `cover-letter-{company}.md` - Active cover letters (anthropic-safe-access, anthropic-multi-cloud-growth, anthropic-devrel, mercury)
+- `cover-letter-{company}.md` - Active cover letters (anthropic-safe-access, anthropic-multi-cloud-growth, anthropic-devrel, mercury, 1password-developer-ai)
 
 ### Archive (`archive/2025/`)
 - Resumes and cover letters from the 2025 search (anthropic API PM, lightyear, pagerduty, plaid, postman, twilio, zoom). All those roles are closed. These files predate the October 2026 attribution corrections and must not be reused as-is.
