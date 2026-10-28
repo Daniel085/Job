@@ -3,7 +3,7 @@
 **Apply at:** https://jobs.ashbyhq.com/1password/618d6f38-988d-4e1f-af12-f5fdeebf05ed/application
 **Salary on posting:** $267,000 - $401,000 USD base + equity, benefits, incentive programs where applicable
 **Location on posting:** Remote (United States | Canada); remote-first, travel for offsites and events
-**Prepared:** October 27, 2026
+**Prepared:** October 27, 2026. **Submitted:** October 28, 2026.
 
 ## Before you start
 

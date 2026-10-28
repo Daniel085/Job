@@ -13,7 +13,7 @@ Pattern-based search built from three seeds (Anthropic Multi-Cloud Growth, Anthr
 **Result: 4 roles at or above 75, all remote US.** Below the five-job minimum CLAUDE.md sets for a healthy run; see the note after the table on what would widen it.
 
 ### D1. **Senior Director, Product Management, Developer & AI** 🔥 **FIT SCORE: 82/100**
-**Application status:** Package prepared October 27, 2026; all six claims confirmed by Daniel October 28 (`applications/1password-developer-ai/`). Ready to submit.
+**Application status:** Submitted by Daniel, October 28, 2026 (package in `applications/1password-developer-ai/`).
 **Company:** 1Password
 **Location:** Remote (United States | Canada); remote-first company, travel for offsites and customer or industry events
 **Compensation:** $267,000 - $401,000 USD base + equity, benefits, incentive programs where applicable
@@ -41,6 +41,7 @@ Pattern-based search built from three seeds (Anthropic Multi-Cloud Growth, Anthr
 ---
 
 ### D2. **Principal Product Manager, Platform** 🔥 **FIT SCORE: 80/100**
+**Application status:** Package prepared October 28, 2026 (`applications/github-platform/`); six claims to confirm in the checklist before submitting.
 **Company:** GitHub (Microsoft)
 **Location:** Remote, United States
 **Compensation:** $160,200 - $425,000 USD base (one range "across the United States") + annual bonus and stock eligibility
