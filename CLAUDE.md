@@ -483,6 +483,10 @@ Let me know which of these you have experience with, and I'll update your Profil
 ### Cover Letters (`cover-letters/`)
 - `cover-letter-{company}.md` - Active cover letters (anthropic-safe-access, anthropic-multi-cloud-growth, anthropic-devrel, mercury, 1password-developer-ai)
 
+### Application packages (`applications/`)
+- One folder per role: `applications/{company-role}/` with the resume PDF, cover letter PDF where one exists, and `application-checklist.md` (form fields pre-filled, decisions flagged, claims to confirm).
+- PDF filenames carry the role so two packages never share a name: `Daniel-ORorke-Resume-{Role}.pdf`, `Daniel-ORorke-Cover-Letter-{Role}.pdf` (e.g. `-1Password`, `-Anthropic-Safe-Access`, `-Generic`).
+
 ### Archive (`archive/2025/`)
 - Resumes and cover letters from the 2025 search (anthropic API PM, lightyear, pagerduty, plaid, postman, twilio, zoom). All those roles are closed. These files predate the October 2026 attribution corrections and must not be reused as-is.
 
