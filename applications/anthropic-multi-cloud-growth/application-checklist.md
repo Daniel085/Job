@@ -13,7 +13,7 @@ The resume for this role (`resumes/resume-anthropic-multi-cloud-growth.html`) ha
 
 | Field | File |
 |-------|------|
-| Resume/CV (pdf) | `applications/anthropic-multi-cloud-growth/Daniel-ORorke-Resume.pdf` (2 pages, letter) |
+| Resume/CV (pdf) | `applications/anthropic-multi-cloud-growth/Daniel-ORorke-Resume-Anthropic-Multi-Cloud.pdf` (2 pages, letter) |
 | Additional Information | Optional. Cover letters are not used; leave blank or paste one or two sentences from `cover-letters/cover-letter-anthropic-multi-cloud-growth.md` if you want the partner-channel framing on record. |
 
 ## Fields, pre-filled from Profile.md

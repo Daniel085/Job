@@ -15,8 +15,8 @@
 
 | Field | File |
 |-------|------|
-| Resume (required) | `applications/1password-developer-ai/Daniel-ORorke-Resume.pdf` (2 pages, letter) |
-| Cover letter | No upload field. Paste the "Why 1Password" paragraph into the required "Why 1Password?" question and, if you want the full letter on record, the rest into "Additional Information." The PDF (`Daniel-ORorke-Cover-Letter.pdf`) is for your own review and for any recruiter email. |
+| Resume (required) | `applications/1password-developer-ai/Daniel-ORorke-Resume-1Password.pdf` (2 pages, letter) |
+| Cover letter | No upload field. Paste the "Why 1Password" paragraph into the required "Why 1Password?" question and, if you want the full letter on record, the rest into "Additional Information." The PDF (`Daniel-ORorke-Cover-Letter-1Password.pdf`) is for your own review and for any recruiter email. |
 
 ## Fields, pre-filled from Profile.md (form read from Ashby on October 27, 2026)
 
