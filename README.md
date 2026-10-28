@@ -51,8 +51,7 @@ This repository provides an automated, AI-assisted job search workflow that help
 ### For Active Job Searching
 - **[📋 Active Job Opportunities](jobs/Similar-Job-Postings.md)** - Curated list with fit scores
 - **[👤 Professional Profile](Profile.md)** - Your single source of truth
-- **[📄 Resumes](resumes/)** - Base and company-specific tailored versions
-- **[✉️ Cover Letters](cover-letters/)** - Company-specific letters
+- **[📁 Application Packages](applications/)** - One folder per role: tailored resume (HTML + PDF), cover letter (Markdown + PDF), and a form checklist; `applications/generic/` holds the base template
 
 ### For Claude Code Users
 - **[🤖 CLAUDE.md](CLAUDE.md)** - Complete workflow instructions for Claude
@@ -91,11 +90,9 @@ This repository provides an automated, AI-assisted job search workflow that help
 │   ├── AI-Assistant-Job-Search.md    # Fit scoring algorithm
 │   └── Claude-User-Guide.md          # User guide for Claude Code
 │
-├── resumes/                           # YOUR resumes (generated)
-│   └── resume-{company}.html         # Tailored versions for each company
-│
-├── cover-letters/                     # YOUR cover letters (generated)
-│   └── cover-letter-{company}.md     # Company-specific letters
+├── applications/                      # YOUR application packages (generated)
+│   ├── generic/                      # Base template + generic resume PDF
+│   └── {company-role}/               # resume-*.html, cover-letter-*.md, PDFs, application-checklist.md
 │
 └── jobs/                              # YOUR job tracking (generated)
     ├── Similar-Job-Postings.md       # Active opportunities with fit scores

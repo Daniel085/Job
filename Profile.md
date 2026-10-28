@@ -491,7 +491,7 @@ Based on LinkedIn "Open to work" settings (October 2026, visible to recruiters o
 
 ## References & Additional Resources
 
-- **Resume:** resume-designed.html (in this repository)
+- **Resume:** applications/generic/resume-designed.html (base template and generic resume)
 - **Job Tracking:** Similar-Job-Postings.md
 - **Target Job Descriptions:** job-description.md, Wavelo.md
 - **GitHub Portfolio:** [github.com/Daniel085](https://github.com/Daniel085)

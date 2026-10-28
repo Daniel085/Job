@@ -9,7 +9,7 @@
 | Field | File |
 |-------|------|
 | Resume/CV (pdf) | `applications/anthropic-safe-access/Daniel-ORorke-Resume-Anthropic-Safe-Access.pdf` (2 pages, letter) |
-| Additional Information (cover letter) | `applications/anthropic-safe-access/Daniel-ORorke-Cover-Letter-Anthropic-Safe-Access.pdf`, or paste the text from `cover-letters/cover-letter-anthropic-safe-access.md` |
+| Additional Information (cover letter) | `applications/anthropic-safe-access/Daniel-ORorke-Cover-Letter-Anthropic-Safe-Access.pdf`, or paste the text from `applications/anthropic-safe-access/cover-letter-anthropic-safe-access.md` |
 
 ## Fields, pre-filled from Profile.md
 

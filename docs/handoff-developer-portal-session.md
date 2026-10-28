@@ -13,7 +13,7 @@ Daniel is running a job search from the `Daniel085/Job` repository. The portal a
 - Previously Lead PM at Charter (Apr 2025 to Jan 2026, CAMARA network APIs), Expert PM at Vonage/Ericsson (2020 to 2025, Video API and CAMARA Number Verification), Senior PM at Twilio SendGrid Labs and VoiceBase, PM at Aerohive and Yahoo.
 - Location: Boise metropolitan area. Open to remote and on-site.
 - Target roles: Principal / Senior Staff API and developer-platform PM, $226K to $400K.
-- Active Anthropic targets, scored against `Profile.md`: Multi-Cloud Growth - Google (85), Safe Access (78, revised Oct 22 after the attribution correction), Developer Relations (78). New Markets and Monetization dropped to 66 (no pricing or partner-billing history). Also Mercury Head of Product, Interfaces (76). Resume and cover letter for Safe Access are in `resumes/resume-anthropic-safe-access.html` and `cover-letters/cover-letter-anthropic-safe-access.md`.
+- Active Anthropic targets, scored against `Profile.md`: Multi-Cloud Growth - Google (85), Safe Access (78, revised Oct 22 after the attribution correction), Developer Relations (78). New Markets and Monetization dropped to 66 (no pricing or partner-billing history). Also Mercury Head of Product, Interfaces (76). Resume and cover letter for Safe Access are in `applications/anthropic-safe-access/`.
 
 ## Claims about the portal now in application materials
 

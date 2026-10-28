@@ -7,14 +7,14 @@
 
 ## Before you start
 
-The resume for this role (`resumes/resume-anthropic-multi-cloud-growth.html`) has had the same attribution corrections as Safe Access but you have not yet read it through and approved it the way you did Safe Access. Read the PDF first.
+The resume for this role (`applications/anthropic-multi-cloud-growth/resume-anthropic-multi-cloud-growth.html`) has had the same attribution corrections as Safe Access but you have not yet read it through and approved it the way you did Safe Access. Read the PDF first.
 
 ## File to upload
 
 | Field | File |
 |-------|------|
 | Resume/CV (pdf) | `applications/anthropic-multi-cloud-growth/Daniel-ORorke-Resume-Anthropic-Multi-Cloud.pdf` (2 pages, letter) |
-| Additional Information | Optional. Cover letters are not used; leave blank or paste one or two sentences from `cover-letters/cover-letter-anthropic-multi-cloud-growth.md` if you want the partner-channel framing on record. |
+| Additional Information | Optional. Cover letters are not used; leave blank or paste one or two sentences from `applications/anthropic-multi-cloud-growth/cover-letter-anthropic-multi-cloud-growth.md` if you want the partner-channel framing on record. |
 
 ## Fields, pre-filled from Profile.md
 

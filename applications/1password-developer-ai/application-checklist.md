@@ -7,7 +7,7 @@
 
 ## Before you start
 
-- The resume (`resumes/resume-1password-developer-ai.html`) adds an MCP-server bullet and an Areas of Expertise row whose eight tags each mirror the posting's wording. Read the PDF end to end; see "Claims to confirm" below.
+- The resume (`applications/1password-developer-ai/resume-1password-developer-ai.html`) adds an MCP-server bullet and an Areas of Expertise row whose eight tags each mirror the posting's wording. Read the PDF end to end; see "Claims to confirm" below.
 - 1Password's posting says candidates "are welcome to use AI tools responsibly and thoughtfully during the application process" and asks only that live interviews be done without them. These materials were drafted with AI assistance and are within that policy as written.
 - Applications are screened with AI/ML; an opt-out form exists at https://jobs.ashbyhq.com/1password/automation-notice. Your call.
 

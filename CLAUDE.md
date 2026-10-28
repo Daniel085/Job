@@ -15,9 +15,9 @@ Profile.md (master reference)
     ↓
 jobs/Similar-Job-Postings.md (fit scores calculated from Profile.md)
     ↓
-resumes/resume-{company}.html (tailored from Profile.md + job requirements)
+applications/{company-role}/resume-{company-role}.html (tailored from Profile.md + job requirements)
     ↓
-cover-letters/cover-letter-{company}.md (written from resume + job description)
+applications/{company-role}/cover-letter-{company-role}.md (written from resume + job description)
 ```
 
 **Critical:** `Profile.md` is the single source of truth. All fit scores, resume customizations, and cover letters derive from this document. Always read `Profile.md` first when evaluating new jobs or creating application materials.
@@ -50,13 +50,13 @@ When adding jobs to `jobs/Similar-Job-Postings.md`, always read complete `Profil
 
 All resume HTML files follow 2-page print-optimized format with CSS page breaks (see commit 17466ca). When creating new tailored resumes:
 
-1. Read `resumes/resume-designed.html` as base template
+1. Read `applications/generic/resume-designed.html` as base template
 2. Read target job requirements from `jobs/descriptions/` or job posting URL
 3. Read `Profile.md` for relevant experience matching job requirements
 4. Customize "Professional Summary" and project descriptions to highlight relevant experience
 5. Ensure CSS includes `page-break-after: always` between pages
 6. Verify 2-page format (not 3+ pages)
-7. Save as `resumes/resume-{company}.html`
+7. Save as `applications/{company-role}/resume-{company-role}.html`, next to the cover letter, PDFs, and `application-checklist.md` for that role
 
 **Key Differentiators to Emphasize (from Profile.md:263-292):**
 - CAMARA network API experience (rare for API PMs)
@@ -67,7 +67,7 @@ All resume HTML files follow 2-page print-optimized format with CSS page breaks 
 
 ### Cover Letter Pattern
 
-Tailored cover letters live in `cover-letters/cover-letter-{company}.md`. Standard structure:
+Tailored cover letters live in `applications/{company-role}/cover-letter-{company-role}.md`. Standard structure:
 
 1. Opening hook connecting candidate background to company mission
 2. 2-3 specific experiences matching job requirements (with metrics)
@@ -312,8 +312,8 @@ Ready to create tailored resumes for top matches? (Yes/No)
 
 ```bash
 # 1. Read Profile.md and target job description
-# 2. Create resumes/resume-{company}.html from resumes/resume-designed.html
-# 3. Create cover-letters/cover-letter-{company}.md
+# 2. Create applications/{company-role}/resume-{company-role}.html from applications/generic/resume-designed.html
+# 3. Create applications/{company-role}/cover-letter-{company-role}.md
 # 4. Verify 2-page resume format
 # 5. Commit with message: "Add tailored resume and cover letter for {Company} {Role}"
 ```
@@ -322,9 +322,9 @@ Ready to create tailored resumes for top matches? (Yes/No)
 
 ```bash
 # Open HTML resume in browser
-firefox resumes/resume-designed.html
+firefox applications/generic/resume-designed.html
 # or
-google-chrome resumes/resume-anthropic.html
+google-chrome applications/anthropic-safe-access/resume-anthropic-safe-access.html
 ```
 
 ### Verifying Job Links
@@ -476,19 +476,11 @@ Let me know which of these you have experience with, and I'll update your Profil
 - `AI-Assistant-Job-Search.md` - Fit scoring algorithm and workflow instructions
 - `Claude-User-Guide.md` - User guide for working with Claude Code
 
-### Resumes (`resumes/`)
-- `resume-designed.html` - Base resume template and the generic (untailored) resume. Rebuilt October 27, 2026 from the approved Safe Access layout: current roles, corrected attribution, no Technical Skills section, canonical expertise tags, and the `section.experience` print fix. Start every new tailored resume from this file. The 2025 version is in `archive/2025/resumes/resume-designed-2025.html`.
-- `resume-{company}.html` - Active tailored resumes (anthropic-safe-access, anthropic-multi-cloud-growth, anthropic-devrel, mercury, 1password-developer-ai)
-
-### Cover Letters (`cover-letters/`)
-- `cover-letter-{company}.md` - Active cover letters (anthropic-safe-access, anthropic-multi-cloud-growth, anthropic-devrel, mercury, 1password-developer-ai)
-
-### Application packages (`applications/`)
-- One folder per role: `applications/{company-role}/` with the resume PDF, cover letter PDF where one exists, and `application-checklist.md` (form fields pre-filled, decisions flagged, claims to confirm).
-- PDF filenames carry the role so two packages never share a name: `Daniel-ORorke-Resume-{Role}.pdf`, `Daniel-ORorke-Cover-Letter-{Role}.pdf` (e.g. `-1Password`, `-Anthropic-Safe-Access`, `-Generic`).
-
-### Archive (`archive/2025/`)
-- Resumes and cover letters from the 2025 search (anthropic API PM, lightyear, pagerduty, plaid, postman, twilio, zoom). All those roles are closed. These files predate the October 2026 attribution corrections and must not be reused as-is.
+### Application packages (`applications/`) — all resumes and cover letters live here
+- `generic/resume-designed.html` - Base resume template and the generic (untailored) resume. Rebuilt October 27, 2026 from the approved Safe Access layout: current roles, corrected attribution, no Technical Skills section, no expertise tag row, and the `section.experience` print fix. Start every new tailored resume from this file. `generic/Daniel-ORorke-Resume-Generic.pdf` is its rendered copy.
+- `{company-role}/` - One folder per role containing `resume-{company-role}.html`, `cover-letter-{company-role}.md`, the rendered PDFs, and `application-checklist.md` (form fields pre-filled, decisions flagged, claims to confirm). Active: `1password-developer-ai`, `anthropic-safe-access`, `anthropic-multi-cloud-growth`, `anthropic-devrel`.
+- PDF filenames carry the role so two packages never share a name: `Daniel-ORorke-Resume-{Role}.pdf`, `Daniel-ORorke-Cover-Letter-{Role}.pdf`.
+- Closed roles' folders are deleted, not archived (October 28, 2026): the materials regenerate from Profile.md in minutes and stay in git history. Mercury Interfaces and the 2025 search (Anthropic API PM, Lightyear, PagerDuty, Plaid, Postman, Twilio, Zoom) were removed this way; those predate the October 2026 attribution corrections and must not be restored as-is.
 
 ### Job Tracking (`jobs/`)
 - `Similar-Job-Postings.md` - Active opportunities with fit scores (sorted by score)

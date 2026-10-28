@@ -40,7 +40,7 @@ if [ "$#" -gt 0 ]; then
   FILES=("$@")
 else
   # External-facing materials only. The tracker and handoff are internal and may name partners; lint them separately if needed.
-  mapfile -t FILES < <(ls resumes/resume-*.html cover-letters/cover-letter-*.md 2>/dev/null | grep -v '^examples/')
+  mapfile -t FILES < <(ls applications/*/resume-*.html applications/*/cover-letter-*.md 2>/dev/null)
 fi
 
 status=0
