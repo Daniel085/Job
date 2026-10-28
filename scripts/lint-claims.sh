@@ -29,6 +29,9 @@ BANNED=(
   'wrote the authentication guide'
   'three-resource mental model'
   'SoundHound|Revmo|MiaRec|Dubber'
+  'CAMARA standards participation'
+  'Standards Participation</span>'
+  'Ericsson.{0,160}CAMARA standards'
 )
 
 if [ "$#" -gt 0 ]; then

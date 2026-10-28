@@ -1,6 +1,6 @@
 # Daniel O'Rorke - Professional Profile
 
-*Last Updated: October 18, 2026 (from LinkedIn data export and profile PDF dated October 18, 2026)*
+*Last Updated: October 28, 2026 (LinkedIn export and profile PDF of October 18, 2026; claim confirmations October 22 and 28, 2026)*
 
 This document maintains key information about Daniel O'Rorke's professional background, used for evaluating job fit scores and tailoring applications.
 
@@ -54,11 +54,14 @@ Also: do not list a Technical Skills section on resumes. Daniel builds with AI a
 - Designed **developer.alianza.com** and operate the AI-built documentation system behind it
 - Documentation system generates reference docs directly from the API's technical definition (docs-as-code); flags gaps in the definition rather than guessing
 - Helped guide the structure of the Crux API; with Architecture, set the API standards engineering teams build against and review API proposals across teams
-- Related GitHub work: AlianzaDocs (experimental documentation generation using Claude), MCP server for the existing API
+- Built an MCP server for the Crux API so coding agents can work against the platform directly (confirmed October 28, 2026; "built" tier)
+- The documentation system and API standards were built once so each new experience provider integrates without bespoke Alianza-side work (confirmed October 28, 2026)
+- Related GitHub work: AlianzaDocs (experimental documentation generation using Claude), MCP server for the API
 
 **Previous:** **Lead Product Manager** at **Charter Communications** (April 2025 - January 2026, Full-time, Denver CO, Hybrid)
 - Built the developer platform and programmable network APIs for North America's largest ISP by subscribers
 - Led early-stage **CAMARA network API** initiatives ("CAMARA & more, for everything else")
+- Attended CAMARA standards meetings and contributed some feedback (Daniel, October 28, 2026: "trivial feedback"). This is the only standards-body participation on the record; none at Ericsson. Say "attended CAMARA standards meetings and contributed feedback," never "standards participation" or "contributor."
 - Defined API product strategy for network APIs enabling third-party developers
 - Early-stage telecom billing system work
 
@@ -100,7 +103,8 @@ Also: do not list a Technical Skills section on resumes. Daniel builds with AI a
 
 ### Leadership & Strategy
 - Cross-Functional Leadership (Engineering, Architecture, DevRel, GTM)
-- Team Building & Mentorship (Mentored and onboarded team of 5 PMs, built frameworks and processes)
+- Team Building & Mentorship (Mentored and onboarded team of 5 PMs at Vonage; established the team's product process, discovery practice, and operating rhythm; confirmed October 28, 2026)
+- Not on the record: managing a group of senior PMs with hiring and performance authority (Daniel confirmed October 28, 2026). For "leading PMs" requirements, lead with portfolio ownership and say the mentoring part plainly.
 - Go-to-Market Strategy
 - Product Analytics & Data-Driven Decision Making
 
@@ -315,7 +319,7 @@ Also: do not list a Technical Skills section on resumes. Daniel builds with AI a
 | Apr 2020-Aug 2022 | Vonage (San Francisco, Hybrid) | Senior Product Manager - TokBox Video API Platform | Lead PM through 650%/850% pandemic growth; Video Express |
 | Aug 2018-Jan 2020 | Twilio (SendGrid Labs, SF Bay Area, On-site) | Senior Product Manager | Email API to multi-channel platform, M&A proposals, ODI/JTBD discovery |
 | 2017-2018 | VoiceBase | Senior Product Manager | AI Speech-to-Text v3 API, SDKs, Developer Console |
-| 2015-2017 | Aerohive Networks | Product Manager | API Platform & Developer Ecosystem, WebRTC Products, Patents |
+| 2015-2017 | Aerohive Networks | Product Manager | Ran the API platform and developer ecosystem (confirmed October 28, 2026), WebRTC Products, Patents |
 | 2013-2015 | Yahoo | Product Manager | Mail Monetization (ad targeting), Agile adoption |
 
 **Total PM Experience:** 13 years (2013 - Present), 11 on API products (per LinkedIn summary)

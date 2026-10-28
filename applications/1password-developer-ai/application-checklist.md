@@ -56,18 +56,17 @@
 
 > 1Password for Agents shipped the week this role was posted, Apono brought just-in-time access for humans, machines, and agents, and Unified Access put credentials for automated workflows under one roof. Agents need credentials the way they need phone lines: granted, scoped, revocable, with a human approving the consequential step. I have spent 2026 building the developer experience for Crux, the control plane through which AI agents get governed access to live phone calls on more than a thousand operators' networks, and the credential side of that problem is the one I want to work on next. I am a daily Claude Code user, I operate an LLM-built documentation system in production, and I have written publicly about where these systems should and should not be trusted. That judgment is what I would bring to deciding which agent-access primitives are durable and which are fashionable.
 
-## Claims to confirm before submitting
+## Claims confirmed (Daniel, October 28, 2026)
 
-1. **"Built an MCP server for the Crux API so coding agents can work against the platform directly"** (resume, Alianza bullet 3; letter, paragraph 2). Profile.md lists "MCP server for the existing API" under related GitHub work. Confirm it targets the Crux API and is usable, not an experiment, before it goes on a resume.
-2. **"Each new provider integrates without bespoke work" / "Balance platform investment against partner delivery"** (resume, Alianza bullet 6; letter, paragraph 2). Inferred from the documentation system and API standards. Confirm this is true in practice.
-3. **"CAMARA standards participation"** (resume, Ericsson bullet 2; tag "Standards Participation"). Profile.md records leading CAMARA initiatives at Charter and Enhanced Number Verification (a CAMARA API) at Ericsson. Confirm whether you participated in the CAMARA standards body itself or only built against its APIs. If only the latter, change the tag to "Network API Standards" and the bullet to "built on CAMARA standards."
-4. **"Established the team's product process, discovery practice, and operating rhythm"** (resume, Vonage bullet 4). Profile.md says "established team frameworks and ways of working." Confirm "discovery practice" and "operating rhythm" are fair.
-5. **"Ran the API platform and developer ecosystem for an enterprise WiFi company"** (resume, Aerohive; letter, paragraph 3). Profile.md: "PM for the Aerohive API platform and Developer ecosystem" per John Hanay's recommendation. "Ran" is one verb tier up from "was the PM for." Downgrade to "was the PM for" if you prefer.
-6. **The leadership paragraph in the letter** states you have not run a group of senior PMs with hiring and performance authority. Confirm that is accurate; if you did manage PMs anywhere, say so and the paragraph changes.
+1. MCP server for the Crux API: confirmed built and usable. Profile.md updated.
+2. Each new provider integrates without bespoke work: confirmed.
+3. CAMARA standards: Daniel attended CAMARA standards meetings and contributed some feedback at Charter, not at Ericsson. The Ericsson bullet no longer mentions standards; the Charter bullet now says "attended CAMARA standards meetings and contributed feedback"; the tag is "Network API Standards (CAMARA)." Linter updated.
+4. Established product process, discovery practice, operating rhythm at Vonage: confirmed.
+5. "Ran the API platform and developer ecosystem" at Aerohive: confirmed.
+6. Has not managed a group of senior PMs with hiring and performance authority: confirmed; the letter's leadership paragraph stands.
 
 ## Before submitting
 
 - [ ] Read the resume PDF end to end and confirm every Alianza bullet passes "could I explain this if asked."
-- [ ] Resolve the six claims above; tell Claude the answers so Profile.md and the linter are updated.
 - [ ] Decide the salary range and the cybersecurity SaaS answer.
 - [ ] Read "Why 1Password?" once as yourself before pasting.
