@@ -46,18 +46,18 @@
 | Principal or Staff? | 13 years PM, Principal title today. The Staff posting is identical text with a lower band. | Apply Principal. Say you are open to the team's leveling. |
 | Relocation / hybrid | Posting is remote US with no office requirement. | No relocation. |
 
-## Claims to confirm before submitting
+## Claims (Daniel, October 28, 2026)
 
-1. **"Published the platform guarantees partners build against (webhooks with at-least-once delivery, zero-downtime key rotation, RFC 9457 errors with trace IDs)"** (resume, Alianza bullet 6). These are Crux API 1.0.0 facts from the changelog in Profile.md, and "published" is the approved verb tier for docs. New wording is "platform guarantees." Confirm the phrase is fair for what the portal documents.
-2. **"Brought the AI capability to customers through the API"** (resume, VoiceBase; letter, paragraph 3). Profile.md: VoiceBase was an AI speech-to-text platform and Daniel shipped its v3 API, SDKs, and console. The combination into "brought the AI capability to customers" is new wording for GitHub's AI qualification. Confirm.
-3. **"Twenty-eight repositories"** (letter, paragraph 1). Profile.md records 28 repos as of its last GitHub review; check the count on your profile before sending.
-4. **Ericsson line** (letter, paragraph 3) now uses the approved wording exactly; nothing to confirm.
-5. **"I have not shipped a consumer-scale generative AI product"** (letter, paragraph 4). Profile.md says this. Confirm it is still true and that you want it stated.
-6. **Tag "Data-Driven Prioritization"** maps to the measured 40% ticket reduction and the targeted $3M migration. Confirm you are comfortable with the tag; the posting's phrase is "leverage telemetry, customer signals, business insights, and usage data."
+1. "Published the platform guarantees partners build against": confirmed. Profile.md updated.
+2. "Brought the AI capability to customers through the API" (VoiceBase): confirmed. Profile.md updated.
+3. Twenty-eight repositories: confirmed.
+4. Ericsson line uses the approved wording exactly.
+5. "No consumer-scale generative AI product": confirmed, and may be stated plainly.
+6. Tag "Data-Driven Prioritization": pending Daniel's decision (see conversation of October 28).
 
 ## Before submitting
 
 - [ ] Read the resume PDF end to end and confirm every Alianza bullet passes "could I explain this if asked."
-- [ ] Resolve the six claims above; tell Claude the answers so Profile.md and the linter are updated.
+- [ ] Decide on the "Data-Driven Prioritization" tag (claim 6).
 - [ ] Decide the salary answer if the form asks.
 - [ ] Read the letter once as yourself; the first line and the fourth paragraph are the ones to own.

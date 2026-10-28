@@ -139,6 +139,7 @@ Also: do not list a Technical Skills section on resumes. Daniel builds with AI a
 - Reference documentation generated directly from the API's technical definition; the system states plainly where the definition leaves something unexplained rather than guessing
 - With Architecture, own API design review and standards across engineering teams
 - Scope: public APIs, events and webhooks, and the developer portal for Crux, the control plane through which AI experiences get governed access to live phone calls and voice data on operator networks (see Current Role for the full description)
+- Approved wording (Daniel, October 28, 2026): "Published the platform guarantees partners build against (webhooks with at-least-once delivery, zero-downtime key rotation, RFC 9457 errors with trace IDs)." "Published" tier; the guarantees are the API's, Daniel documents them.
 - **Crux API 1.0.0 public release, September 2026** (per developer.alianza.com changelog): OAuth 2.0 with private_key_jwt and zero-downtime key rotation, cursor pagination, RFC 9457 problem details with trace IDs, webhooks with at-least-once delivery, two integration journeys (Post-Call via SIPREC, Virtual Agent via SIP), 10-minute quickstarts to a live INVITE
 - Portal includes operational runbooks most API docs omit: recovering from desynchronization, seed-then-stream user counting, known issues with real failure modes
 - **developer.alianza.com launched September 9, 2026.** Every paragraph of documentation and every code sample was written by a team of AI agents and reviewed by humans. Saved about **$50K** by using AI to build the software and the content, shipped **6 months faster** than the last developer portal Daniel stood up, and avoided about **$100K** in salary for the tech-writer and QA roles the agents replaced (Daniel's own figures, email to recruiter, September 9, 2026)
@@ -207,7 +208,7 @@ Also: do not list a Technical Skills section on resumes. Daniel builds with AI a
 
 ## GitHub Portfolio Analysis
 
-**28 repositories** demonstrating hands-on technical work with recent activity surge in 2025 (8 repositories updated Nov-Dec 2025)
+**28 repositories** (count reconfirmed by Daniel October 28, 2026) demonstrating hands-on technical work with recent activity surge in 2025 (8 repositories updated Nov-Dec 2025)
 
 ### AI & Machine Learning Projects
 
@@ -319,7 +320,7 @@ Also: do not list a Technical Skills section on resumes. Daniel builds with AI a
 | Aug 2022-May 2024 | Vonage (Remote) | Expert Product Manager - TokBox Video API Platform | Realtime video clients across 8 platforms, AI features; Key Talent award |
 | Apr 2020-Aug 2022 | Vonage (San Francisco, Hybrid) | Senior Product Manager - TokBox Video API Platform | Lead PM through 650%/850% pandemic growth; Video Express |
 | Aug 2018-Jan 2020 | Twilio (SendGrid Labs, SF Bay Area, On-site) | Senior Product Manager | Email API to multi-channel platform, M&A proposals, ODI/JTBD discovery |
-| 2017-2018 | VoiceBase | Senior Product Manager | AI Speech-to-Text v3 API, SDKs, Developer Console |
+| 2017-2018 | VoiceBase | Senior Product Manager | AI Speech-to-Text v3 API, SDKs, Developer Console. Approved wording (October 28, 2026): "brought the AI capability to customers through the API" |
 | 2015-2017 | Aerohive Networks | Product Manager | Ran the API platform and developer ecosystem (confirmed October 28, 2026), WebRTC Products, Patents |
 | 2013-2015 | Yahoo | Product Manager | Mail Monetization (ad targeting), Agile adoption |
 
@@ -396,6 +397,7 @@ Also: do not list a Technical Skills section on resumes. Daniel builds with AI a
 ### Generative AI at Scale
 - Now operates an AI-built documentation system in production at Alianza (closes the earlier "nothing shipped" gap)
 - Still no consumer-scale generative AI product shipped; position Alianza docs system plus GitHub work as the proof point
+- Daniel confirmed October 28, 2026 that this is still true and may be stated plainly in letters when a posting asks for AI product experience
 
 ### Design Tools & UX Collaboration
 - **UX collaboration experience** - Worked with design teams at Yahoo, Aerohive, and Vonage
