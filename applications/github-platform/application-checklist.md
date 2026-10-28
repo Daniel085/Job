@@ -50,8 +50,8 @@
 
 1. **"Published the platform guarantees partners build against (webhooks with at-least-once delivery, zero-downtime key rotation, RFC 9457 errors with trace IDs)"** (resume, Alianza bullet 6). These are Crux API 1.0.0 facts from the changelog in Profile.md, and "published" is the approved verb tier for docs. New wording is "platform guarantees." Confirm the phrase is fair for what the portal documents.
 2. **"Brought the AI capability to customers through the API"** (resume, VoiceBase; letter, paragraph 3). Profile.md: VoiceBase was an AI speech-to-text platform and Daniel shipped its v3 API, SDKs, and console. The combination into "brought the AI capability to customers" is new wording for GitHub's AI qualification. Confirm.
-3. **"Twenty-eight repositories, eight of them updated in the last year"** (letter, paragraph 1). Profile.md records 28 repos and 8 updated November 2025 to January 2026. "In the last year" is true as of October 2026 only if nothing is stale; check your profile before sending.
-4. **"At Ericsson I built network APIs with a team serving hundreds of mobile network operators"** (letter, paragraph 3). Approved wording is "Built network APIs with Ericsson for hundreds of mobile network operators"; this is a light rephrase. Confirm or revert to the approved form.
+3. **"Twenty-eight repositories"** (letter, paragraph 1). Profile.md records 28 repos as of its last GitHub review; check the count on your profile before sending.
+4. **Ericsson line** (letter, paragraph 3) now uses the approved wording exactly; nothing to confirm.
 5. **"I have not shipped a consumer-scale generative AI product"** (letter, paragraph 4). Profile.md says this. Confirm it is still true and that you want it stated.
 6. **Tag "Data-Driven Prioritization"** maps to the measured 40% ticket reduction and the targeted $3M migration. Confirm you are comfortable with the tag; the posting's phrase is "leverage telemetry, customer signals, business insights, and usage data."
 
