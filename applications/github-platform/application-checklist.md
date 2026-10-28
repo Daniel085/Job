@@ -5,7 +5,7 @@
 **Salary on posting:** USD $160,200 - $425,000 base, one range "across the United States," plus annual bonus and stock eligibility
 **Location on posting:** Remote, United States
 **Posted:** September 8, 2026; "applications accepted on an ongoing basis until the position is filled"
-**Prepared:** October 28, 2026
+**Prepared:** October 28, 2026. **Submitted:** October 28, 2026.
 
 ## Before you start
 
