@@ -2,7 +2,7 @@
 
 **Apply at:** https://job-boards.greenhouse.io/anthropic/jobs/5428898008
 **Salary on posting:** $305,000 - $385,000 USD base
-**Prepared:** October 23, 2026
+**Prepared:** October 23, 2026. **Refreshed:** October 28, 2026 (resume carries this week's confirmed wording: Vonage team-building bullet, Aerohive "ran the API platform and developer ecosystem," MCP server bullet; posting verified open, Greenhouse last updated September 18).
 
 ## Files to upload
 
@@ -24,7 +24,7 @@
 | Website | no | https://developer.alianza.com/docs (or https://github.com/Daniel085) |
 | How do you pronounce your name? | no | your call |
 | What is the address from which you plan on working? | no | Boise, Idaho address, or "relocating" if you would move |
-| Why Anthropic? | yes | paste from `why-anthropic.md` after review |
+| Why Anthropic? | yes | Write it yourself. `why-anthropic.md` is the AI-drafted version and should not be pasted under Anthropic's AI application policy; you drafted your own on October 23 (Yahoo FISA story). Reuse that. |
 | AI Policy for Application | yes | "Yes" (confirms you read the policy; see note below) |
 | Do you require visa sponsorship? | yes | No |
 | Will you now or in the future require employment visa sponsorship? | yes | No |
@@ -46,7 +46,7 @@ Anthropic's application asks you to confirm its AI policy for applicants. Read i
 
 ## Before submitting
 
-- [ ] Read `why-anthropic.md` and change anything that does not sound like you.
+- [ ] Use your own "Why Anthropic?" text from October 23, not `why-anthropic.md`.
 - [ ] Open the resume PDF and check it prints to two pages on your machine.
 - [ ] Decide the two in-office and relocation answers above.
 - [ ] Confirm the three "Claims to confirm" at the bottom of `why-anthropic.md`.
