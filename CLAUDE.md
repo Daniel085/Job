@@ -501,7 +501,7 @@ Let me know which of these you have experience with, and I'll update your Profil
 - Optimize for ATS parsing (proper semantic HTML structure)
 
 ### Terminology Standards (from commit 62fb5da)
-- Use "mentored" not "managed" when referring to PM team (mentored 5 PMs, not managed)
+- Use "mentored" not "managed" when referring to PM team (mentored 5 PMs, not managed). Approved fuller wording (October 28, 2026): "first of 5 PMs hired into the Video group, onboarded and oriented the other four, set up the structures for coordinating work and prioritizing across the team, and created the group's PM process, later adopted as a company-wide framework." Daniel never officially managed those PMs; say so when a posting asks for people management.
 - Accurate representation of IC vs management roles
 - "Led cross-functional teams" is acceptable for project leadership
 - "Enhanced Number Verification," never "Number Verification from PoC to commercial." NV was already commercial; Daniel led the enhancement with operators and handset manufacturers.

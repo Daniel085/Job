@@ -103,8 +103,8 @@ Also: do not list a Technical Skills section on resumes. Daniel builds with AI a
 
 ### Leadership & Strategy
 - Cross-Functional Leadership (Engineering, Architecture, DevRel, GTM)
-- Team Building & Mentorship (Mentored and onboarded team of 5 PMs at Vonage; established the team's product process, discovery practice, and operating rhythm; confirmed October 28, 2026)
-- Not on the record: managing a group of senior PMs with hiring and performance authority (Daniel confirmed October 28, 2026). For "leading PMs" requirements, lead with portfolio ownership and say the mentoring part plainly.
+- Team Building & Mentorship (Vonage Video, per Daniel October 28, 2026): first of 5 PMs hired into the Video group; onboarded and oriented all of the others; set up the structures that let the team coordinate work and prioritize uniformly across multiple people; created the group's PM process, which later became a company-wide framework. Never officially managed other PMs.
+- Not on the record: managing a group of senior PMs with hiring and performance authority (Daniel confirmed October 28, 2026). For "leading PMs" requirements, lead with portfolio ownership and the Video-team facts above, and say the "never officially managed" part plainly.
 - Go-to-Market Strategy
 - Product Analytics & Data-Driven Decision Making
 
@@ -157,7 +157,8 @@ Also: do not list a Technical Skills section on resumes. Daniel builds with AI a
 - **2 Patents** for WiFi credential automation (15/073,593 & 62/350,158), developed while running Aerohive's API ecosystem and developer platform
 - Presented API strategy at **Ericsson Innovation Days** to European mobile network operators
 - Led **Enhanced Number Verification** at Vonage/Ericsson. Number Verification was already a commercial product with significant limitations; Daniel led the work with mobile operators and handset manufacturers that overcame them, uniting a multi-company team (per recommendation from Vonage's Senior Director of Network Powered APIs: "end-to-end Expert Product Manager for our advanced authentication offerings"). Do not describe this as "PoC to commercial product."
-- On the team building Ericsson's **single unified Global Network API Platform** to interact with hundreds of mobile network operators globally (2024-2025)
+- On the team building Ericsson's **single unified Global Network API Platform** to interact with hundreds of mobile network operators globally (2024-2025). Approved summary wording (Daniel, October 28, 2026): "Shipped network APIs through Ericsson to hundreds of mobile network operators."
+- Approved generic-resume summary phrasing (Daniel, October 28, 2026): "11 on enterprise, developer-facing API products"; "the AI-based documentation writing behind it"; "jointly set the API standards engineering teams build against"; "led Vonage's video API platform through 10x growth and additional opportunistic campaigns capturing $3M in revenue in six months"; "Operates with high autonomy across company boundaries."
 - Directed SendGrid's transition from email API to a multi-channel communications platform, including **M&A proposals** (Twilio, 2018-2020)
 
 ### Thought Leadership (LinkedIn Articles)
