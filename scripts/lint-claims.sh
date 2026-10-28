@@ -32,6 +32,8 @@ BANNED=(
   'CAMARA standards participation'
   'Standards Participation</span>'
   'Ericsson.{0,160}CAMARA standards'
+  'Shipped network APIs through Ericsson'
+  'shipped .{0,40}through Ericsson'
 )
 
 if [ "$#" -gt 0 ]; then
