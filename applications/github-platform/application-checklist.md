@@ -53,11 +53,10 @@
 3. Twenty-eight repositories: confirmed.
 4. Ericsson line uses the approved wording exactly.
 5. "No consumer-scale generative AI product": confirmed, and may be stated plainly.
-6. Tag "Data-Driven Prioritization": pending Daniel's decision (see conversation of October 28).
+6. Tag "Data-Driven Prioritization": kept; the Twilio bullet now names the ODI method (survey design, K-means clustering of customer outcomes) so the tag maps to a method, not only to outcome numbers. Confirmed October 28.
 
 ## Before submitting
 
 - [ ] Read the resume PDF end to end and confirm every Alianza bullet passes "could I explain this if asked."
-- [ ] Decide on the "Data-Driven Prioritization" tag (claim 6).
 - [ ] Decide the salary answer if the form asks.
 - [ ] Read the letter once as yourself; the first line and the fourth paragraph are the ones to own.

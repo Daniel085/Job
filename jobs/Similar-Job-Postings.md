@@ -41,7 +41,7 @@ Pattern-based search built from three seeds (Anthropic Multi-Cloud Growth, Anthr
 ---
 
 ### D2. **Principal Product Manager, Platform** 🔥 **FIT SCORE: 80/100**
-**Application status:** Package prepared October 28, 2026 (`applications/github-platform/`); six claims to confirm in the checklist before submitting.
+**Application status:** Package prepared October 28, 2026; all claims confirmed by Daniel the same day (`applications/github-platform/`). Ready to submit.
 **Company:** GitHub (Microsoft)
 **Location:** Remote, United States
 **Compensation:** $160,200 - $425,000 USD base (one range "across the United States") + annual bonus and stock eligibility
