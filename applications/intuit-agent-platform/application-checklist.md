@@ -48,7 +48,7 @@ Two facts the posting does not soften:
 2. **"One paved path replaced per-page authoring"** (resume, Alianza bullet 1). Inferred to mirror the posting's "paved path" language. Confirm the docs system did replace hand authoring, or cut the clause.
 3. **"Converging separately built services on one set of conventions"** (resume, API standards bullet). Inferred from "set the API standards engineering teams build against and review API proposals across teams." Confirm the services were in fact separately built before the standards.
 4. **"Most of it has been convincing teams that did not report to me to build on a shared foundation"** (blurb, last sentence). A characterization, not a fact from Profile.md. Keep only if it is how you would say it.
-5. **Tag "Agents in Production (Claude SDK, MCP)."** The posting names "Claude SDK." Your record shows Claude Code, the Claude API in GitHub projects, and the MCP server. Confirm you have used the Claude SDK specifically, or change the tag to "Agents in Production (Claude, MCP)."
+5. **Tag "Agents in Production (Claude API, MCP)."** Daniel confirmed October 29: the Claude API via the client SDK, not the Claude Agent SDK. Tag changed accordingly. Closed.
 
 ## Before submitting
 

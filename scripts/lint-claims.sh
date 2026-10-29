@@ -33,6 +33,7 @@ BANNED=(
   'Standards Participation</span>'
   'Ericsson.{0,160}CAMARA standards'
   'Reseller Access Models'
+  'Claude SDK'
   'Shipped network APIs through Ericsson'
   'shipped .{0,40}through Ericsson'
 )

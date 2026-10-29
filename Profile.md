@@ -111,6 +111,7 @@ Also: do not list a Technical Skills section on resumes. Daniel builds with AI a
 ### AI/ML & Emerging Technologies
 - **AI-built documentation system in production** (developer.alianza.com): LLM-generated API reference from technical definitions, with explicit gap reporting
 - LLM Integration (Claude API, Claude Code, OpenAI API)
+- Not used: the Claude Agent SDK (Daniel, October 29, 2026). Say "Claude API" or "Claude Code," never "Claude SDK," on resumes.
 - Prompt Engineering (including multi-shot generation and evaluation tactics)
 - On-Device ML (Core ML, Vision Framework)
 - AI-Powered Speech-to-Text (VoiceBase platform)
