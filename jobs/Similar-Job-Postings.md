@@ -1,6 +1,6 @@
 # Similar API & Developer Platform Product Manager Roles
 
-*Last Updated: October 28, 2026*
+*Last Updated: October 29, 2026*
 
 This document contains active job postings for API Product Manager and Developer Platform Product Manager roles with similar requirements to the positions saved in this repository. Each position includes a fit score (0-100) based on alignment with Daniel O'Rorke's resume.
 
@@ -160,6 +160,12 @@ All four read through LinkedIn's guest endpoint and, where one exists, the compa
 | [Senior PM, Integrations and Orchestration, Agiloft](https://jobs.lever.co/agiloft/0ccb411f-b7ab-4fec-a26a-2b55da3bfb2a) | No band; remote US; 5-8 years; Lever posting created Oct 26 | 62 | Owns the external API surface (versioning, developer experience, authentication patterns), MCP and AI orchestration, webhooks and event-driven patterns, developer enablement. Strong overlap with Crux work. But it is a Senior title scoped at 5-8 years (two levels under the record), requires iPaaS or middleware experience (Workato, MuleSoft, Boomi) the record lacks, sits in contract-lifecycle-management software, and shows no band; Agiloft's other Senior PM listings this year showed $120K-$160K. About 375 employees, private-equity owned. |
 | [Principal PM, Findem](https://jobs.lever.co/findem/df08f2ad-7c9e-4749-abd8-ea4ed9a21e18) | $190K-$220K; US remote; 7+ years; Lever posting created Sept 2 | 48 | HR and recruiting software; wants agentic and conversational AI workflow automation, B2B PLG, and prior HR-tech experience. No API or platform component. Band below the Principal floor. Venture-backed startup. |
 | [Principal PM, Buyer Products, G2](https://www.linkedin.com/jobs/view/4482774649/) | No band; United States; 10+ years; posted ~Oct 23 | 45 | "A consumer-grade product role inside a B2B marketplace": growth, personalization, search and discovery, experimentation, and an owned P&L or growth number. Requires Principal-level ownership of a major consumer-facing product, which the record does not have (Yahoo Mail Monetization is the nearest, 2013-2015). No API surface; MCP appears only as a nice-to-have. |
+
+### Shared by Daniel, October 29, 2026 (Intuit)
+
+| Role | Comp / location / posted | Score | Status and why it scores under 75 |
+|------|--------------------------|-------|-----------------------------------|
+| [Principal PM, Agent Development Platform, Intuit](https://jobs.intuit.com/job/-/-/27595/99493492384) | $243K-$328.5K (Mountain View) or $230K-$311K (San Diego); hybrid, three days onsite, no remote; posted Aug 20 | 64 | **Package prepared October 29 at Daniel's request** (`applications/intuit-agent-platform/`). Internal agent SDLC platform (Agent Starter Kit, sandbox, developer tooling) for thousands of Intuit builders. Fits on developer-platform ownership, agents in production (docs system, MCP server, daily Claude Code), standards across teams with Architecture, and the Vonage PM process that became company-wide. Falls short on location (no remote; Mountain View band top is under the relocation floor), agentic-framework depth at scale (LangGraph, SDK-level harness work not on the record), internal rather than external platform, tax and accounting domain, and age (70 days). Full description: [jobs/descriptions/Intuit-Principal-PM-Agent-Development-Platform.md](descriptions/Intuit-Principal-PM-Agent-Development-Platform.md). |
 
 **What would widen the pipeline.** The telecom and voice-AI slices have the right surfaces but pay $225K-$275K at Staff and Principal; dropping the floor to $250K admits Temporal, LiveKit, and Twilio Identity. Accepting SF with a band above the relocation floor admits only OpenAI Enterprise Identity. Otherwise the fix is time: the boards refresh weekly, and this run can be repeated against the same seed pattern.
 
