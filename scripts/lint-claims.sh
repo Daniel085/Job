@@ -32,6 +32,7 @@ BANNED=(
   'CAMARA standards participation'
   'Standards Participation</span>'
   'Ericsson.{0,160}CAMARA standards'
+  'Reseller Access Models'
   'Shipped network APIs through Ericsson'
   'shipped .{0,40}through Ericsson'
 )

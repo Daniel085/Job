@@ -503,6 +503,7 @@ Let me know which of these you have experience with, and I'll update your Profil
 - Ericsson: "Built network APIs with Ericsson for hundreds of mobile network operators," never "shipped network APIs through Ericsson" (Daniel, October 28, 2026: "We built it").
 - "Enhanced Number Verification," never "Number Verification from PoC to commercial." NV was already commercial; Daniel led the enhancement with operators and handset manufacturers.
 - Alianza, three separate things: Daniel **built** developer.alianza.com; he **helped guide the structure of** the Crux API **with Architecture**; the Crux **platform** was designed before he joined. API standards and design review are "with Architecture," never solo.
+- Tag wording: "Partner & Reseller Developer Experience," never "Partner & Reseller Access Models" (October 29, 2026). The access model is the Crux API's design; Daniel built the developer experience around it.
 - Daniel did not design Crux authentication. He **documents** the access model; say "wrote the authentication guide," not "designed the access model."
 - No Technical Skills section on resumes. Daniel builds with AI assistance; a skills grid invites a solo coding test.
 - No "Areas of Expertise" tag row on the generic resume (`resume-designed.html`). On a tailored resume the row is allowed only when every tag mirrors the posting's own vocabulary and maps to a bullet below it; never invent a tag the record cannot support.
