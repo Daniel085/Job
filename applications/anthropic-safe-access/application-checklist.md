@@ -2,7 +2,7 @@
 
 **Apply at:** https://job-boards.greenhouse.io/anthropic/jobs/5428898008
 **Salary on posting:** $305,000 - $385,000 USD base
-**Prepared:** October 23, 2026. **Refreshed:** October 28, 2026 (resume carries this week's confirmed wording: Vonage team-building bullet, Aerohive "ran the API platform and developer ecosystem," MCP server bullet; posting verified open, Greenhouse last updated September 18).
+**Submitted:** October 29, 2026. **Prepared:** October 23, 2026. **Refreshed:** October 28, 2026 (resume carries this week's confirmed wording: Vonage team-building bullet, Aerohive "ran the API platform and developer ecosystem," MCP server bullet; posting verified open, Greenhouse last updated September 18).
 
 ## Files to upload
 

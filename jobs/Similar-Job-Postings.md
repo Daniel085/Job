@@ -198,7 +198,7 @@ Full sweep of anthropic.com/jobs on October 13, 2026. All Anthropic roles are hy
 ---
 
 ### A2. **Product Manager, Safe Access** ⭐ **FIT SCORE: 78/100** (revised October 22, 2026, from 85)
-**Application status:** Started October 23, 2026, not submitted. Package refreshed October 28 with the confirmed wording (`applications/anthropic-safe-access/`). Ready to submit.
+**Application status:** Submitted by Daniel, October 29, 2026 (package in `applications/anthropic-safe-access/`; "Why Anthropic?" written by Daniel).
 **Revision note:** Earlier scoring credited Daniel with designing the Crux access model and authentication. He documents and exposes the access model; the platform and its auth design predate his hire. The identity evidence is now Enhanced Number Verification, the credential-management patents, and the developer-facing access journey he built. Still a credible fit, seven points lower.
 **Company:** Anthropic
 **Location:** San Francisco, CA | New York City, NY (hybrid)
