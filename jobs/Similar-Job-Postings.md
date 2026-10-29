@@ -67,6 +67,7 @@ Pattern-based search built from three seeds (Anthropic Multi-Cloud Growth, Anthr
 ---
 
 ### D3. **Staff Product Manager, AI Builder Experience (Partner Platform)** ⭐ **FIT SCORE: 78/100**
+**Application status:** Package prepared October 29, 2026 (`applications/mongodb-partner-platform/`); six claims to confirm in the checklist before submitting.
 **Company:** MongoDB
 **Location:** United States; Greenhouse working model "2-Flexible" (sibling postings: office or remote within the US). Confirm remote eligibility
 **Compensation:** $151,000 - $297,000 USD base + equity, ESPP, benefits
