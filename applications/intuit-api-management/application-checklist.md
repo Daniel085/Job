@@ -21,9 +21,16 @@
 | Resume | `applications/intuit-api-management/Daniel-ORorke-Resume-Intuit-API-Management.pdf` (2 pages, letter) |
 | Cover letter | None prepared, matching the Agent Development Platform package. Use the paragraph below wherever the form asks why you are a fit. |
 
-## Why you are a fit (paste-ready, three sentences)
+## Why you are a fit (Daniel's version, October 30, 2026)
 
-> I own the developer-facing surface of Alianza's Crux, the control plane through which AI agents get governed access to live phone calls on 1,000+ operators' networks, and the work is exactly the three things this role names: with Architecture I set the API standards engineering teams build against and review their proposals, converging separately built services on one set of conventions; I built developer.alianza.com, where reference documentation is generated from the API definition by AI agents and reviewed by humans; and I built an MCP server for the API so coding agents can discover and call it directly. Before that I built network APIs with Ericsson for hundreds of mobile network operators and led Vonage's video API platform through 10x growth, so I have spent eleven years on the developer persona at scale. I use Claude Code daily, operate an AI-built documentation system in production, and have written publicly about where AI should and should not be trusted, which is the judgment the governance-of-agent-access part of this role needs.
+> I own the developer-facing surface of Alianza's Crux, the control plane through which AI agents get access to live phone calls on 1,000+ operators' networks. The work is the same three things this role names:
+> - With Architecture I set the API standards and frameworks engineering teams build against and review their proposals, converging separately built services on one set of conventions
+> - I built developer.alianza.com, where reference documentation is generated from the API definition by AI agents and reviewed by humans
+> - I built an MCP server for the API so coding agents can discover and call it directly.
+>
+> Before that I built network APIs with Ericsson for hundreds of mobile network operators and led Vonage's video API platform through 10x growth, so I have spent eleven years on the developer persona at scale. I use Claude Code daily, operate an AI-built documentation system in production, and have written publicly about where AI should and should not be trusted, which would be handy in considering where agents should or should not have access.
+
+Two optional edits Claude suggested, not applied: "standards and conventions" in place of "standards and frameworks" if "frameworks" could be read as code frameworks; and "governed access" in the first sentence, since governance of agent access is one of the posting's three themes.
 
 ## Fields, pre-filled from Profile.md (Avature standard fields; the real form may differ)
 
