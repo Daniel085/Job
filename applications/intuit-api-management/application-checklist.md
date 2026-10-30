@@ -43,17 +43,11 @@
 | Referred by | Your contact's name, if they agree to refer |
 | Previously employed by Intuit | No (the repo has no record) |
 
-## Claims to confirm before submitting
+## Claims (Daniel, October 30, 2026)
 
-1. **Tag "API Design & Lifecycle (REST, OpenAPI-based documentation)."** Profile.md says reference docs are generated "from the API's technical definition." If that definition is an OpenAPI specification, the tag is accurate. If it is not OpenAPI, change the tag to "API Design & Lifecycle (REST)."
-2. **Tag "API Discovery & Developer Portals."** Maps to developer.alianza.com, where developers find and learn the API. The posting's phrase is "API catalog and discovery." The tag claims a portal, not a catalog of many APIs. Confirm you are comfortable with it.
-3. **"Converging separately built services on one set of conventions"** (resume, API standards bullet; pitch). Confirmed October 29 for the Agent Development Platform package. Same wording. Nothing new unless you want to revisit.
-4. **"So coding agents can discover and call the platform directly"** (resume, MCP bullet). Previously "work against the platform directly." "Discover and call" mirrors the posting's catalog-and-discovery language. Confirm the MCP server does expose the API's operations in a way an agent can discover.
-5. **"AI applied to the documentation stage of the API lifecycle"** (resume, docs-system bullet; tag "AI Applied to the API Lifecycle"). The posting asks for AI across design, specification generation, and policy recommendations. Your evidence is documentation generation only. The tag and bullet say so, but confirm you are comfortable with a tag whose evidence is one stage of the lifecycle.
-6. **"Eleven years on the developer persona at scale"** (pitch). Profile.md: 11 years on API products. Confirm the reword.
+All six confirmed: the API definition the documentation is generated from is an OpenAPI specification (Profile.md updated); the "API Discovery & Developer Portals" tag; "converging separately built services on one set of conventions"; the MCP server lets agents discover and call the API; "AI Applied to the API Lifecycle" with documentation generation as the evidence; "eleven years on the developer persona at scale."
 
 ## Before submitting
 
 - [ ] Ask your contact about remote eligibility and Principal leveling for 24739, and whether they will refer.
-- [ ] Resolve the six claims above.
 - [ ] Read the resume PDF end to end.
