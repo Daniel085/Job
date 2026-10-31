@@ -118,7 +118,7 @@ Also: do not list a Technical Skills section on resumes. Daniel builds with AI a
 - Prompt Engineering (including multi-shot generation and evaluation tactics)
 - On-Device ML (Core ML, Vision Framework)
 - AI-Powered Speech-to-Text (VoiceBase platform)
-- AI agents for product discovery (interview prep and synthesis)
+- AI agents for product discovery (preparing for and synthesizing customer and developer discovery interviews). External wording (Daniel, October 31, 2026): always say "customer and developer discovery interviews," never bare "interview preparation," which reads as job-interview prep.
 
 ---
 

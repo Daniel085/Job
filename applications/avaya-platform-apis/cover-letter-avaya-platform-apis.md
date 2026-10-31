@@ -14,7 +14,7 @@ At Alianza I own the developer-facing surface of Crux, the control plane through
 
 The two earlier cases: at Twilio I directed SendGrid's transition from an email API to a multi-channel communications platform, and at Aerohive I ran the API platform and developer ecosystem for an enterprise WiFi company, delivering capabilities that are still considered novel today. In between, I was lead PM for Vonage's video API platform, used by first-party apps, direct API customers, and third-party developers with SDKs across eight operating systems, through 10x growth; built network APIs with Ericsson for hundreds of mobile network operators; and shipped VoiceBase's v3 API, docs, and SDKs, which cut support tickets 40%. All of it is enterprise communications, which is the first item on your "particularly valuable" list.
 
-On discovery: I practice Outcome-Driven Innovation, learned at SendGrid Labs, and now use AI agents for interview preparation and synthesis, which I have written about publicly. I build with AI assistance daily and can tell you where it should and should not be trusted, which matters for an AI platform's developer surface.
+On discovery: I practice Outcome-Driven Innovation, learned at SendGrid Labs, and now use AI agents to prepare for and synthesize customer and developer discovery interviews, which I have written about publicly. I build with AI assistance daily and can tell you where it should and should not be trusted, which matters for an AI platform's developer surface.
 
 I would welcome a conversation about where Infinity's APIs and developer experience are today and what the first year of this role would need to change.
 

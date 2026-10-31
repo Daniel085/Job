@@ -38,17 +38,16 @@
 | Previously employed by Avaya | No (the repo has no record) |
 | How did you hear | LinkedIn |
 
-## Claims to confirm before submitting
+## Claims (Daniel, October 31, 2026)
 
-1. **"I have done that three times"** (letter, paragraph 1): evolving an established product toward a more open platform at SendGrid, Aerohive, and Alianza. SendGrid and Aerohive are in Profile.md in those terms. Alianza is framed as an operator platform that gained a developer platform; confirm you see your Alianza work that way.
-2. **"So that separately built services converge on one set of conventions"** (letter, paragraph 2). Confirmed October 29 for Intuit in the form "converging separately built services on one set of conventions." Same claim.
-3. **Tag "Reusable Platform Capabilities"** (resume). Maps to "each new partner integrates without bespoke work," confirmed October 28, and to the posting's "reusable platform capabilities rather than one-off solutions." Confirm the tag.
-4. **Tag "Authentication & Authorization (documented)"** (resume). Maps to the authentication-guide bullet, "published" tier. The word "documented" is there so the tag cannot be read as design. Confirm you are comfortable with how it reads.
-5. **"Now use AI agents for interview preparation and synthesis, which I have written about publicly"** (letter, paragraph 4). Profile.md: "AI agents for product discovery (interview prep and synthesis)" and the May 2026 LinkedIn articles. Confirm the discovery work is ongoing ("now use").
-6. **Tag "CCaaS & CPaaS Platforms"** (resume). Profile.md's domain is Telecom/CPaaS/Cloud Communications. CCaaS specifically: VoiceBase (contact-center speech analytics) and Crux's virtual-agent hand-off are the nearest evidence. Confirm or change the tag to "CPaaS & Enterprise Communications."
+1. Three cases of evolving an established product toward an open platform (SendGrid, Aerohive, Alianza): confirmed.
+2. "Separately built services converge on one set of conventions": confirmed.
+3. Tag "Reusable Platform Capabilities": confirmed.
+4. Tag "Authentication & Authorization (documented)": confirmed.
+5. Discovery sentence reworded so it cannot read as job-interview prep: "use AI agents to prepare for and synthesize customer and developer discovery interviews." Profile.md and the linter updated.
+6. Tag changed to "CPaaS & Enterprise Communications" (safer option).
 
 ## Before submitting
 
-- [ ] Resolve the six claims above.
 - [ ] Read the resume PDF end to end.
 - [ ] Decide what base figure to state if the form asks.

@@ -37,6 +37,7 @@ BANNED=(
   'design partners? (in sandbox )?to general availability'
   'ran the partner (feedback )?loop'
   'arrive through an agent'
+  'agents for interview prep(aration)? and synthesis'
   'Shipped network APIs through Ericsson'
   'shipped .{0,40}through Ericsson'
 )
