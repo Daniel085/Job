@@ -50,4 +50,4 @@
 ## Before submitting
 
 - [ ] Read the resume PDF end to end.
-- [ ] Decide whether to upload the letter (it carries the Staff-versus-Principal note; without it, that conversation waits for the screen).
+- [ ] Decide whether to upload the letter. Daniel's October 31 edit removed the Staff-versus-Principal paragraph, so the level conversation waits for the recruiter screen either way.
