@@ -38,6 +38,8 @@ BANNED=(
   'ran the partner (feedback )?loop'
   'arrive through an agent'
   'agents for interview prep(aration)? and synthesis'
+  '[Rr]an the API platform'
+  'running Aerohive'
   'Shipped network APIs through Ericsson'
   'shipped .{0,40}through Ericsson'
 )

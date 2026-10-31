@@ -159,7 +159,7 @@ Also: do not list a Technical Skills section on resumes. Daniel builds with AI a
 - **ISTE "Best in Show" Award** (HiveSchool WebRTC product at Aerohive)
 
 ### Innovation
-- **2 Patents** for WiFi credential automation (15/073,593 & 62/350,158), developed while running Aerohive's API ecosystem and developer platform
+- **2 Patents** for WiFi credential automation (15/073,593 & 62/350,158), developed while product manager for Aerohive's API ecosystem and developer platform
 - Presented API strategy at **Ericsson Innovation Days** to European mobile network operators
 - Led **Enhanced Number Verification** at Vonage/Ericsson. Number Verification was already a commercial product with significant limitations; Daniel led the work with mobile operators and handset manufacturers that overcame them, uniting a multi-company team (per recommendation from Vonage's Senior Director of Network Powered APIs: "end-to-end Expert Product Manager for our advanced authentication offerings"). Do not describe this as "PoC to commercial product."
 - On the team building Ericsson's **single unified Global Network API Platform** to interact with hundreds of mobile network operators globally (2024-2025). Approved wording (Daniel, October 28, 2026): "Built network APIs with Ericsson for hundreds of mobile network operators." Daniel: "shipped is a bit generous. We built it." Never "shipped network APIs through Ericsson."
@@ -325,7 +325,7 @@ Also: do not list a Technical Skills section on resumes. Daniel builds with AI a
 | Apr 2020-Aug 2022 | Vonage (San Francisco, Hybrid) | Senior Product Manager - TokBox Video API Platform | Lead PM through 650%/850% pandemic growth; Video Express |
 | Aug 2018-Jan 2020 | Twilio (SendGrid Labs, SF Bay Area, On-site) | Senior Product Manager | Email API to multi-channel platform, M&A proposals, ODI/JTBD discovery |
 | 2017-2018 | VoiceBase | Senior Product Manager | AI Speech-to-Text v3 API, SDKs, Developer Console. Approved wording (October 28, 2026): "brought the AI capability to customers through the API" |
-| 2015-2017 | Aerohive Networks | Product Manager | Ran the API platform and developer ecosystem (confirmed October 28, 2026), WebRTC Products, Patents |
+| 2015-2017 | Aerohive Networks | Product Manager | Product manager for the API platform and developer ecosystem: built sample apps, created videos for the developer community, wrote docs, gave feedback on the APIs (Daniel, October 31, 2026; the October 28 "ran" wording is retracted as too generous), WebRTC Products, Patents |
 | 2013-2015 | Yahoo | Product Manager | Mail Monetization (ad targeting), Agile adoption |
 
 **Total PM Experience:** 13 years (2013 - Present), 11 on API products (per LinkedIn summary)
