@@ -5,7 +5,7 @@
 **Location on posting:** United States; Greenhouse working model "2-Flexible"; job level "Professional - IC." The body never says "remote."
 **Posted:** September 4, 2026; updated October 28, 2026
 **Fit score:** 78/100
-**Prepared:** October 29, 2026
+**Prepared:** October 29, 2026. **Submitted:** October 31, 2026.
 
 ## Read this first
 
