@@ -54,6 +54,7 @@ Also: do not list a Technical Skills section on resumes. Daniel builds with AI a
 - Designed **developer.alianza.com** and operate the AI-built documentation system behind it
 - Documentation system generates reference docs directly from the API's technical definition, an OpenAPI specification (confirmed October 30, 2026; docs-as-code); flags gaps in the definition rather than guessing. "OpenAPI-based documentation" is approved wording.
 - The MCP server exposes the Crux API so coding agents can discover and call it (confirmed October 30, 2026).
+- Not on the record (Daniel, October 31, 2026): running a design-partner program or a partner feedback loop from design partners to GA. Partners integrated in sandbox during early access; say that and no more. Do not say partners' developers "arrive through an agent."
 - Helped guide the structure of the Crux API; with Architecture, set the API standards engineering teams build against and review API proposals across teams
 - Built an MCP server for the Crux API so coding agents can work against the platform directly (confirmed October 28, 2026; "built" tier)
 - The documentation system and API standards were built once so each new experience provider integrates without bespoke Alianza-side work (confirmed October 28, 2026)

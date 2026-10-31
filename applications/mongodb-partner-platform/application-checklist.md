@@ -38,17 +38,16 @@
 | Will you now or in the future require employment sponsorship? | yes | No |
 | Have you ever worked at MongoDB before? | yes | No (the repo has no record) |
 
-## Claims to confirm before submitting
+## Claims (Daniel, October 31, 2026)
 
-1. **"Each new partner integrates without bespoke work"** (summary, Alianza bullet 4, letter). Confirmed October 28 for the 1Password package in the form "each new experience provider integrates without bespoke work." Same claim, reworded with "partner." Confirm the reword.
-2. **"Ran the partner loop from design partners in sandbox to general availability"** (letter, paragraph 2) and **"ran the partner feedback loop from design partners to general availability"** (resume, Alianza bullet 6). Profile.md records partners integrating in sandbox during early access and the 1.0 launch. "Ran the feedback loop" and "design partners" are new wording. Confirm you ran that loop and that "design partners" is a fair name for the early-access providers.
-3. **"Because our partners' developers increasingly arrive through an agent"** (letter, paragraph 2). A characterization of why the MCP server exists. Confirm, or cut to "so coding agents can work against it directly."
-4. **Tag "Authentication & Authorization Guides."** Maps to the authentication-guide bullet (OAuth 2.0 grants, scoped permissions, key rotation), "published" tier. The posting's nice-to-have is "OAuth, delegated access, API governance." The tag claims the guide, not the design. Confirm the wording reads that way to you.
-5. **Tag "Partner Onboarding & Time to First Integration."** Maps to the ten-minute quickstart bullet. The posting names "time to first successful integration" as a metric. Confirm you are comfortable claiming it as an area of expertise on the strength of the quickstarts.
-6. **"I have not worked on a database or data-infrastructure product"** (letter, paragraph 4). Profile.md has no database product work. Confirm it is true and that you want it stated.
+1. "Each new partner integrates without bespoke work": confirmed.
+2. "Ran the partner feedback loop from design partners to general availability": **not accurate.** Removed from the resume and the letter. Profile.md and the linter record that Daniel did not run a design-partner program.
+3. "Because our partners' developers increasingly arrive through an agent": **not accurate.** Cut; the letter now says "so coding agents can work against it directly."
+4. Tag "Authentication & Authorization Guides": confirmed.
+5. Tag "Partner Onboarding & Time to First Integration": confirmed.
+6. "I have not worked on a database or data-infrastructure product": confirmed.
 
 ## Before submitting
 
-- [ ] Resolve the six claims above.
 - [ ] Read the resume PDF end to end.
 - [ ] Decide whether to upload the letter (it carries the Staff-versus-Principal note; without it, that conversation waits for the screen).

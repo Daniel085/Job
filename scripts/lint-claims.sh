@@ -34,6 +34,9 @@ BANNED=(
   'Ericsson.{0,160}CAMARA standards'
   'Reseller Access Models'
   'Claude SDK'
+  'design partners? (in sandbox )?to general availability'
+  'ran the partner (feedback )?loop'
+  'arrive through an agent'
   'Shipped network APIs through Ericsson'
   'shipped .{0,40}through Ericsson'
 )
