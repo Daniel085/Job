@@ -5,7 +5,7 @@
 **Location on posting:** Remote, USA ("USA - Any Location (Remote)"); up to 10% travel
 **Posted:** about October 15, 2026 (General Catalyst board mirror)
 **Fit score:** 48/100 (revised November 1 from 42 for the Vonage customer relationship; below the 75 threshold; prepared at Daniel's request)
-**Prepared:** November 1, 2026
+**Submitted:** November 1, 2026. **Prepared:** November 1, 2026
 
 ## Read this first
 
