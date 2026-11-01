@@ -50,3 +50,11 @@ These three roles are the seeds for the pattern-based search run on October 27, 
 4. Communications, CPaaS, telecom-software, and network-API companies
 
 Each slice checked company job boards directly (Greenhouse, Ashby, Lever, Workday APIs) rather than relying on aggregator snippets, because Indeed and LinkedIn block fetches from this environment. Results and scores are in `Similar-Job-Postings.md` under "Discovery Search, October 27, 2026."
+
+## Re-runs
+
+| Date | Change to the pattern | Boards | Result |
+|------|-----------------------|--------|--------|
+| November 1, 2026 | Same seeds and filters; telecom and voice-AI slices at a $250K band floor; posting window moved to September 2 onward | 189 boards answered through the Greenhouse, Ashby, and Lever APIs (621 PM-titled postings), plus Workday boards for Zoom, Genesys, and Cisco, Netflix's board, and four web searches | 2 new roles at or above 75: ClickHouse Principal PM, Partner Integrations (77); Stripe PM, Identity & Access Management (76). Genesys Director PM, Voice AI & Speech Experience (70) was the telecom-slice near-miss. Written up under "Discovery Search Re-run, November 1, 2026" |
+
+Next re-run: around November 15, 2026.
