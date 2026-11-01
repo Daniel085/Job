@@ -127,6 +127,7 @@ Also: do not list a Technical Skills section on resumes. Daniel builds with AI a
 ### Scale & Growth
 - Lead PM hired to oversee Vonage's WebRTC video offering through **650% telehealth growth in the first 6 weeks of the pandemic** and **850% overall growth for 2020**; platform saw **10x growth in a few months** while maintaining reliability; some customers grew **3,000% in weeks**
 - Responsible for realtime video client software across **8 platforms** (Vonage, 2022-2024)
+- Teladoc Health was a Vonage Video API customer during Daniel's tenure as lead PM (Daniel, November 1, 2026; tenure dates 2020-2024 to be confirmed with him before the claim is reused). Vonage customer names may be used externally; the no-names rule is specific to Alianza.
 - Platform serving **millions of users**
 - Launched product that grew to **1.5M+ minutes/month** by year two
 - Reduced support tickets **40%** through the VoiceBase v3 API, SDKs, and developer console
