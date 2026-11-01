@@ -37,18 +37,17 @@
 | Previously employed by Teladoc or affiliates | No (the repo has no record) |
 | Desired salary, if asked | Your call; the band is under the floor and the current figure is not in this repo |
 
-## Claims to confirm before submitting
+## Claims (Daniel, November 1, 2026)
 
-1. **"The video platform that Teladoc visits ran on" and "telehealth providers such as Teladoc"** (letter, paragraph 1; resume, Vonage bullet 1 and summary). From your statement November 1 that Teladoc was a Vonage Video customer. Confirm two things: that it was during your tenure as lead PM (2020-2024), and that naming a former employer's customer is acceptable to you here. The no-customer-names rule in CLAUDE.md is specific to Alianza; this is Vonage, five years ago, and the customer is the prospective employer. Profile.md will record it once you confirm.
-2. **"Keeping it reliable while patients and clinicians depended on it"** (letter, paragraph 1; resume, Vonage bullet 2). A characterization of the 650%/10x period. Confirm.
-3. **"11 on the platforms beneath consumer experiences at scale"** (resume summary). A reframe of "11 on API products" for a consumer posting. Confirm the reframe reads as true to you.
-4. **"Consent, identity, and policy are applied before any AI touches a call, and I decide what the people building on it see and trust"** (letter, paragraph 2). The first half is a Crux product fact; "I decide what the people building on it see and trust" describes owning the developer surface. Confirm the second half.
-5. **"Working with design and analytics teams on experiences measured in engagement and revenue"** (resume, Yahoo bullet). Profile.md records Yahoo design-team collaboration and Mail Monetization ad targeting. "Analytics teams" and "measured in engagement and revenue" are new. Confirm.
-6. **Tag "Design as a Strategic Differentiator."** The posting's phrase. Evidence on the record: design-team collaboration at Yahoo, Aerohive, Vonage; clickable mocks for UX testing; Video Express. Confirm you want to claim it as an area of expertise.
-7. **Tag "Telehealth at Scale."** Evidence is the Vonage platform carrying telehealth through 650% growth. You did not build a telehealth product; you built the platform under them. Confirm the tag reads that way to you, or change it to "Platforms Beneath Telehealth at Scale."
+1. Teladoc was a Vonage Video customer during Daniel's tenure, and naming it is acceptable: confirmed. Profile.md updated.
+2. "Keeping it reliable while patients and clinicians depended on it": confirmed.
+3. "11 on the platforms beneath consumer experiences at scale": confirmed.
+4. "I decide what the people building on it see and trust": **not accurate.** Replaced with "I own the surface the people building on it work from." Linter updated.
+5. Yahoo "working with design and analytics teams on experiences measured in engagement and revenue": confirmed.
+6. Tag "Design as a Strategic Differentiator": **not claimed.** Removed; five tags remain.
+7. Tag "Telehealth at Scale": confirmed.
 
 ## Before submitting
 
-- [ ] Resolve the seven claims above; the first one gates the letter's opening line.
 - [ ] Read the resume PDF end to end.
 - [ ] Decide whether to also apply to Teladoc's Product Management Lead, Communication Platform (JR20920), evaluated separately in the tracker.

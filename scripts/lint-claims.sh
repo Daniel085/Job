@@ -38,6 +38,8 @@ BANNED=(
   'ran the partner (feedback )?loop'
   'arrive through an agent'
   'agents for interview prep(aration)? and synthesis'
+  'decide what the people building on it see'
+  'Design as a Strategic Differentiator'
   '[Rr]an the API platform'
   'running Aerohive'
   'Shipped network APIs through Ericsson'

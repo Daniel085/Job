@@ -127,7 +127,8 @@ Also: do not list a Technical Skills section on resumes. Daniel builds with AI a
 ### Scale & Growth
 - Lead PM hired to oversee Vonage's WebRTC video offering through **650% telehealth growth in the first 6 weeks of the pandemic** and **850% overall growth for 2020**; platform saw **10x growth in a few months** while maintaining reliability; some customers grew **3,000% in weeks**
 - Responsible for realtime video client software across **8 platforms** (Vonage, 2022-2024)
-- Teladoc Health was a Vonage Video API customer during Daniel's tenure as lead PM (Daniel, November 1, 2026; tenure dates 2020-2024 to be confirmed with him before the claim is reused). Vonage customer names may be used externally; the no-names rule is specific to Alianza.
+- Teladoc Health was a Vonage Video API customer during Daniel's tenure as lead PM, 2020-2024 (confirmed by Daniel, November 1, 2026). Vonage customer names may be used externally; the no-names rule is specific to Alianza.
+- Not claimable (Daniel, November 1, 2026): "design as a strategic differentiator" as an area of expertise, and "I decide what the people building on it see and trust" for the Crux surface. Say "owns the surface the people building on it work from."
 - Platform serving **millions of users**
 - Launched product that grew to **1.5M+ minutes/month** by year two
 - Reduced support tickets **40%** through the VoiceBase v3 API, SDKs, and developer console
@@ -327,7 +328,7 @@ Also: do not list a Technical Skills section on resumes. Daniel builds with AI a
 | Aug 2018-Jan 2020 | Twilio (SendGrid Labs, SF Bay Area, On-site) | Senior Product Manager | Email API to multi-channel platform, M&A proposals, ODI/JTBD discovery |
 | 2017-2018 | VoiceBase | Senior Product Manager | AI Speech-to-Text v3 API, SDKs, Developer Console. Approved wording (October 28, 2026): "brought the AI capability to customers through the API" |
 | 2015-2017 | Aerohive Networks | Product Manager | Product manager for the API platform and developer ecosystem: built sample apps, created videos for the developer community, wrote docs, gave feedback on the APIs (Daniel, October 31, 2026; the October 28 "ran" wording is retracted as too generous), WebRTC Products, Patents |
-| 2013-2015 | Yahoo | Product Manager | Mail Monetization (ad targeting), Agile adoption |
+| 2013-2015 | Yahoo | Product Manager | Mail Monetization (ad targeting), Agile adoption. Approved wording (November 1, 2026): "working with design and analytics teams on experiences measured in engagement and revenue" |
 
 **Total PM Experience:** 13 years (2013 - Present), 11 on API products (per LinkedIn summary)
 
