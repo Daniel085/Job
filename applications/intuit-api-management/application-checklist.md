@@ -5,7 +5,7 @@
 **Location on posting:** Mountain View. No remote wording. Intuit's careers site states three days a week onsite.
 **Posted:** October 27, 2026
 **Fit score:** 66/100 (below the 75 threshold; prepared at Daniel's request, "build it anyhow")
-**Prepared:** October 30, 2026
+**Submitted:** November 1, 2026. **Prepared:** October 30, 2026
 **Referral:** Daniel has a contact at Intuit who flagged the Agent Development Platform role (23170). Ask them to refer for 24739; a referral is the only lever on the location and level questions below.
 
 ## Read this first

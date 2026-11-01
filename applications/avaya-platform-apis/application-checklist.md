@@ -5,7 +5,7 @@
 **Location on posting:** Virtual, US
 **Posted:** October 26, 2026
 **Fit score:** 68/100 (below the 75 threshold; prepared at Daniel's request)
-**Prepared:** October 31, 2026
+**Submitted:** November 1, 2026. **Prepared:** October 31, 2026
 
 ## Read this first
 

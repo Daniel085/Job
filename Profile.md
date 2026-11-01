@@ -436,6 +436,7 @@ Based on current market analysis and similar roles:
 Based on LinkedIn "Open to work" settings (October 2026, visible to recruiters only):
 - **Current Location:** Boise Metropolitan Area, Idaho (previously Denver, CO during the Charter role)
 - **Open to:** Remote, On-site (Boise area); hybrid roles in San Francisco, New York, Seattle require relocation or heavy travel
+- **San Diego (Daniel, November 1, 2026):** may be willing to relocate to San Diego for a period for the right role (raised for Intuit, whose Principal band in San Diego is $230K-$311K). No San Diego floor set; the ~$455K figure is specific to the San Francisco Bay Area.
 - **Experience with Remote:** Alianza (fully remote, 2026-present), Vonage/Ericsson (fully remote 2022-2025)
 
 ---
