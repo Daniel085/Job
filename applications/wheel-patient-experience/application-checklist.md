@@ -45,7 +45,7 @@
 3. Resume (Alianza description) and letter: "Operators keep the customer relationship and offer the experiences under revenue-share, referral, or white-label models." Product fact from Profile.md; confirm it may be stated externally.
 4. Resume, documentation-system bullet: "and iterated on it from what developers hit in production." Inferred from operating the system.
 5. Resume, Ericsson bullet: "working with mobile operators and handset manufacturers on the product decisions." Added to mirror the posting's partner-collaboration line.
-6. Letter: "I reviewed, critiqued, and proposed APIs alongside our architects." Your November 4 wording was "I review, critique, and propose APIs"; "alongside our architects" is added to keep the "with Architecture" rule. Confirm.
+6. Letter: "I reviewed, critiqued, and proposed APIs, keeping Architecture in the loop." Confirmed by Daniel, November 4: sometimes with Architecture, sometimes on his own, Architecture always in the loop. "Alongside our architects" was dropped at his request.
 7. Letter: "I spent this year on that same question for operators and AI providers" (standardize across partners versus configure per partner). Inferred from the Crux developer-surface work.
 8. Summary: "Thinks in systems across network, partner, and platform layers" replaces the Teladoc version's "clinical, operational, and platform layers," which the record does not support.
 

@@ -35,7 +35,7 @@ Technical background in software development since childhood, applied through ha
 
 **Principal Product Manager** at **Alianza** (January 2026 - November 2026, Full-time, Remote)
 - Owned the developer-facing surface of **Crux**: public APIs, events and webhooks, and developer.alianza.com
-- Reviewed, critiqued, and proposed APIs (Daniel, November 4, 2026; approved wording alongside "helped guide the structure of the Crux API with Architecture")
+- Reviewed, critiqued, and proposed APIs (Daniel, November 4, 2026). Approved external wording: "reviewed, critiqued, and proposed APIs, keeping Architecture in the loop." Daniel: sometimes with Architecture, sometimes on his own, but Architecture was always in the loop. Do not write "alongside our architects" or "with Architecture" on this line; "helped guide the structure of the Crux API with Architecture" stays as its own claim.
 - Built the MCP server prototype for the Crux API (Daniel's own wording, November 4, 2026: "I built the Alianza MCP prototype"; say "prototype," not a production MCP server)
 
 **Scope boundaries (Daniel, October 22, 2026). Keep these three separate in every application:**
