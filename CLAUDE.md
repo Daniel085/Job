@@ -525,9 +525,10 @@ The inaccuracies that round fixed all came from one mistake: attributing what a 
 7. **Inherited text is not verified text.** Lines that came from an old resume or an earlier session carry the same risk as new inferences. When a line is challenged, fix it everywhere it appears (resumes, letters, tracker, handoff, drafts), not only in the file the user pointed at.
 
 ### Compensation Expectations
-Target range from Profile.md:318-331: **$226K-$400K** for Principal/Senior Staff level.
+Revised November 4, 2026 (Daniel no longer works at Alianza): **$200K+ base acceptable, $250K+ preferred.** A band whose top reaches $250K is not marked down for pay; a top between $200K and $250K takes a small deduction; a top under $200K is excluded. See Profile.md, Compensation Expectations.
 
-Flag jobs below $200K base as potentially under-leveled.
+### Employment status (November 4, 2026)
+Daniel no longer works at Alianza. End month is not yet recorded; ask before writing a date range. New materials describe the Alianza work in the past tense and never say "Present." Already-submitted packages stay as submitted. Postings that expect the PM to prototype API and MCP integrations and ship targeted changes are acceptable (Daniel built the Crux MCP server prototype and reviewed, critiqued, and proposed APIs); the no-Technical-Skills-section rule still stands.
 
 ## GitHub Portfolio Integration
 

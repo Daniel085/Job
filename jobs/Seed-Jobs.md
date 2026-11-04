@@ -38,7 +38,7 @@ These three roles are the seeds for the pattern-based search run on October 27, 
 | Seniority | 8-10+ years PM; two of three ask for ownership of a platform end to end | Same |
 | Surface | APIs and developer platform (3 of 3); identity, verification, and access (2 of 3); AI agents, MCP, or agentic infrastructure (3 of 3) | Required one of: API or developer platform, identity/access, agent platform, network APIs |
 | Company | Revenue-generating, well capitalized (Anthropic; Mercury at roughly $650M annualized revenue, profitable) | Real revenue; no pre-seed or seed-stage companies |
-| Base band | $290K - $460K, floor of bands $290K-$305K | Band top at or above $280K, or no band stated ($250K for telecom, which pays lower) |
+| Base band | $290K - $460K, floor of bands $290K-$305K | Band top at or above $280K, or no band stated ($250K for telecom, which pays lower). **Revised November 4, 2026:** band top at or above $200K qualifies; $250K+ preferred and not marked down; $200K-$250K takes a small deduction |
 | Location | 2 of 3 SF-hybrid; 1 of 3 remote US | Remote within the US required; hybrid only if remote is explicitly an option (Daniel is Boise-based and the SF relocation floor is roughly $455K base) |
 | Posting age | All open within 60 days of evaluation | Posted or updated on or after August 28, 2026 |
 

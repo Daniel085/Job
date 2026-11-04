@@ -6,6 +6,31 @@ This document contains active job postings for API Product Manager and Developer
 
 ---
 
+## Status and Open Items (as of November 4, 2026)
+
+**Daniel no longer works at Alianza (recorded November 4, 2026).** End month pending in Profile.md. New materials use the past tense for Alianza; submitted packages stay as submitted and the change is raised with each recruiter when a conversation starts. All twelve active resumes still read "Jan 2026 – Present" and five letters say "I own"; they are regenerated once the end month is known.
+
+**Pay band revised November 4:** $200K+ acceptable, $250K+ preferred. Hands-on code in a posting (prototype API and MCP integrations, ship targeted changes) is now a fit, not a risk. Re-scored under the new rules:
+
+| Role | Old | New | Why |
+|------|-----|-----|-----|
+| G2, Principal PM, Data Solutions & Ecosystem | 74 | **77** | Code line resolved; band $200K-$290K clears. Promoted to D7 below |
+| Temporal, Staff PM, Agent Connectivity | 68 | **75** | Band $160K-$262.5K no longer deducted. Promoted to D8 below; Core Primitives and Nexus siblings carry the same band |
+| MongoDB, Staff PM, AI Builder Experience (D3, submitted) | 78 | 79 | Band deduction removed |
+| ClickHouse, Principal PM, Partner Integrations (D5) | 77 | 78 | Tier 2 top of $280K no longer a question |
+| Stripe, PM, Identity & Access Management (D6) | 76 | 78 | Band $178.6K-$268K no longer deducted; level still unknown |
+| Twilio, Staff PM, Identity | 65 | 70 | Band tops $229K: small deduction instead of a large one; Staff title and Twilio-alumni fit unchanged |
+| Airbnb, PM, API Platform | 66 | 70 | Band $200K-$240K now acceptable; flat title and travel remain |
+| Twilio, Staff PM, Trust Hub (new requisition) | 62 | 64 | Band |
+| Deepgram, Staff PM, AI Applications | 60 | 64 | Band $200K-$268K clears |
+| Honeycomb, Staff PM (Canvas and Agentic AI) | 58 | 62 | Band $198.5K-$233.5K at the floor |
+| Code Metal, Senior PM, Developer Tooling | 60 | 62 | Band $180K-$220K; Senior title and defense domain remain |
+| LiveKit, Staff PM, Telephony | 65 | 65 | Band clears but the posting is 83 days old; re-check the board |
+
+Unchanged: roles held back by location (Lambda, Harvey, Zoom, Perplexity, OpenAI, Anthropic), by domain (Life360, Pax8, Zillow, Genesys), or by a band under $200K (Pindrop, Newfold, Hims). Scores in the older tables below are as written on their dates; this table governs.
+
+---
+
 ## Status and Open Items (as of November 1, 2026)
 
 **Submitted, awaiting response (9):** Anthropic Multi-Cloud Growth (Oct 23), Anthropic Safe Access (Oct 29), 1Password Senior Director Developer & AI (Oct 28), GitHub Principal PM Platform (Oct 28), MongoDB Staff PM AI Builder Experience (Oct 31), Avaya Principal PM Platform & APIs (Nov 1), Intuit Senior Staff PM AI Driven API Management Platform (Nov 1; contact says Principal leveling possible, remote likely not; Daniel may relocate to San Diego for a period, and 24739 lists Mountain View only, so ask whether the team can seat it in San Diego), Teladoc Principal PM Member Experience (Nov 1).
@@ -32,7 +57,57 @@ This document contains active job postings for API Product Manager and Developer
 
 Same seed pattern and filters as October 27 (`Seed-Jobs.md`), plus the $250K band floor for the telecom and voice-AI slices. Method: a sweep script read every posting on 189 company boards through the Greenhouse, Ashby, and Lever APIs (621 product-management titles, 507 posted or refreshed since September 2), then Workday boards for Zoom, Genesys, and Cisco, Netflix's Eightfold board, and four web searches for boards the APIs do not reach. Every candidate below was read in full from the employer's own posting. Indeed and LinkedIn still block fetches.
 
-**Result: 2 new roles at or above 75, both remote US.** Twenty-six others were read and scored below the bar (table after D6).
+**Result: 2 new roles at or above 75, both remote US.** Twenty-six others were read and scored below the bar (table after D6). **November 4 additions under the revised pay band:** D7 (G2, 77) and D8 (Temporal Agent Connectivity, 75).
+
+### D7. **Principal Product Manager, Data Solutions & Ecosystem** ⭐ **FIT SCORE: 77/100**
+**Company:** G2 (with Capterra, SoftwareAdvice, GetApp; 200M+ annual visitors, 6M verified reviews)
+**Location:** Remote (US)
+**Compensation:** $200,000 - $290,000 USD base
+**Posted:** October 1, 2026
+**Link:** [Apply Here](https://jobs.ashbyhq.com/G2/078cc02f-28b9-451c-a61e-581fbf0310b7)
+**Full Description:** [jobs/descriptions/G2-Principal-PM-Data-Solutions-Ecosystem.md](descriptions/G2-Principal-PM-Data-Solutions-Ecosystem.md)
+
+**Key Requirements:**
+- Own how G2 data is exposed and activated through APIs, MCP, strategic integrations, and developer and partner surfaces; own the integration hub, developer portal, and public-facing surfaces
+- Lead cleanup and migration of legacy integrations with deprecation plans
+- 10+ years on technical B2B platforms, APIs, data products, or integration ecosystems; fluency in APIs, authentication, integration architecture, developer workflows, and MCP
+- Read and write code well enough to prototype integrations and ship targeted changes
+- Goals are commercial: Data Solutions revenue and pipeline, MCP adoption, partner-expanded MCP surface area
+
+**Fit Analysis:**
+✅ **The surface is the Alianza job** - Built developer.alianza.com and operated the AI-built documentation system behind it; owned the public APIs, events, and webhooks for Crux; reviewed, critiqued, and proposed APIs; with Architecture, set the API standards engineering teams built against (deprecation paths included)
+✅ **MCP and hands-on code** - Built the Crux MCP server prototype so coding agents could discover and call the API; daily Claude Code user; GitHub portfolio with Claude and OpenAI API integrations. The posting's "work directly with code" line is met (Daniel, November 4, 2026)
+✅ **Migration and deprecation** - VoiceBase v3 API, SDKs, and console (40% support-ticket reduction); $3M revenue capture in 6 months through targeted developer migration at Vonage
+✅ **0-to-1 into stable platforms** - Video Express; developer.alianza.com; Enhanced Number Verification
+✅ **Principal title, remote US, 13 years PM, band clears the preferred floor**
+⚠️ **Commercial ownership** - "Growing a B2B data or technical product business" and data licensing to investors and AI labs; monetization is the stated development area, and the $3M capture is the only revenue line
+⚠️ **Domain** - B2B software-review data and the marketing-solutions customer base are new
+
+---
+
+### D8. **Staff Product Manager, Agent Connectivity** ⭐ **FIT SCORE: 75/100**
+**Company:** Temporal
+**Location:** Seattle primary; United States (Remote) listed; Ashby remote flag true
+**Compensation:** $160,000 - $262,500 USD base, multiple ranges (tier for Idaho not stated) + equity
+**Posted:** October 16, 2026
+**Link:** [Apply Here](https://jobs.ashbyhq.com/temporal/1e86eefd-0918-474c-b41d-039a3179b55a) | siblings: [Core Primitives](https://jobs.ashbyhq.com/temporal/7592248c-719a-485c-a1a9-9285f99ed56b), [Nexus](https://jobs.ashbyhq.com/temporal/73279908-77f8-4488-8151-4c40f49a230d)
+**Full Description:** [jobs/descriptions/Temporal-Staff-PM-Agent-Connectivity.md](descriptions/Temporal-Staff-PM-Agent-Connectivity.md)
+
+**Key Requirements:**
+- Own strategy and roadmap for Nexus, Temporal's connectivity layer, as it adds agent-specific features: MCP connector, tool registry, caller identity, rate limits, payload encryption, connector ecosystem
+- Developer and operator experience: SDK ergonomics, schema-first contracts, codegen, service discovery, security, control plane
+- Reason about distributed systems, workflow orchestration, service-to-service communication, APIs, SDKs, identity, and authorization
+- 8+ years PM; platform, infrastructure, or developer-tools products; startup pace
+
+**Fit Analysis:**
+✅ **Developer platform with identity in the contract** - Owned the Crux developer surface (public APIs, webhooks, portal); published the OAuth authentication guide and the platform guarantees partners built against; led Enhanced Number Verification; two credential patents
+✅ **Agent connectivity, MCP, SDKs** - Built the Crux MCP server prototype; SDKs across eight operating systems at Vonage; 40% support-ticket reduction from the VoiceBase v3 API, SDKs, and console
+✅ **Standards and ecosystem bootstrapping** - With Architecture, set API standards across engineering teams; built network APIs with Ericsson for hundreds of operators; Aerohive developer ecosystem
+✅ **Exceeds the bar** - 13 years PM vs. 8+; remote US listed
+⚠️ **Durable execution is a new domain** - Workflow orchestration and distributed-systems reasoning are asked at depth; no Temporal or service-mesh background
+⚠️ **Staff title; band tier unknown** - $262.5K is the top tier; Idaho may sit lower. Design-partner program work is not on the record; say partners integrated in sandbox during early access
+
+---
 
 ### D5. **Principal Product Manager, Partner Integrations** ⭐ **FIT SCORE: 77/100**
 **Company:** ClickHouse (Forbes Cloud 100; $250M ARR, 4,000+ customers; $400M Series D)
@@ -131,7 +206,7 @@ lennysjobs.com (shared by Daniel's sister) is a white-labeled TrueUp board: 280,
 
 | Role | Comp / location / posted | Score | Why it falls short |
 |------|--------------------------|-------|--------------------|
-| [Principal PM, Data Solutions & Ecosystem, G2](https://jobs.ashbyhq.com/G2/078cc02f-28b9-451c-a61e-581fbf0310b7) | $200K-$290K; remote US; Oct 1 | 74 | The best surface in this check: "the ecosystem of APIs, integrations, partner capabilities, and MCP- and agent-enabled workflows that brings G2 data to market," owning the integration hub, the developer portal, and public-facing surfaces, plus legacy-integration migration with deprecation plans. 10+ years on technical B2B platforms, APIs, or integration ecosystems; 0-to-1 technical products into platforms; API, auth, and MCP fluency. All on the record. Two gaps keep it under the bar: the role "works directly with code" ("prototype API or MCP integrations and ship targeted code," "read and write code well enough to... ship targeted changes"), which invites the solo-coding exposure the materials avoid; and the goals are commercial (Data Solutions revenue and pipeline growth, data licensing to investors and AI labs), where monetization is the stated development area. B2B software-review data is a new domain. Daniel's call: the surface is close enough to Alianza that a conversation would clarify both gaps quickly |
+| [Principal PM, Data Solutions & Ecosystem, G2](https://jobs.ashbyhq.com/G2/078cc02f-28b9-451c-a61e-581fbf0310b7) | $200K-$290K; remote US; Oct 1 | 74 (Nov 4: 77, see D7) | The best surface in this check: "the ecosystem of APIs, integrations, partner capabilities, and MCP- and agent-enabled workflows that brings G2 data to market," owning the integration hub, the developer portal, and public-facing surfaces, plus legacy-integration migration with deprecation plans. 10+ years on technical B2B platforms, APIs, or integration ecosystems; 0-to-1 technical products into platforms; API, auth, and MCP fluency. All on the record. Two gaps keep it under the bar: the role "works directly with code" ("prototype API or MCP integrations and ship targeted code," "read and write code well enough to... ship targeted changes"), which invites the solo-coding exposure the materials avoid; and the goals are commercial (Data Solutions revenue and pipeline growth, data licensing to investors and AI labs), where monetization is the stated development area. B2B software-review data is a new domain. Daniel's call: the surface is close enough to Alianza that a conversation would clarify both gaps quickly |
 | [Principal PM, Agentic AI Platform, Zillow](https://zillow.wd5.myworkdayjobs.com/Zillow_Group_External/job/Remote-USA/Principal-Product-Manager---Agentic-AI-Platform_P751533-1) | $185.8K-$296.8K (non-coastal band; $195.6K-$312.4K in CA, NY, WA and others); remote, any US state; Nov 3 | 62 | Internal platform whose customers are Zillow's own product and engineering teams: agent and tool registry and gateway, paved paths and time-to-first-agent, context and memory, evals. Developer-experience half fits; requires "hands-on depth with LLM and agentic systems: orchestration, context engineering, memory and RAG, and eval design" and a technical degree. Same shape as Intuit's Agent Development Platform (64), remote |
 | [Director of PM, Agentic Platform Enablement Experience, Pax8](https://pax8inc.wd12.myworkdayjobs.com/Pax8Careers/job/Remote---US/Director-of-Product-Management---Agentic-Platform-Enablement-Experience--APEX-_R-102334) | No band shown; remote US; Oct 21 | 58 | Agent SDKs, tool use and orchestration, internal developer platform, autonomy and trust UX for the SMB cloud marketplace. Requires prior professional software-engineering experience (or equivalent) with personal prototype-quality coding, formal management of PMs with performance conversations, and deep agentic-systems fluency. Developer-platform evidence with "pointable" launches is the one line met cleanly |
 | [Principal PM, Identity & Trust, Life360](https://job-boards.greenhouse.io/life360/jobs/8895619002) | $178.5K-$261.5K; remote US; Oct 16 | 55 | Consumer identity for 102M monthly users: sign-in, recovery, account takeover, passkeys/FIDO2, OAuth/OIDC, NIST 800-63, COPPA. Requires hands-on ownership of consumer identity at that scale and cybersecurity depth; same gap as 1Password Security |
@@ -267,7 +342,7 @@ Sorted by score. Every link was opened; bands are base salary as posted.
 |------|--------------------------|-------|--------------------|
 | [Product Manager, Enterprise Identity, OpenAI](https://jobs.ashbyhq.com/openai/83f6d415-9462-4afc-a539-ca8d996e011a) | $347K-$490K; San Francisco, relocation assistance; Sept 21 | 70 | SSO, SCIM, federation, and admin controls across ChatGPT and the API for IT buyers; 10+ years on large-scale enterprise products. Daniel's identity evidence is network-side verification and the Crux access surface, not enterprise IT identity. The only SF role in this run whose band top clears the ~$455K relocation floor; worth a conversation if relocation is on the table |
 | [Product Manager, Ecosystem, Stripe](https://stripe.com/jobs/listing/product-manager-ecosystem/8234705) | $214K-$322K; remote US; Oct 6 | 68 | Owns the Stripe Apps Marketplace: merchant funnel, discovery and ranking, app quality standards, partner incentives and revenue share. Two-sided platform evidence from Aerohive and Crux fits; marketplace growth mechanics and monetization design do not |
-| [Staff PM, Agent Connectivity / Core Primitives / Nexus, Temporal](https://jobs.ashbyhq.com/temporal/7592248c-719a-485c-a1a9-9285f99ed56b) | $160K-$262.5K; remote US; Oct 16 | 68 | Best surface in the developer-tools slice (SDKs, agent tool calling, cross-service APIs) at a band that tops $18K under the floor. Revisit if the floor drops to $250K |
+| [Staff PM, Agent Connectivity / Core Primitives / Nexus, Temporal](https://jobs.ashbyhq.com/temporal/7592248c-719a-485c-a1a9-9285f99ed56b) | $160K-$262.5K; remote US; Oct 16 | 68 (Nov 4: 75, see D8) | Best surface in the developer-tools slice (SDKs, agent tool calling, cross-service APIs) at a band that tops $18K under the floor. Revisit if the floor drops to $250K |
 | [Senior Group PM (Apono), 1Password](https://jobs.ashbyhq.com/1password/0759fd1f-945b-40a6-95e1-e498bcab2044) | $202K-$293K, commission-eligible; "a remote opportunity within the US with a focus on the East Coast" (Ashby: United States, Remote; re-read Nov 4); Oct 9 | 70 (revised Nov 4 from 68) | Leads the Apono PM team (just-in-time access for humans, machines, agents). The leadership requirement reads "2+ years of experience leading, mentoring, or managing Product Managers," which the Vonage record meets on mentoring (and on leading the group's process and prioritization), so the people-manager penalty is softened. Still asks IAM/PAM experience; East Coast focus from Mountain time is a question for the recruiter, not a stated block; band top about $100K under D1. Raise with the recruiter alongside D1 and D4 rather than as a third application |
 | [Staff PM, Telephony, LiveKit](https://jobs.ashbyhq.com/livekit/d0dbf189-af6d-400e-ac1f-4da798be85bb) | $225K-$265K; remote or SF; Aug 13 | 65 | SIP trunking and phone numbers for voice agents, squarely adjacent to Crux. Fails band and the 60-day window |
 | [Staff PM, Identity, Twilio](https://job-boards.greenhouse.io/twilio/jobs/8319160) | $155K-$229K (top tier); remote US excluding CA, CT, NJ, NY, PA, WA; Oct 26 | 65 | Authentication, authorization, agentic and non-human identity for developers; Twilio alumni. Staff level and a band that tops roughly $50K under the floor |
