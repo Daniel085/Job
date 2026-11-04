@@ -5,7 +5,7 @@
 **Location on posting:** Mountain View or San Diego. No remote option. Intuit's careers site states three days a week onsite.
 **Posted:** August 20, 2026
 **Fit score:** 64/100 (below the 75 threshold; prepared at Daniel's request)
-**Prepared:** October 29, 2026
+**Prepared:** October 29, 2026. **Revised:** November 4, 2026 (Alianza dates January - November 2026, past tense, "MCP server prototype," API review wording; PDF regenerated). No cover letter in this package; if one is written, it carries the one-line departure note per Profile.md.
 
 ## Read this first
 

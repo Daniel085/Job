@@ -8,7 +8,7 @@ This document contains active job postings for API Product Manager and Developer
 
 ## Status and Open Items (as of November 4, 2026)
 
-**Daniel no longer works at Alianza (recorded November 4, 2026).** End month pending in Profile.md. New materials use the past tense for Alianza; submitted packages stay as submitted and the change is raised with each recruiter when a conversation starts. All twelve active resumes still read "Jan 2026 – Present" and five letters say "I own"; they are regenerated once the end month is known.
+**Daniel's Alianza role ended in November 2026 (recorded November 4).** New materials use the past tense and the range January 2026 - November 2026, and new letters state the departure in one neutral line. Submitted packages stay as submitted until a recruiter responds. The unsubmitted packages (Wheel, Intuit Agent Platform) and the generic template were updated November 4; an AI-tells pass was run on the same files.
 
 **Pay band revised November 4:** $200K+ acceptable, $250K+ preferred. Hands-on code in a posting (prototype API and MCP integrations, ship targeted changes) is now a fit, not a risk. Re-scored under the new rules:
 

@@ -31,9 +31,9 @@ Technical background in software development since childhood, applied through ha
 
 ## Most Recent Role
 
-**Status (Daniel, November 4, 2026): Daniel no longer works at Alianza.** End month not yet recorded; ask before writing a date range. Until then, materials built after November 4 describe the Alianza work in the past tense ("owned," "built and operated"), and no new material says "Present." Packages already submitted (Anthropic x2, 1Password, GitHub, MongoDB, Avaya, Intuit, Teladoc) stay as submitted; raise the change with each recruiter when a conversation starts rather than resubmitting.
+**Status (Daniel, November 4, 2026): the Alianza role ended in November 2026.** Date range everywhere: January 2026 - November 2026. Materials built after November 4 describe the Alianza work in the past tense ("owned," "built and operated"); no new material says "Present." Daniel's decisions, November 4: (1) new cover letters state the departure in one neutral line ("My role at Alianza ended in November, so I am available now"); no reason is given. (2) Packages already submitted (Anthropic x2, 1Password, GitHub, MongoDB, Avaya, Intuit API Management, Teladoc) stay as submitted and are not updated until a recruiter responds; then the change is raised in that conversation.
 
-**Principal Product Manager** at **Alianza** (January 2026 - [end month pending], Full-time, Remote)
+**Principal Product Manager** at **Alianza** (January 2026 - November 2026, Full-time, Remote)
 - Owned the developer-facing surface of **Crux**: public APIs, events and webhooks, and developer.alianza.com
 - Reviewed, critiqued, and proposed APIs (Daniel, November 4, 2026; approved wording alongside "helped guide the structure of the Crux API with Architecture")
 - Built the MCP server prototype for the Crux API (Daniel's own wording, November 4, 2026: "I built the Alianza MCP prototype"; say "prototype," not a production MCP server)
@@ -323,7 +323,7 @@ Also: do not list a Technical Skills section on resumes. Daniel builds with AI a
 
 | Years | Company | Title | Focus |
 |-------|---------|-------|-------|
-| Jan 2026-[end month pending; Daniel left Alianza, recorded Nov 4, 2026] | Alianza (Remote, Full-time) | Principal Product Manager | Crux (AI-to-telephone-network control plane) developer surface: public APIs, events/webhooks, developer.alianza.com, AI-built docs, API standards |
+| Jan 2026-Nov 2026 | Alianza (Remote, Full-time) | Principal Product Manager | Crux (AI-to-telephone-network control plane) developer surface: public APIs, events/webhooks, developer.alianza.com, AI-built docs, API standards |
 | Apr 2025-Jan 2026 | Charter Communications (Denver, Hybrid) | Lead Product Manager | Network APIs, CAMARA, Developer Platform |
 | Mar 2025-Aug 2025 | Ross Stores (Contract, Remote) | Lead Business Analyst | Agile coaching, requirements for custom merchandising/inventory software |
 | May 2024-Jan 2025 | Vonage/Ericsson (Remote) | Expert Product Manager - Ericsson Global Network API Platform | Unified network API platform across hundreds of MNOs; led Enhanced Number Verification |
