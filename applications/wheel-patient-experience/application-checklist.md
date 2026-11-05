@@ -5,7 +5,7 @@
 **Location on posting:** Remote, USA
 **Posted:** September 18, 2026 (47 days old on November 4)
 **Fit score:** 52/100 (below the 75 threshold; prepared at Daniel's request)
-**Prepared:** November 1, 2026. **Revised:** November 4, 2026 (Alianza dates and past tense; departure line; AI-tells pass). **Submitted:** not yet
+**Prepared:** November 1, 2026. **Revised:** November 4, 2026 (Alianza dates and past tense; departure line; AI-tells pass). **Approved by Daniel:** November 5, 2026 ("let's do Wheel"), taken as approval of the package and the claims below unless he says otherwise. **Submitted:** not yet (Daniel submits)
 
 ## Read this first
 

@@ -35,7 +35,9 @@ Unchanged: roles held back by location (Lambda, Harvey, Zoom, Perplexity, OpenAI
 
 **Submitted, awaiting response (9):** Anthropic Multi-Cloud Growth (Oct 23), Anthropic Safe Access (Oct 29), 1Password Senior Director Developer & AI (Oct 28), GitHub Principal PM Platform (Oct 28), MongoDB Staff PM AI Builder Experience (Oct 31), Avaya Principal PM Platform & APIs (Nov 1), Intuit Senior Staff PM AI Driven API Management Platform (Nov 1; contact says Principal leveling possible, remote likely not; Daniel may relocate to San Diego for a period, and 24739 lists Mountain View only, so ask whether the team can seat it in San Diego), Teladoc Principal PM Member Experience (Nov 1).
 
-**Prepared, not submitted:** Wheel Staff/Principal PM Patient Experience (52; package built November 1 at Daniel's request, `applications/wheel-patient-experience/`; seven claims to confirm in its checklist before submitting). Intuit Principal PM Agent Development Platform (23170; contact reports it is finalizing candidates).
+**Ready to submit (Daniel submits):** Wheel Staff/Principal PM Patient Experience (52; approved by Daniel November 5; `applications/wheel-patient-experience/`). G2 Principal PM, Data Solutions & Ecosystem (77; package built November 5, `applications/g2-data-solutions-ecosystem/`; seven claims to confirm in its checklist).
+
+**Prepared, not submitted:** Intuit Principal PM Agent Development Platform (23170; contact reports it is finalizing candidates).
 
 **On hold:** 1Password Director of Product, AI Growth (78): apply only if the Developer & AI application stalls, then ask the recruiter to consider both.
 
