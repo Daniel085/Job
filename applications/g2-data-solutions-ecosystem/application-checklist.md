@@ -5,7 +5,7 @@
 **Location on posting:** Remote (US)
 **Posted:** October 1, 2026 (35 days old on November 5)
 **Fit score:** 77/100 (D7 in the tracker)
-**Prepared:** November 5, 2026. **Submitted:** not yet
+**Prepared:** November 5, 2026. **Submitted:** November 5, 2026
 
 ## Read this first
 

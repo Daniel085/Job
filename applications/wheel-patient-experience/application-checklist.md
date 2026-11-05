@@ -5,7 +5,7 @@
 **Location on posting:** Remote, USA
 **Posted:** September 18, 2026 (47 days old on November 4)
 **Fit score:** 52/100 (below the 75 threshold; prepared at Daniel's request)
-**Prepared:** November 1, 2026. **Revised:** November 4, 2026 (Alianza dates and past tense; departure line; AI-tells pass). **Approved by Daniel:** November 5, 2026 ("let's do Wheel"), taken as approval of the package and the claims below unless he says otherwise. **Revised November 5:** Teladoc removed from the resume and letter at Daniel's request; PDFs regenerated. **Submitted:** not yet (Daniel submits)
+**Prepared:** November 1, 2026. **Revised:** November 4, 2026 (Alianza dates and past tense; departure line; AI-tells pass). **Approved by Daniel:** November 5, 2026 ("let's do Wheel"), taken as approval of the package and the claims below unless he says otherwise. **Revised November 5:** Teladoc removed from the resume and letter at Daniel's request; PDFs regenerated. **Submitted:** November 5, 2026
 
 ## Read this first
 
