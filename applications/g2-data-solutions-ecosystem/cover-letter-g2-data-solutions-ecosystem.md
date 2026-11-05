@@ -17,6 +17,6 @@ Two earlier results match your goals more directly. At VoiceBase I shipped the v
 
 Where I am lighter: I have not sold data licenses or run a commercial data product, and B2B software-review data is new to me. I have worked beside sales and partnerships on every platform I have owned, and I learn a customer base through discovery interviews, a method I have practiced since SendGrid Labs and now run with AI agents doing the preparation and synthesis.
 
-My role at Alianza ended in November, so I am available now. I would welcome a conversation about which of the four goals you would want tackled first.
+I am available now and would welcome a conversation about which of the four goals you would want tackled first.
 
 Daniel O'Rorke

@@ -11,7 +11,7 @@
 
 1. **The code line is a selling point now.** The posting wants a PM who can "prototype API or MCP integrations and ship targeted code." The resume and letter say you built the Crux MCP server prototype and prototyped against the API yourself. Be ready to walk through that prototype and the GitHub portfolio in a first call.
 2. **The commercial goals are the gap.** Data Solutions revenue and pipeline growth, and data licensing to investors and AI labs. The letter says plainly that you have not sold data licenses or run a commercial data product. Expect the question; the $3M developer-migration capture and the VoiceBase integration-dependent business are the answers.
-3. **Departure.** The letter's last paragraph states the Alianza role ended in November and you are available now. No reason is given.
+3. **Departure.** Stated once in the opening paragraph ("the job I did at Alianza through November 2026"); the closing line says only that you are available now. No reason is given.
 4. **Pay.** The band top is $290K, above the preferred $250K. No reason to discuss pay before they raise it.
 
 ## Files to upload
