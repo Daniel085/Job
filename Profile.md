@@ -131,7 +131,7 @@ Also: do not list a Technical Skills section on resumes. Daniel builds with AI a
 ### Scale & Growth
 - Lead PM hired to oversee Vonage's WebRTC video offering through **650% telehealth growth in the first 6 weeks of the pandemic** and **850% overall growth for 2020**; platform saw **10x growth in a few months** while maintaining reliability; some customers grew **3,000% in weeks**
 - Responsible for realtime video client software across **8 platforms** (Vonage, 2022-2024)
-- Teladoc Health was a Vonage Video API customer during Daniel's tenure as lead PM, 2020-2024 (confirmed by Daniel, November 1, 2026). Vonage customer names may be used externally; the no-names rule is specific to Alianza.
+- Teladoc Health was a Vonage Video API customer during Daniel's tenure as lead PM, 2020-2024 (confirmed by Daniel, November 1, 2026). Vonage customer names may be used externally; the no-names rule is specific to Alianza. **Exception (Daniel, November 5, 2026): never name Teladoc, or any other Vonage customer, in materials for a company that competes with it.** Wheel competes with Teladoc, so its materials say "major telehealth providers." Teladoc's own application keeps the name.
 - Not claimable (Daniel, November 1, 2026): "design as a strategic differentiator" as an area of expertise, and "I decide what the people building on it see and trust" for the Crux surface. Say "owns the surface the people building on it work from."
 - Platform serving **millions of users**
 - Launched product that grew to **1.5M+ minutes/month** by year two

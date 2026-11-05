@@ -5,13 +5,13 @@
 **Location on posting:** Remote, USA
 **Posted:** September 18, 2026 (47 days old on November 4)
 **Fit score:** 52/100 (below the 75 threshold; prepared at Daniel's request)
-**Prepared:** November 1, 2026. **Revised:** November 4, 2026 (Alianza dates and past tense; departure line; AI-tells pass). **Approved by Daniel:** November 5, 2026 ("let's do Wheel"), taken as approval of the package and the claims below unless he says otherwise. **Submitted:** not yet (Daniel submits)
+**Prepared:** November 1, 2026. **Revised:** November 4, 2026 (Alianza dates and past tense; departure line; AI-tells pass). **Approved by Daniel:** November 5, 2026 ("let's do Wheel"), taken as approval of the package and the claims below unless he says otherwise. **Revised November 5:** Teladoc removed from the resume and letter at Daniel's request; PDFs regenerated. **Submitted:** not yet (Daniel submits)
 
 ## Read this first
 
 1. **Two hard requirements are the screen questions.** "Track record of owning consumer-facing products at a senior or lead level" and "real, hands-on experience delivering AI-powered products and features... tradeoffs, evaluation methods, and iteration cycles." The letter says you have not owned a consumer product at a healthcare company and that the AI work is the documentation system, then makes the case from the platform and B2B2C side. Do not let the form or an interview upgrade either claim.
 2. **Leveling decides the pay.** Staff lands around the $200K floor; Principal reaches the preferred $250K. Ask in the first call how they level and what evidence they weigh.
-3. **The hook is the Vonage telehealth work.** Teladoc is named as a Vonage Video customer (confirmed November 1). The letter says the platform "carried telehealth visits for Teladoc and other providers," nothing more specific.
+3. **The hook is the Vonage telehealth work, without naming Teladoc.** Daniel, November 5: do not expose Teladoc to a potential competitor. The letter now says "several of the largest telehealth providers"; the resume says "major telehealth providers." If asked in an interview which providers, that is your call to make in the room.
 4. **Departure.** The letter's last paragraph says the Alianza role ended in November and you are available now; no reason is given. If the form asks for a reason for leaving, keep it to one neutral sentence of your choosing.
 5. **No sponsorship.** Confirm US work authorization in the form.
 6. **Indeed employer rating 3.1.** Ask about team tenure and the product org's reporting line.
