@@ -38,6 +38,8 @@ BANNED=(
   'ran the partner (feedback )?loop'
   'arrive through an agent'
   'agents for interview prep(aration)? and synthesis'
+  'legacy integrations onto the current platform'
+  'off legacy integrations'
   'decide what the people building on it see'
   'Design as a Strategic Differentiator'
   '[Rr]an the API platform'

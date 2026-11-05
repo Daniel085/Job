@@ -157,7 +157,7 @@ Also: do not list a Technical Skills section on resumes. Daniel builds with AI a
 - **developer.alianza.com launched September 9, 2026.** Every paragraph of documentation and every code sample was written by a team of AI agents and reviewed by humans. Saved about **$50K** by using AI to build the software and the content, shipped **6 months faster** than the last developer portal Daniel stood up, and avoided about **$100K** in salary for the tech-writer and QA roles the agents replaced (Daniel's own figures, email to recruiter, September 9, 2026)
 
 ### Revenue Impact
-- Drove **$3M revenue capture** through targeted developer migration strategies in 6 months
+- Drove **$3M revenue capture** through targeted developer migration strategies in 6 months. Clarified by Daniel, November 5, 2026: this was **take-share migration from competing platforms onto Vonage, triggered by market news**, never an internal legacy-to-current migration. Approved wording: "take-share campaigns that moved developers from competing platforms onto Vonage after market events, capturing $3M in six months." Banned: "moved customers off legacy integrations."
 - Video SDK platform used by enterprise customers globally
 
 ### Recognition

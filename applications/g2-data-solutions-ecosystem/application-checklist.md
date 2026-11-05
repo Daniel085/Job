@@ -36,15 +36,15 @@
 | How did you hear about G2 | Lenny's Jobs |
 | Desired salary, if asked | $250K+ preferred (Profile.md, November 4) |
 
-## Claims to confirm (Daniel)
+## Claims (Daniel, November 5, 2026)
 
-1. Resume (Alianza bullet) and letter: "prototyped against the API myself to validate the integration path before handing it to engineering." Inferred from your November 4 note that you built the MCP prototype; confirm the sequence (prototype first, engineering after).
-2. Resume (Alianza bullet): the deprecation paths named are "the `tn` parameter and the `CONNECTED` state." Both are on developer.alianza.com's conventions page (read October 18). Confirm you are comfortable naming them.
-3. Resume (Vonage bullet) and letter: "moving customers from legacy integrations onto the current platform." Profile.md says "targeted developer migration strategies"; "legacy integrations onto the current platform" is a restatement. Confirm.
-4. Letter: "for a business whose revenue depended on customers integrating successfully" (VoiceBase). Profile.md says "a product whose entire business depended on integrating with other companies' telephone networks." Restated; confirm.
-5. Letter: "I have worked beside sales and partnerships on every platform I have owned." Inferred from the GTM and sales-enablement lines in Profile.md (VoiceBase demos, Vonage GTM, Ericsson Innovation Days). Confirm.
-6. Summary: "Works directly with code when it is the fastest way to validate an integration." Your November 4 wording was "I'm totally cool with that"; this states it as a practice. Confirm.
-7. Tags: "Integration Migration & Deprecation" rests on claims 2 and 3; "Authentication & Developer Workflows" rests on the published OAuth guide and the VoiceBase console. Confirm both tags.
+1. "Prototyped against the API myself to validate the integration path before handing it to engineering": confirmed.
+2. Naming the deprecation paths (`tn` parameter, `CONNECTED` state): confirmed.
+3. The $3M migration: **corrected.** It was take-share migration from competing platforms onto Vonage, triggered by market news, not an internal legacy-to-current migration. Resume bullet and letter now read "take-share campaigns that moved developers from competing platforms onto Vonage after market events, capturing $3M in six months." Profile.md and the linter updated.
+4. VoiceBase "revenue depended on customers integrating successfully": confirmed.
+5. "Worked beside sales and partnerships on every platform I have owned": confirmed.
+6. Summary line on working directly with code: confirmed.
+7. Tags: the migration tag is renamed "Developer Migration & Deprecation Paths" to match the corrected claim 3 and the deprecation paths in claim 2. "Authentication & Developer Workflows" rests on the published OAuth guide and the VoiceBase developer console, both already in Profile.md. Daniel's reply was "?"; the rename resolves the first, and the second stands on confirmed evidence unless he objects.
 
 ## AI-tells pass
 
