@@ -17,6 +17,6 @@ I designed and operated the AI-built documentation system behind developer.alian
 
 I practice Outcome-Driven Innovation, learned at SendGrid Labs, and use AI agents to prepare for and synthesize customer and developer discovery interviews. When lockdown-era customers moved from 2-4 party calls to 25-100 party sessions, that discipline produced Video Express: prototype, customer interviews, beta in under three months, GA in under nine, and 10% of the platform's 2019 minutes within a year.
 
-My role at Alianza ended in November, so I am available now. I would welcome a conversation about which partner's front door you would start with.
+My role at Alianza ended in November, so I am available now. I would welcome a conversation about where you would want me to start.
 
 Daniel O'Rorke
