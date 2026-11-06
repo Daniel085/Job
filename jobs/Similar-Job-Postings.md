@@ -37,7 +37,7 @@ Unchanged: roles held back by location (Lambda, Harvey, Zoom, Perplexity, OpenAI
 
 **Submitted November 5, 2026:** G2 Principal PM, Data Solutions & Ecosystem (77; `applications/g2-data-solutions-ecosystem/`) and Wheel Staff/Principal PM Patient Experience (52; `applications/wheel-patient-experience/`). Both letters carry the past-tense Alianza dates; the reason-for-leaving wording is in each checklist for the screen call.
 
-**Prepared, not submitted:** Intuit Principal PM Agent Development Platform (23170; contact reports it is finalizing candidates).
+**Prepared, not submitted:** Temporal Staff PM, Agent Connectivity (75; package built November 6, `applications/temporal-agent-connectivity/`; six claims to confirm in its checklist; ask the recruiter for the Idaho pay tier). Intuit Principal PM Agent Development Platform (23170; contact reports it is finalizing candidates).
 
 **On hold:** 1Password Director of Product, AI Growth (78): apply only if the Developer & AI application stalls, then ask the recruiter to consider both.
 
