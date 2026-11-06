@@ -38,14 +38,14 @@
 | How did you hear about Temporal | Company careers page (found in the October 27 discovery search of Ashby boards) |
 | Desired salary, if asked | $250K+ preferred; ask for the tier before answering (Profile.md, November 4) |
 
-## Claims to confirm (Daniel)
+## Claims (Daniel, November 6, 2026)
 
-1. Summary and letter describe Crux as "the connectivity layer through which AI agents get governed access to live phone calls." Profile.md calls it "the control plane" and "the connector through which AI experiences interact with live phone conversations." "Connectivity layer" mirrors Temporal's vocabulary; "AI agents" replaces "AI experiences." Confirm both substitutions are accurate.
-2. Letter: "The 1.0 launch in September shipped with experience providers already integrating in sandbox." Profile.md: "experience providers integrating in sandbox during early access." Restated; confirm.
-3. Resume (Alianza runbooks bullet) and letter: "enabled the field with messaging and demos" at Alianza. Profile.md records demos and sales enablement at VoiceBase and GTM materials at Vonage, and "coordinated the 1.0 launch across engineering, operations, and go-to-market" at Alianza. Field enablement at Alianza specifically is inferred. Confirm or I will move it to VoiceBase only.
-4. Resume (Vonage bullet): "balancing SDK ergonomics against platform reliability." Inferred from owning SDKs across 8 platforms through 10x growth while maintaining reliability. Confirm.
-5. Letter: "Crux, network APIs at Charter, and the Ericsson platform were each new domains when I started." Inferred from the timeline; confirm.
-6. Tags: "Connector Ecosystems Across Operators" rests on Ericsson (hundreds of operators), Enhanced Number Verification, and Crux experience providers through operators. "Customer Discovery & Field Enablement" rests on ODI/JTBD practice and claim 3. Confirm both.
+1. "Connectivity layer" and "AI agents" as substitutes for Profile.md's "control plane" and "AI experiences": confirmed.
+2. "The 1.0 launch in September shipped with experience providers already integrating in sandbox": confirmed.
+3. Field enablement with messaging and demos at Alianza: **not on the record.** Removed from the Alianza runbooks bullet. The VoiceBase demos and sales-enablement line stays.
+4. "Balancing SDK ergonomics against platform reliability" (Vonage): confirmed.
+5. "Crux, network APIs at Charter, and the Ericsson platform were each new domains when I started": confirmed.
+6. Tags "Connector Ecosystems Across Operators" and "Customer Discovery & Field Enablement": **rejected.** Both removed; four tags remain (Developer Platforms, APIs & SDKs; Agent Connectivity (MCP); Identity & Authorization in the API Contract; Developer & Operator Experience).
 
 ## AI-tells pass
 
