@@ -15,7 +15,7 @@ At Alianza, through November 2026, I owned the developer-facing surface of Crux,
 
 Before Alianza, the work was SDKs and identity. At Vonage I owned client SDKs across eight operating systems for a video API platform used by first-party apps, direct API customers, and third-party developers, and led it through 10x growth. At Vonage and Ericsson I led Enhanced Number Verification, extending a commercial CAMARA identity API past its limits with mobile operators and handset manufacturers, and built network APIs with Ericsson for hundreds of operators. At VoiceBase I shipped the v3 API and SDKs that cut support tickets 40%.
 
-Durable execution and workflow orchestration are new ground for me. I know what I would need to learn, and I have done that kind of ramp before: Crux, network APIs at Charter, and the Ericsson platform were each new domains when I started. I work directly with code when it is the fastest way to validate an integration, and I build with Claude Code daily.
+I have not worked on a durable-execution or workflow-orchestration product. The closest I have come is the delivery and recovery semantics partners build against on Crux: at-least-once webhooks and the runbooks for recovering when a partner's state drifts from ours. I know what I would need to learn, and I have ramped into new domains before: Crux, network APIs at Charter, and the Ericsson platform were each new when I started. I work directly with code when it is the fastest way to validate an integration, and I build with Claude Code daily.
 
 I am available now and would welcome a conversation about which part of Nexus you would want first.
 
