@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Your inputs stay local (see setup/inputs/README.md)
+setup/inputs/resume.*
+setup/inputs/linkedin-profile.txt
+setup/inputs/additional-info.txt
