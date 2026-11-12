@@ -29,11 +29,15 @@ BANNED=(
   '\[Your Name\]|\[Company Name\]|\[Role Title\]'
 )
 
+FILES=()
 if [ "$#" -gt 0 ]; then
   FILES=("$@")
 else
   # External-facing materials only. Trackers and notes are internal; lint them separately if needed.
-  mapfile -t FILES < <(ls applications/*/resume-*.html applications/*/cover-letter-*.md 2>/dev/null)
+  # A plain loop instead of mapfile, which macOS's bash 3.2 lacks.
+  for f in applications/*/resume-*.html applications/*/cover-letter-*.md; do
+    [ -e "$f" ] && FILES+=("$f")
+  done
 fi
 
 if [ "${#FILES[@]}" -eq 0 ]; then
