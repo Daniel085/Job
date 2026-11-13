@@ -40,9 +40,20 @@
 
 ## Claims to confirm
 
-1. "Reviewed every API proposal across four teams": confirm the count.
-2. The posting's "sunset legacy integration paths" read as a v1 deprecation: confirm.
-3. 35% ticket drop attributed to the migration alone: confirm.
+Review these in the claims review tool (`scripts/claims-review/`) before rendering PDFs; the tool rewrites the block below.
+
+<!-- claims:start -->
+
+*Maintained by the claims review tool (`scripts/claims-review/`); edit claims there, not here.*
+
+1. **PENDING:** Reviewed every API proposal across four teams. "reviewed every API proposal across four teams" (cover-letter-northwind-platform-pm.md); "reviewed every API proposal across four engineering teams" (resume-northwind-platform-pm.html)
+   Source: Profile.md says four teams; confirm the count held for the full three years.
+2. **PENDING:** The posting's "sunset legacy integration paths" read as a v1 deprecation. "Your posting mentions a v1 deprecation ahead" (cover-letter-northwind-platform-pm.md)
+   Source: An inference from the posting, not a fact on the record; confirm the reading.
+3. **PENDING:** 35% ticket drop attributed to the migration. "delivery-failure tickets fell 35% afterward" (cover-letter-northwind-platform-pm.md); "delivery-failure support tickets fell 35% after the migration" (resume-northwind-platform-pm.html)
+   Source: Confirm no other change landed in the same quarter.
+
+<!-- claims:end -->
 
 ## AI-tells pass
 
@@ -50,8 +61,7 @@ Checked: no "the shape of," no "it's not X, it's Y" contrasts, no rhetorical tri
 
 ## Before submitting
 
-- [ ] Confirm or correct the three claims; regenerate the PDFs if anything changes (`scripts/build-resume.sh`, `scripts/build-letter.sh`).
+- [ ] Approve or edit the three claims in the claims review tool, then press Render PDFs there.
 - [ ] Run `scripts/lint-claims.sh`.
-- [ ] Delete the "Claims to confirm" block from the letter before building the PDF.
 - [ ] Read the resume PDF end to end.
 - [ ] Open the posting link first; if it is gone, stop.

@@ -1,0 +1,53 @@
+{
+  "role": "Northwind",
+  "pdf_prefix": "Jordan-Avery",
+  "claims": [
+    {
+      "id": "c1",
+      "label": "Reviewed every API proposal across four teams",
+      "why": "Profile.md says four teams; confirm the count held for the full three years.",
+      "status": "pending",
+      "locations": [
+        {
+          "file": "cover-letter-northwind-platform-pm.md",
+          "text": "reviewed every API proposal across four teams"
+        },
+        {
+          "file": "resume-northwind-platform-pm.html",
+          "text": "reviewed every API proposal across four engineering teams"
+        }
+      ],
+      "history": []
+    },
+    {
+      "id": "c2",
+      "label": "The posting's \"sunset legacy integration paths\" read as a v1 deprecation",
+      "why": "An inference from the posting, not a fact on the record; confirm the reading.",
+      "status": "pending",
+      "locations": [
+        {
+          "file": "cover-letter-northwind-platform-pm.md",
+          "text": "Your posting mentions a v1 deprecation ahead"
+        }
+      ],
+      "history": []
+    },
+    {
+      "id": "c3",
+      "label": "35% ticket drop attributed to the migration",
+      "why": "Confirm no other change landed in the same quarter.",
+      "status": "pending",
+      "locations": [
+        {
+          "file": "cover-letter-northwind-platform-pm.md",
+          "text": "delivery-failure tickets fell 35% afterward"
+        },
+        {
+          "file": "resume-northwind-platform-pm.html",
+          "text": "delivery-failure support tickets fell 35% after the migration"
+        }
+      ],
+      "history": []
+    }
+  ]
+}

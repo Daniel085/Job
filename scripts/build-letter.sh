@@ -31,7 +31,7 @@ pandoc "$src" -f markdown+hard_line_breaks -t html5 -s --metadata title="${title
 python3 - "$tmp/letter.html" <<'EOF'
 import sys
 p = sys.argv[1]; s = open(p).read()
-css = """<style>@page{size:letter;margin:0.7in 0.85in}body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;font-size:11px;line-height:1.45;color:#2d3748;max-width:7in;margin:0 auto}h1{font-size:14px;color:#1a365d;margin:0 0 6px}header#title-block-header{display:none}p{margin:0 0 9px}hr{border:0;border-top:1px solid #e2e8f0;margin:8px 0}a{color:#3182ce;text-decoration:none}</style>"""
+css = """<style>@page{size:letter;margin:0.7in 0.85in}body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;font-size:11px;line-height:1.45;color:#2d3748;max-width:7in;margin:0 auto}h1{font-size:14px;color:#1a365d;margin:0 0 6px}header#title-block-header{display:none}p{margin:0 0 9px;text-wrap:pretty}hr{border:0;border-top:1px solid #e2e8f0;margin:8px 0}a{color:#3182ce;text-decoration:none}</style>"""
 open(p, 'w').write(s.replace('</head>', css + '</head>'))
 EOF
 "$chrome" --headless --no-sandbox --disable-gpu --no-pdf-header-footer --print-to-pdf="$out" "file://$tmp/letter.html" 2>/dev/null

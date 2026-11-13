@@ -163,6 +163,12 @@
       margin-bottom: 2px;
       font-size: 10px;
     }
+    li, p, .cert-item {
+      text-wrap: pretty;
+    }
+    .contact-info a {
+      white-space: nowrap;
+    }
     .two-col {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -176,10 +182,9 @@
     <div class="contact-info">
       555-010-0199 <span>|</span>
       <a href="mailto:jordan.avery@example.com">jordan.avery@example.com</a> <span>|</span>
-      <a href="https://linkedin.com/in/jordan-avery-example">linkedin.com/in/jordan-avery-example</a> <span>|</span>
-      <a href="https://github.com/jordan-avery-example">github.com/jordan-avery-example</a>
+      <a href="https://linkedin.com/in/jordan-avery-example">linkedin.com/in/jordan-avery-example</a>
     </div>
-    <div class="contact-info portfolio">Work sample: <a href="https://developer.ledgerline.example">developer.ledgerline.example</a>, the developer portal I built and operated for Ledgerline</div>
+    <div class="contact-info portfolio"><a href="https://github.com/jordan-avery-example">github.com/jordan-avery-example</a> <span>|</span> Work sample: <a href="https://developer.ledgerline.example">developer.ledgerline.example</a>, the developer portal I built for Ledgerline</div>
   </header>
 
   <section>
@@ -200,7 +205,7 @@
       <ul>
         <li>Led the move from partner-only access to self-serve signup: 900 active API customers within fourteen months (from 60 partner integrations), 31% of 2025 new revenue through self-serve</li>
         <li>Built the developer portal: reference docs and code samples generated from the OpenAPI definition by AI agents and reviewed by the team, with a gap report that names where the definition is ambiguous instead of guessing; time to first successful call cut from two days to under an hour</li>
-        <li>Co-wrote the API design standards with Architecture (RFC 9457 errors, cursor pagination, idempotency keys, deprecation policy); reviewed every API proposal across four engineering teams</li>
+        <li>Co-wrote the API design standards with Architecture (RFC&nbsp;9457 errors, cursor pagination, idempotency keys, deprecation policy); reviewed every API proposal across four engineering teams</li>
         <li>Prototyped the Ledgerline MCP server in two weeks with AI coding tools so agents could query reconciliation state; demonstrated to the executive team and adopted into the 2026 roadmap</li>
         <li>Onboarded and mentored two PMs; wrote the PRD and API-review templates the platform group still uses</li>
       </ul>

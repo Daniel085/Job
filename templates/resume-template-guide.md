@@ -315,3 +315,8 @@ When you're ready to create your resume, tell Claude:
 ```
 
 Claude will handle the formatting and ensure 2-page compliance.
+
+## Line breaks
+
+Printed resumes should not strand a single word on the last line of a bullet or wrap the contact header. The house CSS sets `text-wrap: pretty` on `li`, `p`, and `.cert-item`, which lets Chrome rebalance lines to avoid stranded words without changing wording. Keep a number with its unit with a non-breaking space (`RFC&nbsp;9457`, `3&nbsp;months`, `tickets&nbsp;40%`). The claims review tool's preview wraps exactly as the PDF does and lists anything left to fix.
+

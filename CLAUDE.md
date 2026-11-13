@@ -75,7 +75,23 @@ Tailored cover letters live in `applications/{company-role}/cover-letter-{compan
 
 Target length: 60% of a first draft. Build the PDF with `scripts/build-letter.sh <letter.md> <out.pdf>`.
 
-Every new letter ends with a numbered **"Claims to confirm"** list (anything inferred, combined, or newly worded). The user confirms or corrects each item, the list is deleted, and only then is the PDF built.
+Every new package lists its claims (anything inferred, combined, or newly worded) in `applications/{company-role}/claims.json`, with the exact text and file for every place a claim appears, and the checklist's "Claims to confirm" heading carries `<!-- claims:start -->` / `<!-- claims:end -->` markers. The user approves, edits, or rejects each claim in the claims review tool (below); the PDFs are rendered only once nothing is pending. See `examples/applications/northwind-platform-pm/claims.json`.
+
+### Claims Review Tool
+
+`scripts/claims-review/` is a small local web app (Python standard library, no installs) for reviewing claims in context before rendering:
+
+```bash
+python3 -I scripts/claims-review/server.py                           # your packages, http://127.0.0.1:8765
+python3 -I scripts/claims-review/server.py 8765 examples/applications # try it on the example
+```
+
+- The left side lists each claim with its source; the right side shows the resume and letter laid out at the printed page width, with every claim highlighted in place.
+- Keys: J/K move, A approve, E edit, R reject, U back to pending, Cmd/Ctrl+Enter save an edit. Edits are written into the source files, so what is approved is what renders.
+- A line-break check lists stranded words and wrapped headers in the preview; the preview wraps exactly as the PDF will.
+- Render PDFs stays locked while any claim is pending, or rejected while its text is still in the documents. It renders with headless Chrome or Chromium (set `CHROME` to choose one) and checks for 2 resume pages and 1 letter page. PDF names come from `role` and `pdf_prefix` in `claims.json`.
+- The checklist's claims block is rewritten after every decision, with dates.
+- `.claude/launch.json` has a `claims-review` entry that opens the running server in the Claude desktop app's browser pane. On macOS, start the server from a terminal: the desktop app's own launcher may not be allowed to read ~/Documents.
 
 ### Application Checklist
 
@@ -302,12 +318,13 @@ Ready to create tailored resumes for top matches? (Yes/No)
 ```bash
 # 1. Read Profile.md and the target job description
 # 2. Create applications/{company-role}/resume-{company-role}.html from applications/generic/resume-designed.html
-# 3. Create applications/{company-role}/cover-letter-{company-role}.md, ending with "Claims to confirm"
-# 4. Create applications/{company-role}/application-checklist.md
+# 3. Create applications/{company-role}/cover-letter-{company-role}.md
+# 4. Create applications/{company-role}/application-checklist.md and claims.json (every claim, with exact text and file)
 # 5. scripts/lint-claims.sh
-# 6. After the user confirms the claims: delete the list, build the PDFs
-#    scripts/build-resume.sh applications/{company-role}/resume-{company-role}.html applications/{company-role}/{Name}-Resume-{Role}.pdf
-#    scripts/build-letter.sh applications/{company-role}/cover-letter-{company-role}.md applications/{company-role}/{Name}-Cover-Letter-{Role}.pdf
+# 6. The user reviews the claims in the claims review tool and presses Render PDFs there
+#    (or, without the tool, after confirming the claims:
+#     scripts/build-resume.sh applications/{company-role}/resume-{company-role}.html applications/{company-role}/{Name}-Resume-{Role}.pdf
+#     scripts/build-letter.sh applications/{company-role}/cover-letter-{company-role}.md applications/{company-role}/{Name}-Cover-Letter-{Role}.pdf)
 # 7. Commit: "Add tailored resume and cover letter for {Company} {Role}"
 ```
 
@@ -403,6 +420,7 @@ Proceed with these updates? (Yes/No)
 - `lint-claims.sh` - Greps application materials for phrases that have already been corrected once (add your own patterns)
 - `build-resume.sh` - Renders a resume HTML to PDF with headless Chromium and fails if it is not two pages
 - `build-letter.sh` - Renders a cover letter Markdown file to a one-page PDF (pandoc + Chromium)
+- `claims-review/` - Local web app for approving or editing claims in context, checking line breaks, and rendering both PDFs (see Claims Review Tool)
 
 ### Application packages (`applications/`)
 - `generic/resume-designed.html` - The user's base resume; every tailored resume starts from it
@@ -445,7 +463,7 @@ The most common error in AI-drafted materials is attributing what a **product** 
 2. **Use the weakest verb the evidence supports.** Built / designed (sole, confirmed) > helped guide / co-designed / with Architecture (shared) > documented / wrote the guide for / owns the surface of (exposed). When unsure, go one tier down.
 3. **Never upgrade a verb while tailoring.** "Led" in Profile.md does not become "built from scratch" in a cover letter. Reuse the Profile.md phrasing or quote it.
 4. **Public product facts stay product facts.** "The platform applies consent before an agent acts" is fine. "The candidate designed consent enforcement" is not, unless Profile.md says so.
-5. **Every new material ends with a numbered "Claims to confirm" list**, and Profile.md is updated only after the user confirms.
+5. **Every new material has its claims listed for review** in `claims.json` (and the checklist), and Profile.md is updated only after the user confirms. Do not render final PDFs while claims are pending.
 6. **Run `scripts/lint-claims.sh` before sending or committing** application materials. Add a pattern every time a correction lands.
 7. **Inherited text is not verified text.** Lines from an old resume carry the same risk as new inferences. When a line is challenged, fix it everywhere it appears.
 8. **Management claims are exact.** "Mentored" or "onboarded" is not "managed." When a posting asks for people management and the record has none, the letter says so.

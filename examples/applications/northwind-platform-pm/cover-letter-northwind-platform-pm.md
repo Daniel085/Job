@@ -22,11 +22,3 @@ What I have not done: owned pricing for a usage-based API beyond one launch, or 
 I am available now and would welcome a conversation about where the v1 deprecation stands.
 
 Jordan Avery
-
----
-
-*Claims to confirm (listed for the candidate, deleted before sending):*
-
-1. "Reviewed every API proposal across four teams": Profile.md says four teams; confirm the count held for the full three years.
-2. "Your posting mentions a v1 deprecation ahead": confirm this reading of the posting's "sunset legacy integration paths" line.
-3. The 35% ticket drop is attributed to the migration; confirm no other change landed in the same quarter.
