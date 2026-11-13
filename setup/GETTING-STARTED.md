@@ -10,13 +10,20 @@ Have these ready:
 - The text of your LinkedIn profile, copied into a plain text file: the About section, every experience description, skills, education, certifications, and any projects or publications.
 - Two or three job postings that represent what you want. Postings you would apply to today are better than aspirational ones.
 - Claude Code installed.
-- Optional, for PDFs: pandoc, a Chromium or Chrome binary, and poppler-utils. You can defer this until the first package.
+- Google Chrome, for rendering PDFs. Python 3 is already on macOS and most Linux systems; nothing else needs installing.
 
-Make a branch for your search so `main` stays a clean template:
+Make your own private copy of the repository: on GitHub, open `Daniel085/Job`, click **Use this template**, choose **Create a new repository**, and set it to **Private**. Your profile, tracker, and applications live in that copy.
 
-```
-git checkout -b search/your-name
-```
+### If you have never used git
+
+You do not need to type any git commands.
+
+1. Install the Claude desktop app and sign in. Open its **Code** tab.
+2. Make the private copy as above.
+3. In the Code tab, start a session and say: "Clone my repository [your copy's GitHub URL] into my Documents folder and open it." Claude will ask permission for each step.
+4. From then on, Claude commits your work as it goes. When it asks whether to push, say yes; that backs your search up to your private copy on GitHub.
+
+If you prefer clicking to typing, GitHub Desktop can clone the repository too; then open that folder in the Code tab.
 
 ## Step 1: Place your inputs (five minutes)
 
@@ -88,6 +95,8 @@ Confirm the pattern, or adjust it:
 
 On your confirmation Claude runs the discovery pass. `scripts/sweep-boards.py` pulls every product-management posting from the company boards listed in the script; web search and aggregator boards cover companies on other systems. Postings older than sixty days, under your pay floor, or at the wrong level are filtered before scoring. What survives is scored, and the results go into `jobs/Similar-Job-Postings.md`: a status block at the top, a full entry with a fit analysis for each role at or above 75, and a table of the roles that fell short with the reason for each.
 
+The sweep looks for product-management titles by default. If you are searching for something else, say so ("I'm looking for VP of Sales and Chief Revenue Officer roles") and Claude runs it with `--preset gtm` or a title pattern of your own.
+
 Expect the first sweep to be the slowest and the noisiest. Edit the slug lists in the sweep script toward your target companies; the second run will be faster and tighter. The run is logged with its date and filters, and the next one is scheduled two to three weeks out.
 
 Claude reports what it found and asks which roles to package.
@@ -96,13 +105,17 @@ Claude reports what it found and asks which roles to package.
 
 > Build the [Company] [Role] package.
 
-Claude writes three files into `applications/<company-role>/`: a resume tailored from your base, a four-paragraph cover letter, and an application checklist with the form fields filled in from your profile. The resume and letter end with a numbered list of claims to confirm: anything inferred, combined, or newly worded.
+Claude writes four files into `applications/<company-role>/`: a resume tailored from your base, a four-paragraph cover letter, an application checklist with the form fields filled in from your profile, and `claims.json`, the list of everything inferred, combined, or newly worded, with the exact text and where it appears.
 
-Answer by number:
+Review the claims on the review page. Ask Claude to start it ("open the claims review"), or run it yourself:
 
-> 1 and 2 yes. 3: that number was for the whole platform, not my product; say "the platform's" not "my". 4 cut.
+```
+python3 -I scripts/claims-review/server.py        # then open http://127.0.0.1:8765
+```
 
-Claude applies the answers everywhere the phrase appears, records any new wording in your profile and in the phrase linter, and then builds the PDFs. Open the checklist, follow it, and submit. Then tell Claude:
+In the desktop app it opens in the browser pane. Each claim is highlighted in the resume and letter as they will print. Press A to approve, E to edit (your edit is written into the document), R to reject. Fix anything the line-break check flags. When nothing is pending, press Render PDFs; both files are built and their page counts checked. You can try the page first on the bundled example: `python3 -I scripts/claims-review/server.py 8765 examples/applications`.
+
+If you would rather answer in chat, reply by number ("1 and 2 yes. 3: that number was for the whole platform, not my product; say 'the platform's' not 'my'. 4 cut") and Claude applies it the same way. Corrections also go into your profile and the phrase linter. Open the checklist, follow it, and submit. Then tell Claude:
 
 > [Company] is in.
 

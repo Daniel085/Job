@@ -267,7 +267,7 @@ Should I search for similar jobs matching these patterns? (Yes/No)
 ```
 
 **Step 4: Run the Sources** (if user confirms)
-- `python3 -I scripts/sweep-boards.py out.json` sweeps the Greenhouse, Ashby, and Lever boards listed in the script (edit the slug lists for your target companies) and writes every PM-titled posting with description, location, date, and any dollar figures found
+- `python3 -I scripts/sweep-boards.py out.json` sweeps the Greenhouse, Ashby, and Lever boards listed in the script (edit the slug lists for your target companies) and writes every posting whose title matches the target roles, with description, location, date, and any dollar figures found. Choose the filter from the seed jobs: `--preset pm` (default) for product roles, `--preset gtm` for sales, revenue, growth, and partnerships leadership, or `--titles REGEX` for anything else
 - Add 5-10 WebSearch queries for companies on other applicant-tracking systems (Workday, iCIMS, SmartRecruiters, Rippling); aggregator boards (Built In, Lenny's Jobs, Wellfound) cover many of these
 - Filters: posted within 60 days; band top at or above the user's preferred base (see Compensation rule below); matching seniority; active link
 
@@ -336,7 +336,7 @@ Before applications, verify links in `jobs/Similar-Job-Postings.md` are still ac
 
 ### Git Workflow
 
-Keep the search on its own branch (or a private fork) and leave this template branch clean. Branch naming: `claude/{task-description}-{id}`.
+Keep the search in the user's own private copy (made with **Use this template**; GitHub does not allow private forks of a public repository) or on a branch that is never pushed here, and leave this template clean. Branch naming: `claude/{task-description}-{id}`.
 
 ```bash
 git add .
@@ -416,10 +416,11 @@ Proceed with these updates? (Yes/No)
 - `Network-Lead-Research.md` - Finding and ranking referral paths in the user's network
 
 ### Scripts (`scripts/`)
-- `sweep-boards.py` - Sweeps Greenhouse, Ashby, and Lever boards for PM-titled postings (edit the slug lists)
+- `sweep-boards.py` - Sweeps Greenhouse, Ashby, and Lever boards for postings with matching titles: `--preset pm` (default), `--preset gtm` (sales, revenue, growth, commercial, customer success, partnerships leadership), or `--titles REGEX`; edit the slug lists. Standard library only.
 - `lint-claims.sh` - Greps application materials for phrases that have already been corrected once (add your own patterns)
-- `build-resume.sh` - Renders a resume HTML to PDF with headless Chromium and fails if it is not two pages
-- `build-letter.sh` - Renders a cover letter Markdown file to a one-page PDF (pandoc + Chromium)
+- `build-resume.sh` - Renders a resume HTML to PDF with headless Chrome and fails if it is not two pages
+- `build-letter.sh` - Renders a cover letter Markdown file to a one-page PDF (headless Chrome; no pandoc)
+- `render.py` - The renderer behind both build scripts and the review page: stages files in a temp dir, prints with Chrome (through LaunchServices on macOS), checks page counts
 - `claims-review/` - Local web app for approving or editing claims in context, checking line breaks, and rendering both PDFs (see Claims Review Tool)
 
 ### Application packages (`applications/`)

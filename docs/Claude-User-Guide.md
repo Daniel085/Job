@@ -44,7 +44,8 @@ You do not need exact wording; these are the requests the workflow is built arou
 | "Add this job: [URL]" | Fetches, scores, writes the fit analysis, adds a full entry or a below-threshold row, updates the tracker date. |
 | "Run the job search again" or "Let's re-run the sweep" | Sweeps the boards and the other sources under the current filters, scores the new postings, logs the run in `jobs/Seed-Jobs.md`, and reports what reached the bar. |
 | "What should we apply to next?" | Reads the status block and the open entries and recommends, with reasons. |
-| "Build the [Company] [Role] package" | Writes the resume, letter, and checklist, runs the linter, and ends with the numbered claims to confirm. No PDFs until you answer. |
+| "Build the [Company] [Role] package" | Writes the resume, letter, checklist, and `claims.json`, runs the linter, and lists the claims to confirm. No PDFs until every claim is decided. |
+| "Open the claims review" | Starts the review page (http://127.0.0.1:8765) where you approve or edit each claim in context and render the PDFs. |
 | "1, 2 yes; 3: [correction]; 4 cut" | Applies each answer, fixes the phrase everywhere it appears, records new wording in `Profile.md` and the linter, builds the PDFs. |
 | "[Company] is in" or "[Company] submitted" | Records the submission date in the tracker and the checklist and moves the role to the awaiting-response list. |
 | "Update Profile.md: [fact]" | Shows the exact lines it would add or change, then applies them when you say yes. |
@@ -54,7 +55,7 @@ You do not need exact wording; these are the requests the workflow is built arou
 
 ## Answering the claims list
 
-Every new resume and letter ends with a numbered list like this:
+Every new package lists its claims in `claims.json`; the review page shows each one highlighted in the resume and letter, and Claude also lists them in chat like this:
 
 > Claims to confirm:
 > 1. "Reviewed every API proposal across four teams": the profile says four teams; confirm the count held for the full three years.
@@ -83,7 +84,7 @@ Open `jobs/Similar-Job-Postings.md` and read the status block first. It lists wh
 
 ## Working on a branch
 
-Keep your search on its own branch or private fork and leave `main` as the template. Claude commits as it goes and pushes when a piece of work is complete. If it cannot push (a credential problem is the usual cause), it will say so rather than report success; the commits are safe locally until the problem is fixed.
+Keep your search in your own private copy (made with **Use this template** on GitHub) and leave the template repository alone. Claude commits as it goes and pushes when a piece of work is complete. If it cannot push (a credential problem is the usual cause), it will say so rather than report success; the commits are safe locally until the problem is fixed.
 
 Improvements that belong in the template (a script fix, a better rule) can be cherry-picked to `main` in a separate commit. Personal files never are.
 

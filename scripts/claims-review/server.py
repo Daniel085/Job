@@ -452,11 +452,14 @@ class H(BaseHTTPRequestHandler):
             return self.j({"error": str(e)}, 400)
 
 
-PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 8765
-if len(sys.argv) > 2:
-    APPS = os.path.abspath(os.path.join(ROOT, sys.argv[2]))
+PORT = 8765
 
 if __name__ == "__main__":
+    # Arguments are read only when run as the server, so scripts/render.py can import this module.
+    if len(sys.argv) > 1:
+        PORT = int(sys.argv[1])
+    if len(sys.argv) > 2:
+        APPS = os.path.abspath(os.path.join(ROOT, sys.argv[2]))
     srv = ThreadingHTTPServer(("127.0.0.1", PORT), H)
     print("claims review on http://127.0.0.1:%d" % PORT, flush=True)
     srv.serve_forever()

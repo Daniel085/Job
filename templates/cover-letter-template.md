@@ -29,14 +29,9 @@ Dear [Company] Hiring Team,
 I am available now and would welcome a conversation about [the specific place you would start].
 
 [Your Name]
-
----
-
-*Claims to confirm (reviewed by the candidate, deleted before sending):*
-
-1. [Anything inferred, combined, or newly worded]
-2. ...
 ```
+
+Claims to confirm do not go in the letter. They go in the package's `claims.json` (exact text and file for each), where the claims review page shows them highlighted in place.
 
 The contact header uses single line breaks; `scripts/build-letter.sh` keeps them so the header does not wrap into one line.
 

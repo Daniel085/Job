@@ -1,27 +1,71 @@
 #!/usr/bin/env python3
-"""Sweep Greenhouse / Ashby / Lever boards for product-management postings.
+"""Sweep Greenhouse / Ashby / Lever boards for postings whose titles match your target roles.
 
-Usage: python3 -I scripts/sweep-boards.py out.json   (then filter out.json by date, title, location; see jobs/Seed-Jobs.md)
-Prints a per-board status line to stderr and writes all PM-titled jobs to out.json.
+Usage:
+  python3 -I scripts/sweep-boards.py out.json                      # product-management titles (default)
+  python3 -I scripts/sweep-boards.py out.json --preset gtm         # sales, growth, revenue, partnerships leadership
+  python3 -I scripts/sweep-boards.py out.json --titles "data scientist|ml engineer" --exclude "intern"
+Then filter out.json by date, title, and location; see jobs/Seed-Jobs.md.
+
+--preset picks a built-in title filter (see PRESETS below; add your own there). --titles and --exclude
+take regular expressions (case-insensitive) and override the preset's patterns. Edit the board slug
+lists below to point the sweep at your target companies.
+Prints a per-board status line to stderr and writes every matching job to out.json.
 """
+import argparse
 import concurrent.futures as cf
 import datetime as dt
 import json
 import re
 import sys
 
-import requests
+import urllib.error
+import urllib.request
+
+
+class _Resp:
+    def __init__(self, status_code, body):
+        self.status_code, self._body = status_code, body
+
+    def json(self):
+        return json.loads(self._body)
+
+
+class requests:  # minimal stand-in so the sweep runs on a stock Python with no installs
+    @staticmethod
+    def get(url, headers=None, timeout=25):
+        req = urllib.request.Request(url, headers=headers or {})
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return _Resp(r.status, r.read().decode("utf-8", "replace"))
+        except urllib.error.HTTPError as e:
+            return _Resp(e.code, "")
 
 TIMEOUT = 25
 HDRS = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
 
-TITLE_RE = re.compile(
-    r"product (manager|management|lead|leader|owner)|head of product|"
-    r"(director|vp|vice president|chief).*product|product.*(director|vp)|"
-    r"platform pm\b|\bpm\b", re.I)
-EXCLUDE_RE = re.compile(r"product marketing|product design|product analyst|product operations|"
-                        r"product counsel|product security|product support|product specialist|"
-                        r"product engineer|sales|account|solutions", re.I)
+PRESETS = {
+    # Product management: individual contributors through heads of product.
+    "pm": (
+        r"product (manager|management|lead|leader|owner)|head of product|"
+        r"(director|vp|vice president|chief).*product|product.*(director|vp)|"
+        r"platform pm\b|\bpm\b",
+        r"product marketing|product design|product analyst|product operations|"
+        r"product counsel|product security|product support|product specialist|"
+        r"product engineer|sales|account|solutions",
+    ),
+    # Go-to-market leadership: sales, revenue, growth, commercial, customer success, partnerships.
+    "gtm": (
+        r"chief (growth|revenue|commercial|sales|customer|business) officer|\b(cro|cco|cgo)\b|"
+        r"(vp|vice president|svp|evp|head|director|general manager|\bgm\b).*(sales|revenue|growth|commercial|"
+        r"go[- ]to[- ]market|gtm|customer success|partnerships?|alliances|business development|channel)|"
+        r"(sales|revenue|growth|commercial|partnerships?|alliances|channel).*(vp|vice president|head|director|leader)",
+        r"sales engineer|solutions engineer|engineering|software|intern|coordinator|associate|"
+        r"representative|\bsdr\b|\bbdr\b|recruit",
+    ),
+}
+TITLE_RE = re.compile(PRESETS["pm"][0], re.I)
+EXCLUDE_RE = re.compile(PRESETS["pm"][1], re.I)
 
 GREENHOUSE = """anthropic twilio mercury pagerduty postman gitlab vercel telnyx54 pindropsecurity stytch
 withpersona goteleport kong cloudflare datadog confluent hashicorp netlify launchdarkly workato zapier
@@ -220,11 +264,20 @@ def run(fn, slug):
         return slug, fn.__name__, f"ERR {type(e).__name__}", []
     if res is None:
         return slug, fn.__name__, "no board", []
-    return slug, fn.__name__, f"{len(res)} PM roles", res
+    return slug, fn.__name__, f"{len(res)} matching roles", res
 
 
 def main():
-    out_path = sys.argv[1]
+    global TITLE_RE, EXCLUDE_RE
+    ap = argparse.ArgumentParser(description="Sweep job boards for matching titles.")
+    ap.add_argument("out", help="output JSON file")
+    ap.add_argument("--preset", choices=sorted(PRESETS), default="pm", help="built-in title filter (default: pm)")
+    ap.add_argument("--titles", help="regex of titles to keep (overrides the preset)")
+    ap.add_argument("--exclude", help="regex of titles to drop (overrides the preset)")
+    args = ap.parse_args()
+    TITLE_RE = re.compile(args.titles or PRESETS[args.preset][0], re.I)
+    EXCLUDE_RE = re.compile(args.exclude if args.exclude is not None else PRESETS[args.preset][1], re.I)
+    out_path = args.out
     jobs = []
     tasks = [(gh, s) for s in dict.fromkeys(GREENHOUSE)] + [(ashby, s) for s in dict.fromkeys(ASHBY)] + [(lever, s) for s in dict.fromkeys(LEVER)]
     with cf.ThreadPoolExecutor(max_workers=12) as ex:
@@ -237,7 +290,7 @@ def main():
         seen.setdefault(j["url"], j)
     jobs = sorted(seen.values(), key=lambda j: j["date"], reverse=True)
     json.dump(jobs, open(out_path, "w"), indent=1)
-    print(f"\n{len(jobs)} PM-titled jobs written to {out_path}", file=sys.stderr)
+    print(f"\n{len(jobs)} matching jobs written to {out_path}", file=sys.stderr)
 
 
 if __name__ == "__main__":
