@@ -147,8 +147,8 @@ function renderAll(reloadFrame) {
   }));
   list.querySelectorAll('[data-act]').forEach(b => b.addEventListener('click', e => { e.stopPropagation(); doAct(b.dataset.id, b.dataset.act, b.dataset.loc); }));
   list.querySelectorAll('textarea').forEach(t => t.addEventListener('keydown', e => {
-    if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) { e.preventDefault(); saveEdit(t.dataset.id, t.dataset.loc, t.value); }
-    if (e.key === 'Escape') { state.editing = null; renderAll(false); }
+    if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) { e.preventDefault(); if (t.dataset.reject) doAct(t.dataset.reject, 'confirmReject'); else saveEdit(t.dataset.id, t.dataset.loc, t.value); }
+    if (e.key === 'Escape') { state.editing = null; state.rejecting = null; renderAll(false); }
   }));
   $('#tabs').innerHTML = state.data.files.map(f => `<div class="tab ${f === state.file ? 'on' : ''}" data-f="${esc(f)}">${f.endsWith('.md') ? 'Cover letter' : 'Resume'}</div>`).join('');
   $('#tabs').querySelectorAll('.tab').forEach(t => t.addEventListener('click', () => { state.file = t.dataset.f; renderAll(true); }));
@@ -170,7 +170,10 @@ function card(c, i) {
       <div class="note">This wording was kept out of this package on purpose, so there is nothing to highlight. Approve if it is true and may be used in future packages; reject to keep it out for good.</div></div>`;
   const last = (c.history || []).slice(-1)[0];
   const hist = last ? `<div class="hist">Last: ${esc(last.action)} ${esc(last.at.replace('T', ' '))}${last.note ? ' (' + esc(last.note) + ')' : ''}</div>` : '';
-  const btns = on ? `<div class="actions">
+  const btns = on && state.rejecting === c.id ? `<div class="loc"><div class="file">Why is this claim wrong? (optional; recorded in the history)</div>
+      <textarea data-reject="${esc(c.id)}" placeholder="Optional reason"></textarea>
+      <div class="actions"><button class="reject" data-act="confirmReject" data-id="${esc(c.id)}">Reject<kbd>Cmd Enter</kbd></button>
+      <button data-act="cancel" data-id="${esc(c.id)}">Cancel<kbd>Esc</kbd></button></div></div>` : on ? `<div class="actions">
       <button class="approve" data-act="approve" data-id="${esc(c.id)}">Approve<kbd>A</kbd></button>
       <button class="reject" data-act="reject" data-id="${esc(c.id)}">Reject<kbd>R</kbd></button>
       ${c.status !== 'pending' ? `<button data-act="reset" data-id="${esc(c.id)}">Back to pending<kbd>U</kbd></button>` : ''}
@@ -220,11 +223,16 @@ window.addEventListener('message', e => { if (e.data && e.data.claim) select(e.d
 
 async function doAct(id, act, loc) {
   if (act === 'edit') { state.active = id; state.editing = { id, loc: loc || 0 }; renderAll(false); return; }
-  if (act === 'cancel') { state.editing = null; renderAll(false); return; }
+  if (act === 'cancel') { state.editing = null; state.rejecting = null; renderAll(false); return; }
+  if (act === 'reject') { state.active = id; state.editing = null; state.rejecting = id; renderAll(false); return; }
   if (act === 'save') { const t = document.querySelector(`textarea[data-id="${CSS.escape(id)}"]`); return saveEdit(id, loc, t.value); }
-  const map = { approve: 'approve', reject: 'reject', reset: 'reset' };
+  const map = { approve: 'approve', confirmReject: 'reject', reset: 'reset' };
   let note;
-  if (act === 'reject') { note = prompt('Why is this claim wrong? (optional; recorded in the checklist history)') || undefined; }
+  if (act === 'confirmReject') {
+    const t = document.querySelector(`textarea[data-reject="${CSS.escape(id)}"]`);
+    note = (t && t.value.trim()) || undefined;
+    state.rejecting = null;
+  }
   try {
     await api(`/api/pkg/${encodeURIComponent(state.pkg)}/claim/${encodeURIComponent(id)}`, { action: map[act], note });
     const idx = state.data.claims.findIndex(c => c.id === id);
@@ -251,7 +259,13 @@ document.addEventListener('keydown', e => {
 });
 $('#pkg').addEventListener('change', e => { state.file = null; history.replaceState(null, '', '?pkg=' + e.target.value); openPkg(e.target.value); });
 $('#approveAll').addEventListener('click', async () => {
-  if (!confirm('Approve every claim still pending, as written?')) return;
+  const b = $('#approveAll');
+  if (!b.dataset.armed) {
+    b.dataset.armed = '1'; b.dataset.label = b.textContent; b.textContent = 'Click again to approve all pending';
+    setTimeout(() => { if (b.dataset.armed) { delete b.dataset.armed; b.textContent = b.dataset.label; } }, 4000);
+    return;
+  }
+  delete b.dataset.armed; b.textContent = b.dataset.label;
   try { await api(`/api/pkg/${encodeURIComponent(state.pkg)}/approve-all`, {}); await openPkg(state.pkg, true); } catch (e) { toast(e.message, true); }
 });
 $('#render').addEventListener('click', async () => {

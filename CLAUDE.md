@@ -430,6 +430,7 @@ Proceed with these updates? (Yes/No)
 ### Skills (`.claude/skills/`)
 - `linkedin-search` - Pull the user's LinkedIn jobs tracker and run the standing searches in the Claude desktop app's built-in browser, score each new posting, record it. Desktop app only; from a cloud session it says so and stops.
 - `network-leads <company>` - Map referral and intro paths at a target company from the user's LinkedIn network, write `network/leads-<company>.md`, draft outreach for approval. Desktop app only; never sends.
+- `workday-apply` - Fill a Workday application page by page from `applications/application-profile.json` (built from `templates/application-profile-template.json`), stopping for review before each Save and Continue. Desktop app only; the user signs in, uploads files, answers voluntary disclosures, and submits.
 - `scripts/linkedin-reconcile.py ids.txt` - Which LinkedIn job ids are already in the tracker.
 
 ### Network and outreach (`network/`, `outreach/`)

@@ -1,0 +1,50 @@
+{
+  "_about": "Form-filling data for job applications (Workday and similar). Copy to applications/application-profile.json and fill it from Profile.md and your LinkedIn experience page. Use LinkedIn's month dates so forms match what recruiters can check. Descriptions must stay inside Profile.md's confirmed claims. Leave out the street address, passwords, and voluntary-disclosure answers: those stay with you. Workday rejects these characters in descriptions: < > [ ] \" { } \\",
+  "updated": "YYYY-MM-DD",
+  "contact": {
+    "first_name": "Jordan",
+    "last_name": "Avery",
+    "email": "jordan@example.com",
+    "phone": "5555550100",
+    "phone_country": "United States of America (+1)",
+    "phone_device_type": "Mobile",
+    "country": "United States of America",
+    "state": "Your state",
+    "address": "You type the street address, city, and postal code yourself"
+  },
+  "standard_answers": {
+    "former_employee_of_company": "No, unless you say otherwise for this company",
+    "authorized_to_work_in_us": "Yes or No",
+    "require_sponsorship_now_or_future": "Yes or No",
+    "authorized_in_more_than_one_country": "Yes or No",
+    "relatives_at_company": "Confirm for each company",
+    "how_did_you_hear": "The company's careers site (Workday: Career Websites > Corporate Website) unless a referral or recruiter applies",
+    "desired_salary": "Leave blank when optional; if required, decide per role from the band in the package checklist",
+    "sms_whatsapp_opt_in": "Leave unchecked"
+  },
+  "work_history": [
+    {
+      "title": "Staff Product Manager, Integrations",
+      "company": "Example Corp",
+      "location": "Remote",
+      "start": "MM/YYYY",
+      "end": "MM/YYYY",
+      "description": "- One line per confirmed achievement, copied from your resume\n- No quotation marks or brackets",
+      "note": "Newest first. Every entry needs a month: Workday turns a lone year into a wrong one"
+    }
+  ],
+  "omitted_from_forms": [
+    "Roles you deliberately leave off forms, with the reason"
+  ],
+  "education": [
+    {
+      "school": "University name",
+      "degree": "BS",
+      "field_of_study": "Leave blank if the form's list lacks it",
+      "years": "Leave blank or YYYY"
+    }
+  ],
+  "websites": [
+    "https://linkedin.com/in/your-handle"
+  ]
+}
