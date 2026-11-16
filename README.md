@@ -90,16 +90,20 @@ scripts/
   build-letter.sh          renders a cover letter to a one-page PDF
   render.py                the shared renderer behind both build scripts and the review page
   claims-review/           the local page for approving or editing claims in context
+  form-questions.py        reads a Greenhouse form's questions and drafts the answers before you apply
 
 docs/
   AI-Assistant-Job-Search.md   the scoring method in detail
   Claude-User-Guide.md         how to talk to Claude in this repository
   LinkedIn-Workflow.md         pulling the LinkedIn tracker and searches
   Network-Lead-Research.md     finding referral paths in your network
+  Form-Fill-Design.md          how application forms are filled, and third-party autofill assessed
 
 .claude/skills/
   linkedin-search/             the LinkedIn pull, as a skill (desktop app)
   network-leads/               the network map, as a skill (desktop app)
+  workday-apply/               fills Workday applications page by page (desktop app)
+  ats-apply/                   fills Greenhouse, Ashby, and Lever applications (desktop app)
 
 network/                   lead maps per company (private branch only)
 outreach/                  the outreach log (private branch only)
@@ -152,7 +156,7 @@ There is also a short pass for phrasing that reads as machine-written. The rules
 
 ## LinkedIn and your network
 
-Two skills run in the Claude desktop app, where Claude has a browser pane you sign in to. `/linkedin-search` pulls your LinkedIn jobs tracker and the standing searches, finds each role on the employer's own board, scores it, and records it. `/network-leads <company>` maps who in your network can refer or introduce you at a target company, ranks the paths, and drafts a message for you to approve. Neither sends anything on its own, and both read pages one at a time, the way a person would; LinkedIn does not allow automated scraping, and a restricted account would cost you more than any shortcut saves. The methods are written out in `docs/LinkedIn-Workflow.md` and `docs/Network-Lead-Research.md`. The lead files and the outreach log name real people, so they belong on your private branch, never on a published template.
+Two skills run in the Claude desktop app, where Claude has a browser pane you sign in to. `/linkedin-search` pulls your LinkedIn jobs tracker and the standing searches, finds each role on the employer's own board, scores it, and records it. `/network-leads <company>` maps who in your network can refer or introduce you at a target company, ranks the paths, and drafts a message for you to approve. Neither sends anything on its own, and both read pages one at a time, the way a person would; LinkedIn does not allow automated scraping, and a restricted account would cost you more than any shortcut saves. The methods are written out in `docs/LinkedIn-Workflow.md` and `docs/Network-Lead-Research.md`. Two more skills fill application forms in the same browser pane: `/workday-apply` for Workday and `/ats-apply` for Greenhouse, Ashby, and Lever. Both fill from `applications/application-profile.json`, skip voluntary disclosures and consents, and stop before Submit; `docs/Form-Fill-Design.md` explains the approach. The lead files and the outreach log name real people, so they belong on your private branch, never on a published template.
 
 ## Scripts
 

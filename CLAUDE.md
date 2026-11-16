@@ -422,6 +422,7 @@ Proceed with these updates? (Yes/No)
 - `build-letter.sh` - Renders a cover letter Markdown file to a one-page PDF (headless Chrome; no pandoc)
 - `render.py` - The renderer behind both build scripts and the review page: stages files in a temp dir, prints with Chrome (through LaunchServices on macOS), checks page counts
 - `claims-review/` - Local web app for approving or editing claims in context, checking line breaks, and rendering both PDFs (see Claims Review Tool)
+- `form-questions.py <greenhouse-job-url> applications/{pkg}` - Reads a Greenhouse form's questions through the public board API and drafts `form-answers.md` (PROFILE / DRAFT / USER owners) before you apply. See `docs/Form-Fill-Design.md`
 
 ### Application packages (`applications/`)
 - `generic/resume-designed.html` - The user's base resume; every tailored resume starts from it
@@ -430,6 +431,7 @@ Proceed with these updates? (Yes/No)
 ### Skills (`.claude/skills/`)
 - `linkedin-search` - Pull the user's LinkedIn jobs tracker and run the standing searches in the Claude desktop app's built-in browser, score each new posting, record it. Desktop app only; from a cloud session it says so and stops.
 - `network-leads <company>` - Map referral and intro paths at a target company from the user's LinkedIn network, write `network/leads-<company>.md`, draft outreach for approval. Desktop app only; never sends.
+- `ats-apply` - Fill the common fields of a Greenhouse, Ashby, or Lever application in the built-in browser from `applications/application-profile.json` and the package's `form-answers.md`, with an in-page helper that refuses protected and already-filled fields; stops before Submit. Desktop app only; the user uploads files, answers voluntary disclosures and consents, and submits.
 - `workday-apply` - Fill a Workday application page by page from `applications/application-profile.json` (built from `templates/application-profile-template.json`), stopping for review before each Save and Continue. Desktop app only; the user signs in, uploads files, answers voluntary disclosures, and submits.
 - `scripts/linkedin-reconcile.py ids.txt` - Which LinkedIn job ids are already in the tracker.
 
