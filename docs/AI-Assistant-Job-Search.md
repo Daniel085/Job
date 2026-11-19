@@ -129,6 +129,20 @@ One line per role, with the reason stated as the posting's requirement against t
 
 **Aggregator boards.** Built In (by metro), Wellfound, and the boards that white-label a shared index (several newsletter job boards do) cover companies on Workday, iCIMS, SmartRecruiters, and Rippling, which the sweep script does not call. Use them through web search or their own search pages.
 
+**JobAiro (jobairo.com).** An aggregator of roughly 544,000 postings pulled from Greenhouse, Lever, Ashby, and other employer systems; each listing links to the employer's own application URL. Its terms forbid scraping or "systematically extract[ing] data" without written permission, and its robots.txt disallows `/api`. So do not script it, even though the site's own JSON endpoints answer. Use it the way a person would:
+- Run a few searches in the built-in browser each round (title plus "remote," newest first).
+- When a result comes from a company not yet in `scripts/sweep-boards.py`, read the board slug from the application URL (`job-boards.greenhouse.io/<slug>`, `jobs.ashbyhq.com/<slug>`, `jobs.lever.co/<slug>`) and add it to the right list. From then on the sweep reads that company directly from the employer's public feed, so JobAiro's value is finding companies, not supplying data.
+- Score from the employer's posting, as with every aggregator.
+
+Bulk access would need JobAiro's written permission; its support address is on its ApplyAssist page.
+
+**MobiusEngine Jobs Data (jobs.mobiusengine.ai).** A paid API over about 5.5 million open postings read daily from employers' own career sites: Workday, iCIMS, SmartRecruiters, Recruitee, Workable, Google Careers, Greenhouse, Lever, Ashby, and about 30 other systems. This is the breadth the board sweep lacks.
+- **Access:** only through Treg, a third-party CLI. Its installer adds a skill and possibly an MCP server to every coding agent on the machine. So Treg runs in a Docker sandbox (`scripts/treg-sandbox/`): plain CLI, telemetry off, no host files mounted. The candidate signs in and connects the key there; the key never goes in this repository.
+- **Weekly run:** `python3 -I scripts/mobius-search.py <out.json>` (sandbox off). It pulls senior PM titles, US, remote, posted in the last 7 days, and marks companies already in the tracker.
+- **Cost:** a weekly run of about 100 postings costs well under a cent at $0.016 per 1,000 jobs. New accounts start with a small free credit; adding funds is your decision.
+- **Limits:** pay and "remote" fields are the provider's parse and are sometimes wrong (a posted range can come back as a single number). Titles match exact phrases. Descriptions are 300-character previews. Score from the employer's posting, as with every aggregator.
+- **Terms:** personal use only, no publishing the data in bulk. Keep pulled output out of any public repository.
+
 **Web search.** Five to ten queries built from the seed patterns: the common title plus the year, the title plus the primary technology, the company type plus "product manager" plus "remote," and so on.
 
 **People.** Roles sent by friends and family get their own dated section in the tracker and the more generous packaging rule.
