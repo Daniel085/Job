@@ -32,7 +32,7 @@ Install once per page load with `javascript_tool`:
 
 ```js
 window.__ats = (() => {
-  const SKIP = /gender|race|ethnic|hispanic|latin[oa]|veteran|disab|sexual orientation|pronoun|self-identif|signature|attest|acknowledg|consent|i agree|i confirm|i certify|privacy|terms|recaptcha|citizen or resident|export/i;
+  const SKIP = /gender|race|ethnic|hispanic|latin[oa]|veteran|disab|sexual orientation|pronoun|self-identif|signature|attest|acknowledg|consent|i agree|i confirm|i certify|privacy|terms|recaptcha|citizen or resident|citizen or lawful|ofac|export/i;
   // A checkbox's own label is the option ("he/him/his"); test the question around it too.
   const group = e => txt(e.closest('fieldset, li, [class*=fieldEntry], .application-question'));
   const vis = e => e.offsetParent !== null || e.type === 'radio' || e.type === 'checkbox';
@@ -105,7 +105,7 @@ Greenhouse's Country, Location, and yes/no questions, and Ashby's location and "
 - **Location (City):** click, type the city, wait two seconds, then click the suggestion by coordinate.
 - **Yes/No and state questions:** click the field by `ref`, then click the option from a screenshot; typing does filter long lists such as a state picker.
 - Verify every dropdown with a screenshot; the input's `value` can show typed text that was never selected.
-- Disclosure questions vary by employer ("Are you Hispanic/Latino?", pronoun checkboxes); the protected filter checks the question around a checkbox or radio as well as its own label.
+- Disclosure questions vary by employer ("Are you Hispanic/Latino?", pronoun checkboxes); the protected filter checks the question around a checkbox or radio as well as its own label. Export-control questions are worded in several ways ("citizen or resident," "citizen or lawful permanent resident," "OFAC"); all are protected. A required salary-expectation field is the user's own number, never inferred.
 - Fixed fields: `first_name`, `last_name`, `preferred_name`, `email`, `phone`.
 - Questions: `question_<id>`. Checkbox groups such as "How did you hear" are `question_<id>[]`.
 - Combobox fields: `country` and `candidate-location`.
